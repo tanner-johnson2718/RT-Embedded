@@ -1,0 +1,3 @@
+Jan 12 22:46:52 tj-HP-Pavilion-Desktop-PC-570-p0XX pthread: [COURSE:1][ASSIGNMENT:1] Linux tj-HP-Pavilion-Desktop-PC-570-p0XX 5.11.0-43-generic #47~20.04.2-Ubuntu SMP Mon Dec 13 11:06:56 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+Jan 12 22:46:52 tj-HP-Pavilion-Desktop-PC-570-p0XX pthread: [COURSE:1][ASSIGNMENT:1] Hello World from Main!
+Jan 12 22:46:52 tj-HP-Pavilion-Desktop-PC-570-p0XX pthread: [COURSE:1][ASSIGNMENT:1] Hello World from Thread!

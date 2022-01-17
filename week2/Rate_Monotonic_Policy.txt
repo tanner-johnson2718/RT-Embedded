@@ -1,0 +1,30 @@
+Scheduling Linux)
+- Review week1 sequencer (not best practice)
+- week 1 generic sequencer is best practice
+
+General Observations)
+- CPU cores range from 100Mhz to sever GHz
+- 1000 instruction in one us on GHZ CPU core
+- Thread scheduled procesing down to 1ms
+- ISR processing down to 1us
+- Co processor, instruction below 1us to sub ns
+
+| Rate   | Clock   | Measure | Human | Thread | ISR | instruction | FPGA |
+|--------|---------|---------|-------|--------|-----|-------------|------|
+| 1Hz    | sec     | sec     | x     |  x     |     |             |      |
+| 10 Hz  | .1 sec  | ms      | x     |  x     |     |             |      |
+| 100 Hz | .01 sec | ms      |       |  x     |     |             |      |
+| 1Khz   | ms      | us      |       |  x     | x   |             |      |
+| Mhz    | us      | ns      |       |        | x   | x           | x    |
+| GHz    | ns      | ps      |       |        |     | x           | x    |
+| THz    | ps      | fs      |       |        |     |             |      |
+
+RM assumptions and Contraints of RM LUB (Lui and Layland))
+- A1) All services requested on contatant period
+- A2) Completion time < period
+- A3) All services requests are independant
+- A4) run time is known and det.
+- C1) deadline = period
+- C2) Fixed priority, premmptive, run to completion scheduling
+- Critical instant - all services requested at once
+- No other shared resources i.e. memory

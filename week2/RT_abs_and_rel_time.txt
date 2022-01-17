@@ -1,0 +1,76 @@
+Absoulte and Relative time)
+
+Notes on relative and abs time)
+- POSIX supports both
+- Relative time based on PIT hw
+    - x86 PIT and TSC
+    - RPI SCT
+- Absoulte Time
+    - Based on battery backed clock or NTP
+    - Real time clock
+    - Clock used w/ date i.e. month, day, year
+    - Julian Day and Gregorian date and time-of-day are Absoulte
+    - Julian day is monotonically increasing
+    - UTC gives current secon of day, month, year
+- Requires ocassional re-sync w/ time standard
+    - elapsed time since a specific epoch that is wel defined
+- Be clear which is being specified
+
+Absolute Time Standards)
+- Based on physics of universally obserable evets
+    - astronomical epochs : earths orientation and location in orbit around sun
+    - atomic oscilators since astronomical epoch
+- UTC - mean solar time
+    - defined by ITU-R
+    - broadcast to sync clocks worldwide
+- TAI used to determine UTC
+    - "high presision atomic coordinated time standard based on passage of proper time on eart"
+    - precide time measurement between obserable astro events
+- GPS time - chip scale atomuc clock constelation orbiton the earth with known orbit
+    - signal used to geolocate
+    - also use as a global clock avaible world worldwide
+    - an alternate to broadcat UTC
+
+Time Formats)
+- Can be stored as real number of time units since an events
+    - Ex) elspased seconds, 1/10ths, 1/100ths, ... as 12.000100000
+    - Can be converted into 12sec and 1ms
+    - 15 digit floating point precision can rep:
+        - 0 to 10mil - 1 sec duration
+        - 1 secoond - 1ns of preciion or nano seconds up to a whole seconds
+    - While convient floating point as some bad properties i.e. == operation
+        - C programmmers know this can be dangerous
+        - We want to know if 2 times a are the same specific interval eg use
+Time is best kept as unsigned or signed ints
+    - ex struct timespec {uint tv_sec, uint tv_nsec}
+    - Up to 4billion seconds and 0 to 1billtion nanoseconds
+- Both formats are used in course.
+
+POSIX RT - Timer Services)
+- PIT hw device
+    - Base freq. oscilators
+    - jiffy is nasic counting frequency of PIT
+    - on x86 this is the PIT, other systems have similar devices
+    - x86 core include .42usec jiffy
+    - Approx. 2381 jiffies be ms tick
+    - VxWorks RTOS allows this to be set for 1ms tick
+    - Tick is defined as a sub frequency of jiffy
+    - PIT count down/up comparison
+    - tick = N jiffies
+    - IRQ asserted at tick
+    - PIT count down is reset
+- Used by SW timer services for timeouts
+    - accurate to +/- 1 Tick
+    - want to ensure timeouts are at least as long as specified
+    - Assume TO will be at least as long + 1 Tick
+- Delays (sleep, nanosleep)
+    - USE CATION and only for polling and sequencing
+    - yield with alarm to wake up thread
+    - wake up implemented as a binary semaphore or signal
+- Time in SW is simply a counter driven by OSC and compararoe that raises a period interrupt
+
+Linux NTP and RT Clocks)
+- Unix / Linux time - secs since midnight Jan 1 1970
+- ATSC broadcast time - secs since midnight Jan 6 1980
+- epoch offsets between Jan 1 1970 and Jan 6 1980 are 3657 days or 315964800 secs
+- GPS time - 0h UTC on jan 6 1980

@@ -1,0 +1,28 @@
+Outline)
+- RT response time line
+- Sime service set 2-5 by hand analysis
+- More compled service sets can analyzed using worst case tools
+    - O(n^3) 
+- Worst case analysis was shown to be exact (nes + sufficient) by Lehoczky,
+  Sha, and Ding. "The rate monotonic scheduling algo: exact charcaterization
+  and average case behavior.
+
+A service release and response)
+- C_i, WCET
+- IO latency
+- Interference time
+
+| IO lat | dispatch lat | exec | Interference | dispatch | exex | IO lat |
+
+RTOS scheduling state machine)
+         executing
+    /                 \
+pending -> read <- delayed
+    \               /
+         suspended
+
+- Delay = sleeping
+- Pending = waiting on resource like semaphore
+- suspended = unhandled exception / taskSuspend()
+- see sched-example-...xls
+- Shortest period -> highest priority
