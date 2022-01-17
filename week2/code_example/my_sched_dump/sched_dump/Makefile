@@ -1,4 +1,4 @@
-obj-m = proc-exp.o
+obj-m = sched_dump.o
 KVERSION = $(shell uname -r)
 all:
 	make -C /lib/modules/$(KVERSION)/build M=$(PWD) modules
