@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "signal.h": "c",
+        "sched.h": "c",
+        "cpufreq.h": "c",
+        "percpu.h": "c",
+        "cpu.h": "c",
+        "syslog.h": "c"
+    }
+}

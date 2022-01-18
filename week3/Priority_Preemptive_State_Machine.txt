@@ -1,0 +1,24 @@
+Review)
+- AMP: multi CPU w/ OS instance on each, Message pasing inbetween, each core
+    runs its own workload. No shared memory.
+
+- SMP: One OS instance managing multiple core, shared memory, one OS irq handler
+       CPU migration, load balancing
+
+- Priority Preemptive, Run to Copmletetion): Highest prio task always ran, 
+otherwise runs to completion
+
+Fair vs Unfair + det sched)
+- SCHED_FIFO : Priority Preemtive Run to completion
+    - Task runs at priority until:
+        - Complete and exit
+        - Yield, sleep, block, etc.
+        - IRQ raised
+
+- SHCED_RR - Fix priority Preemtive. Fair, higher overhead + det. Each task
+gets some CPU time in RR fashion.
+
+- SCHED_DEADLINE - Dynamic priority alternative - adaptive + hard to model
+
+- SCHED_OTHER - CFS - fair + hard to model
+

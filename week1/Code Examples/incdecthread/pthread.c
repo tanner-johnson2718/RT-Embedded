@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <sched.h>
 
-#define COUNT  1000
+#define COUNT  1<<15
 
 typedef struct
 {

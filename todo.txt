@@ -17,13 +17,6 @@ Theory
 - Signal vs int
 - linux run levels
 - dig into timer implementation
-
-Scheduler Inquiry)
--------------------------------------------------------------------------------
-- Use thread affinity code and print out the RT FIFO in kernel
-   - Put breaks for code where FIFO is manipulated
-   - Break at scheduling events
-- Make sure your analysis in RT threads code review is right
-- Does pthread_create block??
-   - how do i detect if a thread blocks
-- Maybe even implement my own sched?
+    - nanosleep
+    - actual timer_t
+    - signals
