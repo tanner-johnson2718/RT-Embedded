@@ -16,7 +16,11 @@ Theory
 - Can every core get all irq's. How to mask a core form ints
 - Signal vs int
 - linux run levels
+<<<<<<< HEAD
 - dig into timer implementation
     - nanosleep
     - actual timer_t
     - signals
+=======
+- dig into timer implementation
+>>>>>>> c04ab1d14e654e0dee456ade9cae8221ff443a72

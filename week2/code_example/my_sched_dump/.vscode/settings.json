@@ -4,7 +4,11 @@
         "sched.h": "c",
         "cpufreq.h": "c",
         "percpu.h": "c",
+<<<<<<< HEAD
         "cpu.h": "c",
         "syslog.h": "c"
+=======
+        "cpu.h": "c"
+>>>>>>> c04ab1d14e654e0dee456ade9cae8221ff443a72
     }
 }
