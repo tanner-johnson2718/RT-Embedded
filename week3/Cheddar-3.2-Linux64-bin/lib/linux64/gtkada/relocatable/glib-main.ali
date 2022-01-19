@@ -1,0 +1,285 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_ALLOCATORS
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_CONVERSION
+RV NO_UNCHECKED_DEALLOCATION
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV SPARK_05
+
+U glib.main%b		glib-main.adb		4a0896e2 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.unchecked_conversion%s
+W ada.unchecked_deallocation%s
+W glib%s		glib.adb		glib.ali
+W system%s		system.ads		system.ali
+
+U glib.main%s		glib-main.ads		e60331e5 BN EE NE OO PK
+W glib%s		glib.adb		glib.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D glib.ads		20141212124939 0f441d83 glib%s
+D glib-main.ads		20141212124939 e9472c66 glib.main%s
+D glib-main.adb		20141212124939 abfe6b53 glib.main%b
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D system.ads		20140406181354 90249111 system%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 1 ada.ads
+16K9*Ada 19e8 10|29r6 30r6 39r31 114r31 117r31 125r36 127r37
+X 6 a-unccon.ads
+20v14*Unchecked_Conversion 10|29w10 39r35 114r35 117r35
+X 7 a-uncdea.ads
+20u15*Unchecked_Deallocation 10|30w10 125r40 127r41
+X 8 glib.ads
+43K9*Glib 408e9 9|88r9 94r31 149r25 472r5 10|32r14 316r5
+56I9*Gint<12|35I9> 9|163r52 279r27 399r55 10|143r55
+58I9*Gboolean<56I9> 9|163r65 174r42 182r51 191r50 203r14 10|34r65 60r65 237r51
+. 260r14 277r59 288r59 299r60 310r52
+62M9*Guint<12|43M9> 9|155r28 328r44 342r18 374r21 10|86r18 90r21 181r21 189r24
+155P9*C_Proxy(152R9) 9|94r36 149r30
+X 9 glib-main.ads
+88K14*Main 8|43k9 9|404E4 472l10 472e14 10|32b19 316l10 316t14
+94P9*G_Main_Context<8|155P9> 100r37 103r44 104r44 108r41 112r32 116r32 124r33
+. 129r33 134r34 269r17 310r35 313r52 10|47r35 50r20 276r32 277r36 287r33
+. 288r36
+100V13*Main_Context_New{94P9} 410b<c,g_main_context_new>22
+103U14*Main_Context_Ref 103>34 411b<c,g_main_context_ref>22
+103p34 Context{94P9}
+104U14*Main_Context_Unref 104>34 412b<c,g_main_context_unref>22
+104p34 Context{94P9}
+108V13*Main_Context_Default{94P9} 413b<c,g_main_context_default>22
+112U14*Wakeup 112>22 414b<c,g_main_context_wakeup>22
+112p22 Context{94P9}
+116V13*Acquire{boolean} 116>22 10|276b13 281l8 281t15
+116p22 Context{94P9} 10|276b22 280r37
+124U14*Release 124>23 415b<c,g_main_context_release>22
+124p23 Context{94P9}
+129V13*Is_Owner{boolean} 129>23 10|287b13 292l8 292t16
+129p23 Context{94P9} 10|287b23 291r37
+134U14*Dispatch 134>24 416b<c,g_main_context_dispatch>22
+134p24 Context{94P9}
+141V13*Depth{integer} 427b<c,g_main_depth>22
+149P9*G_Source<8|155P9> 163r25 174r25 189r27 202r16 208r60 246r71 252r37
+. 257r37 258r37 262r39 268r17 291r37 292r37 297r40 298r40 304r30 310r66 313r35
+. 322r36 328r58 382r21 10|47r66 50r61 210r21 216r22 259r16 298r40 299r36
+. 309r39 310r35
+155M9*G_Source_Id<8|62M9> 158r28 269r48 274r26 275r27 304r47 310r12 332r52
+. 343r40 369r52 378r52 404r28 10|47r12 50r41 73r52 75r63 87r40 92r44 158r17
+. 164r47 185r52 192r47 236r26 237r31 247r27
+158m4*No_Source_Id{155M9} 404c4
+160P9*G_Source_Func(boolean) 332r30 343r18 10|34r43 40r7 60r43 73r30 87r18
+162P9*Source_Prepare_Func(8|58I9) 163>16 163^35 164r26 215r18
+163p16 Source{149P9}
+163p35 Timeout(8|56I9)
+173P9*Source_Check_Func(8|58I9) 174>16 175r26 216r18
+174p16 Source{149P9}
+181P9*G_Source_Func_User_Data(8|58I9) 182>16 183r26 190r27 202r31 10|259r31
+182m16 User_Data{13|64M9}
+188P9*Source_Dispatch_Func(8|58I9) 189>16 190>16 191>16 192r26 217r18
+189p16 Source{149P9}
+190p16 Callback{181P9}
+191m16 Data{13|64M9}
+201V13*Default_Dispatch{8|58I9} 202>7 202>26 202>56 204r26 217r42 10|258b13
+. 270l8 270t24
+202p7 Source{149P9} 10|259b7 262r28
+202p26 Cb{181P9} 10|259b26 264r10 265r17
+202m56 Data{13|64M9} 10|259b56 265r21
+208P9*Source_Finalize_Func 208>51 209r26 218r18
+208p51 Source{149P9}
+212M9*G_Source_Type<13|64M9> 213r32 218r55 246r21 406c9 407r32 408r6
+213m4*Null_Source_Type{212M9} 407c4
+214V13*G_Source_Type_New{212M9} 215>7 216>7 217>7 218>7 428b<c,ada_allocate_g_source_funcs>22
+215p7 Prepare{162P9}
+216p7 Check{173P9}
+217p7 Dispatch{188P9}
+218p7 Finalize{208P9}
+245V13*Source_New{149P9} 246>7 246>36 429b<c,ada_g_source_new>22
+246m7 Source_Type{212M9}
+246m36 User_Data{13|64M9}
+252V13*Get_User_Data{13|64M9} 252>28 430b<c,ada_g_source_get_user_data>22
+252p28 Source{149P9}
+257U14*Source_Ref 257>28 417b<c,g_source_ref>22
+257p28 Source{149P9}
+258U14*Source_Unref 258>28 418b<c,g_source_unref>22
+258p28 Source{149P9}
+262U14*Source_Destroy 262>30 420b<c,g_source_destroy>22
+262p30 Source{149P9}
+267V13*Attach{155M9} 268>7 269>7 419b<c,g_source_attach>22
+268p7 Source{149P9}
+269p7 Context{94P9}
+274V13*Remove{boolean} 274>21 10|236b13 241l8 241t14 251s14
+274m21 Id{155M9} 10|236b21 240r37
+275U14*Remove 275>22 10|247b14 252l8 252t14
+275m22 Id{155M9} 10|247b22 251r22
+279I9*G_Priority<8|56I9> 280r37 281r37 282r37 283r37 284r37 291r58 292r54
+. 368r21 377r21 10|156r21 161r24 184r21 188r24
+280i4*Priority_High{279I9}
+281i4*Priority_Default{279I9} 377r35 10|184r35
+282i4*Priority_High_Idle{279I9}
+283i4*Priority_Default_Idle{279I9} 368r35 10|156r35
+284i4*Priority_Low{279I9}
+291U14*Set_Priority 291>28 291>47 421b<c,g_source_set_priority>22
+291p28 Source{149P9}
+291i47 Priority{279I9}
+292V14*Get_Priority{279I9} 292>28 422b<c,g_source_get_priority>22
+292p28 Source{149P9}
+297U14*Set_Can_Recurse 297>31 297>50 10|298b14 303l8 303t23
+297p31 Source{149P9} 10|298b31 302r17
+297b50 Can_Recurse{boolean} 10|298b50 302r38
+298V14*Get_Can_Recurse{boolean} 298>31 10|309b13 314l8 314t23
+298p31 Source{149P9} 10|309b30 313r37
+304V13*Get_Id{155M9} 304>21 423b<c,g_source_get_id>22
+304p21 Source{149P9}
+309V13*Find_Source_By_Id{149P9} 310>7 310>25 10|46b13 54l8 54t25
+310m7 Id{155M9} 10|47b7 53r33
+310p25 Context{94P9} 10|47b25 53r24
+313V13*Get_Context{94P9} 313>26 424b<c,g_source_get_context>22
+313p26 Source{149P9}
+322V13*Idle_Source_New{149P9} 425b<c,g_idle_source_new>22
+328V13*Timeout_Source_New{149P9} 328>33 426b<c,g_timeout_source_new>22
+328m33 Interval{8|62M9}
+332V13*Idle_Add{155M9} 332>23 10|73b13 79l8 79t16
+332p23 Func{160P9} 10|73b23 78r67
+341V13*Timeout_Add{155M9} 342>7 343>7 10|85b13 97l8 97t19
+342m7 Interval{8|62M9} 10|86b7 96r10
+343p7 Func{160P9} 10|87b7 96r63
+353+12 Data_Type 356r26 360r63 367r21 376r21 384r21 10|105r39 128r13 155r21
+. 170r27 183r21 198r27 212r21 225r27
+354k12*Generic_Sources 353z12 396E17 401l8 401e23 10|103b17 230l8 230t23
+355P12*G_Source_Func(boolean) 356>19 366r21 375r21 383r21 10|108r19 154r21
+. 182r21 211r21
+356*19 Data{353+12}
+360P12*Destroy_Notify 360=49 369r21 378r21 385r21 10|109r19 157r21 185r21
+. 213r21
+360*49 Data{353+12}
+365V16*Idle_Add{155M9} 366>10 367>10 368>10 369>10 10|153b16 174l11 174t19
+366p10 Func{355P12} 10|154b10 168r23
+367*10 Data{353+12} 10|155b10 170r38
+368i10 Priority{279I9} 10|156b10 173r13
+369p10 Notify{360P12} 10|157b10 169r23
+373V16*Timeout_Add{155M9} 374>10 375>10 376>10 377>10 378>10 10|180b16 203l11
+. 203t22
+374m10 Interval{8|62M9} 10|181b10 201r23
+375p10 Func{355P12} 10|182b10 196r23
+376*10 Data{353+12} 10|183b10 198r38
+377i10 Priority{279I9} 10|184b10 201r13
+378p10 Notify{360P12} 10|185b10 197r23
+381U17*Set_Callback 382>10 383>10 384>10 385>10 10|209b17 228l11 228t23
+382p10 Source{149P9} 10|210b10 227r20
+383p10 Func{355P12} 10|211b10 223r23
+384*10 Data{353+12} 10|212b10 225r38
+385p10 Notify{360P12} 10|213b10 224r23
+396U17 Free_Data 396>28 397r29 10|124b17 137l11 137t20 173r56 202r46 227r61
+396m28 D{13|64M9} 10|124b28 129r46
+399V16 General_Cb{8|56I9} 399>28 400r29 10|143b16 147l11 147t21 173r23 202r13
+. 227r28
+399m28 D{13|64M9} 10|143b28 144r55
+X 10 glib-main.adb
+34V13 Low_Level_Source_Func{8|58I9} 34>36 35r26 60b13 67l8 67t29 78r24 96r20
+34p36 Func{9|160P9} 60b36 62r10 65r30
+39V13 To_Address[6|20]{13|64M9} 78s55 96s51
+49V16*Internal{9|149P9} 50>10 50>36 51b<c,g_main_context_find_source_by_id>25
+. 53s14
+50p10 Context{9|94P9}
+50m36 Id{9|155M9}
+74V16*Internal{9|155M9} 75>10 75>33 76b<c,g_idle_add>25 78s14
+75m10 Func{13|64M9}
+75m33 Data{13|64M9}
+89V16*Internal{9|155M9} 90>10 91>10 92>10 93b<c,g_timeout_add>25 95s14
+90m10 Interval{8|62M9}
+91m10 Func{13|64M9}
+92m10 Data{13|64M9}
+105P12 Data_Type_Access(9|353+12) 110r19 128r24
+107R12 Cb_Record 111e17 112r39 126r13 167r47 195r47 222r47
+108p10 Func{9|355P12} 146r35 168m13 196m13 223m13
+109p10 Notify{9|360P12} 132r18 133r18 169m13 197m13 224m13
+110p10 Data{105P12} 133r31 135m26 146r46 170m13 198m13 225m13
+112P12 Cb_Record_Access(107R12) 115r26 118r10 126r24 129r17 144r26 167r23
+. 195r23 222r23
+114V16 Convert[6|20]{112P12} 129s37 144s46
+117V16 Convert[6|20]{13|64M9} 173s43 202s33 227s48
+125U20 Internal[7|20] 136s10
+127U20 Internal2[7|20] 135s10
+129p10 Data{112P12} 132r13 133r13 133r26 135r21 136m20 136r20
+144p10 Data{112P12} 146r30 146r41
+160V19*Internal{9|155M9} 161>13 162>13 163>13 164>13 165b<c,g_idle_add_full>28
+. 172s17
+161i13 Priority{9|279I9}
+162m13 Func{13|64M9}
+163m13 Data{13|64M9}
+164m13 Notify{13|64M9}
+167p10 D{112P12} 173r52
+187V19*Internal{9|155M9} 188>13 189>13 190>13 191>13 192>13 193b<c,g_timeout_add_full>28
+. 200s17
+188i13 Priority{9|279I9}
+189m13 Interval{8|62M9}
+190m13 Func{13|64M9}
+191m13 Data{13|64M9}
+192m13 Notify{13|64M9}
+195p10 D{112P12} 202r42
+215U20*Internal 216>13 217>13 218>13 219>13 220b<c,g_source_set_callback>28
+. 227s10
+216p13 Source{9|149P9}
+217m13 Func{13|64M9}
+218m13 Data{13|64M9}
+219m13 Notify{13|64M9}
+222p10 D{112P12} 227r57
+237V16*Internal{8|58I9} 237>26 238b<c,g_source_remove>25 240s27
+237m26 Id{9|155M9}
+248b7 Tmp{boolean} 249r28 251m7
+277V16*Internal{8|58I9} 277>26 278b<c,g_main_context_acquire>25 280s27
+277p26 Context{9|94P9}
+288V16*Internal{8|58I9} 288>26 289b<c,g_main_context_is_owner>25 291s27
+288p26 Context{9|94P9}
+299U17*Internal 299>27 299>46 300b<c,g_source_set_can_recurse>25 302s7
+299p27 Source{9|149P9}
+299i46 Can_Recurse{8|58I9}
+310V16*Internal{8|58I9} 310>26 311b<c,g_source_get_can_recurse>25 313s27
+310p26 Source{9|149P9}
+X 12 i-c.ads
+35I9*int<integer>
+43M9*unsigned
+X 13 system.ads
+37K9*System 9|182r28 191r27 202r63 246r48 252r54 396r32 399r32 406r30 408r21
+. 10|40r22 75r17 75r40 91r21 92r21 115r10 118r28 124r32 143r32 162r24 163r24
+. 164r24 190r24 191r24 192r24 217r22 218r22 219r22 259r63 13|152e11
+64M9*Address 9|182r35 191r34 202r70 246r55 252r61 396r39 399r39 406r37 10|40r29
+. 75r24 75r47 91r28 92r28 115r17 118r35 124r39 143r39 162r31 163r31 164r31
+. 190r31 191r31 192r31 217r29 218r29 219r29 259r70
+66m4*Null_Address{64M9} 9|408r28
+

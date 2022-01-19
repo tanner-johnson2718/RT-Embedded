@@ -1,0 +1,62 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P ZX
+
+RN
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV SPARK_05
+
+U gdk.threads%s		gdk-threads.ads		f3fbdc72 NE OO PK
+W gdk%s			gdk.ads			gdk.ali
+W system%s		system.ads		system.ali
+L "-lgthread-2.0"
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D gdk.ads		20141212124940 f909352d gdk%s
+D gdk-threads.ads	20141212124940 9ad6784e gdk.threads%s
+D glib.ads		20141212124939 0f441d83 glib%s
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D system.ads		20140406181354 90249111 system%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 8 gdk.ads
+40K9*Gdk 66e8 9|42r9 72r5
+X 9 gdk-threads.ads
+42K13*Threads 8|40k9 9|65E27 72l9 72e16
+44U14*G_Init 44>22 68b<c,g_thread_init>22
+44m22 Vtable{13|64M9}
+49U14*Init 69b<c,gdk_threads_init>22
+54U14*Enter 70b<c,gdk_threads_enter>22
+59U14*Leave 71b<c,gdk_threads_leave>22
+X 13 system.ads
+37K9*System 9|40w6 44r31 44r49 13|152e11
+64M9*Address 9|44r38
+66m4*Null_Address{64M9} 9|44r56
+

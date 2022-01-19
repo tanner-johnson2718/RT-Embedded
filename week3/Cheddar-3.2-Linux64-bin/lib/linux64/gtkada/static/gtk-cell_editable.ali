@@ -1,0 +1,126 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P SS ZX
+
+RN
+RV NO_IMPLICIT_HEAP_ALLOCATIONS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U gtk.cell_editable%s	gtk-cell_editable.ads	171a981d EE OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W gdk%s			gdk.ads			gdk.ali
+W gdk.event%s		gdk-event.adb		gdk-event.ali
+W glib%s		glib.adb		glib.ali
+W glib.properties%s	glib-properties.adb	glib-properties.ali
+W glib.types%s		glib-types.adb		glib-types.ali
+W gtk%s			gtk.ads			gtk.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D cairo.ads		20141212124939 8dc0603a cairo%s
+D cairo-region.ads	20141212124939 b7133728 cairo.region%s
+D gdk.ads		20141212124940 f909352d gdk%s
+D gdk-event.ads		20141212124940 8e0f7bb6 gdk.event%s
+D gdk-rectangle.ads	20141212124939 7b900608 gdk.rectangle%s
+D gdk-region.ads	20141212124939 ff429b15 gdk.region%s
+D gdk-types.ads		20141212124940 b1082506 gdk.types%s
+D glib.ads		20141212124939 0f441d83 glib%s
+D glib.adb		20141212124939 b4331f78 glib%b
+D glib-generic_properties.ads  20141212124939 a1807006 glib.generic_properties%s
+D glib-generic_properties.adb  20141212124939 b44dec2c glib.generic_properties%b
+D glib-glist.ads	20141212124940 65a6e1be glib.glist%s
+D glib-glist.adb	20141212124940 48a94e23 glib.glist%b
+D glib-gslist.ads	20141212124940 8fe7d6f1 glib.gslist%s
+D glib-gslist.adb	20141212124940 b4c9a81c glib.gslist%b
+D glib-object.ads	20141212124940 948e384a glib.object%s
+D glib-properties.ads	20141212124940 48c8d9fb glib.properties%s
+D glib-types.ads	20141212124939 497ce66f glib.types%s
+D glib-values.ads	20141212124939 37b4897e glib.values%s
+D gtk.ads		20141212124940 81513fe2 gtk%s
+D gtk-cell_editable.ads	20141212124940 16b4fe5e gtk.cell_editable%s
+D gtkada.ads		20141212124939 57aea1c7 gtkada%s
+D gtkada-types.ads	20141212124940 b7bc0c77 gtkada.types%s
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D i-cstrin.ads		20140406181357 341d0ddf interfaces.c.strings%s
+D system.ads		20140406181354 90249111 system%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-secsta.ads		20140406181359 86a2856d system.secondary_stack%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20140406181358 aedef97e system.stream_attributes%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D s-unstyp.ads		20140406181356 510692af system.unsigned_types%s
+D unchconv.ads		20140406181355 ca2f9e18 unchecked_conversion%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 10 gdk.ads
+40K9*Gdk 66e8 28|38r6 38r27 68r24
+X 11 gdk-event.ads
+52K13*Event 800e14 28|38w10 38r31 68r28
+229P9*Gdk_Event<15|155P9> 28|68r34
+X 15 glib.ads
+43K9*Glib 408e9 28|39w6 39r27 40r6 40r27 41r6 41r27 45r34 51r29 86r41 113r35
+. 114r36 117r41 118r6
+78M9*Gsize<32|60M9>
+155P9*C_Proxy(152R9)
+214A9*Signal_Name<string>(character)<integer> 28|113r40 114r41
+238A9*Property<string>
+240V13*Build{238A9} 28|118s22
+269M9*GType<78M9> 28|51r34
+X 23 glib-object.ads
+46P9*GObject(45R9)
+421V13*Convert{34|64M9} 19|63i21 21|55i21
+422V13*Convert{46P9} 19|64i21 21|56i21
+X 24 glib-properties.ads
+79K14*Properties 243e20 28|40w11 40r32 86r46 117r46 118r11
+123A9*Property_Boolean<15|238A9> 28|86r57 117r57
+X 25 glib-types.ads
+48K14*Types 148e15 28|41w11 41r32 45r39
+95M9*GType_Interface<34|64M9> 28|45r45
+X 27 gtk.ads
+47K9*Gtk 83e8 28|43r9 119r5
+X 28 gtk-cell_editable.ads
+43K13*Cell_Editable 27|47k9 28|117E4 119l9 119e22
+45M9*Gtk_Cell_Editable<25|95M9> 58r44 62r45 67r24
+51V13*Get_Type{15|269M9} 52b<c,gtk_cell_editable_get_type>22
+58U14*Editing_Done 58>28 59b<c,gtk_cell_editable_editing_done>22
+58m28 Cell_Editable{45M9}
+62U14*Remove_Widget 62>29 63b<c,gtk_cell_editable_remove_widget>22
+62m29 Cell_Editable{45M9}
+66U14*Start_Editing 67>8 68>8 69b<c,gtk_cell_editable_start_editing>22
+67m8 Cell_Editable{45M9}
+68p8 Event{11|229P9}
+86a4*Editing_Canceled_Property{24|123A9} 117c4
+113a4*Signal_Editing_Done{15|214A9}
+114a4*Signal_Remove_Widget{15|214A9}
+X 32 i-c.ads
+60M9*size_t
+X 34 system.ads
+64M9*Address
+

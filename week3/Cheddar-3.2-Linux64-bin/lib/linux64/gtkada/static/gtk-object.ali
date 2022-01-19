@@ -1,0 +1,246 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P SS ZX
+
+RN
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_IMPLICIT_HEAP_ALLOCATIONS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U gtk.object%b		gtk-object.adb		0cf6767a NE OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W gtk%s			gtk.ads			gtk.ali
+W system%s		system.ads		system.ali
+
+U gtk.object%s		gtk-object.ads		4e072ff5 BN EE OO PF PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W glib%s		glib.adb		glib.ali
+W glib.gslist%s		glib-gslist.adb		glib-gslist.ali  AD
+W glib.object%s		glib-object.adb		glib-object.ali
+W glib.properties%s	glib-properties.adb	glib-properties.ali
+W gtk%s			gtk.ads			gtk.ali
+W gtkada%s		gtkada.ads		gtkada.ali
+W gtkada.types%s	gtkada-types.adb	gtkada-types.ali
+W system%s		system.ads		system.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D gdk.ads		20141212124940 f909352d gdk%s
+D glib.ads		20141212124939 0f441d83 glib%s
+D glib.adb		20141212124939 b4331f78 glib%b
+D glib-generic_properties.ads  20141212124939 a1807006 glib.generic_properties%s
+D glib-generic_properties.adb  20141212124939 b44dec2c glib.generic_properties%b
+D glib-glist.ads	20141212124940 65a6e1be glib.glist%s
+D glib-glist.adb	20141212124940 48a94e23 glib.glist%b
+D glib-gslist.ads	20141212124940 8fe7d6f1 glib.gslist%s
+D glib-gslist.adb	20141212124940 b4c9a81c glib.gslist%b
+D glib-object.ads	20141212124940 948e384a glib.object%s
+D glib-object.adb	20141212124939 425ed48d glib.object%b
+D glib-properties.ads	20141212124940 48c8d9fb glib.properties%s
+D glib-type_conversion_hooks.ads  20141212124939 df9131bc glib.type_conversion_hooks%s
+D glib-values.ads	20141212124939 37b4897e glib.values%s
+D gnat.ads		20140406181359 fd2ad2f1 gnat%s
+D g-string.ads		20140406181356 c6abc540 gnat.strings%s
+D gtk.ads		20141212124940 81513fe2 gtk%s
+D gtk-object.ads	20141212124940 2b4b2b20 gtk.object%s
+D gtk-object.adb	20141212124940 b799cc4b gtk.object%b
+D gtkada.ads		20141212124939 57aea1c7 gtkada%s
+D gtkada-bindings.ads	20141212124940 516dc70c gtkada.bindings%s
+D gtkada-c.ads		20141212124940 0f5973e3 gtkada.c%s
+D gtkada-types.ads	20141212124940 b7bc0c77 gtkada.types%s
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D i-cstrin.ads		20140406181357 341d0ddf interfaces.c.strings%s
+D system.ads		20140406181354 90249111 system%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-memory.ads		20140406181359 597d6634 system.memory%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-secsta.ads		20140406181359 86a2856d system.secondary_stack%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20140406181358 aedef97e system.stream_attributes%s
+D s-string.ads		20140406181358 8fe54fb7 system.strings%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D s-unstyp.ads		20140406181356 510692af system.unsigned_types%s
+D unchconv.ads		20140406181355 ca2f9e18 unchecked_conversion%s
+D unchdeal.ads		20140406181359 214516a4 unchecked_deallocation%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 9 glib.ads
+43K9*Glib 408e9 25|98r6 99r6 100r6 105r34 146r32 210r29 212r6 214r38 217r6
+. 225r15 237r30 272r34 292r30 295r34 297r34 298r6
+56I9*Gint<32|35I9> 26|184r74
+75M9*Guint32 25|172r62 175r68 179r70 185r49 26|109r62 110r58 143r68 144r60
+. 168r50 170r60 182r49 184r58
+78M9*Gsize<32|60M9>
+214A9*Signal_Name<string>(character)<integer> 25|292r35
+238A9*Property<string>
+240V13*Build{238A9} 25|298s22
+269M9*GType<78M9>
+282M9*GType_Class<34|64M9>
+X 15 glib-gslist.ads
+49K14*GSlist 125e16 25|100w11 146r37
+57k12*Generic_SList 121e21 25|146r44
+X 17 glib-object.ads
+43K14*Object 470e16 25|98w11 105r39 210r34 212r11 214r43 217r11 225r20 237r35
+. 295r39
+45R9*GObject_Record 431e14 25|105r46 220r29 295r46
+46P9*GObject(45R9)
+83U14*Ref 26|91s7
+89U14*Unref
+117U14*Deallocate
+130U14*Ref_Sink
+146V13*Get_Object{34|64M9} 26|43s17 66s14 82s40 114s24 136s24 148s17 160s17
+. 174s17 188s37
+153U14*Set_Object 26|97s7
+158V13*Get_User_Data{46P9} 26|54s26
+240M9*GObject_Class<9|282M9> 25|210r41
+241m4*Uninitialized_Class{240M9} 25|212r18
+247A9*Signal_Parameter_Types(9|269M9)<integer><integer> 25|214r50
+263a4*Null_Parameter_Types{247A9} 25|217r18
+267U14*Initialize_Class_Record 25|225r27
+329U14*Notify
+351k12*User_Data 413e17 25|237r42
+421V13*Convert{34|64M9} 13|63i21 15|55i21
+422V13*Convert{46P9} 13|64i21 15|56i21
+X 19 glib-properties.ads
+79K14*Properties 243e20 25|99w11 272r39 297r39 298r11
+126A9*Property_Address<9|238A9> 25|272r50 297r50
+X 24 gtk.ads
+47K9*Gtk 83e8 25|103r9 130r29 303r5 26|32r14 191r5
+67M12*Gtk_Type{9|269M9} 25|130r33 134r65 26|131r65 132r58
+X 25 gtk-object.ads
+103K13*Object 24|47k9 25|295E9 303l9 303e15 26|32b18 191l9 191t15
+105R9*Gtk_Object_Record<17|45R9> 17|83p14 89p14 117p14 130p14 329p14 25|106r34
+. 108p14 108r39 134P13 134r39 172p13 172r36 175p14 175r41 179p14 179r43 184p13
+. 185r23 189r23 193r47 199r23 248p14 248r36 295c9 295e77 26|52r14 62r23 74r39
+. 109r36 122r23 131r39 143r41 155r36 168r23 182r23
+106P9*Gtk_Object(105R9) 143r26 144r49 146r59 26|38r26 51r49 54r14
+108U14*Destroy 108^23 26|74b14 103l8 103t15
+108p23 Object(105R9) 26|74b23 82r52 91r12 97r19
+130V13*Get_Type{24|67M12} 132b<c,gtk_object_get_type>22
+134V13*Get_Type{24|67M12}<17|59p13> 134^23 26|131b13 137l8 137t16
+134p23 Object(105R9) 26|131b23 136r36
+143V13*Convert{34|64M9} 15|55i21 25|143>22 26|38b13 45l8 45t15
+143p22 W{106P9} 26|38b22 40r10 43r29
+144V13*Convert{106P9} 15|56i21 25|144>22 26|51b13 55l8 55t15
+144m22 W{34|64M9} 26|51b22 54r41
+146K12*Object_SList[15|57]
+167N4*In_Destruction 26|67r38
+168N4*Floating 26|124r35
+169N4*Reserved_1
+170N4*Reserved_2
+172V13*Flags{9|75M9} 172^20 26|109b13 115l8 115t13
+172p20 Object(105R9) 26|109b20 114r36
+175U14*Set_Flags 175^25 175>60 26|143b14 149l8 149t17
+175p25 Object(105R9) 26|143b25 148r29
+175m60 Flags{9|75M9} 26|143b60 148r38
+179U14*Unset_Flags 179^27 179>62 26|167b14 175l8 175t19
+179p27 Object(105R9) 26|168b7 174r29
+179m62 Flags{9|75M9} 26|168b42 174r38
+184V13*Flag_Is_Set{boolean} 185^7 185>42 26|67R17 124R14 181b13 189l8 189t19
+185p7 Object(105R9) 26|182b7 188r49
+185m42 Flag{9|75M9} 26|182b42 188r58
+188V13*In_Destruction_Is_Set{boolean} 189^7 194r30 301r19 26|61b13 68l8 68t29
+189p7 Object(105R9) 26|62b7 66r26 67r30
+193V13*Destroyed_Is_Set=194:30{boolean}
+193p31 Object(105R9)
+198V13*Floating_Is_Set{boolean} 199^7 300r19 26|121b13 125l8 125t23
+199p7 Object(105R9) 26|122b7 124r27
+210+12*GObject_Class{17|240M9} 211r26 222r29
+211m4*Uninitialized_Class=212:18{17|240M9}
+214A12*Signal_Parameter_Types{17|247A9}<integer><integer> 216r27 224r22
+216a4*Null_Parameter_Types=217:18{17|247A9} 224r48
+219U14*Initialize_Class_Record=225:27
+220p7 Object(17|45R9)
+221a7 Signals{30|45A12}
+222+7 Class_Record{210+12}
+223a7 Type_Name{string}
+224a7 Parameters{214A12}
+237k12*User_Data
+248U14*Sink 248^20 249r24 26|155b14 161l8 161t12
+248p20 Object(105R9) 26|155b20 160r29
+272a4*User_Data_Property{19|126A9} 297c4
+292a4*Signal_Destroy{9|214A9}
+X 26 gtk-object.adb
+52r7 Stub{25|105R9} 54r44
+75U17*Internal 75>27 76b<c,gtk_object_destroy>25 92s7
+75m27 Object{34|64M9}
+78U17*Unref_Internal 78>33 79b<c,g_object_unref>25 102s7
+78m33 Object{34|64M9}
+82m7 Ptr{34|64M9} 92r17 102r23
+110V16*Internal{9|75M9} 110>26 111b<c,ada_object_flags>25 114s14
+110m26 Object{34|64M9}
+132V16*Internal{24|67M12} 132>26 133b<c,ada_gobject_get_type>25 136s14
+132m26 Object{34|64M9}
+144U17*Internal 144>27 144>52 145b<c,ada_object_set_flags>25 148s7
+144m27 Object{34|64M9}
+144m52 Flags{9|75M9}
+156U17*Internal 156>27 157b<c,gtk_object_sink>25 160s7
+156m27 Object{34|64M9}
+170U17*Internal 170>27 170>52 171b<c,ada_object_unset_flags>25 174s7
+170m27 Object{34|64M9}
+170m52 Flags{9|75M9}
+184V16*Internal{9|56I9} 184>26 184>51 185b<c,ada_object_flag_is_set>25 188s27
+184m26 Object{34|64M9}
+184m51 Flag{9|75M9}
+X 27 gtkada.ads
+36K9*Gtkada 25|101r6 221r22 27|40e11
+X 30 gtkada-types.ads
+38K16*Types 25|101w13 221r29 30|102e17
+45A12*Chars_Ptr_Array{33|50A9}<32|60M9> 25|221r35
+X 32 i-c.ads
+35I9*int<integer>
+60M9*size_t
+X 33 i-cstrin.ads
+47P9*chars_ptr
+50A9*chars_ptr_array(47P9)<32|60M9>
+X 34 system.ads
+37K9*System 25|143r45 144r26 26|30w6 38r45 41r17 51r26 64r16 66r36 75r36
+. 78r42 82r22 84r16 97r27 110r35 132r35 144r36 156r36 170r36 184r35 34|152e11
+64M9*Address 25|143r52 144r33 26|38r52 51r33 64r23 75r43 78r49 82r29 84r23
+. 110r42 132r42 144r43 156r43 170r43 184r42
+66m4*Null_Address{64M9} 26|41r24 66r43 97r34
+78V14*"="{boolean} 26|66r34
+X 38 s-memory.ads
+53V13*Alloc{34|64M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{34|64M9} 105i<c,__gnat_realloc>22
+

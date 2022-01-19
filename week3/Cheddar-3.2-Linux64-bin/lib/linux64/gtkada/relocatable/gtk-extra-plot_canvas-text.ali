@@ -1,0 +1,319 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV NO_ELABORATION_CODE
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U gtk.extra.plot_canvas.text%b  gtk-extra-plot_canvas-text.adb  3e8b9b0d NE OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W gdk%s			gdk.ads			gdk.ali
+W gdk.color%s		gdk-color.adb		gdk-color.ali
+W gtk%s			gtk.ads			gtk.ali
+W gtk.enums%s		gtk-enums.adb		gtk-enums.ali
+W gtk.extra%s		gtk-extra.ads		gtk-extra.ali
+W gtk.extra.plot_canvas%s  gtk-extra-plot_canvas.adb  gtk-extra-plot_canvas.ali
+W gtk.extra.plot_data%s	gtk-extra-plot_data.adb	gtk-extra-plot_data.ali
+W gtkada%s		gtkada.ads		gtkada.ali
+W gtkada.bindings%s	gtkada-bindings.adb	gtkada-bindings.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+W system%s		system.ads		system.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+U gtk.extra.plot_canvas.text%s  gtk-extra-plot_canvas-text.ads  5137a4e3 EE OO PF PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W gdk%s			gdk.ads			gdk.ali
+W gdk.color%s		gdk-color.adb		gdk-color.ali
+W gtk%s			gtk.ads			gtk.ali
+W gtk.enums%s		gtk-enums.adb		gtk-enums.ali
+W gtk.extra%s		gtk-extra.ads		gtk-extra.ali
+W gtk.extra.plot_canvas%s  gtk-extra-plot_canvas.adb  gtk-extra-plot_canvas.ali
+W gtk.extra.plot_data%s	gtk-extra-plot_data.adb	gtk-extra-plot_data.ali
+W system%s		system.ads		system.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D cairo.ads		20141212124939 8dc0603a cairo%s
+D cairo-region.ads	20141212124939 b7133728 cairo.region%s
+D gdk.ads		20141212124940 f909352d gdk%s
+D gdk-bitmap.ads	20141212124940 a30f71c4 gdk.bitmap%s
+D gdk-color.ads		20141212124939 8aa593ee gdk.color%s
+D gdk-cursor.ads	20141212124939 d92b2ac1 gdk.cursor%s
+D gdk-display.ads	20141212124940 f1fc98fd gdk.display%s
+D gdk-drawable.ads	20141212124940 15e54888 gdk.drawable%s
+D gdk-event.ads		20141212124940 8e0f7bb6 gdk.event%s
+D gdk-font.ads		20141212124940 46e43fa8 gdk.font%s
+D gdk-gc.ads		20141212124939 a96f1ba5 gdk.gc%s
+D gdk-pixbuf.ads	20141212124940 8572dcfc gdk.pixbuf%s
+D gdk-pixmap.ads	20141212124939 677b62c0 gdk.pixmap%s
+D gdk-rectangle.ads	20141212124939 7b900608 gdk.rectangle%s
+D gdk-region.ads	20141212124939 ff429b15 gdk.region%s
+D gdk-rgb.ads		20141212124939 724abbe3 gdk.rgb%s
+D gdk-types.ads		20141212124940 b1082506 gdk.types%s
+D gdk-visual.ads	20141212124939 615e934c gdk.visual%s
+D gdk-window.ads	20141212124940 a02582f1 gdk.window%s
+D glib.ads		20141212124939 0f441d83 glib%s
+D glib-error.ads	20141212124939 e055fabe glib.error%s
+D glib-generic_properties.ads  20141212124939 a1807006 glib.generic_properties%s
+D glib-generic_properties.adb  20141212124939 b44dec2c glib.generic_properties%b
+D glib-glist.ads	20141212124940 65a6e1be glib.glist%s
+D glib-glist.adb	20141212124940 48a94e23 glib.glist%b
+D glib-gslist.ads	20141212124940 8fe7d6f1 glib.gslist%s
+D glib-gslist.adb	20141212124940 b4c9a81c glib.gslist%b
+D glib-object.ads	20141212124940 948e384a glib.object%s
+D glib-object.adb	20141212124939 425ed48d glib.object%b
+D glib-properties.ads	20141212124940 48c8d9fb glib.properties%s
+D glib-type_conversion_hooks.ads  20141212124939 df9131bc glib.type_conversion_hooks%s
+D glib-types.ads	20141212124939 497ce66f glib.types%s
+D glib-values.ads	20141212124939 37b4897e glib.values%s
+D gnat.ads		20140406181359 fd2ad2f1 gnat%s
+D g-string.ads		20140406181356 c6abc540 gnat.strings%s
+D gtk.ads		20141212124940 81513fe2 gtk%s
+D gtk-accel_group.ads	20141212124940 db8139a9 gtk.accel_group%s
+D gtk-adjustment.ads	20141212124940 6a3f2d37 gtk.adjustment%s
+D gtk-buildable.ads	20141212124940 0156d377 gtk.buildable%s
+D gtk-builder.ads	20141212124940 f4ad2f95 gtk.builder%s
+D gtk-container.ads	20141212124939 93cfa083 gtk.container%s
+D gtk-enums.ads		20141212124940 31c39095 gtk.enums%s
+D gtk-extra.ads		20141212124940 da2d3fb1 gtk.extra%s
+D gtk-extra-plot_canvas.ads  20141212124940 9448fff7 gtk.extra.plot_canvas%s
+D gtk-extra-plot_canvas-text.ads  20141212124940 2b848559 gtk.extra.plot_canvas.text%s
+D gtk-extra-plot_canvas-text.adb  20141212124940 0ea09bdb gtk.extra.plot_canvas.text%b
+D gtk-extra-plot_data.ads  20141212124940 559ddd36 gtk.extra.plot_data%s
+D gtk-fixed.ads		20141212124940 37d0d73d gtk.fixed%s
+D gtk-object.ads	20141212124940 2b4b2b20 gtk.object%s
+D gtk-style.ads		20141212124939 f697ed25 gtk.style%s
+D gtk-widget.ads	20141212124939 468b5cfd gtk.widget%s
+D gtkada.ads		20141212124939 57aea1c7 gtkada%s
+D gtkada-bindings.ads	20141212124940 516dc70c gtkada.bindings%s
+D gtkada-c.ads		20141212124940 0f5973e3 gtkada.c%s
+D gtkada-types.ads	20141212124940 b7bc0c77 gtkada.types%s
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D i-cstrin.ads		20140406181357 341d0ddf interfaces.c.strings%s
+D pango.ads		20141212124939 d3c8e76d pango%s
+D pango-attributes.ads	20141212124939 34135516 pango.attributes%s
+D pango-context.ads	20141212124940 a00383e5 pango.context%s
+D pango-enums.ads	20141212124940 8ef2dddf pango.enums%s
+D pango-font.ads	20141212124940 375007f3 pango.font%s
+D pango-layout.ads	20141212124939 0814381c pango.layout%s
+D pango-tabs.ads	20141212124940 1dd550ef pango.tabs%s
+D system.ads		20140406181354 90249111 system%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-memory.ads		20140406181359 597d6634 system.memory%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-secsta.ads		20140406181359 86a2856d system.secondary_stack%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20140406181358 aedef97e system.stream_attributes%s
+D s-string.ads		20140406181358 8fe54fb7 system.strings%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D s-unstyp.ads		20140406181356 510692af system.unsigned_types%s
+D unchconv.ads		20140406181355 ca2f9e18 unchecked_conversion%s
+D unchdeal.ads		20140406181359 214516a4 unchecked_deallocation%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 10 gdk.ads
+40K9*Gdk 66e8 52|35r6 51r18 51r41 52r23 52r46 63r23 63r46 64r23 64r46 53|30r6
+. 30r32 48r18 48r41 49r23 49r46 92r23 92r46 93r23 93r46
+47P9*Gdk_Drawable<27|155P9>
+56P9*Gdk_Visual<27|155P9>
+X 12 gdk-color.ads
+58K13*Color 323e14 52|35w10 51r22 51r45 52r27 52r50 63r27 63r50 64r27 64r50
+. 53|30w10 30r36 48r22 48r45 49r27 49r50 92r27 92r50 93r27 93r50
+60R9*Gdk_Color 300e14 52|51r28 52r33 63r33 64r33 53|48r28 49r33 61r22 62r22
+. 92r33 93r33 108r22 109r22
+70r4*Null_Color{60R9} 52|51r51 52r56 63r56 64r56 53|48r51 49r56 67r16 70r16
+. 92r56 93r56 113r16 116r16
+X 25 gdk-visual.ads
+83V13*Convert[92|20]{73|64M9} 31|63i21
+84V13*Convert[92|20]{10|56P9} 31|64i21
+X 26 gdk-window.ads
+537V13*Convert[92|20]{73|64M9} 31|63i21
+538V13*Convert[92|20]{10|47P9} 31|64i21
+X 27 glib.ads
+56I9*Gint<64|35I9> 52|49r18 61r23 53|46r18 54r37 90r23 101r26
+58I9*Gboolean<56I9> 53|56r24 104r26
+75M9*Guint32
+78M9*Gsize<64|60M9>
+155P9*C_Proxy(152R9)
+269M9*GType<78M9>
+X 35 glib-object.ads
+46P9*GObject(45R9)
+83U14*Ref
+89U14*Unref
+117U14*Deallocate
+130U14*Ref_Sink
+146V13*Get_Object{73|64M9} 53|119s17
+153U14*Set_Object 53|75s7
+329U14*Notify
+421V13*Convert{73|64M9} 31|63i21 33|55i21
+422V13*Convert{46P9} 31|64i21 33|56i21
+X 43 gtk.ads
+47K9*Gtk 83e8 52|36r6 37r6 39r9 50r18 50r52 54r23 54r54 62r23 66r23 74r5
+. 53|31r6 31r32 32r6 32r32 36r14 47r18 47r52 51r23 51r54 91r23 95r23 124r5
+67M12*Gtk_Type{27|269M9}
+X 49 gtk-enums.ads
+45K13*Enums 649e14 52|36w10 54r27 54r58 66r27 53|31w10 31r36 51r27 51r58
+. 95r27
+169E9*Gtk_Justification 173e20 52|54r33 66r33 53|51r33 57r26 95r33 105r26
+172n7*Justify_Center{169E9} 52|54r64 53|51r64
+448V13*Convert{73|64M9} 31|63i21 33|55i21
+449V13*Convert{string} 31|64i21 33|56i21
+X 50 gtk-extra.ads
+37K13*Extra 43|47k9 50|38e14 52|37r10 39r13 50r22 50r56 62r27 74r9 53|32r10
+. 32r36 36r18 47r22 47r56 91r27 124r9
+X 51 gtk-extra-plot_canvas.ads
+50K19*Plot_Canvas 50|37k13 51|394e26 52|39r19 74r15 53|36r24 124r15
+55R9*Gtk_Plot_Canvas_Child_Record<56|105R9> 386e55 52|41r44 72r44
+252U14*Set_Selection
+256U14*Set_Selection_Mode
+X 52 gtk-extra-plot_canvas-text.ads
+39K31*Text 51|50k19 52|72E9 74l27 74e31 53|36b36 124l27 124t31
+41R9*Gtk_Plot_Canvas_Text_Record<51|55R9> 35|83p14 89p14 117p14 130p14 329p14
+. 51|252p14 256p14 52|43r44 58p14 59r30 72c9 73e22 53|74r20 88r30 56|108p14
+. 134P13 172p13 175p14 179p14 184p13 248p14
+43P9*Gtk_Plot_Canvas_Text(41R9) 46r22 53|43r22
+45U14*Gtk_New 46<7 47>7 48>7 49>7 50>7 51>7 52>7 53>7 54>7 53|42b14 81l8
+. 81t15
+46p7 Child{43P9} 53|43b7 74m7 76r10
+47a7 Text{string} 53|44b7 79r13
+48a7 Font{string} 53|45b7 64r43
+49i7 Height{27|56I9} 53|46b7 77r16
+50e7 Angle{54|170E9} 53|47b7 77r24
+51r7 Fg{12|60R9} 53|48b7 61r35 67r10
+52r7 Bg{12|60R9} 53|49b7 62r35 70r10
+53b7 Transparent{boolean} 53|50b7 78r26
+54e7 Justification{49|169E9} 53|51b7 78r40
+58U14*Set_Attributes 59^7 60>7 61>7 62>7 63>7 64>7 65>7 66>7 67>7 53|87b14
+. 122l8 122t22
+59p7 Child(41R9) 53|88b7 119r29
+60a7 Font{string} 53|89b7 111r43
+61i7 Height{27|56I9} 53|90b7 119r40
+62e7 Angle{54|170E9} 53|91b7 119r48
+63r7 Fg{12|60R9} 53|92b7 108r35 113r10
+64r7 Bg{12|60R9} 53|93b7 109r35 116r10
+65b7 Transparent{boolean} 53|94b7 120r30
+66e7 Justification{49|169E9} 53|95b7 120r44
+67a7 Text{string} 53|96b7 120r59
+X 53 gtk-extra-plot_canvas-text.adb
+53V16*Internal{73|64M9} 54>10 54>28 54>43 55>10 55>14 56>10 57>10 58>10 59b<c,gtk_plot_canvas_text_new>25
+. 76s17
+54p10 Font{65|47P9}
+54i28 Height{27|56I9}
+54e43 Angle{54|170E9}
+55m10 Fg{73|64M9}
+55m14 Bg{73|64M9}
+56i10 Transparent{27|58I9}
+57e10 Justification{49|169E9}
+58a10 Text{string}
+61r7 F1{12|60R9} 68m15 68r15
+62r7 B1{12|60R9} 71m15 71r15
+63m7 F{73|64M9} 68m10 77r31
+63m10 B{73|64M9} 71m10 77r34
+64p7 T{65|47P9} 77r13 80m13 80r13
+98U17*Internal 99>10 100>10 101>10 102>10 103>10 103>14 104>10 105>10 106>10
+. 107b<c,gtk_plot_canvas_text_set_attributes>25 119s7
+99m10 Child{73|64M9}
+100p10 Font{65|47P9}
+101i10 Height{27|56I9}
+102e10 Angle{54|170E9}
+103m10 Fg{73|64M9}
+103m14 Bg{73|64M9}
+104i10 Transparent{27|58I9}
+105e10 Justification{49|169E9}
+106a10 Text{string}
+108r7 F1{12|60R9} 114m15 114r15
+109r7 B1{12|60R9} 117m15 117r15
+110m7 F{73|64M9} 114m10 119r55
+110m10 B{73|64M9} 117m10 119r58
+111p7 T{65|47P9} 119r37 121m13 121r13
+X 54 gtk-extra-plot_data.ads
+51K19*Plot_Data 52|37w16 50r28 50r62 62r33 53|32w16 32r42 47r28 47r62 91r33
+. 54|703e24
+170E9*Plot_Angle 52|50r38 62r43 53|47r38 54r51 91r43 102r26 54|170e64
+170n24*Angle_0{170E9} 52|50r72 53|47r72
+X 56 gtk-object.ads
+106P9*Gtk_Object(105R9)
+108U14*Destroy
+134V13*Get_Type{43|67M12}<35|59p13>
+143V13*Convert{73|64M9} 33|55i21
+144V13*Convert{106P9} 33|56i21
+172V13*Flags{27|75M9}
+175U14*Set_Flags
+179U14*Unset_Flags
+184V13*Flag_Is_Set{boolean}
+248U14*Sink
+X 58 gtk-widget.ads
+78P9*Gtk_Widget(77R9)
+121V13*Convert{73|64M9} 31|63i21 33|55i21
+122V13*Convert{78P9} 31|64i21 33|56i21
+X 59 gtkada.ads
+36K9*Gtkada 53|29r6 29r32 59|40e11
+X 60 gtkada-bindings.ads
+43K16*Bindings 53|29w13 29r39 60|176e20
+50V13*String_Or_Null{65|47P9} 53|64s27 111s27
+X 63 interfac.ads
+38K9*Interfaces 53|33r6 33r32 63|179e15
+X 64 i-c.ads
+18K20*C 53|33r17 33r43 64|230e17
+35I9*int<integer>
+60M9*size_t
+X 65 i-cstrin.ads
+36K22*Strings 53|33w19 33r45 65|106e25
+47P9*chars_ptr 53|54r17 64r14 100r26 111r14
+62U14*Free 53|80s7 121s7
+X 73 system.ads
+37K9*System 53|34w6 55r19 58r32 63r14 63r32 99r26 103r26 110r14 110r32 73|152e11
+64M9*Address 53|55r26 58r39 63r21 99r33 103r33 110r21
+66m4*Null_Address{64M9} 53|63r39 110r39
+X 77 s-memory.ads
+53V13*Alloc{73|64M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{73|64M9} 105i<c,__gnat_realloc>22
+

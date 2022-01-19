@@ -1,0 +1,394 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P SS ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_ALLOCATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_IMPLICIT_HEAP_ALLOCATIONS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U gtk.accel_group%b	gtk-accel_group.adb	4105bdf9 OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W glib%s		glib.adb		glib.ali
+W glib.type_conversion_hooks%s  glib-type_conversion_hooks.adb  glib-type_conversion_hooks.ali  AD
+W gtk%s			gtk.ads			gtk.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+W system%s		system.ads		system.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+U gtk.accel_group%s	gtk-accel_group.ads	c1d3ea52 EE OO PF PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W gdk%s			gdk.ads			gdk.ali
+W gdk.types%s		gdk-types.ads		gdk-types.ali
+W glib%s		glib.adb		glib.ali
+W glib.object%s		glib-object.adb		glib-object.ali
+W glib.properties%s	glib-properties.adb	glib-properties.ali
+W gtk%s			gtk.ads			gtk.ali
+W system%s		system.ads		system.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D gdk.ads		20141212124940 f909352d gdk%s
+D gdk-types.ads		20141212124940 b1082506 gdk.types%s
+D glib.ads		20141212124939 0f441d83 glib%s
+D glib.adb		20141212124939 b4331f78 glib%b
+D glib-generic_properties.ads  20141212124939 a1807006 glib.generic_properties%s
+D glib-generic_properties.adb  20141212124939 b44dec2c glib.generic_properties%b
+D glib-glist.ads	20141212124940 65a6e1be glib.glist%s
+D glib-glist.adb	20141212124940 48a94e23 glib.glist%b
+D glib-gslist.ads	20141212124940 8fe7d6f1 glib.gslist%s
+D glib-gslist.adb	20141212124940 b4c9a81c glib.gslist%b
+D glib-object.ads	20141212124940 948e384a glib.object%s
+D glib-object.adb	20141212124939 425ed48d glib.object%b
+D glib-properties.ads	20141212124940 48c8d9fb glib.properties%s
+D glib-type_conversion_hooks.ads  20141212124939 df9131bc glib.type_conversion_hooks%s
+D glib-type_conversion_hooks.adb  20141212124939 e61e501b glib.type_conversion_hooks%b
+D glib-values.ads	20141212124939 37b4897e glib.values%s
+D gnat.ads		20140406181359 fd2ad2f1 gnat%s
+D g-string.ads		20140406181356 c6abc540 gnat.strings%s
+D gtk.ads		20141212124940 81513fe2 gtk%s
+D gtk-accel_group.ads	20141212124940 db8139a9 gtk.accel_group%s
+D gtk-accel_group.adb	20141212124940 7108b833 gtk.accel_group%b
+D gtkada.ads		20141212124939 57aea1c7 gtkada%s
+D gtkada-bindings.ads	20141212124940 516dc70c gtkada.bindings%s
+D gtkada-c.ads		20141212124940 0f5973e3 gtkada.c%s
+D gtkada-types.ads	20141212124940 b7bc0c77 gtkada.types%s
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D i-cstrin.ads		20140406181357 341d0ddf interfaces.c.strings%s
+D system.ads		20140406181354 90249111 system%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-memory.ads		20140406181359 597d6634 system.memory%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-secsta.ads		20140406181359 86a2856d system.secondary_stack%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20140406181358 aedef97e system.stream_attributes%s
+D s-string.ads		20140406181358 8fe54fb7 system.strings%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D s-unstyp.ads		20140406181356 510692af system.unsigned_types%s
+D unchconv.ads		20140406181355 ca2f9e18 unchecked_conversion%s
+D unchdeal.ads		20140406181359 214516a4 unchecked_deallocation%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 8 gdk.ads
+40K9*Gdk 66e8 27|41w6 41r27 42r6 42r27 58r20 59r20 67r23 68r23 73r23 74r23
+. 108r24 121r22 163r22 189r15 219r21 220r21 237r20 238r20 249r31 250r31 265r27
+. 266r27 277r27 278r27 287r27 288r41 28|71r24 78r27 91r22 98r25 149r22 154r25
+. 197r15 200r48 234r21 235r21 239r24 240r24 251r27 252r27 255r30 256r30 268r27
+. 269r27 272r30 273r30 286r31 287r31 291r34 292r34 305r20 306r20 309r23 310r23
+. 352r41 353r32 364r27 366r46
+X 9 gdk-types.ads
+36K13*Types 262e14 27|42w10 42r31 58r24 59r24 67r27 68r27 73r27 74r27 108r28
+. 121r26 163r26 189r19 219r25 220r25 237r24 238r24 249r35 250r35 265r31 266r31
+. 277r31 278r31 287r31 288r45 28|71r28 78r31 91r26 98r29 149r26 154r29 197r19
+. 200r52 234r25 235r25 239r28 240r28 251r31 252r31 255r34 256r34 268r31 269r31
+. 272r34 273r34 286r35 287r35 291r38 292r38 305r24 306r24 309r27 310r27 352r45
+. 353r36 364r31 366r50
+146M9*Gdk_Key_Type<10|62M9> 27|58r30 67r33 73r33 219r31 237r30 249r41 265r37
+. 277r37 28|234r31 239r34 251r37 255r40 268r37 272r40 286r41 291r44 305r30
+. 309r33
+149M9*Gdk_Modifier_Type<10|62M9> 27|59r30 68r33 74r33 108r34 121r32 163r32
+. 189r25 220r31 238r30 250r41 266r37 278r37 287r37 288r51 28|71r34 78r37
+. 91r32 98r35 149r32 154r35 197r25 200r58 235r31 240r34 252r37 256r40 269r37
+. 273r40 287r41 292r44 306r30 310r33 352r51 353r42 364r37 366r56
+X 10 glib.ads
+43K9*Glib 408e9 27|43w6 43r27 44r6 44r27 45r6 45r27 66r23 96r29 106r31 218r28
+. 231r24 232r15 305r34 306r38 342r37 343r36 346r34 347r6 348r38 349r6 28|32r6
+. 32r38 37r35 69r31 233r28 337r24 338r15 342r20 344r7
+62M9*Guint<34|43M9> 27|52r32 107r24 120r22 162r22 28|70r24 77r27 90r22 97r25
+. 148r22 153r25
+75M9*Guint32
+78M9*Gsize<34|60M9>
+82A12*UTF8_String{string}<integer> 27|138r22 248r27 266r63 278r63 28|112r22
+. 252r63 269r63 285r27
+188M9*GQuark<75M9> 27|105r24 28|68r24 75r27
+214A9*Signal_Name<string>(character)<integer> 27|342r42 343r41
+238A9*Property<string>
+240V13*Build{238A9} 27|347s22 349s22
+269M9*GType<78M9> 27|96r34
+X 16 glib-gslist.ads
+59R12*GSlist 27|232r39[18|424] 28|338r39[18|424] 342r44[18|424]
+111U17*Set_Object 28|344s31[18|424]
+X 18 glib-object.ads
+43K14*Object 470e16 27|44w11 44r32 66r28 106r36 218r33 231r29 232r20 28|69r36
+. 233r33 337r29 338r20 342r25 344r12
+45R9*GObject_Record 431e14 27|49r39 106r43 218r40 231r36 28|69r43 233r40
+. 337r36
+46P9*GObject(45R9) 27|66r35 28|81r96 243r57 344r85
+59V13*Get_Type{10|269M9}
+83U14*Ref
+89U14*Unref
+117U14*Deallocate
+130U14*Ref_Sink
+146V13*Get_Object{36|64M9} 28|81s37 103s17 122s17 139s37 157s37 175s24 188s37
+. 203s24 214s17 225s17
+150V13*Get_Object_Or_Null{36|64M9} 28|81s76 243s37 344s65
+153U14*Set_Object 28|59s7
+158V13*Get_User_Data{46P9} 28|329s47
+329U14*Notify
+421V13*Convert{36|64M9} 14|63i21 16|55i21
+422V13*Convert{46P9} 14|64i21 16|56i21
+424K12*Object_List[16|57] 27|232r27 28|338r27 342r32 344r19
+X 20 glib-properties.ads
+79K14*Properties 243e20 27|45w11 45r32 305r39 306r43 346r39 347r11 348r43
+. 349r11
+123A9*Property_Boolean<10|238A9> 27|305r50 346r50
+130A9*Property_Boxed<10|238A9> 27|306r54 348r54
+X 21 glib-type_conversion_hooks.ads
+51K14*Type_Conversion_Hooks 105e31 28|32w11 32r43 37r40
+88k12*Hook_Registrator 103e24 28|37r62
+X 26 gtk.ads
+47K9*Gtk 83e8 27|47r9 210r15 350r5 28|35r14 48r7 322r15 327r14 329r14 372r5
+X 27 gtk-accel_group.ads
+47K13*Accel_Group 26|47k9 27|210r19 346E4 350l9 350e20 28|35b18 48r11 322r19
+. 327r18 329r18 372l9 372t20
+49R9*Gtk_Accel_Group_Record<18|45R9> 18|59p13 83p14 89p14 117p14 130p14 329p14
+. 27|49e70 50r39 65r30 92r47 103p13 104r31 118p14 119r29 136p14 137r29 151p13
+. 152r29 160p13 161r29 171p13 172r29 180p13 181r29 187p13 188r29 194p14 194r41
+. 201p14 201r43 28|38r24 47r26 55r47 67r31 89r29 111r29 131r29 147r29 165r29
+. 183r29 196r29 210r41 221r43 327r30
+50P9*Gtk_Accel_Group(49R9) 91r41 210r31 28|45r41 322r31 329r30
+52M9*Gtk_Accel_Flags<10|62M9> 53r29 54r29 55r29 60r20 122r22 28|92r22 99r25
+53m4*Accel_Visible{52M9}
+54m4*Accel_Locked{52M9}
+55m4*Accel_Mask{52M9}
+57R9*Gtk_Accel_Key 61e14 62r26 80r30 174r45 28|167r45 172r48
+58m7*Accel_Key{9|146M9}
+59m7*Accel_Mods{9|149M9}
+60m7*Flags{52M9}
+64P9*Gtk_Accel_Group_Activate(boolean) 65^7 66>7 67>7 68>7
+65p7 Accel_Group(49R9)
+66p7 Acceleratable{18|46P9}
+67m7 Keyval{9|146M9}
+68m7 Modifier{9|149M9}
+70P9*C_Gtk_Accel_Group_Activate(boolean) 71>7 72>7 73>7 74>7 75r26 81r23
+. 123r22 139r22 153r22 209r18 28|93r22 100r25 113r22 118r25 132r22 136r25
+. 321r18 325r21
+71m7 Accel_Group{36|64M9}
+72m7 Acceleratable{36|64M9}
+73m7 Keyval{9|146M9}
+74m7 Modifier{9|149M9}
+79P9*C_Gtk_Accel_Group_Find_Func(boolean) 80^7 81>7 82>7 83r26 173r22 28|166r22
+. 171r25
+80p7 Key(57R9)
+81p7 Closure{70P9}
+82m7 Data{36|64M9}
+91U14*Gtk_New 91<23 28|45b14 49l8 49t15
+91p23 Accel_Group{50P9} 28|45b23 47m7 48r35
+92U14*Initialize 92^26 28|48s23 55b14 60l8 60t18
+92p26 Accel_Group(49R9) 28|55b26 59r19
+96V13*Get_Type{10|269M9} 97b<c,gtk_accel_group_get_type>22 28|38r7
+103V13*Activate{boolean} 104^8 105>8 106^8 107>8 108>8 28|66b13 82l8 82t16
+104p8 Accel_Group(49R9) 28|67b8 81r49
+105m8 Accel_Quark{10|188M9} 28|68b8 81r63
+106p8 Acceleratable(18|45R9) 28|69b8 81r105
+107m8 Accel_Key{10|62M9} 28|70b8 81r122
+108m8 Accel_Mods{9|149M9} 28|71b8 81r133
+118U14*Connect 119^8 120>8 121>8 122>8 123>8 28|88b14 104l8 104t15
+119p8 Accel_Group(49R9) 28|89b8 103r29
+120m8 Accel_Key{10|62M9} 28|90b8 103r43
+121m8 Accel_Mods{9|149M9} 28|91b8 103r54
+122m8 Accel_Flags{52M9} 28|92b8 103r66
+123p8 Closure{70P9} 28|93b8 103r79
+136U14*Connect_By_Path 137^8 138>8 139>8 28|110b14 124l8 124t23
+137p8 Accel_Group(49R9) 28|111b8 122r29
+138a8 Accel_Path{10|82A12} 28|112b8 120r70
+139p8 Closure{70P9} 28|113b8 122r59
+151V13*Disconnect{boolean} 152^8 153>8 28|130b13 140l8 140t18
+152p8 Accel_Group(49R9) 28|131b8 139r49
+153p8 Closure{70P9} 28|132b8 139r63
+160V13*Disconnect_Key{boolean} 161^8 162>8 163>8 28|146b13 158l8 158t22
+161p8 Accel_Group(49R9) 28|147b8 157r49
+162m8 Accel_Key{10|62M9} 28|148b8 157r63
+163m8 Accel_Mods{9|149M9} 28|149b8 157r74
+171V13*Find{57R9} 172^8 173>8 174>8 28|164b13 176l8 176t12
+172p8 Accel_Group(49R9) 28|165b8 175r36
+173p8 Find_Func{79P9} 28|166b8 175r50
+174m8 Data{36|64M9} 28|167b8 175r61
+180V13*Get_Is_Locked{boolean} 181^8 28|182b13 189l8 189t21
+181p8 Accel_Group(49R9) 28|183b8 188r49
+187V13*Get_Modifier_Mask{9|149M9} 188^8 28|195b13 204l8 204t25
+188p8 Accel_Group(49R9) 28|196b8 203r36
+194U14*Lock 194^20 28|210b14 215l8 215t12
+194p20 Accel_Group(49R9) 28|210b20 214r29
+201U14*Unlock 201^22 28|221b14 226l8 226t14
+201p22 Accel_Group(49R9) 28|221b22 225r29
+208V13*From_Accel_Closure{50P9} 209>8 28|320b13 330l8 330t26
+209p8 Closure{70P9} 28|321b8 329r72
+217V13*Accel_Groups_Activate{boolean} 218^8 219>8 220>8 28|232b13 244l8 244t29
+218p8 Object(18|45R9) 28|233b8 243r66
+219m8 Accel_Key{9|146M9} 28|234b8 243r76
+220m8 Accel_Mods{9|149M9} 28|235b8 243r87
+230V13*From_Object{16|59R12[18|424]} 231^8 28|336b13 346l8 346t19
+231p8 Object(18|45R9) 28|337b8 344r94
+236V13*Accelerator_Valid{boolean} 237>8 238>8 28|304b13 314l8 314t25
+237m8 Keyval{9|146M9} 28|305b8 313r37
+238m8 Modifiers{9|149M9} 28|306b8 313r45
+247U14*Accelerator_Parse 248>8 249<8 250<8 28|284b14 298l8 298t25
+248a8 Accelerator{10|82A12} 28|285b8 294r71
+249m8 Accelerator_Key{9|146M9} 28|286b8 296m34
+250m8 Accelerator_Mods{9|149M9} 28|287b8 296m51
+264V13*Accelerator_Name{10|82A12} 265>8 266>8 28|267b13 278l8 278t24
+265m8 Accelerator_Key{9|146M9} 28|268b8 277r52
+266m8 Accelerator_Mods{9|149M9} 28|269b8 277r69
+276V13*Accelerator_Get_Label{10|82A12} 277>8 278>8 28|250b13 261l8 261t29
+277m8 Accelerator_Key{9|146M9} 28|251b8 260r52
+278m8 Accelerator_Mods{9|149M9} 28|252b8 260r69
+286U14*Set_Default_Mod_Mask 287>8 28|363b14 370l8 370t28
+287m8 Default_Mod_Mask{9|149M9} 28|364b8 369r17
+288V13*Get_Default_Mod_Mask{9|149M9} 28|352b13 357l8 357t28
+305a4*Is_Locked_Property{20|123A9} 346c4
+306a4*Modifier_Mask_Property{20|130A9} 348c4
+342a4*Signal_Accel_Activate{10|214A9}
+343a4*Signal_Accel_Changed{10|214A9}
+X 28 gtk-accel_group.adb
+37K12 Type_Conversion[21|88] 39r25
+56V16*Internal{36|64M9} 57b<c,gtk_accel_group_new>25 59s32
+73V16*Internal{integer} 74>11 75>11 76>11 77>11 78>11 79b<c,gtk_accel_group_activate>25
+. 81s27
+74m11 Accel_Group{36|64M9}
+75m11 Accel_Quark{10|188M9}
+76m11 Acceleratable{36|64M9}
+77m11 Accel_Key{10|62M9}
+78m11 Accel_Mods{9|149M9}
+95U17*Internal 96>11 97>11 98>11 99>11 100>11 101b<c,gtk_accel_group_connect>25
+. 103s7
+96m11 Accel_Group{36|64M9}
+97m11 Accel_Key{10|62M9}
+98m11 Accel_Mods{9|149M9}
+99m11 Accel_Flags{27|52M9}
+100p11 Closure{27|70P9}
+115U17*Internal 116>11 117>11 118>11 119b<c,gtk_accel_group_connect_by_path>25
+. 122s7
+116m11 Accel_Group{36|64M9}
+117p11 Accel_Path{35|47P9}
+118p11 Closure{27|70P9}
+120p7 Tmp_Accel_Path{35|47P9} 122r43 123m13 123r13
+134V16*Internal{integer} 135>11 136>11 137b<c,gtk_accel_group_disconnect>25
+. 139s27
+135m11 Accel_Group{36|64M9}
+136p11 Closure{27|70P9}
+151V16*Internal{integer} 152>11 153>11 154>11 155b<c,gtk_accel_group_disconnect_key>25
+. 157s27
+152m11 Accel_Group{36|64M9}
+153m11 Accel_Key{10|62M9}
+154m11 Accel_Mods{9|149M9}
+169V16*Internal{27|57R9} 170>11 171>11 172>11 173b<c,gtk_accel_group_find>25
+. 175s14
+170m11 Accel_Group{36|64M9}
+171p11 Find_Func{27|79P9}
+172m11 Data{36|64M9}
+185V16*Internal{integer} 185>26 186b<c,gtk_accel_group_get_is_locked>25 188s27
+185m26 Accel_Group{36|64M9}
+199V16*Internal{9|149M9} 200>11 201b<c,gtk_accel_group_get_modifier_mask>25
+. 203s14
+200m11 Accel_Group{36|64M9}
+211U17*Internal 211>27 212b<c,gtk_accel_group_lock>25 214s7
+211m27 Accel_Group{36|64M9}
+222U17*Internal 222>27 223b<c,gtk_accel_group_unlock>25 225s7
+222m27 Accel_Group{36|64M9}
+237V16*Internal{integer} 238>11 239>11 240>11 241b<c,gtk_accel_groups_activate>25
+. 243s27
+238m11 Object{36|64M9}
+239m11 Accel_Key{9|146M9}
+240m11 Accel_Mods{9|149M9}
+254V16*Internal{35|47P9} 255>11 256>11 258b<c,gtk_accelerator_get_label>25
+. 260s42
+255m11 Accelerator_Key{9|146M9}
+256m11 Accelerator_Mods{9|149M9}
+271V16*Internal{35|47P9} 272>11 273>11 275b<c,gtk_accelerator_name>25 277s42
+272m11 Accelerator_Key{9|146M9}
+273m11 Accelerator_Mods{9|149M9}
+289U17*Internal 290>11 291<11 292<11 293b<c,gtk_accelerator_parse>25 296s7
+290p11 Accelerator{35|47P9}
+291m11 Accelerator_Key{9|146M9}
+292m11 Accelerator_Mods{9|149M9}
+294p7 Tmp_Accelerator{35|47P9} 296r17 297m13 297r13
+308V16*Internal{integer} 309>11 310>11 311b<c,gtk_accelerator_valid>25 313s27
+309m11 Keyval{9|146M9}
+310m11 Modifiers{9|149M9}
+324V16*Internal{36|64M9} 325>11 326b<c,gtk_accel_group_from_accel_closure>25
+. 329s62
+325p11 Closure{27|70P9}
+327r7 Stub{27|49R9} 329r82
+340V16*Internal{36|64M9} 340>26 341b<c,gtk_accel_groups_from_object>25 344s55
+340m26 Object{36|64M9}
+342r7 Tmp_Return{16|59R12[18|424]} 344m43 344r43 345r14
+353V16*Internal{9|149M9} 354b<c,gtk_accelerator_get_default_mod_mask>25 356s14
+366U17*Internal 366>27 367b<c,gtk_accelerator_set_default_mod_mask>25 369s7
+366m27 Default_Mod_Mask{9|149M9}
+X 33 interfac.ads
+38K9*Interfaces 28|33r6 33r38 117r25 120r24 257r18 260r14 274r18 277r14 290r30
+. 294r25 33|179e15
+X 34 i-c.ads
+18K20*C 28|33r17 33r49 117r36 120r35 257r29 260r25 274r29 277r25 290r41 294r36
+. 34|230e17
+43M9*unsigned
+60M9*size_t
+X 35 i-cstrin.ads
+36K22*Strings 28|33w19 33r51 117r38 120r37 257r31 260r27 274r31 277r27 290r43
+. 294r38 35|106e25
+47P9*chars_ptr 28|117r46 120r45 257r39 274r39 290r51 294r46
+60V13*New_String{47P9} 28|120s58 294s59
+62U14*Free 28|123s7 297s7
+74V13*Value{string} 28|260s35 277s35
+X 36 system.ads
+37K9*System 27|71r23 72r23 82r23 174r22 28|56r32 74r27 76r27 96r25 116r25
+. 135r25 152r25 167r22 170r25 172r25 185r40 200r25 211r41 222r41 238r24 325r56
+. 340r35 340r58 36|152e11
+64M9*Address 27|71r30 72r30 82r30 174r29 28|56r39 74r34 76r34 96r32 116r32
+. 135r32 152r32 167r29 170r32 172r32 185r47 200r32 211r48 222r48 238r31 325r63
+. 340r42 340r65
+X 40 s-memory.ads
+53V13*Alloc{36|64M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{36|64M9} 105i<c,__gnat_realloc>22
+

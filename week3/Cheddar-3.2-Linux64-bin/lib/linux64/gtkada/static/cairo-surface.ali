@@ -1,0 +1,155 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV SPARK_05
+
+U cairo.surface%s	cairo-surface.ads	9df6073e NE OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W cairo%s		cairo.adb		cairo.ali
+W system%s		system.ads		system.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D cairo.ads		20141212124939 8dc0603a cairo%s
+D cairo-surface.ads	20141212124940 8012f615 cairo.surface%s
+D glib.ads		20141212124939 0f441d83 glib%s
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D i-cstrin.ads		20140406181357 341d0ddf interfaces.c.strings%s
+D system.ads		20140406181354 90249111 system%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 8 cairo.ads
+78K9*Cairo 2813e10 9|40r9 444r5
+91M9*Cairo_Surface<14|64M9> 9|88r17 92r17 116r34 116r56 128r32 146r33 153r44
+. 163r31 174r33 184r36 196r17 209r19 228r17 240r31 250r36 258r17 278r18 298r18
+. 311r27 346r27 359r35 372r35 384r17
+148P9*Cairo_Destroy_Func 9|212r19
+155R9*Cairo_User_Data_Key 157e14 9|197r24 210r26
+176E9*Cairo_Status 274e7 9|163r53 212r46
+276M12*Cairo_Content{10|62M9} 9|89r17 184r58
+1425B9*Cairo_Bool<boolean> 9|385r17
+1933M9*Cairo_Font_Options<14|64M9> 9|229r24
+X 9 cairo-surface.ads
+40K15*Surface 8|78k9 9|407E38 444l11 444e18
+46E9*Cairo_Surface_Type 60e39 61r26 174r55
+47n7*Cairo_Surface_Type_Image{46E9}
+48n7*Cairo_Surface_Type_Pdf{46E9}
+49n7*Cairo_Surface_Type_Ps{46E9}
+50n7*Cairo_Surface_Type_Xlib{46E9}
+51n7*Cairo_Surface_Type_Xcb{46E9}
+52n7*Cairo_Surface_Type_Glitz{46E9}
+53n7*Cairo_Surface_Type_Quartz{46E9}
+54n7*Cairo_Surface_Type_Win32{46E9}
+55n7*Cairo_Surface_Type_Beos{46E9}
+56n7*Cairo_Surface_Type_Directfb{46E9}
+57n7*Cairo_Surface_Type_Svg{46E9}
+58n7*Cairo_Surface_Type_Os2{46E9}
+59n7*Cairo_Surface_Type_Win32_Printing{46E9}
+60n7*Cairo_Surface_Type_Quartz_Image{46E9}
+87V13*Create_Similar{8|91M9} 88>7 89>7 90>7 91>7 407b<c,cairo_surface_create_similar>22
+88m7 Other{8|91M9}
+89m7 Content{8|276M12}
+90i7 Width{10|56I9}
+91i7 Height{10|56I9}
+116V13*Reference{8|91M9} 116>24 408b<c,cairo_surface_reference>22
+116m24 Surface{8|91M9}
+128U14*Finish 128>22 409b<c,cairo_surface_finish>22
+128m22 Surface{8|91M9}
+146U14*Destroy 146>23 410b<c,cairo_surface_destroy>22
+146m23 Surface{8|91M9}
+153V13*Get_Reference_Count{10|62M9} 153>34 413b<c,cairo_surface_get_reference_count>7
+153m34 Surface{8|91M9}
+163V13*Status{8|176E9} 163>21 415b<c,cairo_surface_status>22
+163m21 Surface{8|91M9}
+174V13*Get_Type{46E9} 174>23 416b<c,cairo_surface_get_type>22
+174m23 Surface{8|91M9}
+184V13*Get_Content{8|276M12} 184>26 417b<c,cairo_surface_get_content>22
+184m26 Surface{8|91M9}
+195V13*Get_User_Data{14|64M9} 196>7 197^7 418b<c,cairo_surface_get_user_data>22
+196m7 Surface{8|91M9}
+197p7 Key(8|155R9)
+208V13*Set_User_Data{8|176E9} 209>7 210^7 211>7 212>7 419b<c,cairo_surface_set_user_data>22
+209m7 Surface{8|91M9}
+210p7 Key(8|155R9)
+211m7 User_Data{14|64M9}
+212p7 Destroy{8|148P9}
+227U14*Get_Font_Options 228>7 229^7 420b<c,cairo_surface_get_font_options>22
+228m7 Surface{8|91M9}
+229p7 Options(8|1933M9)
+240U14*Flush 240>21 421b<c,cairo_surface_flush>22
+240m21 Surface{8|91M9}
+250U14*Mark_Dirty 250>26 422b<c,cairo_surface_mark_dirty>22
+250m26 Surface{8|91M9}
+257U14*Mark_Dirty_Rectangle 258>7 259>7 260>7 261>7 262>7 425b<c,cairo_surface_mark_dirty_rectangle>7
+258m7 Surface{8|91M9}
+259i7 X{10|56I9}
+260i7 Y{10|56I9}
+261i7 Width{10|56I9}
+262i7 Height{10|56I9}
+277U14*Set_Device_Offset 278>7 279>7 280>7 427b<c,cairo_surface_set_device_offset>22
+278m7 Surface{8|91M9}
+279f7 X_Offset{10|66F9}
+280f7 Y_Offset{10|66F9}
+297U14*Get_Device_Offset 298>7 299^7 300^7 428b<c,cairo_surface_get_device_offset>22
+298m7 Surface{8|91M9}
+299p7 X_Offset(10|66F9)
+300p7 Y_Offset(10|66F9)
+310U14*Set_Fallback_Resolution 311>7 312>7 313>7 431b<c,cairo_surface_set_fallback_resolution>7
+311m7 Surface{8|91M9}
+312f7 X_Pixels_Per_Inch{10|66F9}
+313f7 Y_Pixels_Per_Inch{10|66F9}
+345U14*Get_Fallback_Resolution 346>7 347^7 348^7 435b<c,cairo_surface_get_fallback_resolution>7
+346m7 Surface{8|91M9}
+347p7 X_Pixels_Per_Inch(10|66F9)
+348p7 Y_Pixels_Per_Inch(10|66F9)
+359U14*Copy_Page 359>25 437b<c,cairo_surface_copy_page>22
+359m25 Surface{8|91M9}
+372U14*Show_Page 372>25 438b<c,cairo_surface_show_page>22
+372m25 Surface{8|91M9}
+383V13*Has_Show_Text_Glyphs{8|1425E9} 384>7 441b<c,cairo_surface_has_show_text_glyphs>7
+384m7 Surface{8|91M9}
+X 10 glib.ads
+56I9*Gint<12|35I9> 9|90r17 91r17 259r17 260r17 261r17 262r17
+62M9*Guint<12|43M9> 9|153r66
+66F9*Gdouble<12|65F9> 9|279r18 280r18 299r25 300r25 312r27 313r27 347r34
+. 348r34
+X 12 i-c.ads
+35I9*int<integer>
+43M9*unsigned
+65F9*double<long_float>
+X 14 system.ads
+37K9*System 9|38w6 197r52 211r19 14|152e11
+64M9*Address 9|197r59 211r26
+

@@ -1,0 +1,779 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P SS ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_ALLOCATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_IMPLICIT_HEAP_ALLOCATIONS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_CONVERSION
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV NO_ELABORATION_CODE
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U gtk.tree_view_column%b  gtk-tree_view_column.adb  ec5b0ef8 OO PK
+W ada%s			ada.ads			ada.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.unchecked_deallocation%s
+W glib%s		glib.adb		glib.ali
+W glib.type_conversion_hooks%s  glib-type_conversion_hooks.adb  glib-type_conversion_hooks.ali  AD
+W gtk%s			gtk.ads			gtk.ali
+W gtk.cell_renderer%s	gtk-cell_renderer.adb	gtk-cell_renderer.ali
+W gtk.tree_model%s	gtk-tree_model.adb	gtk-tree_model.ali
+W gtk.widget%s		gtk-widget.adb		gtk-widget.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+W system%s		system.ads		system.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+U gtk.tree_view_column%s  gtk-tree_view_column.ads  40134315 BN EE OO PF PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.unchecked_conversion%s
+W gdk%s			gdk.ads			gdk.ali
+W gdk.rectangle%s	gdk-rectangle.adb	gdk-rectangle.ali
+W glib%s		glib.adb		glib.ali
+W glib.generic_properties%s  glib-generic_properties.adb  glib-generic_properties.ali  AD
+W glib.glist%s		glib-glist.adb		glib-glist.ali  EA
+W glib.properties%s	glib-properties.adb	glib-properties.ali
+W gtk%s			gtk.ads			gtk.ali
+W gtk.cell_renderer%s	gtk-cell_renderer.adb	gtk-cell_renderer.ali
+W gtk.enums%s		gtk-enums.adb		gtk-enums.ali
+W gtk.object%s		gtk-object.adb		gtk-object.ali
+W gtk.tree_model%s	gtk-tree_model.adb	gtk-tree_model.ali
+W gtk.widget%s		gtk-widget.adb		gtk-widget.ali
+W system%s		system.ads		system.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D cairo.ads		20141212124939 8dc0603a cairo%s
+D cairo-region.ads	20141212124939 b7133728 cairo.region%s
+D gdk.ads		20141212124940 f909352d gdk%s
+D gdk-bitmap.ads	20141212124940 a30f71c4 gdk.bitmap%s
+D gdk-color.ads		20141212124939 8aa593ee gdk.color%s
+D gdk-cursor.ads	20141212124939 d92b2ac1 gdk.cursor%s
+D gdk-display.ads	20141212124940 f1fc98fd gdk.display%s
+D gdk-drawable.ads	20141212124940 15e54888 gdk.drawable%s
+D gdk-event.ads		20141212124940 8e0f7bb6 gdk.event%s
+D gdk-font.ads		20141212124940 46e43fa8 gdk.font%s
+D gdk-gc.ads		20141212124939 a96f1ba5 gdk.gc%s
+D gdk-pixbuf.ads	20141212124940 8572dcfc gdk.pixbuf%s
+D gdk-pixmap.ads	20141212124939 677b62c0 gdk.pixmap%s
+D gdk-rectangle.ads	20141212124939 7b900608 gdk.rectangle%s
+D gdk-region.ads	20141212124939 ff429b15 gdk.region%s
+D gdk-rgb.ads		20141212124939 724abbe3 gdk.rgb%s
+D gdk-types.ads		20141212124940 b1082506 gdk.types%s
+D gdk-visual.ads	20141212124939 615e934c gdk.visual%s
+D gdk-window.ads	20141212124940 a02582f1 gdk.window%s
+D glib.ads		20141212124939 0f441d83 glib%s
+D glib.adb		20141212124939 b4331f78 glib%b
+D glib-error.ads	20141212124939 e055fabe glib.error%s
+D glib-generic_properties.ads  20141212124939 a1807006 glib.generic_properties%s
+D glib-generic_properties.adb  20141212124939 b44dec2c glib.generic_properties%b
+D glib-glist.ads	20141212124940 65a6e1be glib.glist%s
+D glib-glist.adb	20141212124940 48a94e23 glib.glist%b
+D glib-gslist.ads	20141212124940 8fe7d6f1 glib.gslist%s
+D glib-gslist.adb	20141212124940 b4c9a81c glib.gslist%b
+D glib-object.ads	20141212124940 948e384a glib.object%s
+D glib-object.adb	20141212124939 425ed48d glib.object%b
+D glib-properties.ads	20141212124940 48c8d9fb glib.properties%s
+D glib-type_conversion_hooks.ads  20141212124939 df9131bc glib.type_conversion_hooks%s
+D glib-type_conversion_hooks.adb  20141212124939 e61e501b glib.type_conversion_hooks%b
+D glib-types.ads	20141212124939 497ce66f glib.types%s
+D glib-values.ads	20141212124939 37b4897e glib.values%s
+D gnat.ads		20140406181359 fd2ad2f1 gnat%s
+D g-string.ads		20140406181356 c6abc540 gnat.strings%s
+D gtk.ads		20141212124940 81513fe2 gtk%s
+D gtk-accel_group.ads	20141212124940 db8139a9 gtk.accel_group%s
+D gtk-adjustment.ads	20141212124940 6a3f2d37 gtk.adjustment%s
+D gtk-cell_editable.ads	20141212124940 16b4fe5e gtk.cell_editable%s
+D gtk-cell_renderer.ads	20141212124939 3320f36f gtk.cell_renderer%s
+D gtk-cell_renderer.adb	20141212124939 c8766ac2 gtk.cell_renderer%b
+D gtk-enums.ads		20141212124940 31c39095 gtk.enums%s
+D gtk-object.ads	20141212124940 2b4b2b20 gtk.object%s
+D gtk-style.ads		20141212124939 f697ed25 gtk.style%s
+D gtk-tree_model.ads	20141212124939 c173923c gtk.tree_model%s
+D gtk-tree_view_column.ads  20141212124940 e0d60443 gtk.tree_view_column%s
+D gtk-tree_view_column.adb  20141212124940 b3f6fb54 gtk.tree_view_column%b
+D gtk-widget.ads	20141212124939 468b5cfd gtk.widget%s
+D gtkada.ads		20141212124939 57aea1c7 gtkada%s
+D gtkada-bindings.ads	20141212124940 516dc70c gtkada.bindings%s
+D gtkada-c.ads		20141212124940 0f5973e3 gtkada.c%s
+D gtkada-types.ads	20141212124940 b7bc0c77 gtkada.types%s
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D i-cstrin.ads		20140406181357 341d0ddf interfaces.c.strings%s
+D pango.ads		20141212124939 d3c8e76d pango%s
+D pango-attributes.ads	20141212124939 34135516 pango.attributes%s
+D pango-context.ads	20141212124940 a00383e5 pango.context%s
+D pango-enums.ads	20141212124940 8ef2dddf pango.enums%s
+D pango-font.ads	20141212124940 375007f3 pango.font%s
+D pango-layout.ads	20141212124939 0814381c pango.layout%s
+D pango-tabs.ads	20141212124940 1dd550ef pango.tabs%s
+D system.ads		20140406181354 90249111 system%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-memory.ads		20140406181359 597d6634 system.memory%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-secsta.ads		20140406181359 86a2856d system.secondary_stack%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20140406181358 aedef97e system.stream_attributes%s
+D s-string.ads		20140406181358 8fe54fb7 system.strings%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D s-unstyp.ads		20140406181356 510692af system.unsigned_types%s
+D unchconv.ads		20140406181355 ca2f9e18 unchecked_conversion%s
+D unchdeal.ads		20140406181359 214516a4 unchecked_deallocation%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 1 ada.ads
+16K9*Ada 19e8 55|73r6 81r28 83r28 56|30r6 52r28 230r29 233r29
+X 6 a-unccon.ads
+20v14*Unchecked_Conversion 55|73w10 81r32 83r32 56|52r32
+X 7 a-uncdea.ads
+20u15*Unchecked_Deallocation 56|30w10 230r33 233r33
+X 10 gdk.ads
+40K9*Gdk 66e8 55|63r6 447r21 56|828r21 836r24
+47P9*Gdk_Drawable<27|155P9>
+56P9*Gdk_Visual<27|155P9>
+X 21 gdk-rectangle.ads
+34K13*Rectangle 66e18 55|63w10 447r25 56|828r25 836r28
+36R12*Gdk_Rectangle{9|55R9} 55|447r35 56|828r35 836r38
+X 25 gdk-visual.ads
+83V13*Convert[91|20]{72|64M9} 32|63i21
+84V13*Convert[91|20]{10|56P9} 32|64i21
+X 26 gdk-window.ads
+537V13*Convert[91|20]{72|64M9} 32|63i21
+538V13*Convert[91|20]{10|47P9} 32|64i21
+X 27 glib.ads
+43K9*Glib 408e9 55|61r6 62r6 71r6 85r31 97r29 550r6 554r39 555r39 556r39
+. 557r39 558r39 559r39 560r39 561r39 563r39 565r39 566r39 567r39 568r39 569r39
+. 583r30 589r37 590r6 591r34 592r6 593r31 594r6 595r36 596r6 597r34 598r6
+. 599r34 600r6 601r36 602r6 603r34 604r6 607r39 608r6 611r32 612r6 613r30
+. 614r6 615r32 616r6 617r31 618r6 619r30 620r6 56|38r6 42r35
+56I9*Gint<63|35I9> 55|186r23 272r21 274r64 302r64 312r21 314r64 325r21 327r64
+. 333r21 335r64 401r24 403r64 448r25 449r25 450r25 451r25 462r27 463r27 56|156r23
+. 162r26 322r21 326r24 338r64 340r63 444r64 446r63 457r64 459r63 471r21 475r24
+. 488r21 492r24 504r64 506r63 518r21 522r24 534r64 536r63 711r24 715r27 727r64
+. 729r63 829r25 830r25 831r25 832r25 837r28 838r28 839r28 840r28 872r27 873r27
+. 879r33 880r33 882r22
+58I9*Gboolean<56I9> 56|88r24 109r24 356r24 370r63 386r24 400r63 594r24 608r63
+. 685r24 699r63 745r24 759r63 810r24 811r24 859r63 880r46 916r63 941r66
+65F9*Gfloat<63|64F9> 55|384r21 386r64 56|651r21 655r24 667r64 669r63
+75M9*Guint32
+78M9*Gsize<63|60M9>
+82A12*UTF8_String{string}<integer> 55|357r21 359r64 56|559r21 563r24 575r64
+155P9*C_Proxy(152R9)
+214A9*Signal_Name<string>(character)<integer> 55|583r35
+238A9*Property<string>
+240V13*Build{238A9} 55|590s22 592s22 594s22 596s22 598s22 600s22 602s22 604s22
+. 606s6 608s22 610s16 612s22 614s22 616s22 618s22 620s22
+269M9*GType<78M9> 55|97r34
+X 30 glib-generic_properties.ads
+56K14*Generic_Properties 220e28 55|62w11 550r11
+71k12*Generic_Internal_Discrete_Property 91e42 55|550r30
+73A12*Property<27|238A9> 55|552r64[549]
+X 32 glib-glist.ads
+57K14*Glist 230e15 55|71w11 85r36
+68k12*Generic_List 228e20 55|85r42
+70R12*Glist 55|147r51[49|81] 56|135r51[49|81] 140r51[49|81]
+215U17*Set_Object 56|143s44[49|81]
+X 36 glib-object.ads
+46P9*GObject(45R9)
+83U14*Ref
+89U14*Unref
+117U14*Deallocate
+130U14*Ref_Sink
+146V13*Get_Object{72|64M9} 56|92s17 93s17 113s17 114s17 126s17 144s26 166s17
+. 167s17 214s13 214s39 219s13 219s39 290s13 290s39 313s17 313s43 330s17 343s24
+. 360s17 373s24 390s17 403s24 420s17 436s24 449s24 462s24 479s17 496s17 509s24
+. 526s17 539s24 550s17 567s17 581s31 598s17 611s24 628s17 628s43 642s40 659s17
+. 672s24 689s17 702s24 719s17 732s24 749s17 762s24 779s17 792s24 815s17 816s17
+. 844s17 862s24 886s13 886s39 905s17 905s43 919s37 930s17 944s17
+153U14*Set_Object 56|73s7
+166V13*Get_User_Data_Fast{46P9} 56|184s31 186s28 188s25 257s34 259s31 261s28
+329U14*Notify
+421V13*Convert{72|64M9} 32|63i21 34|55i21
+422V13*Convert{46P9} 32|64i21 34|56i21
+X 38 glib-properties.ads
+79K14*Properties 243e20 55|61w11 554r44 555r44 556r44 557r44 558r44 559r44
+. 560r44 561r44 563r44 565r44 566r44 567r44 568r44 569r44 589r42 590r11 591r39
+. 592r11 593r36 594r11 595r41 596r11 597r39 598r11 599r39 600r11 601r41 602r11
+. 603r39 604r11 607r44 608r11 611r37 612r11 613r35 614r11 615r37 616r11 617r36
+. 618r11 619r35 620r11
+111A9*Property_Int<30|73A12[90]> 55|557r55 558r55 559r55 565r55 569r55 595r52
+. 597r50 599r50 611r48 619r46
+122A9*Property_String<27|238A9> 55|566r55 613r46
+123A9*Property_Boolean<27|238A9> 55|555r55 556r55 560r55 561r55 563r55 567r55
+. 591r50 593r47 601r52 603r50 607r55 615r48
+124A9*Property_Object<27|238A9> 55|568r55 617r47
+127A9*Property_Float<27|238A9> 55|554r55 589r53
+X 39 glib-type_conversion_hooks.ads
+51K14*Type_Conversion_Hooks 105e31 56|38w11 42r40
+88k12*Hook_Registrator 103e24 56|42r62
+X 45 gtk.ads
+47K9*Gtk 83e8 55|64w6 65r6 66r6 66r21 67r6 68r6 69r6 75r9 78r10 127r28 136r28
+. 147r14 184r30 202r28 203r28 204r21 213r28 228r31 229r31 230r24 235r31 262r30
+. 374r28 377r15 435r28 436r21 461r30 471r28 564r39 587r10 609r35 610r6 623r5
+. 56|33w6 33r32 34r6 34r32 35r6 35r32 36r6 36r32 40r14 62r7 82r28 103r28
+. 135r14 140r14 143r7 154r30 179r16 200r28 252r19 285r31 305r30 620r28 637r14
+. 801r28 802r21 809r24 947r5
+67M12*Gtk_Type{27|269M9}
+X 49 gtk-cell_renderer.ads
+73K13*Cell_Renderer 359e22 55|65w10 127r32 136r32 147r18 184r34 202r32 213r32
+. 228r35 235r35 262r34 461r34 471r32 56|34w10 34r36 82r32 103r32 135r18 140r18
+. 143r11 154r34 200r32 285r35 305r34
+75R9*Gtk_Cell_Renderer_Record<52|105R9> 321e55 55|127r46 136r46 184r48 202r46
+. 213r46 228r49 235r49 262r48 461r48 471r46 56|82r46 103r46 154r48 180r16
+. 200r46 253r19 285r49 305r48 871r30 898r28
+77P9*Gtk_Cell_Renderer(75R9) 56|185r20 186r9 258r23 259r12
+79V13*Convert{72|64M9} 32|63i21
+80V13*Convert{77P9} 32|64i21
+81K12*Cell_Renderer_List[32|68] 55|147r32 56|135r32 140r32 143r25
+X 51 gtk-enums.ads
+45K13*Enums 649e14 55|66w10 66r25 564r43 609r39 610r10
+421E9*Gtk_Sort_Type 423e23 55|420r21 422r64 56|771r21 775r24 787r64 789r63
+448V13*Convert{72|64M9} 32|63i21 34|55i21
+449V13*Convert{string} 32|64i21 34|56i21
+587A9*Property_Sort_Type<30|73A12[553]> 55|564r49 609r45
+X 52 gtk-object.ads
+103K13*Object 303e15 55|67w10 78r14 587r14
+105R9*Gtk_Object_Record<36|45R9> 295e77 55|78r21 587r21
+106P9*Gtk_Object(105R9)
+108U14*Destroy
+134V13*Get_Type{45|67M12}<36|59p13>
+143V13*Convert{72|64M9} 34|55i21
+144V13*Convert{106P9} 34|56i21
+172V13*Flags{27|75M9}
+175U14*Set_Flags
+179U14*Unset_Flags
+184V13*Flag_Is_Set{boolean}
+248U14*Sink
+X 54 gtk-tree_model.ads
+62K13*Tree_Model 541e19 55|68w10 203r32 204r25 229r35 230r28 435r32 436r25
+. 56|35w10 35r36 179r20 252r23 801r32 802r25 809r28
+64R9*Gtk_Tree_Model_Record<36|45R9> 508e22 55|203r43 229r46 435r43 56|179r31
+. 252r34 801r43
+66P9*Gtk_Tree_Model(64R9) 56|187r20 188r9 260r23 261r12
+69P9*Gtk_Tree_Path<27|155P9>
+70R9*Gtk_Tree_Iter 515e14 55|204r36 230r39 436r36 56|51r44 802r36 809r39
+188V13*Convert[6|20]{72|64M9} 32|63i21
+190V13*Convert[6|20]{69P9} 32|64i21
+X 55 gtk-tree_view_column.ads
+75K13*Tree_View_Column 45|47k9 55|586E9 623l9 623e25 56|40b18 62r11 947l9
+. 947t25
+77R9*Gtk_Tree_View_Column_Record<52|105R9> 36|83p14 89p14 117p14 130p14 329p14
+. 52|108p14 134P13 172p13 175p14 179p14 184p13 248p14 55|79r44 94r42 125p14
+. 126r28 134p14 135r28 141p14 141r42 145p13 146r28 182p14 183r30 201r28 211p14
+. 212r28 227r31 234r31 260p14 261r30 270p14 271r28 273p13 274r28 279p14 280r28
+. 282p13 283r28 286p14 287r28 289p13 290r28 293p14 294r28 296p13 297r28 301p13
+. 302r28 305p14 306r28 310p14 311r28 313p13 314r28 323p14 324r28 326p13 327r28
+. 331p14 332r28 334p13 335r28 341p14 341r44 346p14 347r28 348p13 349r28 355p14
+. 356r28 358p13 359r28 363p14 364r28 366p13 367r28 372p14 373r28 375p13 376r28
+. 382p14 383r28 385p13 386r28 391p14 392r28 394p13 395r28 399p14 400r31 402p13
+. 403r28 409p14 410r28 412p13 413r28 418p14 419r28 421p13 422r28 433p14 434r28
+. 445p14 446r28 455p13 456r28 459p14 460r30 469p14 470r28 586c9 587e55 56|43r24
+. 61r21 69r42 81r28 102r28 122r42 134r28 153r30 181r16 199r28 254r19 284r31
+. 304r30 321r28 338r28 351r28 368r28 381r28 398r28 411r28 428r28 444r28 457r28
+. 470r28 487r28 504r28 517r28 534r28 546r44 558r28 575r28 589r28 606r28 619r28
+. 636r28 650r28 667r28 680r28 697r28 710r31 727r28 740r28 757r28 770r28 787r28
+. 800r28 827r28 857r28 870r30 897r28 913r28 926r49 938r28
+79P9*Gtk_Tree_View_Column(77R9) 82r7 84r23 85r56 93r36 56|59r36 183r20 184r9
+. 256r23 257r12
+81V13*Convert[6|20]{72|64M9} 32|63i21
+83V13*Convert[6|20]{79P9} 32|64i21
+85K12*Column_List[32|68]
+87E9*Gtk_Tree_View_Column_Sizing 90e30 91r26 295r21 298r14 551r9 56|412r21
+. 416r24 429r14 432r47
+88n7*Tree_View_Column_Grow_Only{87E9}
+89n7*Tree_View_Column_Autosize{87E9}
+90n7*Tree_View_Column_Fixed{87E9}
+93U14*Gtk_New 93<23 56|59b14 63l8 63t15
+93p23 Widget{79P9} 56|59b23 61m7 62r40
+94U14*Initialize 94^26 56|62s28 69b14 74l8 74t18
+94p26 Widget(77R9) 56|69b26 73r19
+97V13*Get_Type{27|269M9} 622b<c,gtk_tree_view_column_get_type>22 56|43r7
+125U14*Pack_Start 126^7 127^7 128>7 56|80b14 95l8 95t18
+126p7 Tree_Column(77R9) 56|81b7 92r29
+127p7 Cell(49|75R9) 56|82b7 93r29
+128b7 Expand{boolean} 56|83b7 94r30
+134U14*Pack_End 135^7 136^7 137>7 56|101b14 116l8 116t16
+135p7 Tree_Column(77R9) 56|102b7 113r29
+136p7 Cell(49|75R9) 56|103b7 114r29
+137b7 Expand{boolean} 56|104b7 115r30
+141U14*Clear 141^21 56|122b14 127l8 127t13
+141p21 Tree_Column(77R9) 56|122b21 126r29
+145V13*Get_Cell_Renderers{32|70R12[49|81]} 146^7 148r24 56|133b13 146l8 146t26
+146p7 Tree_Column(77R9) 56|134b7 144r38
+182U14*Add_Attribute 183^7 184^7 185>7 186>7 56|152b14 170l8 170t21
+183p7 Tree_Column(77R9) 56|153b7 166r29
+184p7 Cell_Renderer(49|75R9) 56|154b7 167r29
+185a7 Attribute{string} 56|155b7 168r17
+186i7 Column{27|56I9} 56|156b7 169r17
+200P9*Cell_Data_Func 201^7 202^7 203^7 204>7 214r21 56|47r63 177r63 201r21
+201p7 Tree_Column(77R9)
+202p7 Cell(49|75R9)
+203p7 Model(54|64R9)
+204r7 Iter{54|70R9}
+211U14*Set_Cell_Data_Func 212^7 213^7 214>7 56|198b14 223l8 223t26
+212p7 Tree_Column(77R9) 56|199b7 214r25 219r25
+213p7 Cell(49|75R9) 56|200b7 214r51 219r51
+214p7 Func{200P9} 56|201b7 212r10 220r46
+224+12 Data_Type 231r24 237r24 241r39 56|231r10 287r24 293r42
+225k12*Cell_Data_Functions 224z12 241E12 258l8 258e27 56|229b17 297l8 297t27
+226P12*Cell_Data_Func 227^10 228^10 229^10 230>10 231>10 236r24 244r17 56|286r24
+227p10 Tree_Column(77R9)
+228p10 Cell(49|75R9)
+229p10 Model(54|64R9)
+230r10 Iter{54|70R9}
+231*10 Data{224+12}
+233U17*Set_Cell_Data_Func 234^10 235^10 236>10 237>10 56|283b17 295l11 295t29
+234p10 Tree_Column(77R9) 56|284b10 290r25
+235p10 Cell(49|75R9) 56|285b10 290r51
+236p10 Func{226P12} 56|286b10 293r24
+237*10 Data{224+12} 56|287b10 293r53
+241P12 Data_Type_Access(224+12) 245r17 56|231r21
+243R12 Data_Type_Record 246e17 247r46 56|234r10 292r17
+244p10 Func{226P12} 56|265r15 293m16
+245p10 Data{241P12} 56|265r42 275m18 293m30
+247P12 Data_Type_Record_Access(243R12) 248r29 250r49 255r17 56|234r28 240r26
+. 250r17 272r49 273r14
+250U17 Internal_Destroy_Notify 250>42 251r29 56|272b17 277l11 277t34 294r13
+250p42 Data{247P12} 56|272b42 273r41
+253U17 Internal_Data_Cell_Data_Func 254>10 254>23 254>29 254>36 255>10 256r29
+. 56|248b17 266l11 266t39 291r13
+254m10 Tree_Column{72|64M9} 56|249b10 257r54
+254m23 Cell{72|64M9} 56|249b23 259r51
+254m29 Model{72|64M9} 56|249b29 261r48
+254m36 Iter{72|64M9} 56|249b36 262r56
+255p10 Data{247P12} 56|250b10 265r10 265r37
+260U14*Clear_Attributes 261^7 262^7 56|303b14 314l8 314t24
+261p7 Tree_Column(77R9) 56|304b7 313r29
+262p7 Cell_Renderer(49|75R9) 56|305b7 313r55
+270U14*Set_Spacing 271^7 272>7 56|320b14 331l8 331t19
+271p7 Tree_Column(77R9) 56|321b7 330r29
+272i7 Spacing{27|56I9} 56|322b7 330r43
+273V13*Get_Spacing{27|56I9} 274^7 56|337b13 344l8 344t19
+274p7 Tree_Column(77R9) 56|338b7 343r36
+279U14*Set_Visible 280^7 281>7 56|350b14 361l8 361t19
+280p7 Tree_Column(77R9) 56|351b7 360r29
+281b7 Visible{boolean} 56|352b7 360r56
+282V13*Get_Visible{boolean} 283^7 56|367b13 374l8 374t19
+283p7 Tree_Column(77R9) 56|368b7 373r36
+286U14*Set_Resizable 287^7 288>7 56|380b14 391l8 391t21
+287p7 Tree_Column(77R9) 56|381b7 390r29
+288b7 Resizable{boolean} 56|382b7 390r56
+289V13*Get_Resizable{boolean} 290^7 56|397b13 404l8 404t21
+290p7 Tree_Column(77R9) 56|398b7 403r36
+293U14*Set_Sizing 294^7 295>7 56|410b14 421l8 421t18
+294p7 Tree_Column(77R9) 56|411b7 420r29
+295e7 The_Type{87E9} 56|412b7 420r43
+296V13*Get_Sizing{87E9} 297^7 56|427b13 437l8 437t18
+297p7 Tree_Column(77R9) 56|428b7 436r36
+301V13*Get_Width{27|56I9} 302^7 56|443b13 450l8 450t17
+302p7 Tree_Column(77R9) 56|444b7 449r36
+305U14*Queue_Resize 306^7 56|926b14 931l8 931t20
+306p7 Tree_Column(77R9) 56|926b28 930r29
+310U14*Set_Fixed_Width 311^7 312>7 56|469b14 480l8 480t23
+311p7 Tree_Column(77R9) 56|470b7 479r29
+312i7 Fixed_Width{27|56I9} 56|471b7 479r43
+313V13*Get_Fixed_Width{27|56I9} 314^7 56|456b13 463l8 463t23
+314p7 Tree_Column(77R9) 56|457b7 462r36
+323U14*Set_Min_Width 324^7 325>7 56|486b14 497l8 497t21
+324p7 Tree_Column(77R9) 56|487b7 496r29
+325i7 Min_Width{27|56I9} 56|488b7 496r43
+326V13*Get_Min_Width{27|56I9} 327^7 56|503b13 510l8 510t21
+327p7 Tree_Column(77R9) 56|504b7 509r36
+331U14*Set_Max_Width 332^7 333>7 56|516b14 527l8 527t21
+332p7 Tree_Column(77R9) 56|517b7 526r29
+333i7 Max_Width{27|56I9} 56|518b7 526r43
+334V13*Get_Max_Width{27|56I9} 335^7 56|533b13 540l8 540t21
+335p7 Tree_Column(77R9) 56|534b7 539r36
+341U14*Clicked 341^23 56|546b14 551l8 551t15
+341p23 Tree_Column(77R9) 56|546b23 550r29
+346U14*Set_Expand 347^7 347>57 56|937b14 945l8 945t18
+347p7 Tree_Column(77R9) 56|938b7 944r29
+347b57 Expand{boolean} 56|939b7 944r56
+348V13*Get_Expand{boolean} 349^7 56|912b13 920l8 920t18
+349p7 Tree_Column(77R9) 56|913b7 919r49
+355U14*Set_Title 356^7 357>7 56|557b14 568l8 568t17
+356p7 Tree_Column(77R9) 56|558b7 567r29
+357a7 Title{27|82A12} 56|559b7 567r43
+358V13*Get_Title{27|82A12} 359^7 56|574b13 582l8 582t17
+359p7 Tree_Column(77R9) 56|575b7 581r43
+363U14*Set_Clickable 364^7 365>7 56|588b14 599l8 599t21
+364p7 Tree_Column(77R9) 56|589b7 598r29
+365b7 Clickable{boolean} 56|590b7 598r56
+366V13*Get_Clickable{boolean} 367^7 56|605b13 612l8 612t21
+367p7 Tree_Column(77R9) 56|606b7 611r36
+372U14*Set_Widget 373^7 374^7 56|618b14 629l8 629t18
+373p7 Tree_Column(77R9) 56|619b7 628r29
+374p7 Widget(57|77R9) 56|620b7 628r55
+375V13*Get_Widget{57|78P9} 376^7 56|635b13 643l8 643t18
+376p7 Tree_Column(77R9) 56|636b7 642r52
+382U14*Set_Alignment 383^7 384>7 56|649b14 660l8 660t21
+383p7 Tree_Column(77R9) 56|650b7 659r29
+384f7 Xalign{27|65F9} 56|651b7 659r43
+385V13*Get_Alignment{27|65F9} 386^7 56|666b13 673l8 673t21
+386p7 Tree_Column(77R9) 56|667b7 672r36
+391U14*Set_Reorderable 392^7 393>7 56|679b14 690l8 690t23
+392p7 Tree_Column(77R9) 56|680b7 689r29
+393b7 Reorderable{boolean} 56|681b7 689r56
+394V13*Get_Reorderable{boolean} 395^7 56|696b13 703l8 703t23
+395p7 Tree_Column(77R9) 56|697b7 702r36
+399U14*Set_Sort_Column_Id 400^7 401>7 56|709b14 720l8 720t26
+400p7 Tree_Column(77R9) 56|710b7 719r29
+401i7 Sort_Column_Id{27|56I9} 56|711b7 719r43
+402V13*Get_Sort_Column_Id{27|56I9} 403^7 56|726b13 733l8 733t26
+403p7 Tree_Column(77R9) 56|727b7 732r36
+409U14*Set_Sort_Indicator 410^7 411>7 56|739b14 750l8 750t26
+410p7 Tree_Column(77R9) 56|740b7 749r29
+411b7 Setting{boolean} 56|741b7 749r56
+412V13*Get_Sort_Indicator{boolean} 413^7 56|756b13 763l8 763t26
+413p7 Tree_Column(77R9) 56|757b7 762r36
+418U14*Set_Sort_Order 419^7 420>7 56|769b14 780l8 780t22
+419p7 Tree_Column(77R9) 56|770b7 779r29
+420e7 Order{51|421E9} 56|771b7 779r43
+421V13*Get_Sort_Order{51|421E9} 422^7 56|786b13 793l8 793t22
+422p7 Tree_Column(77R9) 56|787b7 792r36
+433U14*Cell_Set_Cell_Data 434^7 435^7 436>7 437>7 438>7 56|799b14 820l8 820t26
+434p7 Tree_Column(77R9) 56|800b7 815r29
+435p7 Tree_Model(54|64R9) 56|801b7 816r29
+436r7 Iter{54|70R9} 56|802b7 817r17
+437b7 Is_Expander{boolean} 56|803b7 818r30
+438b7 Is_Expanded{boolean} 56|804b7 819r30
+445U14*Cell_Get_Size 446^7 447>7 448<7 449<7 450<7 451<7 56|826b14 850l8
+. 850t21
+446p7 Tree_Column(77R9) 56|827b7 844r29
+447r7 Cell_Area{21|36R12} 56|828b7 845r17
+448i7 X_Offset{27|56I9} 56|829b7 846m17
+449i7 Y_Offset{27|56I9} 56|830b7 847m17
+450i7 Width{27|56I9} 56|831b7 848m17
+451i7 Height{27|56I9} 56|832b7 849m17
+455V13*Cell_Is_Visible{boolean} 456^7 56|856b13 863l8 863t23
+456p7 Tree_Column(77R9) 56|857b7 862r36
+459U14*Cell_Get_Position 460^7 461^7 462<7 463<7 464<7 56|869b14 890l8 890t25
+460p7 Tree_Column(77R9) 56|870b7 886r25
+461p7 Cell_Renderer(49|75R9) 56|871b7 886r51
+462i7 Start_Pos{27|56I9} 56|872b7 888m7
+463i7 Width{27|56I9} 56|873b7 889m7
+464b7 Success{boolean} 56|874b7 884m7
+469U14*Focus_Cell 470^7 471^7 56|896b14 906l8 906t18
+470p7 Tree_Column(77R9) 56|897b7 905r29
+471p7 Cell(49|75R9) 56|898b7 905r55
+549K12*Column_Sizing_Properties[30|71] 552r39
+552A9*Property_Column_Sizing<30|73A12[549]> 562r39 605r31
+554a4*Alignment_Property{38|127A9} 589c7
+555a4*Clickable_Property{38|123A9} 591c4
+556a4*Expand_Property{38|123A9} 593c4
+557a4*Fixed_Width_Property{38|111A9} 595c4
+558a4*Max_Width_Property{38|111A9} 597c4
+559a4*Min_Width_Property{38|111A9} 599c4
+560a4*Reorderable_Property{38|123A9} 601c4
+561a4*Resizable_Property{38|123A9} 603c4
+562a4*Sizing_Property{552A9} 605c4
+563a4*Sort_Indicator_Property{38|123A9} 607c4
+564a4*Sort_Order_Property{51|587A9} 609c4
+565a4*Spacing_Property{38|111A9} 611c4
+566a4*Title_Property{38|122A9} 613c4
+567a4*Visible_Property{38|123A9} 615c4
+568a4*Widget_Property{38|124A9} 617c4
+569a4*Width_Property{38|111A9} 619c4
+583a4*Signal_Clicked{27|214A9}
+X 56 gtk-tree_view_column.adb
+42K12 Type_Conversion[39|88] 44r26
+46U14 Internal_Cell_Data_Func 47>7 47>20 47>26 47>33 47>56 48r26 176b14 192l8
+. 192t31 220r13
+47m7 Tree_Column{72|64M9} 177b7 184r51
+47m20 Cell{72|64M9} 177b20 186r48
+47m26 Model{72|64M9} 177b26 188r45
+47m33 Iter{72|64M9} 177b33 189r53
+47p56 Data{55|200P9} 177b56 191r7
+51P9 Gtk_Tree_Iter_Access(54|70R9) 53r23 189r20 262r23
+52V13 To_Iter[6|20]{51P9} 189s44 262s47
+70V16*Internal{72|64M9} 71b<c,gtk_tree_view_column_new>25 73s27
+85U17*Internal 86>10 87>10 88>10 89b<c,gtk_tree_view_column_pack_start>25
+. 92s7
+86m10 Tree_Column{72|64M9}
+87m10 Cell{72|64M9}
+88i10 Expand{27|58I9}
+106U17*Internal 107>10 108>10 109>10 110b<c,gtk_tree_view_column_pack_end>25
+. 113s7
+107m10 Tree_Column{72|64M9}
+108m10 Cell{72|64M9}
+109i10 Expand{27|58I9}
+123U17*Internal 123>27 124b<c,gtk_tree_view_column_clear>25 126s7
+123m27 Tree_Column{72|64M9}
+137V16*Internal{72|64M9} 137>26 138b<c,gtk_tree_view_column_get_cell_renderers>25
+. 144s16
+137m26 Tree_Column{72|64M9}
+140r7 List{32|70R12[49|81]} 144m10 144r10 145r14
+158U17*Internal 159>10 160>10 161>10 162>10 163b<c,gtk_tree_view_column_add_attribute>25
+. 166s7
+159m10 Tree_Column{72|64M9}
+160m10 Cell_Renderer{72|64M9}
+161a10 Attribute{string}
+162i10 Column{27|56I9}
+179r7 M_Stub{54|64R9} 188r52
+180r7 C_Stub{49|75R9} 186r54
+181r7 T_Stub{55|77R9} 184r64
+183p7 T{55|79P9} 191r13
+185p7 C{49|77P9} 191r16
+187p7 M{54|66P9} 191r19
+189p7 I{51P9} 191r22
+203U17*Internal 204>10 205>10 206>10 207>10 208>10 209b<c,gtk_tree_view_column_set_cell_data_func>25
+. 213s10 218s10
+204m10 Tree_Column{72|64M9}
+205m10 Cell_Renderer{72|64M9}
+206m10 Func{72|64M9}
+207m10 Func_Data{72|64M9}
+208m10 Destroy{72|64M9}
+230U17 Free[7|20] 275s10
+233U17 Free[7|20] 276s10
+236U17 Internal 237>10 238>10 239>10 240>10 241>10 242b<c,gtk_tree_view_column_set_cell_data_func>25
+. 289s10
+237m10 Tree_Column{72|64M9}
+238m10 Cell_Renderer{72|64M9}
+239m10 Func{72|64M9}
+240p10 Func_Data{55|247P12}
+241m10 Destroy{72|64M9}
+252r10 M_Stub{54|64R9} 261r55
+253r10 C_Stub{49|75R9} 259r57
+254r10 T_Stub{55|77R9} 257r67
+256p10 T{55|79P9} 265r21
+258p10 C{49|77P9} 265r24
+260p10 M{54|66P9} 265r27
+262p10 I{51P9} 265r30
+273p10 D{55|247P12} 275r16 276m16 276r16
+307U17*Internal 308>10 309>10 310b<c,gtk_tree_view_column_clear_attributes>25
+. 313s7
+308m10 Tree_Column{72|64M9}
+309m10 Cell_Renderer{72|64M9}
+324U17*Internal 325>10 326>10 327b<c,gtk_tree_view_column_set_spacing>25
+. 330s7
+325m10 Tree_Column{72|64M9}
+326i10 Spacing{27|56I9}
+340V16*Internal{27|56I9} 340>26 341b<c,gtk_tree_view_column_get_spacing>25
+. 343s14
+340m26 Tree_Column{72|64M9}
+354U17*Internal 355>10 356>10 357b<c,gtk_tree_view_column_set_visible>25
+. 360s7
+355m10 Tree_Column{72|64M9}
+356i10 Visible{27|58I9}
+370V16*Internal{27|58I9} 370>26 371b<c,gtk_tree_view_column_get_visible>25
+. 373s14
+370m26 Tree_Column{72|64M9}
+384U17*Internal 385>10 386>10 387b<c,gtk_tree_view_column_set_resizable>25
+. 390s7
+385m10 Tree_Column{72|64M9}
+386i10 Resizable{27|58I9}
+400V16*Internal{27|58I9} 400>26 401b<c,gtk_tree_view_column_get_resizable>25
+. 403s14
+400m26 Tree_Column{72|64M9}
+414U17*Internal 415>10 416>10 417b<c,gtk_tree_view_column_set_sizing>25 420s7
+415m10 Tree_Column{72|64M9}
+416e10 The_Type{55|87E9}
+431V16*Internal{55|87E9} 432>10 433b<c,gtk_tree_view_column_get_sizing>25
+. 436s14
+432m10 Tree_Column{72|64M9}
+446V16*Internal{27|56I9} 446>26 447b<c,gtk_tree_view_column_get_width>25
+. 449s14
+446m26 Tree_Column{72|64M9}
+459V16*Internal{27|56I9} 459>26 460b<c,gtk_tree_view_column_get_fixed_width>25
+. 462s14
+459m26 Tree_Column{72|64M9}
+473U17*Internal 474>10 475>10 476b<c,gtk_tree_view_column_set_fixed_width>25
+. 479s7
+474m10 Tree_Column{72|64M9}
+475i10 Fixed_Width{27|56I9}
+490U17*Internal 491>10 492>10 493b<c,gtk_tree_view_column_set_min_width>25
+. 496s7
+491m10 Tree_Column{72|64M9}
+492i10 Min_Width{27|56I9}
+506V16*Internal{27|56I9} 506>26 507b<c,gtk_tree_view_column_get_min_width>25
+. 509s14
+506m26 Tree_Column{72|64M9}
+520U17*Internal 521>10 522>10 523b<c,gtk_tree_view_column_set_max_width>25
+. 526s7
+521m10 Tree_Column{72|64M9}
+522i10 Max_Width{27|56I9}
+536V16*Internal{27|56I9} 536>26 537b<c,gtk_tree_view_column_get_max_width>25
+. 539s14
+536m26 Tree_Column{72|64M9}
+547U17*Internal 547>27 548b<c,gtk_tree_view_column_clicked>25 550s7
+547m27 Tree_Column{72|64M9}
+561U17*Internal 562>10 563>10 564b<c,gtk_tree_view_column_set_title>25 567s7
+562m10 Tree_Column{72|64M9}
+563a10 Title{27|82A12}
+577V16*Internal{64|47P9} 577>26 578b<c,gtk_tree_view_column_get_title>25
+. 581s21
+577m26 Tree_Column{72|64M9}
+592U17*Internal 593>10 594>10 595b<c,gtk_tree_view_column_set_clickable>25
+. 598s7
+593m10 Tree_Column{72|64M9}
+594i10 Clickable{27|58I9}
+608V16*Internal{27|58I9} 608>26 609b<c,gtk_tree_view_column_get_clickable>25
+. 611s14
+608m26 Tree_Column{72|64M9}
+622U17*Internal 623>10 624>10 625b<c,gtk_tree_view_column_set_widget>25 628s7
+623m10 Tree_Column{72|64M9}
+624m10 Widget{72|64M9}
+639V16*Internal{72|64M9} 639>26 640b<c,gtk_tree_view_column_get_widget>25
+. 642s30
+639m26 Tree_Column{72|64M9}
+653U17*Internal 654>10 655>10 656b<c,gtk_tree_view_column_set_alignment>25
+. 659s7
+654m10 Tree_Column{72|64M9}
+655f10 Xalign{27|65F9}
+669V16*Internal{27|65F9} 669>26 670b<c,gtk_tree_view_column_get_alignment>25
+. 672s14
+669m26 Tree_Column{72|64M9}
+683U17*Internal 684>10 685>10 686b<c,gtk_tree_view_column_set_reorderable>25
+. 689s7
+684m10 Tree_Column{72|64M9}
+685i10 Reorderable{27|58I9}
+699V16*Internal{27|58I9} 699>26 700b<c,gtk_tree_view_column_get_reorderable>25
+. 702s14
+699m26 Tree_Column{72|64M9}
+713U17*Internal 714>10 715>10 716b<c,gtk_tree_view_column_set_sort_column_id>25
+. 719s7
+714m10 Tree_Column{72|64M9}
+715i10 Sort_Column_Id{27|56I9}
+729V16*Internal{27|56I9} 729>26 730b<c,gtk_tree_view_column_get_sort_column_id>25
+. 732s14
+729m26 Tree_Column{72|64M9}
+743U17*Internal 744>10 745>10 746b<c,gtk_tree_view_column_set_sort_indicator>25
+. 749s7
+744m10 Tree_Column{72|64M9}
+745i10 Setting{27|58I9}
+759V16*Internal{27|58I9} 759>26 760b<c,gtk_tree_view_column_get_sort_indicator>25
+. 762s14
+759m26 Tree_Column{72|64M9}
+773U17*Internal 774>10 775>10 776b<c,gtk_tree_view_column_set_sort_order>25
+. 779s7
+774m10 Tree_Column{72|64M9}
+775e10 Order{51|421E9}
+789V16*Internal{51|421E9} 789>26 790b<c,gtk_tree_view_column_get_sort_order>25
+. 792s14
+789m26 Tree_Column{72|64M9}
+806U17*Internal 807>10 808>10 809>10 810>10 811>10 812b<c,gtk_tree_view_column_cell_set_cell_data>25
+. 815s7
+807m10 Tree_Column{72|64M9}
+808m10 Tree_Model{72|64M9}
+809r10 Iter{54|70R9}
+810i10 Is_Expander{27|58I9}
+811i10 Is_Expanded{27|58I9}
+834U17*Internal 835>10 836>10 837<10 838<10 839<10 840<10 841b<c,gtk_tree_view_column_cell_get_size>25
+. 844s7
+835m10 Tree_Column{72|64M9}
+836r10 Cell_Area{21|36R12}
+837i10 X_Offset{27|56I9}
+838i10 Y_Offset{27|56I9}
+839i10 Width{27|56I9}
+840i10 Height{27|56I9}
+859V16*Internal{27|58I9} 859>26 860b<c,gtk_tree_view_column_cell_is_visible>25
+. 862s14
+859m26 Tree_Column{72|64M9}
+876V16*Internal{27|58I9} 877>10 878>10 879^10 880^10 881b<c,gtk_tree_view_column_cell_get_position>25
+. 885s10
+877m10 Tree_Column{72|64M9}
+878m10 Cell_Renderer{72|64M9}
+879p10 Start_Pos(27|56I9)
+880p10 Width(27|56I9)
+882i7 S{27|56I9} 887m13 887r13 888r20
+882i10 W{27|56I9} 887m23 887r23 889r20
+900U17*Internal 901>10 902>10 903b<c,gtk_tree_view_column_focus_cell>25 905s7
+901m10 Tree_Column{72|64M9}
+902m10 Cell{72|64M9}
+916V16*Internal{27|58I9} 916>26 917b<c,gtk_tree_view_column_get_expand>25
+. 919s27
+916m26 Tree_Column{72|64M9}
+927U17*Internal 927>27 928b<c,gtk_tree_view_column_queue_resize>25 930s7
+927m27 Tree_Column{72|64M9}
+941U17*Internal 941>27 941>57 942b<c,gtk_tree_view_column_set_expand>25 944s7
+941m27 Tree_Column{72|64M9}
+941i57 Expand{27|58I9}
+X 57 gtk-widget.ads
+76K13*Widget 55|69w10 374r32 377r19 56|36w10 36r36 620r32 637r18 642r14 57|2435e15
+77R9*Gtk_Widget_Record<52|105R9> 55|374r39 56|620r39 57|2310e75
+78P9*Gtk_Widget(77R9) 55|377r26 56|637r25
+121V13*Convert{72|64M9} 32|63i21 34|55i21
+122V13*Convert{78P9} 32|64i21 34|56i21 56|642s21
+X 62 interfac.ads
+38K9*Interfaces 56|31r6 31r32 62|179e15
+X 63 i-c.ads
+18K20*C 56|31r17 31r43 63|230e17
+35I9*int<integer>
+60M9*size_t
+64F9*C_float<float>
+X 64 i-cstrin.ads
+36K22*Strings 56|31w19 31r45 64|106e25
+47P9*chars_ptr 56|577r63
+74V13*Value{string} 56|581s14
+X 72 system.ads
+37K9*System 55|82r29 84r7 254r43 56|29w6 47r40 53r7 70r32 86r24 87r24 107r24
+. 108r24 123r41 137r40 137r63 159r26 160r26 177r40 204r26 205r26 206r26 207r26
+. 208r26 215r13 215r34 216r13 221r13 237r26 238r26 239r26 241r26 249r43 308r26
+. 309r26 325r24 340r40 355r24 370r40 385r24 400r40 415r24 432r24 446r40 459r40
+. 474r24 491r24 506r40 521r24 536r40 547r41 562r24 577r40 593r24 608r40 623r24
+. 624r24 639r40 639r63 654r24 669r40 684r24 699r40 714r27 729r40 744r24 759r40
+. 774r24 789r40 807r24 808r24 835r24 859r40 877r26 878r26 901r24 902r24 916r40
+. 927r41 941r41 72|152e11
+64M9*Address 55|82r36 84r14 254r50 56|47r47 53r14 70r39 86r31 87r31 107r31
+. 108r31 123r48 137r47 137r70 159r33 160r33 177r47 204r33 205r33 206r33 207r33
+. 208r33 237r33 238r33 239r33 241r33 249r50 308r33 309r33 325r31 340r47 355r31
+. 370r47 385r31 400r47 415r31 432r31 446r47 459r47 474r31 491r31 506r47 521r31
+. 536r47 547r48 562r31 577r47 593r31 608r47 623r31 624r31 639r47 639r70 654r31
+. 669r47 684r31 699r47 714r34 729r47 744r31 759r47 774r31 789r47 807r31 808r31
+. 835r31 859r47 877r33 878r33 901r31 902r31 916r47 927r48 941r48
+66m4*Null_Address{64M9} 56|215r20 215r41 216r20 221r20
+X 76 s-memory.ads
+53V13*Alloc{72|64M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{72|64M9} 105i<c,__gnat_realloc>22
+

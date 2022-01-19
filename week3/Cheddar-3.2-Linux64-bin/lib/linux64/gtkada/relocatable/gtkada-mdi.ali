@@ -1,0 +1,3330 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P SS ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_ALLOCATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_ENUMERATION_MAPS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_IMPLICIT_LOOPS
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV NO_ELABORATION_CODE
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U gtkada.mdi%b		gtkada-mdi.adb		3b679ed6 OO PF PK
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.fixed%s	a-strfix.adb		a-strfix.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.unchecked_deallocation%s
+W cairo%s		cairo.adb		cairo.ali
+W cairo.pattern%s	cairo-pattern.ads	cairo-pattern.ali
+W gdk%s			gdk.ads			gdk.ali
+W gdk.cairo%s		gdk-cairo.adb		gdk-cairo.ali
+W gdk.color%s		gdk-color.adb		gdk-color.ali
+W gdk.cursor%s		gdk-cursor.adb		gdk-cursor.ali
+W gdk.drawable%s	gdk-drawable.adb	gdk-drawable.ali
+W gdk.event%s		gdk-event.adb		gdk-event.ali
+W gdk.main%s		gdk-main.adb		gdk-main.ali
+W gdk.pixbuf%s		gdk-pixbuf.adb		gdk-pixbuf.ali
+W gdk.rectangle%s	gdk-rectangle.adb	gdk-rectangle.ali
+W gdk.screen%s		gdk-screen.adb		gdk-screen.ali
+W gdk.types%s		gdk-types.ads		gdk-types.ali
+W gdk.types.keysyms%s	gdk-types-keysyms.ads	gdk-types-keysyms.ali
+W gdk.window%s		gdk-window.adb		gdk-window.ali
+W glib%s		glib.adb		glib.ali
+W glib.convert%s	glib-convert.adb	glib-convert.ali
+W glib.main%s		glib-main.adb		glib-main.ali  AD
+W glib.object%s		glib-object.adb		glib-object.ali  AD
+W glib.properties%s	glib-properties.adb	glib-properties.ali
+W gnat%s		gnat.ads		gnat.ali
+W gnat.io%s		g-io.adb		g-io.ali
+W gnat.strings%s	g-string.ads		g-string.ali
+W gtk%s			gtk.ads			gtk.ali
+W gtk.accel_group%s	gtk-accel_group.adb	gtk-accel_group.ali
+W gtk.accel_label%s	gtk-accel_label.adb	gtk-accel_label.ali
+W gtk.arguments%s	gtk-arguments.adb	gtk-arguments.ali
+W gtk.box%s		gtk-box.adb		gtk-box.ali
+W gtk.button%s		gtk-button.adb		gtk-button.ali
+W gtk.check_menu_item%s	gtk-check_menu_item.adb	gtk-check_menu_item.ali
+W gtk.container%s	gtk-container.adb	gtk-container.ali
+W gtk.dialog%s		gtk-dialog.adb		gtk-dialog.ali
+W gtk.enums%s		gtk-enums.adb		gtk-enums.ali
+W gtk.event_box%s	gtk-event_box.adb	gtk-event_box.ali
+W gtk.fixed%s		gtk-fixed.adb		gtk-fixed.ali
+W gtk.frame%s		gtk-frame.adb		gtk-frame.ali
+W gtk.gentry%s		gtk-gentry.adb		gtk-gentry.ali
+W gtk.handlers%s	gtk-handlers.adb	gtk-handlers.ali  AD
+W gtk.image%s		gtk-image.adb		gtk-image.ali
+W gtk.label%s		gtk-label.adb		gtk-label.ali
+W gtk.main%s		gtk-main.adb		gtk-main.ali  EA
+W gtk.menu%s		gtk-menu.adb		gtk-menu.ali
+W gtk.menu_item%s	gtk-menu_item.adb	gtk-menu_item.ali
+W gtk.notebook%s	gtk-notebook.adb	gtk-notebook.ali
+W gtk.object%s		gtk-object.adb		gtk-object.ali
+W gtk.radio_menu_item%s	gtk-radio_menu_item.adb	gtk-radio_menu_item.ali
+W gtk.rc%s		gtk-rc.adb		gtk-rc.ali
+W gtk.separator_menu_item%s  gtk-separator_menu_item.adb  gtk-separator_menu_item.ali
+W gtk.stock%s		gtk-stock.adb		gtk-stock.ali
+W gtk.style%s		gtk-style.adb		gtk-style.ali
+W gtk.widget%s		gtk-widget.adb		gtk-widget.ali
+W gtk.window%s		gtk-window.adb		gtk-window.ali
+W gtkada%s		gtkada.ads		gtkada.ali
+W gtkada.handlers%s	gtkada-handlers.ads	gtkada-handlers.ali
+W gtkada.multi_paned%s	gtkada-multi_paned.adb	gtkada-multi_paned.ali
+W gtkada.types%s	gtkada-types.adb	gtkada-types.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+W pango%s		pango.ads		pango.ali
+W pango.cairo%s		pango-cairo.adb		pango-cairo.ali
+W pango.font%s		pango-font.adb		pango-font.ali
+W pango.layout%s	pango-layout.adb	pango-layout.ali
+W system%s		system.ads		system.ali
+W system.address_image%s  s-addima.adb		s-addima.ali
+W system.compare_array_unsigned_8%s  s-carun8.adb  s-carun8.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.img_bool%s	s-imgboo.adb		s-imgboo.ali
+W system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+U gtkada.mdi%s		gtkada-mdi.ads		d4433936 BN EE OO PF PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W gdk%s			gdk.ads			gdk.ali
+W gdk.color%s		gdk-color.adb		gdk-color.ali
+W gdk.cursor%s		gdk-cursor.adb		gdk-cursor.ali
+W gdk.event%s		gdk-event.adb		gdk-event.ali
+W gdk.pixbuf%s		gdk-pixbuf.adb		gdk-pixbuf.ali
+W gdk.rectangle%s	gdk-rectangle.adb	gdk-rectangle.ali
+W glib%s		glib.adb		glib.ali
+W glib.main%s		glib-main.adb		glib-main.ali
+W glib.xml_int%s	glib-xml_int.ads	glib-xml_int.ali
+W gnat%s		gnat.ads		gnat.ali
+W gnat.strings%s	g-string.ads		g-string.ali
+W gtk%s			gtk.ads			gtk.ali
+W gtk.accel_group%s	gtk-accel_group.adb	gtk-accel_group.ali
+W gtk.box%s		gtk-box.adb		gtk-box.ali
+W gtk.check_menu_item%s	gtk-check_menu_item.adb	gtk-check_menu_item.ali
+W gtk.enums%s		gtk-enums.adb		gtk-enums.ali
+W gtk.event_box%s	gtk-event_box.adb	gtk-event_box.ali
+W gtk.handlers%s	gtk-handlers.adb	gtk-handlers.ali
+W gtk.label%s		gtk-label.adb		gtk-label.ali
+W gtk.menu%s		gtk-menu.adb		gtk-menu.ali
+W gtk.menu_item%s	gtk-menu_item.adb	gtk-menu_item.ali
+W gtk.notebook%s	gtk-notebook.adb	gtk-notebook.ali
+W gtk.radio_menu_item%s	gtk-radio_menu_item.adb	gtk-radio_menu_item.ali
+W gtk.style%s		gtk-style.adb		gtk-style.ali
+W gtk.widget%s		gtk-widget.adb		gtk-widget.ali
+W gtk.window%s		gtk-window.adb		gtk-window.ali
+W gtkada%s		gtkada.ads		gtkada.ali
+W gtkada.handlers%s	gtkada-handlers.ads	gtkada-handlers.ali
+W gtkada.multi_paned%s	gtkada-multi_paned.adb	gtkada-multi_paned.ali
+W pango%s		pango.ads		pango.ali
+W pango.font%s		pango-font.adb		pango-font.ali
+W pango.layout%s	pango-layout.adb	pango-layout.ali
+W system%s		system.ads		system.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-charac.ads		20140406181359 2d3ec45b ada.characters%s
+D a-chahan.ads		20140406181359 1601a50f ada.characters.handling%s
+D a-chahan.adb		20140406181354 0b9287e4 ada.characters.handling%b
+D a-chlat1.ads		20140406181359 66457d31 ada.characters.latin_1%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-ioexce.ads		20140406181358 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20140406181358 bb51c45a ada.numerics%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-string.ads		20140406181359 90ac6797 ada.strings%s
+D a-strfix.ads		20140406181356 d07c346e ada.strings.fixed%s
+D a-strmap.ads		20140406181359 e8bb714a ada.strings.maps%s
+D a-stmaco.ads		20140406181355 1c0e5368 ada.strings.maps.constants%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D cairo.ads		20141212124939 8dc0603a cairo%s
+D cairo-pattern.ads	20141212124939 78c11fab cairo.pattern%s
+D cairo-region.ads	20141212124939 b7133728 cairo.region%s
+D gdk.ads		20141212124940 f909352d gdk%s
+D gdk-bitmap.ads	20141212124940 a30f71c4 gdk.bitmap%s
+D gdk-cairo.ads		20141212124939 080b2184 gdk.cairo%s
+D gdk-color.ads		20141212124939 8aa593ee gdk.color%s
+D gdk-color.adb		20141212124939 8e5a9cb7 gdk.color%b
+D gdk-cursor.ads	20141212124939 d92b2ac1 gdk.cursor%s
+D gdk-display.ads	20141212124940 f1fc98fd gdk.display%s
+D gdk-dnd.ads		20141212124940 db64775b gdk.dnd%s
+D gdk-drawable.ads	20141212124940 15e54888 gdk.drawable%s
+D gdk-event.ads		20141212124940 8e0f7bb6 gdk.event%s
+D gdk-font.ads		20141212124940 46e43fa8 gdk.font%s
+D gdk-gc.ads		20141212124939 a96f1ba5 gdk.gc%s
+D gdk-image.ads		20141212124940 2cf51d65 gdk.image%s
+D gdk-main.ads		20141212124940 63d28fb6 gdk.main%s
+D gdk-pixbuf.ads	20141212124940 8572dcfc gdk.pixbuf%s
+D gdk-pixmap.ads	20141212124939 677b62c0 gdk.pixmap%s
+D gdk-rectangle.ads	20141212124939 7b900608 gdk.rectangle%s
+D gdk-region.ads	20141212124939 ff429b15 gdk.region%s
+D gdk-rgb.ads		20141212124939 724abbe3 gdk.rgb%s
+D gdk-screen.ads	20141212124940 5d73d3bd gdk.screen%s
+D gdk-types.ads		20141212124940 b1082506 gdk.types%s
+D gdk-types-keysyms.ads	20141212124940 7298eafe gdk.types.keysyms%s
+D gdk-visual.ads	20141212124939 615e934c gdk.visual%s
+D gdk-window.ads	20141212124940 a02582f1 gdk.window%s
+D glib.ads		20141212124939 0f441d83 glib%s
+D glib-convert.ads	20141212124939 27738f90 glib.convert%s
+D glib-error.ads	20141212124939 e055fabe glib.error%s
+D glib-g_icon.ads	20141212124940 dee6b47c glib.g_icon%s
+D glib-generic_properties.ads  20141212124939 a1807006 glib.generic_properties%s
+D glib-generic_properties.adb  20141212124939 b44dec2c glib.generic_properties%b
+D glib-glist.ads	20141212124940 65a6e1be glib.glist%s
+D glib-glist.adb	20141212124940 48a94e23 glib.glist%b
+D glib-gslist.ads	20141212124940 8fe7d6f1 glib.gslist%s
+D glib-gslist.adb	20141212124940 b4c9a81c glib.gslist%b
+D glib-main.ads		20141212124939 e9472c66 glib.main%s
+D glib-main.adb		20141212124939 abfe6b53 glib.main%b
+D glib-object.ads	20141212124940 948e384a glib.object%s
+D glib-object.adb	20141212124939 425ed48d glib.object%b
+D glib-properties.ads	20141212124940 48c8d9fb glib.properties%s
+D glib-type_conversion_hooks.ads  20141212124939 df9131bc glib.type_conversion_hooks%s
+D glib-types.ads	20141212124939 497ce66f glib.types%s
+D glib-values.ads	20141212124939 37b4897e glib.values%s
+D glib-values.adb	20141212124939 0d82009f glib.values%b
+D glib-xml.ads		20141212124939 d18f302c glib.xml%s
+D glib-xml_int.ads	20141212124939 72188e9d glib.xml_int%s
+D gnat.ads		20140406181359 fd2ad2f1 gnat%s
+D g-io.ads		20140406181355 9f0d3ab2 gnat.io%s
+D g-string.ads		20140406181356 c6abc540 gnat.strings%s
+D gtk.ads		20141212124940 81513fe2 gtk%s
+D gtk-accel_group.ads	20141212124940 db8139a9 gtk.accel_group%s
+D gtk-accel_label.ads	20141212124940 269ffe5f gtk.accel_label%s
+D gtk-action.ads	20141212124939 910c061f gtk.action%s
+D gtk-activatable.ads	20141212124940 670cc913 gtk.activatable%s
+D gtk-adjustment.ads	20141212124940 6a3f2d37 gtk.adjustment%s
+D gtk-arguments.ads	20141212124939 c1e8d148 gtk.arguments%s
+D gtk-arguments.adb	20141212124939 4e0f92d4 gtk.arguments%b
+D gtk-bin.ads		20141212124940 5a1f8184 gtk.bin%s
+D gtk-box.ads		20141212124940 8af5c57e gtk.box%s
+D gtk-buildable.ads	20141212124940 0156d377 gtk.buildable%s
+D gtk-builder.ads	20141212124940 f4ad2f95 gtk.builder%s
+D gtk-button.ads	20141212124940 7a51d79a gtk.button%s
+D gtk-cell_editable.ads	20141212124940 16b4fe5e gtk.cell_editable%s
+D gtk-cell_layout.ads	20141212124940 6fc2335f gtk.cell_layout%s
+D gtk-cell_renderer.ads	20141212124939 3320f36f gtk.cell_renderer%s
+D gtk-check_menu_item.ads  20141212124939 224366bb gtk.check_menu_item%s
+D gtk-container.ads	20141212124939 93cfa083 gtk.container%s
+D gtk-dialog.ads	20141212124940 184ade1f gtk.dialog%s
+D gtk-editable.ads	20141212124940 702f62cd gtk.editable%s
+D gtk-entry_completion.ads  20141212124940 99db0af5 gtk.entry_completion%s
+D gtk-enums.ads		20141212124940 31c39095 gtk.enums%s
+D gtk-event_box.ads	20141212124940 cb0f8306 gtk.event_box%s
+D gtk-fixed.ads		20141212124940 37d0d73d gtk.fixed%s
+D gtk-frame.ads		20141212124940 9336f82b gtk.frame%s
+D gtk-gentry.ads	20141212124940 b68ecae8 gtk.gentry%s
+D gtk-handlers.ads	20141212124939 f87aa660 gtk.handlers%s
+D gtk-handlers.adb	20141212124939 ab37ef08 gtk.handlers%b
+D gtk-icon_factory.ads	20141212124939 66ec8586 gtk.icon_factory%s
+D gtk-image.ads		20141212124940 fa4a314a gtk.image%s
+D gtk-item.ads		20141212124939 6365592e gtk.item%s
+D gtk-label.ads		20141212124940 613868aa gtk.label%s
+D gtk-main.ads		20141212124940 47a9747a gtk.main%s
+D gtk-marshallers.ads	20141212124940 6c3cad4d gtk.marshallers%s
+D gtk-marshallers.adb	20141212124940 3763b331 gtk.marshallers%b
+D gtk-menu.ads		20141212124939 20cd3ba4 gtk.menu%s
+D gtk-menu_item.ads	20141212124940 ea219118 gtk.menu_item%s
+D gtk-menu_shell.ads	20141212124940 dcdaa2f8 gtk.menu_shell%s
+D gtk-misc.ads		20141212124940 e0beea74 gtk.misc%s
+D gtk-notebook.ads	20141212124939 a995c3f3 gtk.notebook%s
+D gtk-object.ads	20141212124940 2b4b2b20 gtk.object%s
+D gtk-object.adb	20141212124940 b799cc4b gtk.object%b
+D gtk-orientable.ads	20141212124940 de28974f gtk.orientable%s
+D gtk-radio_menu_item.ads  20141212124940 8bb0cf01 gtk.radio_menu_item%s
+D gtk-rc.ads		20141212124940 ce2277d9 gtk.rc%s
+D gtk-selection.ads	20141212124940 68400ca2 gtk.selection%s
+D gtk-separator_menu_item.ads  20141212124940 fb1b0ec8 gtk.separator_menu_item%s
+D gtk-settings.ads	20141212124939 4b429e27 gtk.settings%s
+D gtk-stock.ads		20141212124939 fc2d2006 gtk.stock%s
+D gtk-style.ads		20141212124939 f697ed25 gtk.style%s
+D gtk-tree_model.ads	20141212124939 c173923c gtk.tree_model%s
+D gtk-widget.ads	20141212124939 468b5cfd gtk.widget%s
+D gtk-widget.adb	20141212124939 84c452e5 gtk.widget%b
+D gtk-window.ads	20141212124940 d56759a1 gtk.window%s
+D gtkada.ads		20141212124939 57aea1c7 gtkada%s
+D gtkada-bindings.ads	20141212124940 516dc70c gtkada.bindings%s
+D gtkada-c.ads		20141212124940 0f5973e3 gtkada.c%s
+D gtkada-handlers.ads	20141212124939 06b9c052 gtkada.handlers%s
+D gtkada-mdi.ads	20141212124939 c4e04464 gtkada.mdi%s
+D gtkada-mdi.adb	20141212124939 11ed0128 gtkada.mdi%b
+D gtkada-mdi-close_button.adb  20141212124940 41eb0ab6 gtkada.mdi.close_button
+D gtkada-multi_paned.ads  20141212124940 4e654e4b gtkada.multi_paned%s
+D gtkada-types.ads	20141212124940 b7bc0c77 gtkada.types%s
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D i-cstrin.ads		20140406181357 341d0ddf interfaces.c.strings%s
+D pango.ads		20141212124939 d3c8e76d pango%s
+D pango-attributes.ads	20141212124939 34135516 pango.attributes%s
+D pango-cairo.ads	20141212124939 211c97f8 pango.cairo%s
+D pango-context.ads	20141212124940 a00383e5 pango.context%s
+D pango-enums.ads	20141212124940 8ef2dddf pango.enums%s
+D pango-font.ads	20141212124940 375007f3 pango.font%s
+D pango-layout.ads	20141212124939 0814381c pango.layout%s
+D pango-tabs.ads	20141212124940 1dd550ef pango.tabs%s
+D system.ads		20140406181354 90249111 system%s
+D s-addima.ads		20140406181356 a1ec9d3a system.address_image%s
+D s-assert.ads		20140406181355 cd8d2c94 system.assertions%s
+D s-carun8.ads		20140406181356 a903718d system.compare_array_unsigned_8%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-imgboo.ads		20140406181355 f5d971eb system.img_bool%s
+D s-imenne.ads		20140406181354 614c06c0 system.img_enum_new%s
+D s-memory.ads		20140406181359 597d6634 system.memory%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-secsta.ads		20140406181359 86a2856d system.secondary_stack%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20140406181358 aedef97e system.stream_attributes%s
+D s-stratt.adb		20140406181359 56ef263e system.stream_attributes%b
+D s-string.ads		20140406181358 8fe54fb7 system.strings%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D s-unstyp.ads		20140406181356 510692af system.unsigned_types%s
+D unchconv.ads		20140406181355 ca2f9e18 unchecked_conversion%s
+D unchdeal.ads		20140406181359 214516a4 unchecked_deallocation%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 1 ada.ads
+16K9*Ada 19e8 127|36r6 483r13 128|40r6 41r6 41r35 42r6 42r35 43r6 43r35 44r6
+. 44r35 185r6 1783r35 2952r13 6396r42 129|29r6 29r27
+X 2 a-charac.ads
+16K13*Characters 18e19 128|42r10 42r39
+X 3 a-chahan.ads
+36K24*Handling 159e28 128|42w21 42r50
+70V13*To_Lower{string} 128|911s27 932s44
+X 6 a-except.ads
+53K13*Exceptions 360e19 128|44w10 44r39
+103V13*Exception_Information{string} 128|1547s43 1551s28 4224s43 4347s43
+. 4369s43 4399s43 4431s43
+X 9 a-numeri.ads
+16K13*Numerics 32e17 129|29w10 29r31
+21N4*Pi 129|336r50 336r60 338r59 340r50 340r60 342r46 342r50 372r25
+X 11 a-string.ads
+16K13*Strings 35e16 128|41r10 41r39 1783r39
+X 12 a-strfix.ads
+18K21*Fixed 251e22 128|41w18 41r47 1783r47
+36V13*Index{natural} 128|911s20 1783s53
+X 15 a-tags.ads
+60K13*Tags 602e13 127|36w10 483r17 128|43w10 43r39 2952r17
+64P9*Tag 127|483r22 128|2952r22
+X 17 a-uncdea.ads
+20u15*Unchecked_Deallocation 128|40w10 185r10 6396r46
+X 18 cairo.ads
+78K9*Cairo 2813e10 128|57w6 57r35 1713r10 1718r10 129|31r6 31r27 218r10 219r10
+. 250r10 251r10 254r10 255r10 260r10 262r10 265r18 267r10 269r10 272r10 273r10
+. 274r10 278r10 280r10 283r10 285r10 287r10 334r7 335r7 337r7 339r7 341r7
+. 355r7 371r7 372r7 373r7 374r7 375r7 376r7 377r7 378r7 379r7 380r7 381r7
+. 382r7 383r7 384r7 385r7 387r7
+80M9*Cairo_Context<143|64M9> 128|1694r15 129|52r20 58r23 171r17 330r20 350r23
+105R9*Cairo_Matrix 112e14 129|353r24
+132M9*Cairo_Pattern<143|64M9> 129|181r17
+328U14*Destroy 128|1760s10 129|287s16
+383U14*Save 128|1725s13
+398U14*Restore 128|1731s13
+583U14*Set_Source 129|272s16
+621U14*Set_Source_Rgba 129|260s16 278s16 283s16
+730n7*Cairo_Fill_Rule_Winding{729E9} 129|255r35
+737n7*Cairo_Fill_Rule_Even_Odd{729E9} 129|250r35
+743U14*Set_Fill_Rule 129|250s16 255s16
+757U14*Set_Line_Width 129|218s16
+904U14*Translate 128|1726s13 129|219s16 371s13
+925U14*Rotate 129|372s13
+946U14*Set_Matrix 129|387s13
+1022U14*Move_To 128|1744s10 129|334s13 373s13
+1046U14*Line_To 129|374s13 375s13 376s13 377s13 378s13 379s13 380s13 381s13
+. 382s13 383s13 384s13
+1083U14*Arc 129|335s13 337s13 339s13 341s13
+1218U14*Rectangle 128|1713s16 129|251s16
+1241U14*Close_Path 129|385s13
+1304U14*Paint 128|1730s13
+1342U14*Stroke 129|280s16 285s16
+1383U14*Fill 128|1718s16 129|262s16 274s16
+1548U14*Clip 129|254s16
+2407U14*Get_Matrix 129|355s13
+X 19 cairo-pattern.ads
+43K15*Pattern 674e18 129|31w12 31r33 265r24 267r16 269r16 273r16
+235V13*Create_Radial{18|132M9} 129|265s32
+280U14*Destroy 129|273s24
+383U14*Add_Color_Stop_Rgba 129|267s24 269s24
+X 20 cairo-region.ads
+56i7*X{45|56I9} 128|7021r46 7176m13 7187m16 7196m16 7205m16 7214m16 7223m16
+. 7238m19 7246m19 7254m19 7262m19 7270m19 7278m23 7278r38
+56i10*Y{45|56I9} 128|7022r46 7177m13 7188m16 7197m16 7206m16 7215m16 7224m16
+. 7239m19 7247m19 7255m19 7263m19 7271m19 7279m23 7279r38
+56i13*Width{45|56I9} 128|5790r41 7016r39 7178m13 7189m16 7189r36 7198m16
+. 7198r36 7207m16 7210r30 7214r36 7216m16 7225m16 7233r58 7240m19 7240r39
+. 7248m19 7248r39 7256m19 7259r33 7262r39 7264m19 7272m19 7272r39
+56i20*Height{45|56I9} 128|5791r41 7016r64 7179m13 7190m16 7192r30 7197r36
+. 7199m16 7208m16 7208r36 7217m16 7217r36 7226m16 7231r49 7241m19 7243r33
+. 7247r39 7249m19 7257m19 7257r39 7265m19 7265r39 7273m19 7273r39
+X 21 gdk.ads
+40K9*Gdk 66e8 127|41r6 42r6 43r6 44r6 45r6 131r28 131r51 132r28 132r51 133r28
+. 133r51 312r15 318r47 358r16 422r22 973r23 1073r27 1073r50 1074r27 1074r50
+. 1075r27 1075r50 1076r29 1076r52 1078r27 1079r27 1108r27 1109r27 128|63w6
+. 63r35 64r6 64r35 65r6 65r35 66r6 66r35 67r6 67r35 68r6 68r35 69r6 69r35
+. 70r6 70r35 71r6 71r35 72r6 72r35 73r6 73r35 74r6 75r6 75r35 213r18 296r20
+. 991r22 1003r16 1004r16 1032r19 1033r26 1054r21 1055r29 1056r29 1061r29
+. 1062r37 1063r37 1064r37 1069r28 1070r36 1074r22 1102r22 1233r35 1233r58
+. 1234r35 1234r58 1235r35 1235r58 1384r7 2736r13 2737r13 2761r15 2791r47
+. 3011r10 3014r13 3089r10 3094r10 3598r18 3651r34 3770r13 3771r13 5785r40
+. 5788r30 6981r20 7041r13 7115r37 129|414r16 431r16 446r16 463r16 481r16
+. 488r10 504r16 511r34
+47P9*Gdk_Drawable<45|155P9>
+48P12*Gdk_Window{47P9} 127|1109r31 128|296r24 6981r24 7115r41
+49P12*Gdk_Pixmap{47P9} 128|990r22 2721r16 3743r16
+50P12*Gdk_Bitmap{47P9} 128|991r26 2722r16 3744r16
+54P9*Gdk_Colormap<45|155P9>
+56P9*Gdk_Visual<45|155P9>
+62P9*Gdk_Region<45|155P9>
+X 23 gdk-cairo.ads
+41K13*Cairo 89e14 128|64w10 64r39
+43V13*Create{18|80M9} 128|1710s16 129|216s16
+67U14*Set_Source_Pixbuf 128|1724s13
+81U14*Set_Source_Color 128|1712s10 1743s10
+X 24 gdk-color.ads
+58K13*Color 323e14 127|41w10 131r32 131r55 132r32 132r55 133r32 133r55 1073r31
+. 1073r54 1074r31 1074r54 1075r31 1075r54 1076r33 1076r56 128|65w10 65r39
+. 1233r39 1233r62 1234r39 1234r62 1235r39 1235r62
+60R9*Gdk_Color 300e14 127|131r38 132r38 133r38 1073r37 1074r37 1075r37 1076r39
+. 128|1233r45 1234r45 1235r45 1693r15 3148r15 3152r36 3159r36 129|43r15 178r17
+. 298r15
+70r4*Null_Color{60R9} 127|131r61 132r61 133r61 1073r60 1074r60 1075r60 1076r62
+. 128|1233r68 1234r68 1235r68 1271r30 1275r29 1285r31 1326r33 1331r32 1335r34
+75P12*Gdk_Colormap{21|54P9}
+106V13*Red{45|74M9} 128|3161s17 3161s27 129|304s24
+109V13*Green{45|74M9} 128|3162s21 3162s33 129|305s24
+112V13*Blue{45|74M9} 128|3163s21 3163s32 129|306s24
+189V13*Parse{60R9} 128|845s31 848s30 851s32
+250U14*Alloc 128|846s7 849s7 852s7
+X 26 gdk-cursor.ads
+41K13*Cursor 259e15 127|42w10 1078r31 1079r31 128|66w10 66r39
+43P9*Gdk_Cursor<45|155P9> 127|1078r38 1079r38
+62n7*Cross{46E9} 128|1387r35
+73n7*Fleur{46E9} 128|2347r48
+125U14*Gdk_New 128|1387s10 2347s19
+169U14*Unref 128|1446s10
+X 29 gdk-drawable.ads
+50K13*Drawable 289e17 128|67w10 67r39 1003r20 1004r20 2736r17 2737r17 3770r17
+. 3771r17
+78U14*Unref 128|1003s29 1004s29 2736s26 2737s26 3770s26 3771s26
+X 30 gdk-event.ads
+52K13*Event 800e14 127|43w10 358r20 422r26 128|68w10 68r39 213r22 1102r26
+. 3598r22 3651r38 129|414r20 431r20 446r20 463r20 481r20 488r14 504r20 511r38
+62n7*Delete{58E9} 128|1515r30
+73n7*Button_Press{58E9} 128|1913r39
+76n7*Gdk_2button_Press{58E9} 128|1897r35
+82n7*Button_Release{58E9} 128|719r35
+85n7*Key_Press{58E9} 128|1029r35 1118r44 3348r35
+88n7*Key_Release{58E9} 128|1047r38 1119r53
+139M9*Gdk_Event_Mask
+144m4*Exposure_Mask{139M9} 128|7003r51
+146m4*Pointer_Motion_Mask{139M9} 128|2483r15 129|131r33
+159m4*Button_Motion_Mask{139M9} 128|2351r26 2481r15 7068r34
+163m4*Button_Press_Mask{139M9} 128|2480r17 6967r27 7068r13 129|132r12
+164m4*Button_Release_Mask{139M9} 128|2351r48 2482r15 7068r56 129|132r33
+167m4*Enter_Notify_Mask{139M9} 128|3498r27 129|133r12
+168m4*Leave_Notify_Mask{139M9} 129|133r33
+207M9*Gdk_Window_State 128|5765r21 5767r22 6331r21 6343r46
+215m4*Window_State_Maximized{207M9} 128|5770r27 6335r30
+229P9*Gdk_Event<45|155P9> 127|358r26 422r32 128|189r15 195r15 201r15 207r15
+. 213r28 252r15 270r56 350r15 390r15 395r15 714r15 1016r15 1102r32 1490r15
+. 1685r56 1870r15 1889r15 1935r15 2166r15 3314r15 3343r15 3598r28 7038r15
+. 129|47r56 164r56
+267P12*Gdk_Event_Button{229P9} 129|84r16 89r16 481r26 504r26
+284P12*Gdk_Event_Crossing{229P9} 129|64r16 69r16 74r16 79r16 414r26 431r26
+. 446r26 463r26
+388V13*Get_Event_Type{58E9} 128|719s10 1029s10 1047s13 1118s18 1119s27 1897s10
+. 1913s13 3348s10
+395V13*Get_Window{21|48P12} 128|1876s32 1954s32 2180s32
+399V13*Get_Time{45|75M9} 128|3651s44
+402V13*Get_X{45|66F9} 128|1904s22
+406V13*Get_Y{45|66F9} 128|1905s30
+410V13*Get_X_Root{45|66F9} 128|2300s35 7072s42
+414V13*Get_Y_Root{45|66F9} 128|2301s35 7073s42
+418V13*Get_Button{45|62M9} 128|723s13 1898s18 1914s17 3606s10 129|488s20
+. 511s44
+421V13*Get_State{41|149M9} 128|1192s24 1940s33 1942s33
+477V13*Get_Key_Val{41|146M9} 128|1030s17 1048s17
+550U14*Set_State 128|1039s13
+669U14*Allocate 128|1515s13
+679U14*Free 128|1518s13
+X 34 gdk-main.ads
+43K13*Main 150e13 128|69w10 69r39
+75E9*Gdk_Grab_Status 80e23 128|1109r19 2173r18 7040r13
+82V13*Pointer_Grab{75E9} 128|2349s23 7065s17
+87p7 Cursor{26|43P9} 128|2352r19 7069r13
+88m7 Time{45|75M9} 128|2353r19 7070r13
+99U14*Pointer_Ungrab 128|1952s7 2344s16 7090s7
+99m30 Time{45|75M9} 128|1952r23 2344r32
+102V13*Pointer_Is_Grabbed{boolean} 128|2335s23
+105V13*Keyboard_Grab{75E9} 128|1199s17
+108m7 Time{45|75M9} 128|1199r54
+116U14*Keyboard_Ungrab 128|1084s13
+116m31 Time{45|75M9} 128|1084r30
+X 35 gdk-pixbuf.ads
+63K13*Pixbuf 702e15 127|44w10 312r19 318r51 973r27 128|70w10 70r39 2761r19
+. 2791r51
+67P9*Gdk_Pixbuf(65R9) 127|312r26 318r58 973r34 128|992r22 2761r26 2791r58
+182V13*Get_Width{45|56I9} 128|1721s18 1901s18
+185V13*Get_Height{45|56I9} 128|1722s18 1902s18
+371U14*Render_Pixmap_And_Mask 128|1000s16 2733s13
+376U14*Render_Pixmap_And_Mask_For_Colormap 128|3767s13
+501V13*Scale_Simple{67P9} 128|999s26
+X 36 gdk-pixmap.ads
+51P12*Gdk_Pixmap{21|49P12}
+X 37 gdk-rectangle.ads
+34K13*Rectangle 66e18 127|45w10 1108r31 128|71w10 71r39
+36R12*Gdk_Rectangle{20|55R9} 127|1108r41 128|286r23 2172r18 5782r29 7112r23
+X 38 gdk-region.ads
+39P12*Gdk_Region{21|62P9}
+X 40 gdk-screen.ads
+50K13*Screen 244e15 128|72w10 72r39 5785r44 5788r34
+53P9*Gdk_Screen(52R9)
+105V13*Get_Default{53P9} 128|5785s51 5788s41
+197U14*Get_Monitor_Geometry 128|5784R22
+198p7 Screen(52R9) 128|5785r25
+199i7 Monitor_Num{45|56I9} 128|5786r25
+200r7 Dest{37|36R12} 128|5789r25
+215V13*Get_Monitor_At_Window{45|56I9} 128|5787R27
+X 41 gdk-types.ads
+36K13*Types 262e14 128|73w10 73r39 74r10 1032r23 1033r30 1054r25 1055r33
+. 1056r33 1061r33 1062r41 1063r41 1064r41 1069r32 1070r40 1074r26
+146M9*Gdk_Key_Type<45|62M9> 128|1023r15
+149M9*Gdk_Modifier_Type<45|62M9> 128|172r23
+150m4*Shift_Mask{149M9} 128|1068r32 1942r55
+152m4*Control_Mask{149M9} 128|1052r29 1940r55
+153m4*Mod1_Mask{149M9} 128|1060r32
+X 42 gdk-types-keysyms.ads
+32K19*Keysyms 1332e22 128|74w16 1032r29 1033r36 1054r31 1055r39 1056r39 1061r39
+. 1062r47 1063r47 1064r47 1069r38 1070r46 1074r32
+35m4*GDK_BackSpace{41|146M9} 128|1032r37
+43m4*GDK_Escape{41|146M9} 128|1074r40
+44m4*GDK_Delete{41|146M9} 128|1033r44
+185m4*GDK_Shift_L{41|146M9} 128|1069r46
+186m4*GDK_Shift_R{41|146M9} 128|1070r54
+187m4*GDK_Control_L{41|146M9} 128|1054r39
+188m4*GDK_Control_R{41|146M9} 128|1055r47
+191m4*GDK_Meta_L{41|146M9} 128|1061r47
+192m4*GDK_Meta_R{41|146M9} 128|1062r55
+193m4*GDK_Alt_L{41|146M9} 128|1063r55
+194m4*GDK_Alt_R{41|146M9} 128|1064r55
+207m4*GDK_ISO_Next_Group{41|146M9} 128|1056r47
+X 43 gdk-visual.ads
+42P12*Gdk_Visual{21|56P9}
+83V13*Convert[168|20]{143|64M9} 51|63i21
+84V13*Convert[168|20]{21|56P9} 51|64i21
+X 44 gdk-window.ads
+69K13*Window 725e15 128|75w10 75r39 1384r11 3011r14 3014r17 3089r14 3094r14
+. 7041r17
+71P12*Gdk_Window{21|48P12} 128|7041r24
+73p4*Null_Window{71P12} 128|2847r35
+229V13*Get_User_Data{57|46P9} 128|7135s33
+280U14*Window_At_Pointer 128|7119s7
+357U14*Gdk_Raise 128|3089s21 3094s21 7026s13
+359U14*Lower 128|3011s21 3014s24
+397V13*Get_State{30|207M9} 128|6334s25
+435U14*Set_Opacity 128|7012s16
+470U14*Set_Background 128|1327s13 1384s18
+498U14*Get_Origin 128|7018s13
+537V13*Convert[168|20]{143|64M9} 51|63i21
+538V13*Convert[168|20]{21|47P9} 51|64i21
+587U14*Invalidate_Rect 129|397s10
+X 45 glib.ads
+43K9*Glib 408e9 127|38w6 38r23 39r6 40r6 259r20 260r20 602r23 659r37 670r35
+. 689r25 690r25 722r25 736r29 737r29 748r31 1003r35 1029r31 1029r56 1030r28
+. 1061r29 1114r32 1115r32 1119r32 128|52r6 52r35 53r6 53r35 54r6 54r35 55r6
+. 55r35 113r8 180r35 337r34 492r25 817r36 2447r36 2665r20 2666r20 4237r23
+. 4782r25 5339r31 5342r17 5342r47 5349r17 5349r47 5351r21 5352r21 5706r25
+. 5707r25 5967r29 5968r29 129|33w6 33r27
+56I9*Gint<133|35I9> 127|259r25 260r25 602r28 1003r40 1061r34 1106r36 128|134r37
+. 139r30 445r27 492r30 632r44 935r18 942r28 1035r33 1037r33 1214r30 1242r21
+. 1691r35 1692r28 1695r15 1696r15 1756r31 1757r31 1892r14 1904r16 1905r24
+. 2175r26 2300r29 2301r29 2665r25 2666r25 3256r13 3257r13 3263r13 3264r13
+. 3377r27 3385r21 3694r29 4237r28 4471r21 4591r28 4592r28 4604r40 4607r38
+. 4630r40 4650r36 4663r29 4670r40 4672r44 4974r40 4976r44 4981r18 5000r36
+. 5001r29 5005r28 5013r37 5014r29 5018r29 5024r29 5024r50 5035r40 5038r38
+. 5049r25 5056r28 5057r28 5072r45 5073r28 5085r19 5086r20 5166r28 5167r28
+. 5302r21 5305r21 5308r21 5311r21 5385r40 5399r26 5401r32 5402r32 5414r35
+. 5415r24 5423r37 5456r24 5456r55 5498r37 5498r58 5583r36 5587r23 5597r25
+. 5598r25 5715r38 5753r25 5754r31 5757r15 5759r15 5804r21 5804r52 5808r18
+. 5810r18 5813r21 5813r52 5970r32 5971r12 5972r32 5973r12 6099r29 6105r49
+. 6106r48 6134r58 6163r48 6164r48 6197r18 6337r49 6339r50 6350r25 6351r25
+. 6418r29 6497r34 6530r27 6536r27 6542r25 6543r25 6983r24 7072r36 7073r36
+. 7114r37 7117r37 7230r30 7233r15 129|173r17 174r17 175r17 213r27 214r29
+62M9*Guint<133|43M9> 127|1030r33 128|629r24
+66F9*Gdouble<133|65F9> 128|1716r13 1717r13 1728r16 1729r16 1744r23 129|39r17
+. 44r15 53r20 54r20 59r23 172r17 176r17 177r17 199r16 202r18 203r19 209r18
+. 210r19 219r31 219r44 299r15 304r15 305r15 306r15 331r20 332r20 351r23
+74M9*Guint16
+75M9*Guint32
+78M9*Gsize<133|60M9>
+82A12*UTF8_String{string}<integer> 127|283r21 284r21 297r64 301r47 937r37
+. 128|185r34 930r27 2476r33 2477r33 2699r64 2709r47 2802r21 2803r21 2814r24
+. 2817r33 2819r33
+101I12*Allocation_Int{56I9} 128|5175r21
+141P9*String_Ptr(string)
+155P9*C_Proxy(152R9)
+214A9*Signal_Name<string>(character)<integer> 127|922r43 923r43 924r43 925r43
+. 926r43 927r43 928r43 929r43 930r43 931r43 932r43 934r43
+238A9*Property<string>
+269M9*GType<78M9>
+282M9*GType_Class<143|64M9>
+330m4*GType_None{269M9} 128|824r21 825r21 2448r41 2449r41 2450r41 2451r41
+349m4*GType_Pointer{269M9} 128|818r21 819r21 820r21 821r21 822r21 823r21
+X 46 glib-convert.ads
+41K14*Convert 233e17 128|52w11 52r40
+185V13*Locale_From_UTF8{string} 128|2831s13 3461s29 3463s29 4146s22 4150s22
+X 49 glib-generic_properties.ads
+73A12*Property<45|238A9>
+75U17*Set_Property 128|3697s7[59|92]
+X 51 glib-glist.ads
+70R12*Glist 127|988r43[120|125] 1006r58[120|125] 1014r38[120|125] 128|168r35[120|125]
+. 182r67[120|125] 904r30[120|125] 1122r36[120|125] 1364r26[120|125] 1399r25[120|125]
+. 1400r25[120|125] 2010r38[120|125] 2061r45[120|125] 2063r38[120|125] 2564r26[120|125]
+. 2881r25[120|125] 3419r37[120|125] 3930r43[120|125] 4079r26[120|125] 4124r27[120|125]
+. 4470r33[120|125] 4472r33[120|125] 4596r54[120|125] 4609r64[120|125] 4610r64[120|125]
+. 4634r64[120|125] 4635r64[120|125] 4646r66[120|125] 4647r66[120|125] 4661r59[120|125]
+. 4662r59[120|125] 4875r30[120|125] 5040r64[120|125] 5041r64[120|125] 5171r54[120|125]
+. 5389r64[120|125] 5390r64[120|125] 5579r66[120|125] 5580r66[120|125] 5710r61[120|125]
+. 5711r61[120|125] 5828r39[120|125] 5829r39[120|125] 5975r41[120|125] 6416r59[120|125]
+. 6417r59[120|125] 6431r39[120|125] 6432r39[120|125] 6592r32[120|125] 6674r48[120|125]
+. 6675r48[120|125] 6717r30[120|125] 6918r36[120|125] 6920r36[120|125]
+74r7*Null_List{70R12[120|125]} 127|1014r70[120|125] 128|908r18[120|125] 979r29[120|125]
+. 984r28[120|125] 1079r35[120|125] 1113r22[120|125] 1136r27[120|125] 1368r21[120|125]
+. 1413r20[120|125] 2018r48[120|125] 2065r33[120|125] 2572r33[120|125] 2885r20[120|125]
+. 3217r63[120|125] 3429r42[120|125] 3939r36[120|125] 3968r39[120|125] 4093r27[120|125]
+. 4105r30[120|125] 4140r24[120|125] 4157r27[120|125] 4249r37[120|125] 4486r35[120|125]
+. 4512r38[120|125] 4934r26[120|125] 5834r26[120|125] 5844r26[120|125] 5879r34[120|125]
+. 5880r34[120|125] 6365r36[120|125] 6447r24[120|125] 6480r24[120|125] 6594r39[120|125]
+. 6611r39[120|125] 6739r41[120|125] 6751r37[120|125] 6756r40[120|125] 6834r51[120|125]
+. 6871r53[120|125] 6883r42[120|125] 6923r26[120|125]
+83U17*Append 128|3003s7[120|125]
+102V16*Find{70R12[120|125]} 128|3217s22[120|125]
+107V16*First{70R12[120|125]} 128|1131s30[120|125] 1174s29[120|125] 1367s15[120|125]
+. 1399s34[120|125] 2883s14[120|125] 4079s35[120|125] 4091s21[120|125] 4124s36[120|125]
+. 4138s18[120|125] 4932s20[120|125]
+112U17*Free 128|1442s7[120|125] 2071s22[120|125] 4517s13[120|125] 6487s13[120|125]
+. 6607s13[120|125] 6618s13[120|125] 6931s13[120|125]
+125V16*Get_Data{120|78P9} 128|909s26[120|125] 968s44[120|125] 994s29[120|125]
+. 1081s42[120|125] 1139s36[120|125] 1369s26[120|125] 1416s26[120|125] 1613s33[120|125]
+. 2019s42[120|125] 2067s46[120|125] 2573s27[120|125] 2886s24[120|125] 2887s60[120|125]
+. 3430s36[120|125] 3940s29[120|125] 3969s32[120|125] 4094s32[120|125] 4141s33[120|125]
+. 4252s31[120|125] 4487s39[120|125] 4513s41[120|125] 4935s36[120|125] 5839s39[120|125]
+. 5845s32[120|125] 6366s45[120|125] 6448s32[120|125] 6481s38[120|125] 6595s48[120|125]
+. 6612s48[120|125] 6741s30[120|125] 6752s41[120|125] 6836s33[120|125] 6875s31[120|125]
+. 6884s40[120|125] 6924s19[120|125] 6925s30[120|125]
+151V16*Last{70R12[120|125]} 128|1133s24[120|125]
+154V16*Length{45|62M9} 128|902s47[120|125]
+161V16*Next{70R12[120|125]} 128|916s15[120|125] 1131s24[120|125] 1149s27[120|125]
+. 1372s30[120|125] 1418s15[120|125] 2030s45[120|125] 2069s30[120|125] 2590s30[120|125]
+. 2890s17[120|125] 3444s39[120|125] 3960s21[120|125] 3977s24[120|125] 4102s24[120|125]
+. 4154s21[120|125] 4502s20[120|125] 4515s23[120|125] 4937s23[120|125] 5835s24[120|125]
+. 5858s23[120|125] 6374s33[120|125] 6471s21[120|125] 6485s21[120|125] 6605s36[120|125]
+. 6616s36[120|125] 6743s50[120|125] 6832s30[120|125] 6852s42[120|125] 6928s23[120|125]
+183U17*Prepend 128|2641s7[120|125] 3234s7[120|125] 5142s13[120|125] 5150s13[120|125]
+. 5327s13[120|125]
+187V16*Prev{70R12[120|125]} 128|1151s27[120|125]
+191U17*Remove 128|1619s19[120|125] 2640s7[120|125] 3002s7[120|125] 3233s7[120|125]
+. 5149s13[120|125]
+X 53 glib-gslist.ads
+59R12*GSlist 128|1560r29[120|126] 3384r33[57|424] 4468r34[120|126] 4817r33[120|126]
+60r7*Null_List{59R12[57|424]} 128|3479r38[57|424] 4468r57[120|126] 4817r56[120|126]
+75V16*Get_Data{57|46P9} 128|3480s52[57|424]
+91V16*Next{59R12[57|424]} 128|3481s23[57|424]
+X 55 glib-main.ads
+88K14*Main 472e14 127|39w11 1029r36 1029r61 128|53w11 53r40 337r39
+155M9*G_Source_Id<45|62M9> 127|1029r41
+158m4*No_Source_Id{155M9} 127|1029r66 128|696r44 1408r37 1410r37 1574r39
+. 1576r39
+275U14*Remove 128|697s13 1409s10 1575s10
+354k12*Generic_Sources 401e23 128|337r44
+373V16*Timeout_Add{155M9} 128|700s56[337]
+X 57 glib-object.ads
+43K14*Object 470e16 128|54w11 54r40 180r40 817r41 2447r41
+46P9*GObject(45R9)
+83U14*Ref 128|1572R7 2619R7 3001R7 3232R7 3407R10 3868R7 4309R10 5148R13
+. 6456R19 6547R10
+89U14*Unref 128|1001R16 1280R10 1428R13 1443R7 1450R10 1640R10 1646R7 2624R10
+. 2642R7 2764R10 3004R7 3235R7 3539R10 3916R7 4313R10 5151R13 6636R13
+102U14*Weak_Ref 128|3881s10
+111U14*Weak_Unref 128|3886s13
+117U14*Deallocate
+130U14*Ref_Sink
+146V13*Get_Object{143|64M9} 128|1624s10 1625s53 2137s28 2598s13 2654s10 2655s51
+. 2781s10 2783s10 2852s16 2854s16 3304s10 3305s10 3522s13 3523s13 4317s13
+. 4773s13 5920s13 5922s13
+240M9*GObject_Class<45|282M9>
+247A9*Signal_Parameter_Types(45|269M9)<integer><integer> 128|817r48 2447r48
+329U14*Notify
+351k12*User_Data 413e17 128|180r47
+357V16*Get{127|74P9} 128|2935s34[180]
+371U17*Set 128|3471s26[180]
+421V13*Convert{143|64M9} 51|63i21 53|55i21
+422V13*Convert{46P9} 51|64i21 53|56i21
+424K12*Object_List[53|57] 128|3379r11 3384r21 3479r26
+X 59 glib-properties.ads
+79K14*Properties 243e20 128|55w11 55r40
+113A9*Property_Uint<49|73A12[92]>
+123A9*Property_Boolean<45|238A9>
+174U14*Set_Property 128|3720s10 3723s10
+179V13*Get_Property{boolean} 128|3275s21
+X 64 glib-xml.ads
+51R9*Node 128|6020r22[65|32] 6077r35[65|32] 6086r34[65|32] 6169r27[65|32]
+. 6261r31[65|32] 6276r28[65|32] 6296r37[65|32] 6317r44[65|32] 6324r25[65|32]
+52P9*Node_Ptr(51R9[65|32]) 127|659r50[65|32] 670r48[65|32] 689r38[65|32]
+. 690r38[65|32] 722r38[65|32] 736r42[65|32] 737r42[65|32] 748r44[65|32] 1114r45[65|32]
+. 1115r45[65|32] 1119r45[65|32] 128|4580r33[65|32] 4588r24[65|32] 4602r34[65|32]
+. 4628r34[65|32] 4648r36[65|32] 4669r40[65|32] 4761r34[65|32] 4782r38[65|32]
+. 4786r16[65|32] 4973r40[65|32] 5033r34[65|32] 5044r25[65|32] 5163r24[65|32]
+. 5173r21[65|32] 5339r44[65|32] 5342r30[65|32] 5342r60[65|32] 5349r30[65|32]
+. 5349r60[65|32] 5351r34[65|32] 5352r34[65|32] 5383r34[65|32] 5395r26[65|32]
+. 5398r26[65|32] 5581r36[65|32] 5585r23[65|32] 5674r18[65|32] 5706r38[65|32]
+. 5707r38[65|32] 5831r27[65|32] 5936r33[65|32] 5939r24[65|32] 5967r42[65|32]
+. 5968r42[65|32] 5976r29[65|32] 5979r34[65|32] 5983r26[65|32] 5993r22[65|32]
+. 5999r26[65|32] 6005r26[65|32] 6007r42[65|32] 6010r44[65|32] 6017r34[65|32]
+. 6018r17[65|32] 6031r26[65|32] 6036r27[65|32] 6037r27[65|32] 6132r22[65|32]
+. 6159r26[65|32] 6161r42[65|32] 6165r39[65|32] 6216r44[65|32] 6217r22[65|32]
+. 6240r26[65|32] 6243r26[65|32] 6244r26[65|32] 6306r20[65|32] 6307r21[65|32]
+. 6498r22[65|32] 6677r25[65|32]
+56p7*Tag{45|141P9} 128|5094r18[65|32] 5202r65[65|32] 5205r48[65|32] 5242r21[65|32]
+. 5242r48[65|32] 5251r54[65|32] 5270r48[65|32] 5301r18[65|32] 5304r21[65|32]
+. 5307r21[65|32] 5310r21[65|32] 5356r24[65|32] 5441r36[65|32] 5442r41[65|32]
+. 5468r36[65|32] 5548r21[65|32] 5605r32[65|32] 5608r27[65|32] 5623r30[65|32]
+. 5747r50[65|32] 5951r60[65|32] 6021m15[65|32] 6078m28[65|32] 6078r59[65|32]
+. 6087m27[65|32] 6170m20[65|32] 6219r18[65|32] 6262m24[65|32] 6277m21[65|32]
+. 6297m30[65|32] 6318m37[65|32] 6325m18[65|32]
+59p7*Attributes{45|141P9} 128|5219r48[65|32] 5220r57[65|32] 6075r41[65|32]
+62p7*Value{45|141P9} 128|5302r35[65|32] 5305r35[65|32] 5308r35[65|32] 5311r35[65|32]
+. 6022m15[65|32]
+65p7*Parent{52P9[65|32]} 128|6252r38[65|32]
+68p7*Child{52P9[65|32]} 128|4792r34[65|32] 5044r48[65|32] 5133r24[65|32]
+. 5202r58[65|32] 5202r59[65|32] 5205r41[65|32] 5205r42[65|32] 5218r32[65|32]
+. 5218r33[65|32] 5218r39[65|32] 5219r41[65|32] 5219r42[65|32] 5220r50[65|32]
+. 5220r51[65|32] 5225m48[65|32] 5240r20[65|32] 5242r41[65|32] 5242r42[65|32]
+. 5251r47[65|32] 5251r48[65|32] 5267m66[65|32] 5270r41[65|32] 5270r42[65|32]
+. 5293r25[65|32] 5293r26[65|32] 5360r56[65|32] 5432r23[65|32] 5458r50[65|32]
+. 5545r23[65|32] 5585r40[65|32] 5680r35[65|32] 5690r35[65|32] 5719r33[65|32]
+. 6074r33[65|32] 6199r40[65|32] 6202r30[65|32] 6220r23[65|32] 6228r21[65|32]
+. 6289r23[65|32] 6290m36[65|32] 6306r56[65|32] 6503r40[65|32] 6519r43[65|32]
+71p7*Next{52P9[65|32]} 128|4800r24[65|32] 5124r20[65|32] 5258r23[65|32] 5293r32[65|32]
+. 5318r20[65|32] 5366r29[65|32] 5538r23[65|32] 5564r23[65|32] 5648r38[65|32]
+. 5684r23[65|32] 5695r23[65|32] 6223r28[65|32] 6310r27[65|32] 6507r36[65|32]
+90U14*Print 128|6382s13[65|32] 6386s16[65|32]
+118U14*Add_Child 128|4803s10[65|32] 6023s13[65|32] 6079s19[65|32] 6088s16[65|32]
+. 6122s16[65|32] 6204s16[65|32] 6264s22[65|32] 6281s19[65|32] 6320s13[65|32]
+119b39 Append{boolean} 128|4803r56[65|32] 6023r35[65|32] 6079r52[65|32] 6088r49[65|32]
+. 6122r47[65|32] 6204r44[65|32] 6264r45[65|32] 6281r42[65|32] 6321r59[65|32]
+124V13*Children_Count{natural} 128|5397s46[65|32] 5451s44[65|32]
+127V13*Deep_Copy{52P9[65|32]} 128|4803s39[65|32] 5734s30[65|32] 5739s31[65|32]
+. 6377s26[65|32]
+134U14*Free 128|1458s7[65|32] 1459s7[65|32] 4766s10[65|32] 4767s10[65|32]
+. 5253s22[65|32] 5733s10[65|32] 5738s10[65|32] 5855s19[65|32] 6207s16[65|32]
+. 6229s19[65|32] 6311s19[65|32] 6692s13[65|32] 6694s13[65|32]
+141V13*Get_Attribute{45|82A12} 128|4785s36[65|32] 4795s16[65|32] 4839s30[65|32]
+. 4979s37[65|32] 4980s37[65|32] 5068s13[65|32] 5177s13[65|32] 5283s13[65|32]
+. 5286s13[65|32] 5288s13[65|32] 5289s28[65|32] 5394s13[65|32] 5453s22[65|32]
+. 5693s30[65|32] 5768s16[65|32] 5808s30[65|32] 5810s30[65|32] 5903s13[65|32]
+. 6505s21[65|32] 6686s16[65|32] 7306s17[65|32]
+150U14*Set_Attribute 128|4765s10[65|32] 6090s16[65|32] 6092s16[65|32] 6111s19[65|32]
+. 6115s19[65|32] 6119s19[65|32] 6142s19[65|32] 6147s19[65|32] 6171s13[65|32]
+. 6278s19[65|32] 6319s13[65|32] 6336s19[65|32] 6338s19[65|32] 6342s16[65|32]
+. 6344s16[65|32]
+X 65 glib-xml_int.ads
+32K14*Xml_Int[64|45] 127|40w11 659r42 670r40 689r30 690r30 722r30 736r34
+. 737r34 748r36 1114r37 1115r37 1119r37 128|113r13 4782r30 5339r36 5342r22
+. 5342r52 5349r22 5349r52 5351r26 5352r26 5706r30 5707r30 5967r34 5968r34
+X 66 gnat.ads
+34K9*GNAT 37e9 127|37r6 800r14 1116r32 128|49r6 49r35 50r6 50r35 5687r42
+. 7290r14
+X 67 g-io.ads
+41K14*IO 91e12 128|49w11 49r40
+72U14*Put_Line 128|543s10 1546s13 4223s13 4346s13 4368s13 4398s13 4430s13
+. 4945s13
+77U14*New_Line 128|5410s13
+X 68 g-string.ads
+38K14*Strings=38:37 127|37w11 800r19 1116r37 128|50w11 50r40 5687r47 7290r19
+X 69 gtk.ads
+47K9*Gtk 83e8 127|46r6 47r6 48r6 49r6 50r6 51r6 52r6 53r6 54r6 55r6 56r6
+. 57r6 58r6 59r6 67r34 72r33 97r22 111r22 118r23 135r28 135r59 200r29 203r22
+. 220r29 223r22 272r22 379r22 411r27 459r47 465r23 473r23 526r41 599r23 645r48
+. 658r26 765r16 775r24 783r24 939r33 940r23 943r23 965r23 970r23 975r23 979r23
+. 988r20 1002r35 1006r35 1014r15 1014r47 1048r28 1049r28 1050r28 1051r28
+. 1069r25 1083r27 1083r58 1086r26 1089r26 1090r26 1094r15 1110r27 1113r32
+. 128|77w6 77r35 78r6 78r35 79r6 79r35 80r6 80r35 81r6 81r35 82r6 82r35 83r6
+. 83r35 84r6 84r35 85r6 85r35 86r6 86r35 87r6 87r35 88r6 88r35 89r6 89r35
+. 90r6 90r35 91r6 91r35 92r6 92r35 93r6 93r35 95r6 95r35 96r6 96r35 97r6
+. 97r35 98r6 98r35 99r6 99r35 100r6 101r6 101r35 102r6 102r35 103r6 103r35
+. 104r6 104r35 105r6 105r35 144r30 145r6 146r30 147r6 173r23 787r23 801r22
+. 814r22 856r7 886r15 1237r35 1238r9 1471r22 1588r14 1655r14 2427r29 2430r22
+. 2442r29 2445r22 2460r7 2461r7 2879r23 2901r23 3122r10 3125r10 3179r23 3208r26
+. 3558r36 3559r28 3562r14 3566r14 3611r19 3622r19 3628r19 3634r19 3640r19
+. 3667r7 3776r13 4199r14 4234r23 4528r30 4554r27 4596r31 4609r41 4610r41
+. 4634r41 4635r41 4646r43 4647r43 4661r36 4662r36 4843r26 4850r10 4853r20
+. 4871r48 4890r22 4898r22 4924r37 5040r41 5041r41 5171r31 5389r41 5390r41
+. 5579r43 5580r43 5710r38 5711r38 6416r36 6417r36 6674r25 6675r25 6771r41
+. 129|107r7 231r19 398r13
+67M12*Gtk_Type{45|269M9}
+72P9*Gtk_Notebook_Page<45|155P9>
+X 70 gtk-accel_group.ads
+47K13*Accel_Group 350e20 127|46w10 97r26 111r26 1094r19 128|78w10 78r39 801r26
+. 814r26
+49R9*Gtk_Accel_Group_Record<57|45R9> 49e70 127|97r38 111r38 128|801r38 814r38
+50P9*Gtk_Accel_Group(49R9) 127|1094r31 128|839r20 3480r35
+230V13*From_Object{53|59R12[57|424]} 128|3478s20
+X 71 gtk-accel_label.ads
+63K13*Accel_Label 144e20 128|79w10 79r39
+65R9*Gtk_Accel_Label_Record<100|95R9> 135e20 128|6924r44
+66P9*Gtk_Accel_Label(65R9) 128|2719r16
+68U14*Gtk_New 128|2740s10
+80U14*Set_Accel_Widget 128|2742s10
+X 74 gtk-adjustment.ads
+57P9*Gtk_Adjustment(56R9)
+X 75 gtk-arguments.ads
+53K13*Arguments 99e18 128|80w10 80r39
+57R12*Gtk_Args{62|53R9} 128|331r52 333r53 355r53 419r53 597r52 626r53 645r53
+. 4185r54
+73V13*To_Guint{45|62M9} 128|629s33
+82V13*To_Object{109|106P9} 128|599s42 648s51 4188s45
+X 77 gtk-bin.ads
+60V13*Get_Child{120|78P9} 128|2726R13 2727R38 3532R43 6919R25
+X 78 gtk-box.ads
+69K13*Box 319e12 127|47w10 943r27 975r27 128|81w10 81r39
+72P9*Gtk_Box(71R9) 127|943r31 975r31 128|1107r19 1782r15 2723r16 3532r34
+. 3742r16 6919r16
+87U14*Gtk_New_Hbox 128|1179s10 2502s7 2730s10 3764s10
+89b8 Homogeneous{boolean} 128|1179r30 2502r38 2730r29 3764r29
+90i8 Spacing{45|56I9} 128|2730r51
+103U14*Gtk_New_Vbox 128|1176s10 1796s10 2497s7
+105b8 Homogeneous{boolean} 128|1176r29 1796r29 2497r37
+106i8 Spacing{45|56I9} 128|2497r59
+138U14*Pack_End 128|2512R10 3786R13
+141b8 Expand{boolean} 128|2514r21 3786r35
+142b8 Fill{boolean} 128|2514r38
+143m8 Padding{45|62M9} 128|2514r53 3786r52
+174U14*Pack_Start 128|1180R10 1183R10 1186R10 1189R10 1802R10 2503R7 2520R7
+. 2735R13 2743R10 3772R13 3778R13 3782R10 4737R10 4741R10
+177b8 Expand{boolean} 128|1180r33 1183r36 1186r37 1189r34 1802r49 2504r43
+. 2521r33 2735r38 2743r35 3772r38 3778r37 3782r45 4737r48 4741r46
+178b8 Fill{boolean} 128|1186r53 2504r60 2521r49 2743r51 3782r61
+179m8 Padding{45|62M9} 128|2521r63 3778r54
+X 81 gtk-button.ads
+56K13*Button 374e15 128|82w10 82r39
+X 84 gtk-cell_renderer.ads
+77P9*Gtk_Cell_Renderer(75R9)
+79V13*Convert{143|64M9} 51|63i21
+80V13*Convert{77P9} 51|64i21
+X 85 gtk-check_menu_item.ads
+45K13*Check_Menu_Item 162e24 127|56w10 1049r32 128|83w10 83r39
+49P9*Gtk_Check_Menu_Item(47R9) 127|1049r48
+51U14*Gtk_New 128|4906s13
+73U14*Set_Active 128|3124R10 3291R10 4524R10 4836R16 4908R13
+76V13*Get_Active{boolean} 128|4442R10 4705R13
+80U14*Set_Inconsistent
+83V13*Get_Inconsistent{boolean}
+94U14*Set_Draw_As_Radio
+97V13*Get_Draw_As_Radio{boolean}
+101U14*Toggled
+148a4*Signal_Toggled{45|214A9} 128|4912r37
+X 86 gtk-container.ads
+48K13*Container 415e18 128|84w10 84r39
+51P9*Gtk_Container(50R9) 128|609r37 1593r21 1599r18 3382r21 3413r21 3454r21
+. 3457r21 3842r32 3871r24 6461r30 6549r21
+56U14*Set_Border_Width 128|1798R10 1966R16 2340R19 2468R7 3670R7
+59V13*Get_Border_Width{45|62M9} 128|1692R34
+64U14*Add 128|1171R10 1177R10 1794R10 1797R10 2498R7 2519R7 2746R10 3789R10
+72U14*Remove 128|1593R13 1599R10 2727R13 3413R13 3883R10 4311R10 6461R22
+. 6483R19 6549R13
+85U14*Set_Resize_Mode
+88V13*Get_Resize_Mode{90|310E9}
+94V13*Get_Children{51|70R12[120|125]} 128|2062R24 4510R25 6478R25 6918R45
+100U14*Propagate_Expose
+122U14*Set_Focus_Chain
+131U14*Get_Focus_Chain
+142U14*Unset_Focus_Chain
+145U14*Set_Focus_Vadjustment
+148V13*Get_Focus_Vadjustment{74|57P9}
+157U14*Set_Focus_Hadjustment
+160V13*Get_Focus_Hadjustment{74|57P9}
+169U14*Set_Focus_Child
+172V13*Get_Focus_Child{120|78P9} 128|609R20
+181U14*Child_Set_Property
+186U14*Child_Get_Property
+229U14*Forall
+242U14*Foreach
+275U14*Set_Reallocate_Redraws
+282V13*Child_Type{69|67M12}
+288U14*Resize_Children
+298U14*Check_Resize
+310V13*Children=313:15{51|70R12[120|125]}
+398a4*Signal_Remove{45|214A9} 128|3675r20
+399a4*Signal_Set_Focus_Child{45|214A9} 128|892r15 3677r20
+X 87 gtk-dialog.ads
+64K13*Dialog 366e15 128|85w10 85r39
+67P9*Gtk_Dialog(66R9) 128|3380r21 4723r19
+69M9*Gtk_Dialog_Flags
+72m4*Modal{69M9} 128|4731r29
+73m4*Destroy_With_Parent{69M9} 128|3450r51 4731r39
+74m4*No_Separator{69M9} 128|3450r35
+82I9*Gtk_Response_Type<45|56I9>
+106i4*Gtk_Response_OK{82I9} 128|4732r50 4734r40 4745r28
+107i4*Gtk_Response_Cancel{82I9} 128|4733r54
+125U14*Gtk_New 128|3447s16 4729s10
+127a8 Title{45|82A12} 128|3448r25 4729r27
+128p8 Parent{122|69P9} 128|3449r25 4730r19
+129m8 Flags{69M9} 128|3450r25 4731r19
+161V13*Add_Button{120|78P9} 128|4732R20 4733R20
+222V13*Run{82I9} 128|4745R13
+250U14*Set_Default_Response 128|4734R10
+305V13*Get_Vbox{78|72P9} 128|3454R36 4737R22 4741R22
+X 88 gtk-editable.ads
+69U14*Insert_Text 128|941R7 963R16 966R13 982R7
+77U14*Delete_Text 128|1035R13 1037R13 1214R10
+106U14*Set_Position 128|942R7
+X 90 gtk-enums.ads
+45K13*Enums 649e14 127|48w10 135r32 135r63 599r27 1083r31 1083r62 128|86w10
+. 86r39 1237r39 1238r13 3559r32 3562r18 3566r18 4234r27
+225E9*Gtk_Orientation 225e74 127|599r33 128|4234r33 4322r40 4605r40 4631r34
+. 4671r40 4975r40 5036r40 5058r28 5386r40 5393r33 5393r52 5412r37 5424r31
+. 5452r38 5518r30 6135r27 6247r29 6279r40
+225n29*Orientation_Horizontal{225E9} 128|2105r45 2110r43 2118r45 2121r53
+. 2131r43 4045r38 4054r38 4340r35 4995r18 5616r44 6141r21
+225n53*Orientation_Vertical{225E9} 128|883r25 2083r45 2086r53 2093r45 2098r43
+. 4027r38 4036r38 4363r50 5008r18 6146r21
+275E9*Gtk_Position_Type 279e18 127|135r38 1083r37 128|1237r45 1246r31 3559r38
+. 3562r24 3566r24 5051r25 5067r20 5069r13 6173r16
+276n7*Pos_Left{275E9} 128|2315r24 3635r38
+277n7*Pos_Right{275E9} 128|2315r35 3641r38
+278n7*Pos_Top{275E9} 128|2308r24 3623r38
+279n7*Pos_Bottom{275E9} 127|135r69 1083r68 128|1238r19 2308r34 3629r38
+357n7*Shadow_Out{354E9} 128|1752r31
+363n7*State_Normal{362E9} 128|854r61 1288r34 1751r31 1790r37 3148r55 3177r56
+. 3179r48 3181r30 3184r34 7005r42 129|231r63
+364n7*State_Active{362E9} 128|1290r34
+365n7*State_Prelight{362E9} 128|1294r34
+366n7*State_Selected{362E9} 128|1292r34
+367n7*State_Insensitive{362E9} 128|1296r34
+397n7*Win_Pos_None{396E9} 128|3488r32
+399n7*Win_Pos_Mouse{396E9} 128|1163r30 3485r32
+401n7*Win_Pos_Center_On_Parent{396E9} 128|1166r30 1789r40
+407n7*Window_Popup{405E9} 128|1160r25 1787r35 7000r48
+448V13*Convert{143|64M9} 51|63i21 53|55i21
+449V13*Convert{string} 51|64i21 53|56i21
+X 91 gtk-event_box.ads
+54K13*Event_Box 159e18 127|49w10 72r37 939r37 128|87w10 87r39 2460r11 129|107r11
+56R9*Gtk_Event_Box_Record<77|46R9> 56e68 127|72r47 939r47 128|475r50
+57P9*Gtk_Event_Box(56R9) 128|2452r27 3741r16
+63U14*Gtk_New 128|2518s7 3751s10
+64U14*Initialize 128|2460s21 129|107s21
+75V13*Get_Above_Child{boolean}
+77U14*Set_Above_Child
+89V13*Get_Visible_Window{boolean}
+91U14*Set_Visible_Window 128|3762R10 129|108R7
+X 92 gtk-fixed.ads
+51K13*Fixed 122e14 128|88w10 88r39 3776r17
+54P9*Gtk_Fixed(53R9) 128|3747r16
+60U14*Gtk_New 128|3776s23
+70V13*Get_Has_Window{boolean}
+72U14*Set_Has_Window 128|837R7
+86U14*Move
+95U14*Put
+X 93 gtk-frame.ads
+56K13*Frame 190e14 128|89w10 89r39
+59P9*Gtk_Frame(58R9) 128|1108r19 1781r15
+65U14*Gtk_New 128|1170s10 1793s10
+X 94 gtk-gentry.ads
+54K13*GEntry 963e15 128|90w10 90r39
+65P9*Gtk_Entry(60R9) 128|170r23 4725r19
+68U14*Gtk_New 128|1188s10 4739s10
+119U14*Set_Activates_Default 128|4740R10
+142V13*Get_Text{45|82A12} 128|930R42 4746R44
+X 95 gtk-handlers.ads
+184K13*Handlers 1526e17 127|50w10 1050r32 128|3122r14 3125r14 3558r40
+194R9*Handler_Id 197e14 127|1050r41
+231U17*Connect 128|2484s23[126|50] 2487s23[126|50] 2490s23[126|50] 129|134s23[126|50]
+. 137s23[126|50] 140s23[126|50] 151s23[126|50] 154s23[126|50]
+238U17*Object_Connect 128|789s23[126|50] 1204s26[126|50] 1208s26[126|50]
+. 2505s23[126|50] 3494s26[126|50] 3499s26[126|50] 3508s26[126|50] 3512s26[126|50]
+. 3796s26[126|50] 3801s26[126|50] 3805s26[126|50] 6968s23[126|50] 129|143s23[126|50]
+. 147s23[126|50]
+242p10 Slot_Object(120|77R9) 128|2508r10[126|50] 129|146r10[126|50] 150r10[126|50]
+243b10 After{boolean} 128|3511r52[126|50] 3515r52[126|50]
+340V16*To_Marshaller=342:65{102|139R12[218[126|50]]} 128|1206s29[126|50]
+. 1210s29[126|50] 2486s26[126|50] 2489s26[126|50] 2492s26[126|50] 2507s26[126|50]
+. 3496s29[126|50] 3510s29[126|50] 3514s29[126|50] 3798s29[126|50] 3803s29[126|50]
+. 3807s29[126|50] 6970s26[126|50] 129|136s26[126|50] 139s26[126|50] 142s26[126|50]
+. 145s26[126|50] 149s26[126|50] 153s26[126|50] 156s26[126|50]
+348V16*To_Marshaller=351:46{102|139R12[218[126|50]]} 128|791s26[126|50] 3501s29[126|50]
+372V16*Emit_By_Name{boolean} 128|1040s36[126|50] 1516s47[126|50] 3332s33[126|50]
+. 3349s33[126|50] 3352s33[126|50]
+842K15*Marshallers[102|342] 127|777r41[126|47] 785r41[126|47]
+847U17*Connect 128|885s23[126|47] 888s23[126|47] 2493s23[126|47] 4842s32[126|47]
+. 4852s26[126|47]
+852U17*Object_Connect 128|2523s23[126|47] 4527s26[126|47] 4531s26[126|47]
+. 4889s29[126|47] 4897s29[126|47] 4923s29[126|47] 4940s29[126|47]
+857b10 After{boolean} 128|4530r13[126|47]
+859U17*Connect 128|891s23[126|47] 3674s23[126|47] 3676s23[126|47] 3678s23[126|47]
+871U17*Connect 128|2527s23[126|47] 2529s23[126|47]
+876U17*Object_Connect 128|2531s23[126|47] 2533s23[126|47] 3610s26[126|47]
+892V16*Object_Connect{194R9} 128|4911s55[126|47]
+951V16*To_Marshaller=954:46{102|349R12[842[126|47]]} 127|778s41[126|47] 786s41[126|47]
+. 128|887s26[126|47] 890s26[126|47] 2495s26[126|47] 2525s26[126|47] 4529s29[126|47]
+. 4533s29[126|47] 4891s32[126|47] 4899s32[126|47] 4913s32[126|47] 4925s32[126|47]
+. 4942s32[126|47]
+999U17*Emit_By_Name=1002:46 128|567s26[126|47] 3302s23[126|47] 3524s26[126|47]
+. 3540s26[126|47]
+1072k12*User_Callback 1317e21 128|3558r49
+1121U17*Object_Connect 128|3621s27[3558] 3627s27[3558] 3633s27[3558] 3639s27[3558]
+1508U14*Handler_Block 128|3122s23
+1519U14*Handler_Unblock 128|3125s23
+X 98 gtk-image.ads
+59K13*Image 468e14 128|91w10 91r39 173r27
+62P9*Gtk_Image(61R9) 128|173r33 2720r16 3745r16
+80U14*Gtk_New 128|1182s10
+201U14*Gtk_New 128|2734s13 3769s13
+309U14*Set 128|1002R16
+X 99 gtk-item.ads
+47U14*Item_Select
+50U14*Item_Deselect
+53U14*Toggle
+X 100 gtk-label.ads
+93K13*Label 648e14 127|51w10 979r27 1090r30 128|92w10 92r39
+96P9*Gtk_Label(95R9) 127|979r33 1090r36 128|169r23 4724r19 5050r25
+102U14*Gtk_New 128|1185s10 1800s10 3781s10 4736s10 5134s13
+198U14*Set_Label 128|1813R10 1817R10
+317U14*Set_Text 128|985R10 995R13
+334U14*Set_Use_Markup 128|1801R10
+X 101 gtk-main.ads
+47K13*Main 519e13 128|93w10 93r39
+302U14*Grab_Add 128|1200s10
+314U14*Grab_Remove 128|1085s13
+X 102 gtk-marshallers.ads
+139R12*Marshaller
+349R12*Marshaller 127|777r53[95|842[126|47]] 785r53[95|842[126|47]]
+X 104 gtk-menu.ads
+71K13*Menu 534e13 127|52w10 379r26 645r52 1048r32 128|95w10 95r39 4871r52
+73R9*Gtk_Menu_Record<106|52R9> 492e22 127|379r31
+75P9*Gtk_Menu(73R9) 127|645r57 1048r37 128|3602r14 3603r17 4815r20 4871r57
+88U14*Gtk_New 128|3607s10 3617s10 4825s10 4881s13
+165U14*Popup 128|3649R10
+170m7 Button{45|62M9} 128|3650r17
+171m7 Activate_Time{45|75M9} 128|3651r17
+X 105 gtk-menu_item.ads
+49K13*Menu_Item 307e18 127|53w10 1051r32 1113r36 128|96w10 96r39 3611r23
+. 3622r23 3628r23 3634r23 3640r23 4528r34 4843r30 4850r14 4853r24 4890r26
+. 4898r26 4924r41
+52P9*Gtk_Menu_Item(51R9) 127|1051r42 1113r46 128|3604r14 4473r21 4498r27
+. 4513r26 4873r18
+56U14*Gtk_New 128|3609s10 3614s10 3620s10 3626s10 3632s10 3638s10 4883s13
+. 4887s13 4895s13 4921s13
+58U14*Initialize 128|4850s24
+80U14*Set_Submenu 128|3618R10 4826R10
+83V13*Get_Submenu{120|78P9}
+87U14*Set_Label
+90V13*Get_Label{string}
+95U14*Set_Right_Justified
+98V13*Get_Right_Justified{boolean}
+106U14*Set_Use_Underline
+109V13*Get_Use_Underline{boolean}
+115U14*Set_Accel_Path
+118V13*Get_Accel_Path{string}
+136U14*Remove_Submenu
+143U14*Set_Right_Justify=145:36
+149U14*Right_Justify
+198a4*Signal_Activate{45|214A9} 128|3611r33 3622r33 3628r33 3634r33 3640r33
+. 4528r44 4843r40 4853r34 4890r36 4898r36 4924r51
+207U14*Gtk_Select
+210U14*Deselect
+213U14*Activate<120|515p14>
+216U14*Toggle_Size_Allocate
+221U14*Toggle_Size_Request
+X 106 gtk-menu_shell.ads
+59U14*Append 128|3612R10 3615R10 3624R10 3630R10 3636R10 3642R10 4841R16
+. 4854R10 4884R13 4888R13 4896R13 4904R13 4907R13 4919R13 4922R13 4930R13
+69U14*Insert 128|4523R10
+X 107 gtk-misc.ads
+64U14*Set_Alignment 128|2741s10
+X 108 gtk-notebook.ads
+55K13*Notebook 816e17 127|54w10 526r45 1002r39 128|97w10 97r39 3667r11 6771r45
+57R9*Gtk_Notebook_Record<86|50R9> 754e22 128|177r36 236r30 583r50 2915r25
+. 3559r7 3561r21 3565r21 3690r25 3878r39 4291r41 6809r17 7142r34
+59P9*Gtk_Notebook(57R9) 127|526r54 1002r48 128|231r52 305r34 317r53 411r14
+. 576r53 585r23 628r24 628r40 1123r24 1248r21 1945r30 1999r40 2051r30 2171r18
+. 2245r24 2383r15 2406r15 2669r27 2917r15 2917r51 2922r19 2922r55 2999r14
+. 3025r14 3047r23 3149r24 3601r23 3662r52 3664r18 3740r25 3837r34 3841r32
+. 3879r35 3928r14 3932r31 3933r31 4005r30 4204r27 4208r27 4239r21 4292r22
+. 4608r38 4633r34 5039r38 5388r34 5421r47 5654r32 5655r25 6006r26 6160r26
+. 6269r31 6433r27 6481r24 6771r54 6812r15 6897r24 129|182r26 183r18
+77U14*Initialize 128|3667s20
+84U14*Append_Page
+95U14*Append_Page 128|3900R7
+100U14*Append_Page_Menu
+113U14*Prepend_Page
+124U14*Prepend_Page_Menu
+137U14*Insert_Page
+150U14*Insert_Page_Menu
+165U14*Remove_Page 128|5660R16
+194V13*Get_Current_Page{45|56I9} 128|2246R54 2917R33 2922R37 3034R40 6164R56
+. 6904R21 129|227R21
+199V13*Get_Nth_Page{120|78P9} 128|632s27 1999s26 2246s34 2675s13 2916s21
+. 2921s16 3034s20 3703s29 3714s27 3717s13 3879s21 4204s13 4258s32 6178s22
+. 6482s19 6842s16 6880s16
+204V13*Get_N_Pages{45|56I9} 128|3694R37 6163R56
+208V13*Page_Num{45|56I9} 128|3008s34 3078s37 6904s47 129|227s47
+215U14*Set_Current_Page 128|3008R10 3078R13
+228U14*Set_Page=231:14
+234U14*Next_Page
+237U14*Prev_Page
+244U14*Set_Show_Border 128|3669R7
+250V13*Get_Show_Border{boolean}
+254U14*Set_Show_Tabs 128|3709R10 3711R10
+262V13*Get_Show_Tabs{boolean} 128|2305R24
+266U14*Set_Tab_Pos 128|1315R19 3568R7 3672R7 5089R10
+272V13*Get_Tab_Pos{90|275E9} 128|1313R27 2307R21 6173R41
+276U14*Set_Scrollable 128|3671R7
+285V13*Get_Scrollable{boolean}
+298U14*Popup_Enable
+303U14*Popup_Disable
+312V13*Get_Tab_Label{120|78P9} 128|3182R22
+320U14*Set_Tab_Label 128|3791R10
+332U14*Set_Tab_Label_Text
+339V13*Get_Tab_Label_Text{45|82A12}
+344U14*Set_Tab
+351V13*Get_Menu_Label{120|78P9}
+359U14*Set_Menu_Label
+366U14*Set_Menu_Label_Text
+374V13*Get_Menu_Label_Text{45|82A12}
+381U14*Query_Tab_Label_Packing
+392U14*Set_Tab_Label_Packing
+402U14*Reorder_Child
+408V13*Get_Tab_Reorderable{boolean}
+415U14*Set_Tab_Reorderable 128|3901R7
+418b7 Reorderable{boolean} 128|3901r41
+421V13*Get_Tab_Detachable{boolean}
+428U14*Set_Tab_Detachable
+447V13*Get_Group{68P12}
+450U14*Set_Group
+476V13*Convert[168|20]{143|64M9} 51|63i21
+478V13*Convert[168|20]{69|72P9} 51|64i21
+482V13*Get_Children{51|70R12[480]}
+487U14*Set_Homogeneous_Tabs
+494U14*Set_Tab_Border
+501U14*Set_Tab_Hborder
+507U14*Set_Tab_Vborder
+513U14*Set_Group_Id
+521V13*Get_Group_Id{45|56I9}
+585a4*Tab_Border_Property{59|113A9} 128|3697r31
+589a4*Show_Border_Property{59|123A9} 128|3720r34 3723r34
+745a4*Signal_Switch_Page{45|214A9} 128|3679r20
+X 109 gtk-object.ads
+103K13*Object 303e15 128|98w10 98r39 144r34 145r10 146r34 147r10 856r11 1588r18
+. 1655r18 2461r11 3208r30 4199r18
+106P9*Gtk_Object(105R9)
+108U14*Destroy 128|1086R13 1422R13 1454R10 1536R13 1585R10 1656R10 1859R10
+. 2841R13 3534R10 3894R13 4205R13 4749R10 5724R16 5869R13 6467R22 6989R16
+134V13*Get_Type{69|67M12}<57|59p13>
+143V13*Convert{143|64M9} 53|55i21
+144V13*Convert{106P9} 53|56i21
+172V13*Flags{45|75M9}
+175U14*Set_Flags
+179U14*Unset_Flags
+184V13*Flag_Is_Set{boolean}
+188V13*In_Destruction_Is_Set{boolean} 128|1508s20 1588s25 3208s37 3316s10
+. 4199s25
+193V13*Destroyed_Is_Set=194:30{boolean} 128|1655s25
+210+12*GObject_Class{57|240M9} 128|144r41 146r41
+211m4*Uninitialized_Class=212:18{57|240M9} 128|145r17 147r17
+219U14*Initialize_Class_Record=225:27 128|856s18 2461s18
+221a7 Signals{131|45A12} 128|858r10 2463r10
+222+7 Class_Record{210+12} 128|859r10 2464r10
+223a7 Type_Name{string} 128|860r10 2465r10
+224a7 Parameters{214A12} 128|861r10 2466r10
+248U14*Sink
+292a4*Signal_Destroy{45|214A9} 128|889r15 2494r17 2524r25 4532r30 4941r26
+X 112 gtk-radio_menu_item.ads
+43K13*Radio_Menu_Item 175e24 127|57w10 765r20 965r27 128|99w10 99r39
+45R9*Gtk_Radio_Menu_Item_Record<85|47R9> 169e69 127|765r36
+47P9*Gtk_Radio_Menu_Item(45R9) 127|965r43
+49U14*Gtk_New 128|4520s10
+53U14*Initialize 128|4835s16
+105U14*Set_Group
+108V13*Get_Group{53|59R12[120|126]} 128|4490R21 4840R25
+128V13*Group=130:42{53|59R12[120|126]}
+X 113 gtk-rc.ads
+311K13*Rc 457e11 128|100w10 3179r27
+335V13*Get_Style{118|68P9} 128|3179s30
+X 115 gtk-separator_menu_item.ads
+47K13*Separator_Menu_Item 119e28 128|101w10 101r39
+50P9*Gtk_Separator_Menu_Item(49R9) 128|4876r18
+56U14*Gtk_New 128|4903s13 4918s13 4929s13
+X 117 gtk-stock.ads
+41K13*Stock 214e14 128|102w10 102r39
+110a4*Stock_Cancel{string} 128|4733r40
+166a4*Stock_Ok{string} 128|4732r40
+X 118 gtk-style.ads
+61K13*Style 859e14 127|55w10 1069r29 128|103w10 103r39 129|231r23
+68P9*Gtk_Style(67R9) 127|1069r35 128|6898r15
+83U14*Gtk_New 128|1283s7
+141V13*Get_Bg=143:61{24|60R9} 128|854s34 3148s28 3177s30 3179s15 129|231s29
+177U14*Set_Foreground 128|1287s10 1289s10 1291s10 1293s10 1295s10
+377V13*Get_White{24|60R9} 128|1743s32
+677U14*Paint_Shadow 128|1748R13
+678p7 Style(67R9) 128|1749r16
+679p7 Window{21|48P12} 128|1750r16
+680e7 State_Type{90|362E9} 128|1751r16
+681e7 Shadow_Type{90|354E9} 128|1752r16
+683p7 Widget(57|45R9) 128|1753r16
+685i7 X{45|56I9} 128|1754r16
+686i7 Y{45|56I9} 128|1755r16
+687i7 Width{45|56I9} 128|1756r16
+688i7 Height{45|56I9} 128|1757r16
+X 119 gtk-tree_model.ads
+69P9*Gtk_Tree_Path<45|155P9>
+188V13*Convert[16|20]{143|64M9} 51|63i21
+190V13*Convert[16|20]{69P9} 51|64i21
+X 120 gtk-widget.ads
+76K13*Widget 2435e15 127|58w10 67r38 200r33 203r26 220r33 223r26 272r26 411r31
+. 459r51 465r27 473r27 658r30 775r28 783r28 940r27 970r27 988r24 1006r39
+. 1014r19 1014r51 1086r30 128|104w10 104r39 886r19 1471r26 2427r33 2430r26
+. 2442r33 2445r26 2879r27 2901r27 4554r31 4596r35 4609r45 4610r45 4634r45
+. 4635r45 4646r47 4647r47 4661r40 4662r40 5040r45 5041r45 5171r35 5389r45
+. 5390r45 5579r47 5580r47 5710r42 5711r42 6416r40 6417r40 6674r29 6675r29
+. 129|398r17
+77R9*Gtk_Widget_Record<109|105R9> 2310e75 127|67r45 200r40 220r40 272r33
+. 411r38 465r34 473r34 658r37 775r35 783r35 128|188r22 194r22 200r22 206r22
+. 212r25 217r23 219r23 251r22 255r44 256r52 260r40 263r51 266r43 270r23 274r40
+. 278r23 279r23 323r41 324r41 325r41 326r41 327r41 331r20 333r21 345r22 349r22
+. 355r21 361r20 389r22 394r22 419r21 463r22 501r31 521r22 597r20 626r21 645r21
+. 687r22 713r22 754r20 1015r22 1380r40 1397r40 1471r33 1559r44 1653r52 1685r23
+. 1869r22 1888r22 1934r22 2165r22 2380r23 2403r23 2427r40 2442r40 2879r34
+. 2901r34 3313r22 3342r22 3597r25 4185r21 4331r39 4355r39 4377r37 4407r37
+. 4439r39 4456r51 4542r43 4554r38 4695r24 4719r24 6964r23 6965r23 129|47r23
+. 63r23 68r23 73r23 78r23 83r23 88r23 92r42 101r28 164r23 394r42 413r23 430r23
+. 445r23 462r23 480r23 503r23
+78P9*Gtk_Widget(77R9) 127|203r33 223r33 459r58 940r34 970r34 1086r37 128|284r23
+. 337r61 339r15 523r11 525r37 526r17 599r16 599r30 648r25 648r39 668r15 671r22
+. 702r52 1194r34 1619r38 1944r30 1975r29 1977r42 2037r29 2038r36 2044r32
+. 2126r44 2169r18 2196r29 2216r29 2430r33 2445r33 2470r29 2542r11 2542r25
+. 2640r26 2641r27 2886r50 2903r13 2903r27 3002r32 3003r32 3035r15 3150r15
+. 3217r41 3233r28 3234r29 3864r31 4165r65 4187r41 4188r33 4242r21 4557r16
+. 4557r30 4726r19 5142r32 5149r32 5150r33 5327r31 5396r26 5396r40 5422r25
+. 5465r24 5484r27 5487r32 6097r37 6257r39 6435r27 7110r23 7116r37 7135r21
+. 7138r32 7145r45 7158r23 7159r24 7185r23 7194r23 7203r23 7212r23
+80R9*Gtk_Requisition 83e14 128|3383r21
+81i7*Width{45|56I9} 128|3401r27
+82i7*Height{45|56I9} 128|3402r27
+96i7*X{45|56I9} 128|6658m31
+97i7*Y{45|56I9} 128|6659m31
+98i7*Width{45|101I12} 128|6660m31
+99i7*Height{45|101I12} 128|6661m31
+121V13*Convert{143|64M9} 51|63i21 53|55i21
+122V13*Convert{78P9} 51|64i21 53|56i21
+125K12*Widget_List[51|68] 127|988r31 1006r46 1014r26 1014r58 128|165r8 168r23
+. 182r55 904r18 1081r30 1122r24 1364r14 1372r18 1399r13 1400r13 1619r7 2010r26
+. 2018r36 2030r33 2061r33 2063r26 2564r14 2572r21 2590r18 2881r13 3217r10
+. 3419r25 3429r30 3444r27 3930r31 3939r24 3968r27 4079r14 4124r15 4249r25
+. 4470r21 4472r21 4486r23 4512r26 4596r42 4609r52 4610r52 4634r52 4635r52
+. 4646r54 4647r54 4661r47 4662r47 4875r18 5040r52 5041r52 5171r42 5389r52
+. 5390r52 5579r54 5580r54 5710r49 5711r49 5828r27 5829r27 5879r22 5880r22
+. 5975r29 6365r24 6366r33 6374r21 6416r47 6417r47 6431r27 6432r27 6592r20
+. 6594r27 6595r36 6605r24 6611r27 6612r36 6616r24 6674r36 6675r36 6717r18
+. 6741r18 6743r38 6751r25 6752r29 6756r28 6832r18 6836r21 6852r30 6871r41
+. 6875r19 6883r30 6884r28 6918r24 6920r24
+126K12*Widget_SList[53|57] 128|1560r16 4466r11 4468r21 4468r44 4817r20 4817r43
+147U14*Show 128|1673R10 2409R10 2411R10 3051R7 3221R7 3730R13 3913R7 4307R10
+. 4857R10 6901s10 7028R13
+153U14*Show_Now
+158U14*Hide 128|1667R10 2386R10 2388R10 3728R13 6615R16 6995R16
+167U14*Show_All 128|1191R10 1803R10 2621R7 2745R10 3525R10 3648R10 3792R10
+. 4297R13 4526R10 4743R10 4856R10 4950R10 5091R10 6627R10 6635R13
+171U14*Hide_All
+179U14*Set_No_Show_All
+181V13*Get_No_Show_All{boolean}
+188U14*Map
+196U14*Unmap
+204U14*Realize 128|6634R13 6655R13 7009R16
+212U14*Unrealize
+239U14*Set_Child_Visible 128|986R10 997R13 1668R10 1674R10 3912R7 4110s10
+. 5090R10 5895R10
+241V13*Get_Child_Visible{boolean}
+270V13*Has_Screen{boolean}
+280U14*Queue_Draw 128|1343s10 2848s13 129|404R10
+287U14*Queue_Draw_Area 128|3254R10 3261R10
+296U14*Queue_Resize 128|1390R7 3914R7 6586R10
+303U14*Queue_Resize_No_Redraw
+307V13*Create_Pango_Context{138|38P9}
+314V13*Create_Pango_Layout{141|72P9} 128|844R27
+326U14*Size_Request 128|3400R10
+331U14*Set_Size_Request 128|832R7 1670R10 1676R10 2683R13 5088R10 5322R13
+. 129|128R7
+334U14*Get_Size_Request
+364U14*Size_Allocate 128|6656R13
+366r7 Allocation{95R9} 128|6658r16
+372V13*Get_Child_Requisition{80R9}
+379V13*Get_Allocation_Width{45|101I12} 128|1716R22 1756R37 2773s14 3256R19
+. 3257R19 3263R19 3397R15 5753R37 5757R27 5971R18 6103R27 6530R33 6660R41
+. 7178R23 7225R26 129|196R20 401R14
+383V13*Get_Allocation_Height{45|101I12} 128|1717R22 1729R26 1757R37 2688R25
+. 2689R25 2774R14 3264R19 3398R15 5754R43 5759R27 5973R18 6104R27 6536R33
+. 6661R41 7179R23 7226R26 129|197R20 402R14
+387V13*Get_Allocation_X{45|56I9} 128|6658R41 7223R26 7278R42 129|194R20 399R14
+390V13*Get_Allocation_Y{45|56I9} 128|6659R41 7224R26 7279R42 129|195R20 400R14
+393U14*Set_Redraw_On_Allocate
+413U14*Add_Accelerator
+426U14*Remove_Accelerator
+433V13*Can_Activate_Accel{boolean}
+444U14*Set_Accel_Path 128|2748R10 4892R13 4900R13 4914R13 4926R13
+454V13*List_Mnemonic_Labels{51|70R12[125]}
+466U14*Add_Mnemonic_Label
+475U14*Remove_Mnemonic_Label
+482V13*Mnemonic_Activate{boolean}
+502U14*Send_Expose
+515U14*Activate
+521U14*Grab_Focus 128|1202R10 2553R10
+529V13*Is_Focus{boolean}
+566U14*Set_Events 128|7003R16 129|129R7
+569V13*Get_Events{30|139M9} 129|131R10
+577U14*Add_Events 128|2479R7 3498R10 6967R7
+582U14*Set_Extension_Events
+585V13*Get_Extension_Events{41|89E9}
+604U14*Error_Bell
+613V13*Keynav_Failed{boolean}
+652U14*Set_Colormap
+655V13*Get_Colormap{24|75P12}
+663V13*Get_Visual{43|42P12}
+677V13*Get_Default_Colormap{24|75P12} 128|846s14 849s14 852s14 3768s28
+686V13*Is_Composited{boolean}
+699U14*Set_Style 128|6925R19 6936R10
+702V13*Get_Style{118|68P9} 128|1743R43 1749R31 3177R38 129|231R37
+707V13*Get_Default_Style{118|68P9} 128|854s42 3148s36
+710U14*Ensure_Style
+715U14*Restore_Default_Style
+720U14*Reset_Rc_Styles
+723V13*Get_Pango_Context{138|38P9}
+736U14*Modify_Fg
+743U14*Modify_Bg 128|1790R10 3181R13 3184R16 7004R16
+753U14*Modify_Text
+768U14*Modify_Base
+777U14*Modify_Font
+788U14*Set_Direction
+790V13*Get_Direction{90|162E9}
+805U14*Modify_Cursor
+818U14*Set_Name
+825V13*Get_Name{45|82A12}
+829V13*Path{string}
+830V13*Path_Reversed{string}
+844V13*Class_Path{string}
+845V13*Class_Path_Reversed{string}
+850V13*Get_Ancestor{78P9}
+856U14*Set_Parent
+859V13*Get_Parent{78P9} 128|523R25 530R15 582R16 583R24 585R37 1568R22 1592R13
+. 1593R36 1597R10 1599R33 1977R19 1995R34 2021R36 2021R54 2236R29 2581R24
+. 2581R42 2926R15 3412R13 3413R36 3517R20 3531R20 3864R10 3870R10 3871R39
+. 4562R20 5501R22 5655R39 6458R29 6461R45 6548R13 6549R36 6580R21 7140R21
+. 7143R23 7145R21 7147R24 7152R36 129|183R32
+864U14*Set_Parent_Window
+867V13*Get_Parent_Window{44|71P12}
+873V13*Get_Toplevel{78P9} 128|671R36 766R33 769R33 1165s47 1788R57 2386R16
+. 2409R16 2830R25 2932R26 3015R40 3086R31 3095R38 3274R15 3276R15 3436R47
+. 3438R47 3478R33 3511R25 3515R25 3530R29 4113s30 4145R34 4149R34 4730R41
+. 5757R49 5759R50 5799R38 5816R31 5971R40 5973R41 6098R24 6330R56 7002R54
+895V13*Is_Ancestor{boolean}
+901U14*Reparent 128|3517R10 3531R10
+903p7 New_Parent(77R9) 128|3532r20
+925V13*Get_Root_Window{44|71P12}
+935U14*Set_Composite_Name
+937V13*Get_Composite_Name{string}
+965U14*Set_Scroll_Adjustments
+975V13*Intersect{boolean}
+982V13*Region_Intersect{38|39P12}
+995U14*Grab_Default
+1000U14*Set_State
+1003V13*Get_State{90|362E9}
+1009U14*Set_Sensitive 128|3286R10 4108R10
+1017U14*Set_App_Paintable
+1022U14*Set_Double_Buffered
+1027U14*Get_Pointer 128|7181R10 7228R13
+1033U14*Set_Window
+1036V13*Get_Window{44|71P12} 128|1199R32 1327s29 1384R34 1515R38 1710R24
+. 1750R31 1876R10 1954R10 2180R10 2197R36 2217R36 2239R36 2250R39 2253R39
+. 2291R54 2350R19 2847s13 3011R28 3015R16 3089R32 3095R14 5788R54 6334R36
+. 7012R29 7026R24 7055R14 7122R26 7125R27 129|216R24 398R24
+1044U14*Shape_Combine_Mask
+1055U14*Input_Shape_Combine_Mask
+1064U14*Reset_Shapes
+1067V13*Render_Icon{35|67P9}
+1081V13*Get_Snapshot{36|51P12}
+1118V13*Get_Tooltip_Text{45|82A12}
+1120U14*Set_Tooltip_Text
+1129V13*Get_Tooltip_Markup{45|82A12}
+1131U14*Set_Tooltip_Markup
+1143U14*Set_Tooltip_Window
+1154V13*Get_Tooltip_Window{78P9}
+1162V13*Get_Has_Tooltip{boolean}
+1163U14*Set_Has_Tooltip
+1169U14*Trigger_Tooltip_Query
+1348V13*No_Window_Is_Set{boolean} 128|7277s13
+1352V13*Realized_Is_Set{boolean} 128|1325s10 1499s10 1709s10 2768s10 3010s13
+. 3084s18 3088s13 3252s18 3260s10 3273s21 3434s33 129|193s10 396s10
+1356V13*Mapped_Is_Set{boolean} 128|3396s10
+1360V13*Visible_Is_Set{boolean} 128|2575s13 3703s13 6118s23 6807s23
+1418U14*Draw 128|2770s10
+1426U14*Set_UPosition 128|3487R13
+1434U14*Set_USize 128|1669R10 1675R10 3777R13
+1446U14*Queue_Clear
+1452U14*Queue_Clear_Area
+1633U14*Child_Notify
+1644U14*Freeze_Child_Notify
+1648U14*Thaw_Child_Notify
+1673U14*Style_Get_Property
+2183a4*Signal_Button_Press_Event{45|214A9} 128|2485r17 3797r20 3802r20 6969r18
+. 129|152r18
+2185a4*Signal_Button_Release_Event{45|214A9} 128|2488r17 3806r20 129|155r18
+2217a4*Signal_Enter_Notify_Event{45|214A9} 129|138r18 144r15
+2223a4*Signal_Expose_Event{45|214A9} 128|2506r27 129|135r18
+2227a4*Signal_Focus_In_Event{45|214A9} 128|790r18 3500r18
+2237a4*Signal_Hide{45|214A9} 128|2528r17 2532r25
+2241a4*Signal_Key_Press_Event{45|214A9} 128|1209r16 3350r18 3509r18
+2243a4*Signal_Key_Release_Event{45|214A9} 128|1205r16 3353r18 3513r18
+2245a4*Signal_Leave_Notify_Event{45|214A9} 129|141r18 148r15
+2253a4*Signal_Motion_Notify_Event{45|214A9} 128|2491r17
+2267a4*Signal_Realize{45|214A9} 128|886r26
+2285a4*Signal_Show{45|214A9} 128|2530r17 2534r25
+X 122 gtk-window.ads
+66K13*Window 1279e15 127|59w10 118r27 1089r30 1110r31 128|105w10 105r39 787r27
+68R9*Gtk_Window_Record<77|46R9> 1215e69 127|118r34 128|167r40 674r29 787r34
+. 2456r24
+69P9*Gtk_Window(68R9) 127|1089r37 1110r38 128|675r38 766r21 769r21 1165r35
+. 1788r45 2830r13 2904r13 2932r14 3015r28 3086r19 3095r26 3381r21 3418r25
+. 3436r35 3438r35 3453r21 3511r13 3515r13 3530r17 4113r18 4145r22 4149r22
+. 4730r29 5799r26 5816r19 6330r30 6330r44 7002r42
+73P9*Gtk_Window_Group(71R9)
+75U14*Gtk_New 128|1787s10 3456s13 7000s16
+86U14*Initialize 128|1160s10
+95U14*Set_Title 128|2829R10 3461R13 3463R13 4144R19 4148R19
+97V13*Get_Title{45|82A12}
+101U14*Set_Wmclass
+114U14*Set_Role
+115V13*Get_Role{string}
+127V13*Activate_Focus{boolean}
+135V13*Activate_Default{boolean}
+148U14*Set_Transient_For 128|1165R13 1788R10 7001R16
+151V13*Get_Transient_For{69P9}
+164U14*Set_Type_Hint
+167V13*Get_Type_Hint{44|121E9}
+174U14*Set_Keep_Above 128|1791R10
+176U14*Set_Keep_Below
+209U14*Set_Startup_Id
+223V13*Get_Deletable{boolean}
+224U14*Set_Deletable
+238U14*Set_Destroy_With_Parent
+241V13*Get_Destroy_With_Parent{boolean}
+248U14*Set_Geometry_Hints
+278U14*Set_Decorated 128|7006R16
+281V13*Get_Decorated{boolean}
+288U14*Set_Modal
+290V13*Get_Modal{boolean}
+300U14*Set_Skip_Pager_Hint
+303V13*Get_Skip_Taskbar_Hint{boolean}
+312U14*Set_Skip_Taskbar_Hint
+315V13*Get_Skip_Pager_Hint{boolean}
+321U14*Set_Urgency_Hint
+324V13*Get_Urgency_Hint{boolean}
+339U14*Present 128|3086R10
+351U14*Present_With_Time
+364U14*Stick
+377U14*Unstick
+387V13*Get_Opacity{45|66F9}
+388U14*Set_Opacity
+404U14*Move 128|7020R13
+431U14*Set_Position 128|1163R13 1166R13 1789R10 3485R13 3488R13
+445U14*Get_Position
+483U14*Begin_Move_Drag
+498V13*Parse_Geometry{boolean}
+524U14*Set_Resizable
+527V13*Get_Resizable{boolean}
+531U14*Set_Gravity
+534V13*Get_Gravity{44|156E9}
+554U14*Set_Has_Frame
+555V13*Get_Has_Frame{boolean}
+565U14*Set_Frame_Dimensions
+568U14*Get_Frame_Dimensions
+574U14*Fullscreen
+575U14*Unfullscreen
+582U14*Iconify
+597U14*Deiconify
+607U14*Maximize 128|5799R16
+621U14*Unmaximize
+631U14*Set_Default_Size 128|1168R10 3466R10 5815R16
+633U14*Get_Default_Size
+668U14*Resize 128|4113R10 7015R13
+684U14*Get_Size
+724U14*Reshow_With_Initial_Size
+728U14*Begin_Resize_Drag
+745U14*Set_Icon_Name
+746V13*Get_Icon_Name{string}
+752U14*Set_Icon
+754V13*Get_Icon{35|67P9}
+775U14*Set_Icon_List
+778V13*Get_Icon_List{51|70R12[57|425]}
+803V13*Set_Icon_From_File{boolean}
+855V13*Get_Group{73P9}
+865V13*Get_Focus{120|78P9}
+874U14*Set_Focus 128|766R10 769R10
+884U14*Set_Accept_Focus 128|7007R16
+886V13*Get_Accept_Focus{boolean}
+891U14*Set_Focus_On_Map
+893V13*Get_Focus_On_Map{boolean}
+898V13*Has_Toplevel_Focus{boolean} 128|675R18
+904V13*Is_Active{boolean}
+916V13*Get_Default_Widget{120|78P9}
+918U14*Set_Default
+929U14*Set_Mnemonic_Modifier
+932V13*Get_Mnemonic_Modifier{41|149M9}
+938U14*Add_Mnemonic
+942U14*Remove_Mnemonic
+951V13*Mnemonic_Activate{boolean}
+959V13*Activate_Key{boolean}
+968V13*Propagate_Key_Event{boolean}
+977U14*Add_Accel_Group 128|3480R13
+980U14*Remove_Accel_Group
+996U14*Set_Resizeable=998:44
+1001V13*Get_Resizeable=1002:14{boolean}
+1005U14*Set_Policy
+1136a4*Has_Toplevel_Focus_Property{59|123A9} 128|3277r15
+X 123 gtkada.ads
+36K9*Gtkada 40e11 127|60r6 61r6 65r9 777r9 778r9 785r9 786r9 994r35 1012r34
+. 1117r32 1129r5 128|107r6 107r35 108r6 108r35 109r6 111r14 805r7 827r7 2938r18
+. 3994r26 4271r18 5992r22 6131r22 6246r26 7310r5 129|35r11
+X 126 gtkada-handlers.ads
+45K16*Handlers 60e20 127|60w13 777r16 778r16 785r16 786r16 128|107w13 107r42
+47K12*Widget_Callback[95|834] 127|777r25 778r25 785r25 786r25 128|567r10
+. 885r7 887r10 888r7 890r10 891r7 2493r7 2495r10 2523r7 2525r10 2527r7 2529r7
+. 2531r7 2533r7 3302r7 3524r10 3540r10 3610r10 3674r7 3676r7 3678r7 4527r10
+. 4529r13 4531r10 4533r13 4842r16 4852r10 4889r13 4891r16 4897r13 4899r16
+. 4911r39 4913r16 4923r13 4925r16 4940r13 4942r16
+50K12*Return_Callback[95|209] 128|789r7 791r10 1040r20 1204r10 1206r13 1208r10
+. 1210r13 1516r31 2484r7 2486r10 2487r7 2489r10 2490r7 2492r10 2505r7 2507r10
+. 3332r17 3349r17 3352r17 3494r10 3496r13 3499r10 3501r13 3508r10 3510r13
+. 3512r10 3514r13 3796r10 3798r13 3801r10 3803r13 3805r10 3807r13 6968r7
+. 6970r10 129|134r7 136r10 137r7 139r10 140r7 142r10 143r7 145r10 147r7 149r10
+. 151r7 153r10 154r7 156r10
+X 127 gtkada-mdi.ads
+65K16*MDI 123|36k9 127|937E9 1129l12 1129e15 128|111b21 805r14 4271r25 7310l12
+. 7310t15 129|35r18
+67R9*MDI_Window_Record<120|77R9> 57|83p14 89p14 117p14 130p14 329p14 86|56p14
+. 59p13 64p14 72p14 85p14 88p13 94p13 100p14 122p14 131p14 142p14 145p14
+. 148p13 157p14 160p13 172p13 181p14 186p14 229p14 242p14 275p14 282p13 288p14
+. 298p14 92|70p13 72p14 86p14 95p14 109|108p14 134P13 172p13 175p14 179p14
+. 184p13 248p14 120|147p14 153p14 158p14 167p14 171p14 179p14 181p13 188p14
+. 196p14 204p14 212p14 239p14 241p13 270p13 280p14 287p14 296p14 303p14 307p13
+. 314p13 326p14 331p14 334p14 364p14 372p13 379p13 383p13 387p13 390p13 393p14
+. 413p14 426p14 433p13 444p14 454p13 466p14 475p14 482p13 502p14 515p14 521p14
+. 529p13 566p14 569p13 577p14 582p14 585p13 604p14 613p13 652p14 655p13 663p13
+. 686p13 699p14 702p13 710p14 715p14 720p14 723p13 736p14 743p14 753p14 768p14
+. 777p14 788p14 790p13 805p14 818p14 825p13 829p13 830p13 844p13 845p13 850p13
+. 856p14 859p13 864p14 867p13 873p13 895p13 901p14 925p13 935p14 937p13 965p14
+. 975p13 982p13 995p14 1000p14 1003p13 1009p14 1017p14 1022p14 1027p14 1033p14
+. 1036p13 1044p14 1055p14 1064p14 1067p13 1081p13 1118p13 1120p14 1129p13
+. 1131p14 1143p14 1154p13 1162p13 1163p14 1169p14 1418p14 1426p14 1434p14
+. 1446p14 1452p14 1633p14 1644p14 1648p14 1673p14 127|68r34 110r22 116p14
+. 117r23 126p14 127r42 151p13 152r20 248p14 249r33 256p14 257r27 270p14 271r22
+. 339p14 340r24 381p14 382r24 404p13 405r20 409P14 410r27 420p14 421r29 463p13
+. 464r23 481p13 482r20 492p13 493r21 502p13 503r34 551p14 552r20 558p14 559r20
+. 597p14 598r30 643r37 688r32 704r32 714r32 721r32 734r32 747r23 794p13 794r46
+. 798p13 799r20 805r20 1012c9 1121e14 128|225r22 231r20 235r30 283r26 294r27
+. 303r41 375r20 380r20 384r20 408r33 423r27 430r47 462r22 520r22 786r23 804r18
+. 813r22 900r20 926r20 1101r29 1229r42 1352r20 1362r20 1470r22 1771r27 1831r24
+. 1856r47 2610r33 2663r27 2864r22 2878r23 2951r20 2977r21 3585r24 3662r20
+. 3689r25 3835r41 3925r33 4077r20 4122r20 4175r20 4233r30 4380r21 4410r21
+. 4553r27 4587r31 4601r41 4627r41 4644r43 4657r36 4682r24 4687r23 4757r32
+. 4781r32 4812r24 4869r37 5032r41 5162r31 5338r23 5382r41 5577r43 5672r23
+. 5705r32 5965r32 6412r36 6670r32 6713r34 6944r46 6979r27 7109r26 7289r20
+. 7301r20 130|75p14 80p14 99p14 111p14 118p13 127p13 133p14 197p14 204p14
+. 214p13
+68P9*MDI_Window(67R9) 96r19 293r62 670r16 767r17 960r23 991r35 128|613r30
+. 756r20 756r34 800r19 1018r24 1018r38 1381r30 1381r44 1398r22 1398r36 1489r24
+. 1562r38 1938r39 2614r20 3575r62 4332r20 4332r34 4360r10 4361r18 4363r17
+. 4381r32 4411r15 4544r7 4545r7 4831r30 4848r24 5225r19 5245r46 5267r37 6730r37
+72R9*MDI_Child_Record<91|56R9> 57|83p14 89p14 117p14 130p14 329p14 77|60p13
+. 86|56p14 59p13 64p14 72p14 85p14 88p13 94p13 100p14 122p14 131p14 142p14
+. 145p14 148p13 157p14 160p13 169p14 172p13 181p14 186p14 229p14 242p14 275p14
+. 282p13 288p14 298p14 91|75p13 77p14 89p13 91p14 109|108p14 134P13 172p13
+. 175p14 179p14 184p13 248p14 120|147p14 153p14 158p14 167p14 171p14 179p14
+. 181p13 188p14 196p14 204p14 212p14 239p14 241p13 270p13 280p14 287p14 296p14
+. 303p14 307p13 314p13 326p14 331p14 334p14 364p14 372p13 379p13 383p13 387p13
+. 390p13 393p14 413p14 426p14 433p13 444p14 454p13 466p14 475p14 482p13 502p14
+. 515p14 521p14 529p13 566p14 569p13 577p14 582p14 585p13 604p14 613p13 652p14
+. 655p13 663p13 686p13 699p14 702p13 710p14 715p14 720p14 723p13 736p14 743p14
+. 753p14 768p14 777p14 788p14 790p13 805p14 818p14 825p13 829p13 830p13 844p13
+. 845p13 850p13 856p14 859p13 864p14 867p13 873p13 895p13 901p14 925p13 935p14
+. 937p13 965p14 975p13 982p13 995p14 1000p14 1003p13 1009p14 1017p14 1022p14
+. 1027p14 1033p14 1036p13 1044p14 1055p14 1064p14 1067p13 1081p13 1118p13
+. 1120p14 1129p13 1131p14 1143p14 1154p13 1162p13 1163p14 1169p14 1418p14
+. 1426p14 1434p14 1446p14 1452p14 1633p14 1644p14 1648p14 1673p14 127|74r33
+. 219r29 250r33 258r27 281p14 282r28 293p13 293r37 297p13 297r39 300p13 301r22
+. 304p13 304r43 307p13 307r39 310p14 311r22 317p13 318r22 325p13 326r22 357r23
+. 365r48 369p14 369r51 378r22 393p14 394r22 417p14 417r46 458p13 459r22 539r22
+. 543r22 547r22 569r22 576r39 579r42 939c9 981e14 128|242r47 247r22 299r48
+. 304r41 317r22 320r48 370r22 399r22 403r22 442r34 450r50 502r31 561r22 576r22
+. 655r32 1486r22 1664r50 2368r22 2432r20 2441r29 2562r22 2611r33 2664r27
+. 2699r39 2709r22 2718r47 2760r22 2791r22 2801r28 2912r22 2918r18 2998r42
+. 3024r39 3044r22 3119r48 3134r43 3147r47 3194r46 3362r22 3374r34 3549r22
+. 3575r37 3739r47 3836r41 4165r40 4191r23 4465r48 4560r37 6895r22 6954r39
+. 7037r22 7086r48 7098r51 129|102r28
+74P9*MDI_Child(72R9) 75r31 81r56 199r26 326r63 405r46 465r66 473r66 484r47
+. 494r29 530r52 600r23 671r17 1038r21 128|180r58 226r15 226r33 365r43 477r25
+. 630r15 632r16 658r36 659r27 670r20 670r33 689r21 689r34 727r13 727r49 906r18
+. 909r15 968r33 989r17 994r18 1081r19 1124r24 1139r25 1243r21 1365r14 1369r15
+. 1401r13 1416r15 1474r20 1529r16 1561r38 1561r51 1613r22 1690r35 1690r48
+. 1891r23 1891r36 1937r39 1937r52 1943r30 2011r26 2019r31 2067r35 2168r27
+. 2168r40 2170r18 2246r23 2368r63 2372r14 2382r24 2382r37 2405r24 2405r37
+. 2426r26 2541r43 2565r14 2566r14 2573r16 2575r48 2865r15 2865r33 2879r66
+. 2886r13 2887r49 2901r66 2905r13 2913r44 2913r63 2920r18 2953r47 2955r15
+. 2978r29 2980r15 3046r32 3048r23 3074r35 3168r13 3195r22 3196r22 3196r35
+. 3200r39 3316r33 3320r13 3321r19 3322r22 3324r23 3327r51 3328r23 3333r13
+. 3420r25 3430r25 3432r28 3471r36 3600r23 3600r36 3693r15 3714r16 3931r31
+. 3940r18 3969r21 4080r14 4094r21 4125r15 4141r22 4175r46 4189r31 4195r16
+. 4235r23 4240r21 4252r20 4378r11 4383r15 4408r11 4417r15 4440r20 4440r33
+. 4458r7 4469r21 4487r28 4525r30 4566r27 4577r29 4590r31 4595r28 4606r41
+. 4611r41 4629r41 4636r41 4645r43 4660r36 4874r18 4935r25 5037r41 5042r41
+. 5047r25 5048r25 5165r31 5170r28 5179r21 5384r41 5391r41 5578r43 5588r23
+. 5591r34 5712r38 5830r27 5839r28 5845r21 5933r29 5977r29 5984r26 6032r26
+. 6167r39 6177r28 6366r22 6415r36 6421r21 6434r27 6448r21 6595r25 6612r25
+. 6676r25 6718r18 6740r24 6752r18 6773r20 6825r12 6835r26 6867r52 6874r23
+. 6879r20 6884r17 129|110r29
+81A9*MDI_Child_Array(74P9)<integer> 82r27
+82a4*No_Children{81A9}
+84E9*State_Type 84e52 307r64 946r23 128|247r58 561r58 563r28 3389r24 4594r28
+. 5045r25 5169r28 5285r19 5589r23 6091r31 6954r64
+84n24*Normal{84E9} 946r37 128|581r15 1427r27 1437r27 1994r30 2471r29 2627r25
+. 3006r24 3032r15 3056r24 3065r43 3533r28 3750r46 3898r25 3942r26 4197r25
+. 4338r40 4361r55 5186r22 5642r27 6369r21 6450r29
+84n32*Floating{84E9} 128|579r15 768r35 1419r23 2385r24 2408r24 2828r47 3013r27
+. 3028r15 3082r27 3124r63 3241r21 3405r25 3433r36 3519r28 3527r27 3551r28
+. 4095r31 4096r37 4142r30 4387r37 4444r23 4910r58 5634r27 6095r33 6370r21
+. 6741r70 6837r18
+84n42*Invisible{84E9} 128|580r15 1424r26 1638r20 2623r24 2867r47 3030r15
+. 5200r28 5639r27 6040r30 6369r30 6464r33 6753r27 6855r54
+95U14*Gtk_New 96<7 97^7 98>7 128|799b14 806l8 806t15
+96p7 MDI{68P9} 128|800b7 804m7 805r30
+97p7 Group(70|49R9) 128|801b7 805r35
+98b7 Independent_Perspectives{boolean} 128|802b7 805r42
+109U14*Initialize 110^7 111^7 112>7 128|805s18 812b14 893l8 893t18
+110p7 MDI(67R9) 128|813b7 827r38 832r25 837r23 839r7 840r7 842r24 844r7 844r48
+. 845r7 846r36 848r7 849r36 851r7 852r36 854r7 857r10 864r10 865r31 866r31
+. 867r31 872r16 874r18 874r23 880r10 880r53 886r10 889r10 892r10
+111p7 Group(70|49R9) 128|814b7 839r37
+112b7 Independent_Perspectives{boolean} 128|815b7 840r39
+116U14*Setup_Toplevel_Window 117^7 118^7 128|785b14 793l8 793t29
+117p7 MDI(67R9) 128|786b7 792r10
+118p7 Parent(122|68R9) 128|787b7 790r10
+123E9*Show_Tabs_Policy_Enum 123e60 136r28 1084r27 128|1239r35
+123n35*Always{123E9} 128|2676r45 3711r58 3718r41
+123n43*Never{123E9} 128|3709r59
+123n50*Automatic{123E9} 136r53 1084r52 128|1239r60
+124E9*Title_Bars_Policy 124e63 134r28 1082r27 128|1236r35
+124n35*Always{124E9} 134r51 1082r48 128|1236r58 3137r15
+124n43*Never{124E9} 128|3138r15
+124n50*Central_Only{124E9} 128|3139r15
+126U14*Configure 127^7 128>7 129>7 130>7 131>7 132>7 133>7 134>7 135>7 136>7
+. 128|863R7 1228b14 1345l8 1345t17
+127p7 MDI(67R9) 128|1229b7 1244r32 1246r52 1251r7 1252r7 1253r7 1254r7 1256r28
+. 1259r32 1262r32 1266r23 1267r7 1272r10 1276r10 1279r10 1280r17 1283r16
+. 1286r10 1288r13 1288r48 1290r13 1290r48 1292r13 1292r50 1294r13 1294r50
+. 1296r13 1296r53 1300r10 1315r38 1318r41 1325r27 1327r41 1340r36 1343r22
+128b7 Opaque_Resize{boolean} 128|1230b7 1256r33
+129b7 Close_Floating_Is_Unfloat{boolean} 128|1231b7 1251r40
+130p7 Title_Font{140|56P9} 128|1232b7 1258r10 1259r50
+131r7 Background_Color{24|60R9} 128|865r10 1233b7 1271r10 1272r35 1326r13
+. 1327r47
+132r7 Title_Bar_Color{24|60R9} 128|866r10 1234b7 1275r10 1276r35 1331r13
+133r7 Focus_Title_Color{24|60R9} 128|867r10 1235b7 1285r10 1286r35 1335r13
+134e7 Draw_Title_Bars{124E9} 128|1236b7 1244r55 1252r31
+135e7 Tabs_Position{90|275E9} 128|1237b7 1247r57 1253r31
+136e7 Show_Tabs_Policy{123E9} 128|1239b7 1254r31
+151V13*Independent_Perspectives{boolean} 152^7 128|1351b13 1355l8 1355t32
+152p7 MDI(67R9) 128|1352b7 1354r14
+159M9*Child_Flags 160r36 161r36 162r36 163r36 201r22 221r22 968r23 128|2428r22
+. 2443r22
+160m4*Destroy_Button{159M9} 163r51 128|2510r21 3287r49 3773r33 3784r30
+161m4*Float_As_Transient{159M9} 128|3416r30
+162m4*Always_Destroy_Float{159M9} 128|3321r47
+163m4*All_Buttons{159M9} 201r37 221r37 128|2428r37 2443r37
+176I9*Child_Group<integer> 177r29 178r29 178r44 202r22 222r22 424r22 948r23
+. 128|409r26 1104r22 1141r41 2429r22 2444r22 3926r26 5282r25 5284r28 6093r31
+177i4*Group_Default{176I9} 202r37 222r37 948r38 128|2429r37 2444r37 3852r27
+. 3949r37 6180r43
+178i4*Group_Any{176I9} 424r37 128|409r41 1104r37 3926r41 3956r36
+198U14*Gtk_New 199<7 200^7 201>7 202>7 203>7 128|2425b14 2434l8 2434t15 5135s13
+199p7 Child{74P9} 128|2426b7 2432m7 2433r19
+200p7 Widget(120|77R9) 128|2427b7 2433r26
+201m7 Flags{159M9} 128|2428b7 2433r34
+202i7 Group{176I9} 128|2429b7 2433r41
+203p7 Focus_Widget{120|78P9} 128|2430b7 2433r48
+218U14*Initialize 219^7 220^7 221>7 222>7 223>7 128|2433s7 2440b14 2535l8
+. 2535t18
+219p7 Child(72R9) 128|2441b7 2460r33 2462r10 2468r25 2470r7 2471r7 2472r7
+. 2473r7 2474r7 2475r7 2476r7 2477r7 2480r10 2485r10 2488r10 2491r10 2494r10
+. 2497r21 2498r12 2498r19 2502r21 2504r10 2504r26 2506r10 2508r25 2511r40
+. 2511r47 2513r13 2521r10 2524r10 2526r10 2528r10 2530r10 2532r10 2532r66
+. 2534r10 2534r65
+220p7 Widget(120|77R9) 128|2442b7 2456r10 2470r41 2519r19
+221m7 Flags{159M9} 128|2443b7 2472r29 2510r11
+222i7 Group{176I9} 128|2444b7 2473r29
+223p7 Focus_Widget{120|78P9} 128|2445b7 2474r29
+227E9*Child_Position 232e22 233r29 251r26 128|285r23 306r34 410r26 1946r30
+. 2174r18 2612r26 3838r34 3927r26 4018r28 7111r23
+228n7*Position_Automatic{227E9} 251r44 128|306r52 410r44 1997r29 2050r33
+. 2124r24 2237r35 2612r44 3838r52 3927r44 7131r22 7154r25 7165r28 7268r28
+229n7*Position_Bottom{227E9} 234r13 128|2079r24 2199r24 2220r24 2257r27 4022r18
+. 7193r25 7244r28
+230n7*Position_Top{227E9} 128|2089r24 2202r24 2223r24 2262r27 4031r18 7184r25
+. 7236r28
+231n7*Position_Left{227E9} 128|2101r24 2205r24 2226r24 2267r27 4040r18 7202r25
+. 7252r28
+232n7*Position_Right{227E9} 234r32 128|2114r24 2208r24 2229r24 2273r27 4049r18
+. 7211r25 7260r28
+233E12*Side_Position{227E9}
+248U14*Put 249^7 250^7 251>7 128|2609b14 2656l8 2656t11 2868R10 5137R13 5207R16
+249p7 MDI(67R9) 128|2610b7 2614r32 2628r27 2630r14 2631r27 2640r15 2641r16
+. 2644r10 2651r28 2654r22
+250p7 Child(72R9) 128|2611b7 2614r7 2619r12 2621r17 2623r10 2624r17 2627r18
+. 2628r20 2631r32 2634r28 2640r38 2641r39 2642r14 2645r29 2655r63
+251e7 Initial_Position{227E9} 128|2612b7 2631r59
+256U14*Set_Size 257^7 258^7 259>7 260>7 261>7 128|2662b14 2693l8 2693t16
+257p7 MDI(67R9) 128|2663b7 2673r14 2676r21 2678r23 2684r23
+258p7 Child(72R9) 128|2664b7 2669r57 2683r31 2689r48
+259i7 Width{45|56I9} 128|2665b7 2680r37 2683r38 2686r37
+260i7 Height{45|56I9} 128|2666b7 2680r54 2683r45 2687r37
+261b7 Fixed_Size{boolean} 128|2667b7 2681r37 2690r37
+270U14*Close 271^7 272^7 273>7 128|1469b14 1479l8 1479t13 5839R16
+271p7 MDI(67R9) 128|1470b7 1474r49
+272p7 Child(120|77R9) 128|1471b7 1474r54
+273b7 Force{boolean} 128|1472b7 1477r26
+281U14*Set_Title 282^7 283>7 284>7 128|2800b14 2857l8 2857t17 5136R13
+282p7 Child(72R9) 128|2801b7 2805r49 2806r39 2807r49 2808r39 2822r13 2823r13
+. 2825r7 2826r7 2828r33 2830r39 2835r28 2840r13 2841r22 2842r32 2847r25 2848r25
+. 2850r13 2852r28 2854r28
+283a7 Title{45|82A12} 128|2802b7 2806r58 2814r37 2819r46 2831r31
+284a7 Short_Title{45|82A12} 128|2803b7 2808r64 2816r10 2817r46
+293V13*Get_MDI{68P9} 293^22 128|3575b13 3578l8 3578t15
+293p22 Child(72R9) 128|3575b22 3577r14
+297V13*Get_Title{45|82A12} 297^24 128|635R25 658R25 1421R56 1426R52 1431R50
+. 1496R38 1535R61 1570R39 2015R37 2025R33 2146R54 2148R57 2584R31 2699b13
+. 2702l8 2702t17 3109R28 3224R44 3242R57 3327R40 3388R27 4200R51 5280R54
+. 5915R42 6455R34 6603R21 6614R49 7050R22
+297p24 Child(72R9) 128|2699b24 2701r14
+300V13*Get_Short_Title{45|82A12} 301^7 128|911R37 968R16 995R32 2260R46 2265R46
+. 2271R30 2277R30 2281R30 2708b13 2712l8 2712t23
+301p7 Child(72R9) 128|2709b7 2711r14
+304V13*Has_Title_Bar{boolean} 304^28 128|1666R14 3134b13 3141l8 3141t21
+304p28 Child(72R9) 128|3134b28 3136r12 3139r55 3139r66
+307V13*Get_State{84E9} 307^24 128|6954b13 6957l8 6957t17
+307p24 Child(72R9) 128|6954b24 6956r14
+310U14*Set_Icon 311^7 312>7 128|2759b14 2784l8 2784t16
+311p7 Child(72R9) 128|2760b7 2763r10 2764r17 2766r7 2768r27 2771r13 2773r36
+. 2774r37 2777r25 2778r25 2781r22 2783r22
+312p7 Icon{35|67P9} 128|2761b7 2766r21
+317V13*Get_Icon{35|67P9} 318^7 128|2790b13 2794l8 2794t16
+318p7 Child(72R9) 128|2791b7 2793r14
+325V13*Dnd_Data{74P9} 326^7 326>40 128|1983R19 2367b13 2373l8 2373t16
+326p7 Child(72R9) 128|2368b7 2372r25
+326b40 Copy{boolean} 128|1983r32 2368b40 2370r28
+339U14*Set_Dnd_Message 340^7 341>7 128|842R7 1830b14 1850l8 1850t23
+340p7 MDI(67R9) 128|1831b7 1834r13 1837r10 1838r13 1839r10 1844r10
+341a7 Message{string} 128|1832b7 1836r10 1837r41
+356U14*Child_Drag_Begin 357^7 358>7 128|1923s7 7036b14 7080l8 7080t24
+357p7 Child(72R9) 128|7037b7 7050r33 7052r24 7053r20 7055r26 7072r10 7073r10
+. 7074r10 7075r10
+358p7 Event{30|229P9} 128|7038b7 7072r54 7073r54
+365U14*Cancel_Child_Drag 365^33 128|7086b14 7092l8 7092t25
+365p33 Child(72R9) 128|7086b33 7091r7
+369U14*Child_Drag_Finished 369^35 128|1962R13 2144R13 7098b14 7102l8 7102t27
+369p35 Child(72R9) 128|7098b35 7099r28
+377P9*Tab_Contextual_Menu_Factory 378^7 379^7 383r17 1055r21 128|3586r17
+378p7 Child(72R9)
+379p7 Menu(104|73R9)
+381U14*Set_Tab_Contextual_Menu_Factory 382^7 383>7 128|3584b14 3590l8 3590t39
+382p7 MDI(67R9) 128|3585b7 3589r7
+383p7 Factory{377P9} 128|3586b7 3589r26
+393U14*Highlight_Child 394^7 394>40 128|3300R7 6894b14 6938l8 6938t23
+394p7 Child(72R9) 128|6895b7 6897r54 6901r16 6904r63 6909r19 6916r10 6919r36
+. 6935r10 6936r21
+394b40 Highlight{boolean} 128|6895b40 6900r10
+404V13*Get_Focus_Child{74P9} 405^7 128|4174b13 4178l8 4178t23 4381R15
+405p7 MDI(67R9) 128|4175b7 4177r14
+409U14*Set_Focus_Child<86|169p14> 410^7 411^7 128|613R13 4552b14 4568l8 4568t23
+410p7 MDI(67R9) 128|4553b7 4556r28
+411p7 Containing(120|77R9) 128|613r48 4554b7 4557r42
+417U14*Set_Focus_Child 417^31 128|636R10 659R10 677R10 694R10 1080R16 1144R19
+. 2149R13 2585R16 2601R10 3110R13 3194b14 3306l8 3306t23 4314R10 4388R10
+. 4448R10 4566R10 5916R13 7052R7
+417p31 Child(72R9) 128|3194b31 3195r35 3196r46 3200r52 3202r10 3217r53 3222r7
+. 3233r40 3234r41 3249r28 3271r17
+420U14*Check_Interactive_Selection_Dialog 421^7 422>7 423>7 424>7 128|1100b14
+. 1222l8 1222t42
+421p7 MDI(67R9) 128|1101b7 1113r10 1126r16 1127r41 1131r37 1133r30 1158r10
+. 1162r13 1165r61 1174r36 1194r10 1207r52 1211r52 1213r40 1218r35 1220r35
+422p7 Event{30|229P9} 128|1102b7 1117r10 1118r34 1119r43 1192r35
+423b7 Move_To_Next{boolean} 128|1103b7 1130r16 1148r19 1217r10
+424i7 Only_Group{176I9} 128|1104b7 1141r28 1142r50
+458V13*Get_Widget{120|78P9} 459^7 1123r19 128|671R50 2386R30 2409R30 4165b13
+. 4168l8 4168t18
+459p7 Child(72R9) 128|4165b25 4167r14
+463V13*Find_MDI_Child{74P9} 464^7 465^7 128|1474s33 2877b13 2894l8 2894t22
+464p7 MDI(67R9) 128|2878b7 2883r21 2887r44
+465p7 Widget(120|77R9) 128|2879b7 2886r62
+472V13*Find_MDI_Child_From_Widget{74P9} 473^7 128|2900b13 2944l8 2944t34
+473p7 Widget(120|77R9) 128|2901b7 2903r39 2932r40
+481V13*Find_MDI_Child_By_Tag{74P9} 482^7 483>7 484>7 128|2950b13 2970l8 2970t29
+482p7 MDI(67R9) 128|2951b7 2957r22 2966r41
+483p7 Tag{15|64P9} 128|2952b7 2961r61
+484b7 Visible_Only{boolean} 128|2953b7 2957r43
+492V13*Find_MDI_Child_By_Name{74P9} 493^7 494>7 128|2976b13 2992l8 2992t30
+493p7 MDI(67R9) 128|2977b7 2981r46 2991r38
+494a7 Name{string} 128|2978b7 2986r38 2987r44
+500R9*Child_Iterator 505r51 522r38 526r18 530r29 983c9 983d25 1008e14 128|466r55
+. 1245r21 2956r15 2981r15 5178r21 6715r51 6722r20 6771r18 6786r55 6824r38
+. 6867r29
+502V13*First_Child{500R9} 503^7 504>7 505>7 1127r19 128|1299s15 2957s9 2981s33
+. 5193R18 6712b13 6764l8 6764t19
+503p7 MDI(67R9) 128|6713b7 6725r44 6729r37 6730r49 6732r16 6733r42 6749r22
+. 6752r51
+504b7 Group_By_Notebook{boolean} 128|1300r15 6714b7 6720r10
+505b7 Visible_Only{boolean} 128|1300r42 2957r27 2981r51 5193r36 6715b7 6724r37
+. 6751r56 6761r39
+522U14*Next 522=20 1126r19 128|1322s10 2962s10 2988s10 5211s13 6824b14 6861l8
+. 6861t12
+522r20 Iterator{500R9} 128|6824b20 6827r10 6828r13 6831m16 6832r36 6834r26
+. 6836r43 6841m13 6841r39 6843m16 6843r16 6843r35 6845m22 6845r22 6846m39
+. 6852m13 6852r48 6853r16 6854r26
+525V13*Get_Notebook{108|59P9} 526>7 128|1306s13 1307s21 6770b13 6780l8 6780t20
+526r7 Iterator{500R9} 128|6771b7 6773r38
+530V13*Get{74P9} 530>18 1125r19 128|1303s15 2960s19 2984s19 2991s43 5195s20
+. 6773s33 6854s21 6867b13 6888l8 6888t11
+530r18 Iterator{500R9} 128|6867b18 6869r10 6870r13 6871r16 6875r41 6880r30
+. 6880r49 6883r13 6884r50
+538U14*Float_Child 539^7 539>46 128|1533s13 1990s16 2628s7 3324s10 3361b14
+. 3367l8 3367t19 4098s19 4387s10 5111s19 5643s25
+539p7 Child(72R9) 128|3362b7 3366r10
+539b46 Float{boolean} 128|3363b7 3366r17
+542V13*Is_Floating{boolean} 543^7 128|3548b13 3552l8 3552t19
+543p7 Child(72R9) 128|3549b7 3551r14
+546U14*Close_Child 547^7 548>7 128|1477s10 1485b14 1553l8 1553t19 1907s16
+. 4421s10 129|512s10
+547p7 Child(72R9) 128|1486b7 1489r38 1496r49 1517r16 1529r27 1530r46 1533r26
+. 1535r72 1536r22
+548b7 Force{boolean} 128|1487b7 1497r37 1507r13
+551U14*Set_All_Floating_Mode 552^7 552>39 128|4076b14 4115l8 4115t29 5911R10
+552p7 MDI(67R9) 128|4077b7 4079r42 4082r26 4088r10 4091r28 4108r25 4110r29
+. 4113r44
+552b39 All_Floating{boolean} 128|4077b39 4082r10 4088r35 4095r49 4096r59
+. 4098r35 4108r50 4110r38
+558U14*Use_Short_Titles_For_Floats 559^7 559>39 128|4121b14 4159l8 4159t35
+559p7 MDI(67R9) 128|4122b7 4124r43 4127r10 4132r7 4138r25
+559b39 Short_Titles{boolean} 128|4122b39 4127r44 4132r42 4143r19
+568U14*Raise_Child 569^7 569>46 128|2016s22 2026s28 2147s13 3043b14 3113l8
+. 3113t19 3243s10 3279s13 3328s10 4389s10 4445s13 6604s16 7053s7
+569p7 Child(72R9) 128|3044b7 3046r45 3051r13 3056r10 3057r32 3058r27 3074r10
+. 3074r46 3078r53 3080r10 3082r13 3084r35 3086r45 3088r30 3089r44 3095r52
+. 3101r14 3109r39 3110r30
+569b46 Give_Focus{boolean} 128|3044b46 3049r34 3083r18 6604r36
+576V13*Is_Raised{boolean} 576^24 128|3024b13 3037l8 3037t17
+576p24 Child(72R9) 128|3024b24 3027r12 3033r35 3035r27
+579U14*Lower_Child 579^27 128|2998b14 3018l8 3018t19
+579p27 Child(72R9) 128|2998b27 3001r12 3002r15 3002r44 3003r15 3003r44 3004r14
+. 3006r10 3007r32 3008r50 3010r30 3011r40 3013r13 3015r54
+584E9*Split_Mode 587e22 601r23 128|4236r23
+585n7*Before{584E9} 601r37 128|4236r37 4267r18
+585n15*Before_Reuse{584E9} 128|4275r18
+586n7*After{584E9} 128|4271r29
+586n15*After_Reuse{584E9} 128|4279r18
+587n7*Any_Side_Reuse{584E9} 128|4283r18
+597U14*Split 598^7 599>7 600>7 601>7 602>7 602>14 128|4232b14 4325l8 4325t13
+. 4340R10 4363R10
+598p7 MDI(67R9) 128|4233b7 4247r13 4248r20 4249r13 4252r41 4260r30 4261r21
+. 4263r41 4296r39 4312r27 4317r25 4323r16
+599e7 Orientation{90|225E9} 128|4234b7 4276r48 4280r48 4284r48 4286r51 4303r35
+. 4322r63 4340r20 4363r35
+600p7 Child{74P9} 128|4235b7 4245r10 4246r20
+601e7 Mode{584E9} 128|4236b7 4266r15
+602i7 Width{45|56I9} 128|4237b7 4301r35
+602i14 Height{45|56I9} 128|4237b14 4302r35
+634+12 User_Data 645r30 659r19 670r65 691r25 706r25 716r25 723r25 735r25
+. 769r17 128|4578r29 4589r24 4603r34 4632r34 4649r36 4659r29 4683r17 4759r25
+. 4783r25 4813r17 4871r30 5034r34 5164r24 5387r34 5582r36 5708r25 5934r29
+. 5966r25 6414r29 6672r25
+640k12*Desktop 634z12 756E12 792l8 792e15 128|4574b17 6706l8 6706t15
+642V16*Create_Menu{104|75P9} 643^10 644>10 645>10 128|4868b16 4952l11 4952t22
+643p10 MDI(67R9) 128|4869b10 4879r13 4880r13 4881r22 4883r22 4884r21 4884r31
+. 4885r38 4888r21 4891r67 4893r59 4896r21 4899r67 4901r57 4904r21 4906r22
+. 4907r21 4907r31 4908r25 4909r25 4910r34 4911r13 4912r16 4913r65 4915r16
+. 4916r38 4919r21 4921r22 4922r21 4922r31 4924r16 4925r65 4927r48 4930r21
+. 4932r27 4941r16 4942r71 4944r37 4950r20 4951r17
+644a10 Accel_Path_Prefix{string} 128|4870b10 4880r50 4892r35 4900r35 4915r37
+. 4926r35 4944r16
+645*10 User{634+12} 128|4871b10 4885r43
+657P12*Save_Desktop_Function(64|52P9[65|32]) 658^10 659>10 681r17 759r17
+. 128|4959r17
+658p10 Widget(120|77R9)
+659*10 User{634+12}
+669P12*Load_Desktop_Function(74P9) 670>10 670>28 670>58 682r17 760r17 128|4960r17
+670p10 MDI{68P9}
+670p28 Node{64|52P9[65|32]}
+670*58 User{634+12}
+680U17*Register_Desktop_Functions 681>10 682>10 128|4958b17 4966l11 4966t37
+681p10 Save{657P12} 128|4959b10 4963r21
+682p10 Load{669P12} 128|4960b10 4964r21
+687V16*Restore_Desktop{boolean} 688^10 689>10 690>10 691>10 128|5704b16 5926l11
+. 5926t26
+688p10 MDI(67R9) 128|5705b10 5713r58 5723r16 5724r25 5727r22 5728r24 5728r29
+. 5733r16 5734r10 5735r10 5736r39 5738r16 5739r10 5745r10 5753r59 5754r66
+. 5757r63 5759r64 5788r66 5799r52 5816r45 5828r48 5839r23 5843r20 5867r13
+. 5869r22 5872r19 5882r17 5884r41 5885r41 5895r29 5902r13 5911r33 5920r25
+. 5922r25
+689p10 Perspectives{64|52P9[65|32]} 128|5706b10 5718r13 5719r20 5734r41 5768r31
+. 5808r45 5810r45
+690p10 From_Tree{64|52P9[65|32]} 128|5707b10 5739r42 5747r13 5747r40 5882r55
+. 5890r41 5903r28
+691*10 User{634+12} 128|5708b10 5853r42 5889r41 5904r13
+703U17*Load_Perspective 704^10 705>10 706>10 128|4709s16 6669b17 6704l11
+. 6704t27
+704p10 MDI(67R9) 128|6670b10 6685r13 6686r31 6692r19 6693r27 6693r52 6699r13
+705a10 Name{string} 128|6671b10 6684r52 6686r66 6699r18
+706*10 User{634+12} 128|6672b10 6693r32 6699r24
+713U17*Create_Perspective 714^10 715>10 716>10 128|4746s13 4756b17 4774l11
+. 4774t29
+714p10 MDI(67R9) 128|4757b10 4763r10 4764r24 4765r25 4769r39 4770r35 4773r25
+715a10 Name{string} 128|4758b10 4765r58
+716*10 User{634+12} 128|4759b10 4764r29 4770r40
+720U17*Define_Perspective 721^10 722>10 723>10 128|4780b17 4805l11 4805t29
+721p10 MDI(67R9) 128|4781b10 4788r31 4792r17 4803r21 4804r35
+722p10 XML{64|52P9[65|32]} 128|4782b10 4785r51 4803r50
+723*10 User{634+12} 128|4783b10 4804r40
+733U17*Save_Desktop 734^10 735>10 736<10 737<10 128|4764s10 5964b17 6389l11
+. 6389t23 6693s13
+734p10 MDI(67R9) 128|5965b10 5971r54 5973r55 6071r31 6110r27 6257r51 6258r22
+. 6259r34 6295r13 6296r13 6297r13 6300r13 6306r32 6317r13 6318r13 6319r28
+. 6321r16 6321r34 6330r70 6337r22 6339r22 6343r19 6345r64 6354r22 6354r27
+. 6356r17 6358r25 6364r18 6377r37 6381r49 6382r20 6384r20
+735*10 User{634+12} 128|5966b10 6044r40
+736p10 Perspectives{64|52P9[65|32]} 128|5967b10 6377m10
+737p10 Central{64|52P9[65|32]} 128|5968b10 6079r30 6324m10 6325r10 6345r19
+. 6358r38 6371r32 6386r23
+746V16*Get_XML_Content{64|52P9[65|32]} 747^10 748>10 128|5337b16 5374l11
+. 5374t26
+747p10 MDI(67R9) 128|5338b10 5373r43
+748a10 Tag{string} 128|5339b10 5356r34
+752U17*Free_Registered_Desktop_Functions 128|6395b17 6405l11 6405t44
+756R12 Register_Node_Record 757r36 758c12 762e17 128|4962r27 6397r13
+757P12 Register_Node(756R12) 761r17 789r19 128|5174r21 5938r24 6397r35 6398r17
+759p10 Save{657P12} 128|4963m13 5942r37
+760p10 Load{669P12} 128|4964m13 5224r34 5245r40 5267r31
+761p10 Next{757P12} 128|4965m13 5226r37 5246r43 5272r34 5943r34 6401r31
+764R12 Perspective_Menu_Item_Record<112|45R9> 57|83p14 89p14 117p14 130p14
+. 329p14 77|60p13 85|73p14 76p13 80p14 83p13 94p14 97p13 101p14 86|56p14
+. 59p13 64p14 72p14 85p14 88p13 94p13 100p14 122p14 131p14 142p14 145p14
+. 148p13 157p14 160p13 169p14 172p13 181p14 186p14 229p14 242p14 275p14 282p13
+. 288p14 298p14 99|47p14 50p14 53p14 105|80p14 83p13 87p14 90p13 95p14 98p13
+. 106p14 109p13 115p14 118p13 136p14 149p14 207p14 210p14 213P14 216p14 221p14
+. 109|108p14 134P13 172p13 175p14 179p14 184p13 248p14 112|105p14 108p13
+. 120|147p14 153p14 158p14 167p14 171p14 179p14 181p13 188p14 196p14 204p14
+. 212p14 239p14 241p13 270p13 280p14 287p14 296p14 303p14 307p13 314p13 326p14
+. 331p14 334p14 364p14 372p13 379p13 383p13 387p13 390p13 393p14 413p14 426p14
+. 433p13 444p14 454p13 466p14 475p14 482p13 502p14 521p14 529p13 566p14 569p13
+. 577p14 582p14 585p13 604p14 613p13 652p14 655p13 663p13 686p13 699p14 702p13
+. 710p14 715p14 720p14 723p13 736p14 743p14 753p14 768p14 777p14 788p14 790p13
+. 805p14 818p14 825p13 829p13 830p13 844p13 845p13 850p13 856p14 859p13 864p14
+. 867p13 873p13 895p13 901p14 925p13 935p14 937p13 965p14 975p13 982p13 995p14
+. 1000p14 1003p13 1009p14 1017p14 1022p14 1027p14 1033p14 1036p13 1044p14
+. 1055p14 1064p14 1067p13 1081p13 1118p13 1120p14 1129p13 1131p14 1143p14
+. 1154p13 1162p13 1163p14 1169p14 1418p14 1426p14 1434p14 1446p14 1452p14
+. 1633p14 1644p14 1648p14 1673p14 127|770e17 772r23 128|4830r29 4847r23
+767p10 MDI{68P9} 128|4701r17 4701r18 4708r25 4708r26 4709r40 4730r61 4746r39
+. 4831m22 4848m16
+768i10 Name{natural} 128|4701r47 4707r49 4832m22
+769*10 User{634+12} 128|4709r57 4746r66 4833m22 4849m16
+771P12 Perspective_Menu_Item(764R12) 128|4697r27 4698r12 4721r27 4722r12
+. 4816r20
+774U17 Change_Perspective 775^10 779r12 128|4694b17 4712l11 4712t29
+775p10 Item(120|77R9) 128|4695b10 4698r35
+776r7 CP_Access{102|349R12[95|842[126|47]]} 128|4843r57
+782U17 Create_Perspective_CB 783^10 787r12 128|4718b17 4750l11 4750t32
+783p10 Item(120|77R9) 128|4719b10 4722r35
+784r7 CreateP_Access{102|349R12[95|842[126|47]]} 128|4853r51
+789p7 Registers{757P12} 128|4962m10 4965r21 5222r25 5243r31 5264r22 5938r41
+. 6400r16 6401r21 6402m29 6402r29 6403m13
+794V13*Desktop_Was_Loaded{boolean} 794^33 128|6944b13 6948l8 6948t26
+794p33 MDI(67R9) 128|6944b33 6947r14
+798V13*List_Of_Perspectives{165|55P9} 799^7 128|7288b13 7294l8 7294t28
+799p7 MDI(67R9) 128|7289b7 7293r14
+804V13*Current_Perspective{string} 805^7 128|6345s43 6381s28 7300b13 7308l8
+. 7308t27
+805p7 MDI(67R9) 128|7301b7 7303r10 7306r32
+922a4*Signal_Child_Selected{45|214A9} 128|150r32 2599r21 3304r38
+923a4*Signal_Float_Child{45|214A9} 128|151r32 160r32 3522r45 3524r47
+924a4*Signal_Child_Title_Changed{45|214A9} 128|152r32 2853r24
+925a4*Signal_Child_Added{45|214A9} 128|153r32 2655r18
+926a4*Signal_Child_Removed{45|214A9} 128|154r32 1625r18
+927a4*Signal_Child_Icon_Changed{45|214A9} 128|155r32 2782r18
+928a4*Signal_Delete_Event{45|214A9} 128|3495r18
+929a4*Signal_Selected{45|214A9} 128|162r32
+930a4*Signal_Unfloat_Child{45|214A9} 128|161r32 3540r47
+931a4*Signal_Perspective_Changed{45|214A9} 128|157r32 4773r39 5920r39
+932a4*Signal_Children_Reorganized{45|214A9} 128|156r32 2138r36 4318r21 5923r21
+934a4*Signal_Child_State_Changed{45|214A9} 128|163r32 567r47
+937P9 String_Access(45|82A12) 950r23 951r23 955r23 1042r21 1045r28 128|185r47
+. 2809r29 2810r29 4474r21
+940p7 Initial{120|78P9} 128|1517r22 1597r24 1599r47 1599r60 1602m9 2470m13
+. 2524r16 2532r16 2534r16 2830r45 2886r40 2961r47 3015r60 3084r41 3086r51
+. 3095r58 3260r29 3274r50 3276r50 3333r31 3434r53 3436r64 3517r38 3530r49
+. 3531r38 4145r54 4149r54 4167r20 5942m49 6098r44
+943p7 Main_Box{78|72P9} 128|1692r58 2497m27 2498r25 2504r16 2521r16
+946e7 State{84E9} 128|563r48 566m16 578r18 768r27 1419r15 1424r18 1638r12
+. 1994r22 2385r16 2408r16 2471m13 2580r19 2580r33 2623r16 2828r39 2867r39
+. 3006r16 3013r19 3027r18 3056r16 3065r35 3082r19 3124r55 3241r12 3389r48
+. 3405r16 3433r28 3527r19 3551r20 3750r38 3942r18 4095r22 4096r29 4142r22
+. 4338r32 4361r47 4387r28 4444r15 4910r50 5200r20 6040r22 6091r55 6095r25
+. 6368r24 6450r21 6741r61 6753r19 6836r68 6855r45 6956r20
+948i7 Group{176I9} 128|1142r42 2473m13 3852r19 3857r37 3861r29 3949r29 3956r56
+. 5282m16 5284r53 6093r56 6180r35
+950p7 Title{937P9} 128|1634m15 1739r53 2476m13 2701r20 2805r55 2806r45 2822m19
+. 2825m13 2986r26 3463r53 4150r46
+951p7 Short_Title{937P9} 128|1635m15 1737r53 2477m13 2711r20 2740r32 2750r40
+. 2807r55 2808r45 2823m19 2826m13 2987r26 3461r53 3781r42 4146r46 4478r24
+. 4493r31 4493r55 4495r48 4497r38
+955p7 XML_Node_Name{937P9} 128|1636m15 5201r28 5202r28 5851r21 5950m25 5951m19
+960p7 MDI{68P9} 128|693r12 696r15 697r23 700r12 701r15 727r31 1489r44 1562r54
+. 1588r50 1676r55 1693r34 1701r16 1702r25 1736r19 1737r29 1739r29 1742r32
+. 1743r60 1745r33 1894r9 1938r55 1950r57 1955r12 1959r14 1961r35 1965r18
+. 1966r36 1969r35 1970r35 1971r31 1971r57 1975r43 1976r46 1977r56 1978r26
+. 1980r46 2037r43 2038r50 2044r46 2067r30 2075r24 2125r27 2126r58 2129r45
+. 2156r9 2184r14 2186r31 2193r37 2194r18 2196r43 2197r18 2197r50 2201r27
+. 2204r27 2207r27 2210r27 2216r43 2217r18 2217r50 2222r27 2225r27 2228r27
+. 2231r27 2233r43 2239r18 2241r21 2242r38 2249r40 2250r21 2250r53 2253r21
+. 2254r52 2259r30 2264r30 2269r30 2275r30 2280r30 2287r38 2289r18 2291r21
+. 2300r59 2301r59 2339r21 2340r39 2343r18 2346r21 2347r30 2352r31 2393r44
+. 2416r44 2475m13 2571r21 2596r16 2598r31 2614m13 2749r36 2751r19 2781r28
+. 2850r19 2852r34 2913r58 2923r46 2936r46 3002r21 3003r21 3046r51 3058r33
+. 3074r16 3080r16 3101r20 3121r16 3123r19 3123r46 3124r28 3126r19 3126r46
+. 3136r18 3139r61 3168r39 3169r28 3195r41 3200r58 3202r16 3208r62 3217r30
+. 3222r13 3233r17 3234r18 3249r34 3271r23 3285r12 3287r15 3304r24 3316r51
+. 3320r31 3322r40 3428r30 3438r67 3460r19 3478r53 3511r45 3515r45 3522r31
+. 3536r33 3577r20 3644r15 3645r15 4208r22 4213r25 4484r23 4510r45 4523r24
+. 4525r56 6909r25 7072r16 7073r16 7074r16 7075r16 7091r13 129|224r26 225r32
+. 229r32
+965p7 Menu_Item{112|47P9} 128|1584r12 1585r21 2725r16 2726r30 2727r27 2727r55
+. 2742r41 2746r21 2749r19 2840r19 2841r28 3290r12 3291r24 4442r24 4458m25
+. 4477r16 4489r28 4490r44 4498r54 4520m25 4523r40 4525r19 4526r26 4528r19
+. 4532r19 6466r24 6467r33 6916r16 6919r42
+968m7 Flags{159M9} 128|2472m13 3287r39 3321r37 3416r20 3773r23 3784r20
+970p7 Focus_Widget{120|78P9} 128|2474m13 2545r19 2546r24
+973p7 Icon{35|67P9} 128|997r42 998r18 999r42 1720r19 1721r35 1722r36 1724r42
+. 1900r15 1901r31 1902r32 2732r19 2733r43 2763r16 2764r23 2766m13 2793r20
+. 3766r19 3768r22
+975p7 Title_Box{78|72P9} 128|1667r22 1668r35 1669r27 1670r34 1673r22 1674r35
+. 1675r27 1676r34 1709r33 1710r42 1716r50 1717r51 1729r55 2502m27 2504r32
+. 2506r16 2513r19 2774r43 3255r17 3256r45 3257r45 3262r15 3263r43 3264r44
+979p7 Tab_Label{100|96P9} 128|1579m9 3781m25 3782r33 4196m13 6935r16 6936r27
+983b25*Group_By_Notebook{boolean} 986r12 128|6723m16 6760m18 6827r19 6869r19
+984b7*Visible_Only{boolean} 128|6724m16 6761m18 6806r28 6853r25
+988r13*Iter{51|70R12[120|125]} 128|6762m18 6852m22 6852r57 6883r22 6884r59
+991p13*MDI{68P9} 128|6730m16 6795r55
+994r13*Paned_Iter{130|212R9} 128|6725m16 6733m21 6792r30 6795m25 6796r43
+. 6804r34 6807r60 6808r42 6812r50 6816m25 6845m31
+998b13*In_Central{boolean} 128|6726m16 6734m21 6793r25 6794m25
+1002p13*Notebook{108|59P9} 128|6727m16 6788m16 6811m22 6828r22 6843r25 6870r22
+. 6880r39
+1003i13*Notebook_Page{45|56I9} 128|6728m16 6789m16 6841m22 6841r48 6843r44
+. 6880r58
+1006r13*Floating_Iter{51|70R12[120|125]} 128|6729m16 6739r24 6741r45 6743m21
+. 6743r61 6831m25 6832r45 6834r35 6836r52 6871r25 6875r50
+1010E9 Drag_Status 1010e55 1107r27 128|1950r36
+1010n25 No_Drag{1010E9} 1107r42 128|1894r24 1955r27 2151r15 2156r24 7091r28
+1010n34 In_Pre_Drag{1010E9} 128|1960r15 2296r15 7074r31
+1010n47 In_Drag{1010E9} 128|1964r15 2185r15 2343r33
+1014r7 Items{51|70R12[120|125]} 128|902r59 904r43 1113r14 1131r41 1133r34
+. 1174r40 1367r26 1399r43 1442m15 1619m31 2010r51 2571r25 2640m19 2641m20
+. 2883r25 3002m25 3003m25 3217r34 3233m21 3234m22 3428r34 3930r56 4079r46
+. 4091r32 4124r47 4138r29 4249r17 4252r45 4484r27 4932r31 5149m25 5150m26
+. 5828r52 5843r24 6364r22 6446r22 6729r41 6749r26 6752r55
+1021b7 Desktop_Was_Loaded{boolean} 128|6585m14 6947r18
+1024b7 Loading_Desktop{boolean} 128|2673r18 3101r24 3202r20 3271r27 4708r30
+. 4823m14 4859m14 6552m14 6639m14
+1029m7 Delay_Before_Focus_Id{55|155M9} 128|696r19 697r27 700m16 1408r12 1409r20
+. 1410m12 1574r14 1575r22 1576m14
+1030m7 Delay_Before_Focus{45|62M9} 128|693r16 701r19
+1038p7 Focus_Child{74P9} 128|727r35 765r12 768r15 775r33 1126r20 1127r45
+. 1529r40 1608r18 1609m14 1701r20 2596m20 2651r32 3046r55 3058r37 3074m20
+. 3080m20 3168r43 3195r45 3200r62 3222m17 3249r38 4177r18 4247r17 4248r24
+. 4337r12 4338r20 4360r27 4361r35 4411r32 4525r60 4909r29 4910r37 4910r38
+. 6110r31 129|224r30
+1042p7 Dnd_Message{937P9} 128|1457m15 1784r14 1812r20 1815r46 1820r19 1820r36
+. 1822r19 1822r47 1834m17 1837m14 1839m14 1844m14
+1045p7 Accel_Path_Prefix{937P9} 128|1462m15 2749r40 4880m17 4944r41
+1048p7 Menu{104|75P9} 128|1453r12 1454r21 2644r14 4510r49 4523r28 4544m24
+. 4879r17 4881m26 4884r25 4888r25 4896r25 4904r25 4907r25 4919r25 4922r25
+. 4930r25 4941r20 4950r24 4951r21
+1049p7 Float_Menu_Item{85|49P9} 128|3121r20 3123r23 3124r32 3126r23 4108r29
+. 4545m24 4906m26 4907r35 4908r29 4912r20 4915r20
+1050r7 Float_Menu_Item_Id{95|194R9} 128|3123r50 3126r50 4911m17
+1051p7 Close_Menu_Item{105|52P9} 128|3285r16 3287r19 4921m26 4922r35 4924r20
+1055p7 Tab_Factory{377P9} 128|3589m11 3644r19 3645r19
+1058p7 Title_Layout{141|72P9} 128|844m11 1259r36 1262r36 1266r27 1443r16
+. 1737r33 1739r33 1742r36 1745r37
+1061i7 Title_Bar_Height{45|56I9} 128|1267m11 1676r59
+1064b7 Close_Floating_Is_Unfloat{boolean} 128|1251m11 3320r35
+1069p7 Highlight_Style{118|68P9} 128|1279r14 1280r21 1283m20 1288r17 1290r17
+. 1292r17 1294r17 1296r17 1449r12 1450r19 6909r29
+1073r7 Background_Color{24|60R9} 128|845m11 846m40 865r35 1272m14 1384r52
+1074r7 Title_Bar_Color{24|60R9} 128|848m11 849m40 866r35 1276m14 1693r38
+. 129|229r36
+1075r7 Focus_Title_Color{24|60R9} 128|851m11 852m40 867r35 1286m14 1288r52
+. 1290r52 1292r54 1294r54 1296r57 1702r29 1790r55 3169r32 7005r60 129|225r36
+1076r7 Default_Title_Color{24|60R9} 128|854m11
+1078p7 Cursor_Cross{26|43P9} 128|1386r12 1387m21 1445r12 1446r19
+1079p7 Cursor_Fleur{26|43P9} 128|2346r25 2347m34 2352r35
+1082e7 Draw_Title_Bars{124E9} 128|1244r36 1252m11 3136r22
+1083e7 Tabs_Position{90|275E9} 128|1246r56 1253m11 1315r42 3672r35 5069r42
+1084e7 Show_Tabs_Policy{123E9} 128|1254m11 2676r25 3709r39 3711r39 3718r22
+1086p7 Selection_Dialog{120|78P9} 128|929r49 1020r44 1085r28 1086r24 1087m15
+. 1158r14 1194m14 1213r44 1612r34 1614r16
+1089p7 Dnd_Window{122|69P9} 128|1786r14 1787m23 1788r33 1789r28 1790r25 1791r30
+. 1794r19 1803r24 1858r14 1859r23 1860m14 7026r40 7124r16 7125r43
+1090p7 Dnd_Window_Label{100|96P9} 128|1800m23 1801r30 1802r31 1814r17 1818r17
+1094p7 Group{70|50P9} 128|839m11 2751r23 4893r63 4901r61 4916r42 4927r52
+1096b7 All_Floating_Mode{boolean} 128|1162r17 2628r31 2630r18 3322r44 4082r30
+. 4088m14 5713r62 5745m14
+1099b7 Independent_Perspectives{boolean} 128|840m11 1354r18 1838r17 3853r26
+. 3967r21 3992r24 5882r21 6071r35 6258r26 6356r21 6384r24 6451r32 6579r21
+. 6633r21
+1102b7 Use_Short_Titles_For_Floats{boolean} 128|1736r23 3460r23 4127r14 4132m11
+1106i7 Drag_Start_X{45|56I9} 128|2300r63 7072m20
+1106i21 Drag_Start_Y{45|56I9} 128|2301r63 7073m20
+1107e7 In_Drag{1010E9} 128|1894m13 1950r61 1955m16 1959r18 2156m13 2184r18
+. 2343m22 7074m20 7091m17
+1108r7 Dnd_Rectangle{37|36R12} 128|1971m61 2289m22 7016r25 7016r50 7021r32
+. 7022r32 7075m20
+1109p7 Dnd_Target{21|48P12} 128|2194m22 2197m22 2217m22 2239m22 2250m25 2253m25
+. 7127r21
+1110p7 Dnd_Target_Window{122|69P9} 128|6988r20 6989r29 6990m20 6994r20 6995r26
+. 6999r20 7000m29 7002r23 7003r32 7005r23 7006r35 7007r38 7009r29 7012r45
+. 7015r25 7020r23 7028r23 7121r15 7122r42
+1113p7 Perspective_Menu_Item{105|52P9} 128|4826r27 4857r20 4883m26 4884r35
+1114p7 Perspectives{64|52P9[65|32]} 128|1458m15 4788r35 4792r20 4792r21 4803r25
+. 5679r17 5680r21 5680r22 5690r21 5690r22 5733m20 5734m14 6295r17 6296m17
+. 6297r16 6297r17 6321r20 6337r26 6339r26 6343r23 6377r41 6382r24 6503r26
+. 6503r27 6519r29 6519r30
+1115p7 View_Contents{64|52P9[65|32]} 128|1459m15 5238r19 5373r47 5738m20
+. 5739m14 6692m23 6693m56
+1116p7 Perspective_Names{165|55P9} 128|1460m15 4701r21 4701r22 4828r17 4829r26
+. 4835r45 4835r46 4838r40 4838r41 5677m20 5687m17 5689r26 5692r19 5692r20
+. 7293r18
+1117p7 Central{130|47P9} 128|526r33 872m20 874r27 880r14 1965r22 1966r40
+. 1977r60 1978r30 2037r47 2125r31 2126r62 2129r49 2216r47 2217r54 2250r57
+. 2339r25 2340r43 3854r22 3857r17 3995r32 4261r25 5487r48 5723r20 5724r29
+. 5727m26 5728r33 5867r17 5869r26 5872m23 5884r45 5895r33 6257r55 6259r38
+. 6358r29 6547r19 6548r29 6549r52 6549r67 6580r37 6582r33 6634r26 6635r27
+. 6636r24 6732r20 6733r46 7158r53 7159r40 7164r39
+1119p7 Current_Perspective{64|52P9[65|32]} 128|4763m14 4765r29 4837r32 4839r49
+. 5735m14 6300r17 6306r35 6306r36 6317m17 6318r16 6318r17 6319r32 6321r38
+. 6354r31 6513r20 6522m14 6571r42 6685r17 6686r35 7303r14 7306r36
+X 128 gtkada-mdi.adb
+115b4 Traces{boolean} 542r10 1549r13 3986r16 4016r13 4211r13 4321r10 5054r13
+. 5409r13 5602r16 5780r19 6379r13 6559r13 6620r16
+118i4 Traces_Indent{natural} 543r26 553m7 553r24
+120a4 Default_Title_Bar_Focus_Color{string} 851r39
+124a4 Default_Title_Bar_Color{string} 848r37
+128a4 Default_MDI_Background_Color{string} 845r38
+131a4 Default_Title_Font{string} 1261r31
+134i4 Max_Drag_Border_Width{45|56I9} 7183r17 7190r26 7192r39 7197r45 7199r26
+. 7201r20 7207r26 7210r38 7214r44 7216r26 7231r16 7233r25
+139i4 Drag_Threshold{45|56I9} 2309r35 2316r35 2326r26 2327r33
+144+4 MDI_Class_Record{109|210+12} 859m26 859r26
+146+4 Child_Class_Record{109|210+12} 2464m26 2464r26
+149a4 MDI_Signals{134|50A9} 858r26
+159a4 Child_Signals{134|50A9} 2463r26
+167R9 Selection_Dialog_Record<122|68R9> 57|83p14 89p14 117p14 130p14 329p14
+. 77|60p13 86|56p14 59p13 64p14 72p14 85p14 88p13 94p13 100p14 122p14 131p14
+. 142p14 145p14 148p13 157p14 160p13 169p14 172p13 181p14 186p14 229p14 242p14
+. 275p14 282p13 288p14 298p14 109|108p14 134P13 172p13 175p14 179p14 184p13
+. 248p14 120|147p14 153p14 158p14 167p14 171p14 179p14 181p13 188p14 196p14
+. 204p14 212p14 239p14 241p13 270p13 280p14 287p14 296p14 303p14 307p13 314p13
+. 326p14 331p14 334p14 364p14 372p13 379p13 383p13 387p13 390p13 393p14 413p14
+. 426p14 433p13 444p14 454p13 466p14 475p14 482p13 502p14 515p14 521p14 529p13
+. 566p14 569p13 577p14 582p14 585p13 604p14 613p13 652p14 655p13 663p13 686p13
+. 699p14 702p13 710p14 715p14 720p14 723p13 736p14 743p14 753p14 768p14 777p14
+. 788p14 790p13 805p14 818p14 825p13 829p13 830p13 844p13 845p13 850p13 856p14
+. 859p13 864p14 867p13 873p13 895p13 901p14 925p13 935p14 937p13 965p14 975p13
+. 982p13 995p14 1000p14 1003p13 1009p14 1017p14 1022p14 1027p14 1033p14 1036p13
+. 1044p14 1055p14 1064p14 1067p13 1081p13 1118p13 1120p14 1129p13 1131p14
+. 1143p14 1154p13 1162p13 1163p14 1169p14 1418p14 1426p14 1434p14 1446p14
+. 1452p14 1633p14 1644p14 1648p14 1673p14 122|95p14 97p13 101p14 114p14 115p13
+. 127p13 135p13 148p14 151p13 164p14 167p13 174p14 176p14 209p14 223p13 224p14
+. 238p14 241p13 248p14 278p14 281p13 288p14 290p13 300p14 303p13 312p14 315p13
+. 321p14 324p13 339p14 351p14 364p14 377p14 387p13 388p14 404p14 431p14 445p14
+. 483p14 498p13 524p14 527p13 531p14 534p13 554p14 555p13 565p14 568p14 574p14
+. 575p14 582p14 597p14 607p14 621p14 631p14 633p14 668p14 684p14 724p14 728p14
+. 745p14 746p13 752p14 754p13 775p14 778p13 803p13 855p13 865p13 874p14 884p14
+. 886p13 891p14 893p13 898p13 904p13 916p13 918p14 929p14 932p13 938p14 942p14
+. 951p13 959p13 968p13 977p14 980p14 1005p14 128|174e14 175r47 1159r19
+168r7*Current_Child{51|70R12[120|125]} 948r44 976m12 979m12 984r12 994r41
+. 1079r18 1081r54 1174m12 1614r34
+169p7*Label{100|96P9} 985r22 995r25 1185m21 1186r30
+170p7*Ent{94|65P9} 930r54 941r22 942r23 963r31 967r18 982r22 1035r28 1037r28
+. 1041r18 1188m21 1189r29 1202r24 1214r25
+171i7*Length{natural} 940m9 942r36 1035r41 1037r41 1214r38
+172m7*Modifier{41|149M9} 1052r16 1060r19 1068r19 1192m12
+173p7*Icon{98|62P9} 986r31 997r34 1002r23 1182m21 1183r30
+175P9 Selection_Dialog_Access(167R9) 928r27 929r20 1019r24 1020r17 1106r19
+. 1213r15 1613r43
+177R9 MDI_Notebook_Record<108|57R9> 57|83p14 89p14 117p14 130p14 329p14 86|56p14
+. 59p13 64p14 72p14 85p14 88p13 94p13 100p14 122p14 131p14 142p14 145p14
+. 148p13 157p14 160p13 169p14 172p13 181p14 186p14 229p14 242p14 275p14 282p13
+. 288p14 298p14 108|84p14 95p14 100p14 113p14 124p14 137p14 150p14 165p14
+. 194p13 204p13 215p14 234p14 237p14 244p14 250p13 254p14 262p13 266p14 272p13
+. 276p14 285p13 298p14 303p14 312p13 320p14 332p14 339p13 344p14 351p13 359p14
+. 366p14 374p13 381p14 392p14 402p14 408p13 415p14 421p13 428p14 447p13 450p14
+. 482p13 487p14 494p14 501p14 507p14 513p14 521p13 109|108p14 134P13 172p13
+. 175p14 179p14 184p13 248p14 120|147p14 153p14 158p14 167p14 171p14 179p14
+. 181p13 188p14 196p14 204p14 212p14 239p14 241p13 270p13 280p14 287p14 296p14
+. 303p14 307p13 314p13 326p14 331p14 334p14 364p14 372p13 379p13 383p13 387p13
+. 390p13 393p14 413p14 426p14 433p13 444p14 454p13 466p14 475p14 482p13 502p14
+. 515p14 521p14 529p13 566p14 569p13 577p14 582p14 585p13 604p14 613p13 652p14
+. 655p13 663p13 686p13 699p14 702p13 710p14 715p14 720p14 723p13 736p14 743p14
+. 753p14 768p14 777p14 788p14 790p13 805p14 818p14 825p13 829p13 830p13 844p13
+. 845p13 850p13 856p14 859p13 864p14 867p13 873p13 895p13 901p14 925p13 935p14
+. 937p13 965p14 975p13 982p13 995p14 1000p14 1003p13 1009p14 1017p14 1022p14
+. 1027p14 1033p14 1036p13 1044p14 1055p14 1064p14 1067p13 1081p13 1118p13
+. 1120p14 1129p13 1131p14 1143p14 1154p13 1162p13 1163p14 1169p14 1418p14
+. 1426p14 1434p14 1446p14 1452p14 1633p14 1644p14 1648p14 1673p14 128|177e72
+. 3666r23
+180K12 Child_User_Data[57|351] 2935r18 3471r10
+182A9 Children_Array(51|70R12[120|125])<integer> 376r14 900r66 903r18 931r27
+184U14 Free[17|20] 1457s7 1462s7 1634s7 1635s7 1636s7 1834s7 2822s7 2823s7
+. 5950s13
+187V13 Button_Pressed{boolean} 188^7 189>7 1868b13 1881l8 1881t22 2486r41
+188p7 Child(120|77R9) 1869b7 1876r22 1880r37
+189p7 Event{30|229P9} 1870b7 1876r44 1880r44
+193V13 Button_Pressed_Forced{boolean} 194^7 195>7 734s20 1880s14 1887b13
+. 1927l8 1927t29 6970r41
+194p7 Child(120|77R9) 734r43 1888b7 1891r47
+195p7 Event{30|229P9} 734r59 1889b7 1897r26 1898r30 1904r29 1905r37 1913r29
+. 1914r29 1923r28
+199V13 Button_Release{boolean} 200^7 201>7 720s17 1933b13 2158l8 2158t22
+. 2489r41
+200p7 Child(120|77R9) 720r33 1934b7 1937r63 1954r22
+201p7 Event{30|229P9} 720r49 1935b7 1940r44 1942r44 1954r44
+205V13 Button_Motion{boolean} 206^7 207>7 2164b13 2361l8 2361t21 2492r41
+206p7 Child(120|77R9) 2165b7 2168r51 2180r22
+207p7 Event{30|229P9} 2166b7 2180r44 2300r47 2301r47
+211V13 On_Notebook_Button_Press{boolean} 212^7 213>7 3596b13 3655l8 3655t32
+. 3803r44
+212p7 Child(120|77R9) 3597b7 3600r47 3611r67
+213p7 Event{30|229P9} 3598b7 3606r22 3651r54
+216U14 Child_Widget_Shown 217^7 2402b14 2419l8 2419t26 2530r30 2534r38
+217p7 Widget(120|77R9) 2403b7 2405r48
+218U14 Child_Widget_Hidden 219^7 2379b14 2396l8 2396t27 2528r30 2532r38
+219p7 Widget(120|77R9) 2380b7 2382r48
+224V13 Insert_Child_If_Needed{127|74P9} 225^7 226>7 2863b13 2871l8 2871t30
+. 2887s20 2913s20 2923s20 2936s20 2966s17 2991s14
+225p7 MDI(127|67R9) 2864b7 2868r15
+226p7 Child{127|74P9} 2865b7 2867r10 2867r33 2868r20 2870r14
+230V13 Create_Notebook{108|59P9} 231^7 880s36 2042s27 2053s30 3661b13 3682l8
+. 3682t23 4023s24 4032s24 4041s24 4050s24 4062s27 4296s22 5075s22
+231p7 MDI(127|67R9) 3662b7 3668r32 3672r31
+234U14 Configure_Notebook_Tabs 235^7 236^7 237>7 1318s16 2393s13 2416s13
+. 3668s7 3688b14 3733l8 3733t31 3903s7 4207s13
+235p7 MDI(127|67R9) 3689b7 3709r35 3711r35 3718r18
+236p7 Notebook(108|57R9) 3690b7 3694r50 3697r21 3703r43 3709r25 3711r25 3714r41
+. 3717r27 3720r24 3723r24 3728r19 3730r19
+237b7 Hide_If_Empty{boolean} 2393r55 2416r55 3691b7 3726r10 4208r48
+242U14 Update_Tab_Color 242^32 1371s10 1707s7 3147b14 3188l8 3188t24 3227s10
+. 3230s7 3794s10
+242p32 Child(127|72R9) 3147b32 3149r54 3168r24 3168r33 3169r22 3182r43
+246U14 Set_State 247^7 247>46 560b14 569l8 569t17 1427s13 1437s13 2627s7
+. 3519s10 3533s10 3898s7 4197s7 6464s19
+247p7 Child(127|72R9) 561b7 563r42 566r10 567r40
+247e46 New_State{127|84E9} 561b46 565r10 566r25
+250V13 Delete_Child{boolean} 251^7 252>7 3312b13 3335l8 3335t20 3496r44
+251p7 Child(120|77R9) 3313b7 3316r44 3320r24 3321r30 3322r33 3324r34 3327r62
+. 3328r34 3333r24
+252p7 Event{30|229P9} 3314b7 3333r56
+255U14 Destroy_Child 255^29 1559b14 1647l8 1647t21 2495r41
+255p29 Child(120|77R9) 1559b29 1561r62 1568r34
+256U14 Destroy_Initial_Child 256^37 1653b14 1658l8 1658t29 2525r41
+256p37 Child(120|77R9) 1653b37 1655r43 1656r19
+260U14 Destroy_MDI 260^27 890r41 1397b14 1463l8 1463t19
+260p27 MDI(120|77R9) 1397b27 1398r48
+263U14 Menu_Entry_Destroyed 263^36 4456b14 4459l8 4459t28 4533r44
+263p36 Child(120|77R9) 4456b36 4458r18
+266U14 Menu_Destroyed 266^30 4542b14 4546l8 4546t22 4942r47
+266p30 MDI(120|77R9) 4542b30 4544r19 4545r19
+269V13 Draw_Child{boolean} 270^7 270>48 1684b13 1764l8 1764t18 2507r41
+270p7 Widget(120|77R9) 1685b7 1690r59
+270p48 Event{30|229P9} 1685b48 1688r28
+274U14 Realize_MDI 274^27 887r41 1380b14 1391l8 1391t19
+274p27 MDI(120|77R9) 1380b27 1381r56 1390r21
+277U14 Set_Dnd_Source 278^7 279^7 3814s10 6963b14 6972l8 6972t22
+278p7 Widget(120|77R9) 6964b7 6967r19 6969r10
+279p7 Child(120|77R9) 6965b7 6971r10
+282U14 Get_Dnd_Target 283^7 284<7 285<7 286<7 1971s13 2186s13 7108b14 7282l8
+. 7282t22
+283p7 MDI(127|67R9) 7109b7 7121r11 7122r38 7124r12 7125r39 7127r17 7138r44
+. 7145r57 7158r35 7158r49 7159r36 7164r35 7178r45 7179r46 7181r23 7185r35
+. 7194r35 7203r35 7212r35
+284p7 Parent{120|78P9} 2186r36 7110b7 7132m10 7153m13 7166m16 7171m10 7185m13
+. 7194m13 7203m13 7212m13 7223r44 7224r44 7225r48 7226r49 7228r26 7277r31
+. 7278r60 7279r60
+285e7 Position{127|227E9} 2187r29 7111b7 7131m10 7154m13 7165m16 7184m13
+. 7193m13 7202m13 7211m13 7236m16 7244m16 7252m16 7260m16 7268m16
+286r7 Rectangle{37|36R12} 2187r51 7112b7 7175m10 7186m13 7189r26 7192r20
+. 7195m13 7197r26 7198r26 7204m13 7208r26 7210r20 7213m13 7214r26 7217r26
+. 7222m13 7231r39 7233r48 7237m16 7240r29 7243r23 7245m16 7247r29 7248r29
+. 7253m16 7257r29 7259r23 7261m16 7262r29 7265r29 7269m16 7272r29 7273r29
+. 7278m13 7278r28 7279m13 7279r28
+292E9 Dnd_Rectangle_Mode 292e52 295r20 6980r20
+292n32 Show{292E9} 2291r34 6998r15
+292n38 Hide{292E9} 2287r51 6993r15
+292n44 Destroy{292E9} 1970r48 6987r15
+293U14 Draw_Dnd_Rectangle 294^7 295>7 296>7 1970s13 2287s16 2290s16 6978b14
+. 7030l8 7030t26
+294p7 MDI(127|67R9) 6979b7 6988r16 6989r25 6990r16 6994r16 6995r22 6999r16
+. 7000r25 7002r19 7002r68 7003r28 7005r19 7005r56 7006r31 7007r34 7009r25
+. 7012r41 7015r21 7016r21 7016r46 7020r19 7021r28 7022r28 7026r36 7028r19
+295e7 Mode{292E9} 1970r40 2287r43 2291r26 6980b7 6986r12
+296p7 Ref_Window{21|48P12} 2291r40 6981b7 7018r25
+299U14 Update_Float_Menu 299^33 3119b14 3128l8 3128t25 3283s7 3520s10 3538s10
+299p33 Child(127|72R9) 3119b33 3121r10 3123r13 3123r40 3124r22 3124r49 3126r13
+. 3126r40
+302U14 Put_In_Notebook 303^7 304^7 305>7 306>7 307>7 2066s25 2074s19 2631s10
+. 3536s10 3834b14 3917l8 3917t23 4312s10 5112s19 5138s13
+303p7 MDI(127|67R9) 3835b7 3853r22 3854r18 3857r13 3857r26 3861r13 3861r18
+. 3903r32
+304p7 Child(127|72R9) 3836b7 3852r13 3857r31 3861r23 3864r22 3868r12 3870r22
+. 3871r51 3883r30 3898r18 3900r26 3901r34 3905r25 3910r28 3916r14
+305p7 Notebook{108|59P9} 3837b7 3849r10 3850r20
+306e7 Initial_Position{127|227E9} 2631r39 3838b7 3857r44 3861r36
+307b7 Force_Parent_Destruction{boolean} 2068r28 2075r39 3839b7 3877r25
+316V13 Get_Notebook{108|59P9} 317^7 575b13 590l8 590t20 1127s27 1140s19 2062s38
+. 2303s21 2391s18 2414s18 2669s43 3007s18 3033s21 3057s18 3066s21 3149s40
+. 3601s39 3740s41 3943s24 3972s27 4255s15 6778s17 6897s40
+317p7 Child(127|72R9) 576b7 578r12 582r28 583r36 585r49
+320U14 Create_Menu_Entry 320^33 2645s10 2842s13 4465b14 4536l8 4536t25 4936s16
+320p33 Child(127|72R9) 4465b33 4477r10 4478r18 4484r17 4493r49 4510r39 4520r19
+. 4521r28 4523r18 4523r34 4525r13 4525r41 4525r50 4526r20 4528r13 4529r62
+. 4532r13 4534r13
+323U14 Split_H_Cb 323^26 4331b14 4349l8 4349t18 4891r47
+323p26 MDI(120|77R9) 4331b26 4332r46
+324U14 Split_V_Cb 324^26 4355b14 4371l8 4371t18 4899r47
+324p26 MDI(120|77R9) 4355b26 4360r22 4361r30 4363r29
+325U14 Float_Cb 325^26 4377b14 4401l8 4401t16 4913r47
+325p26 MDI(120|77R9) 4377b24 4380r10 4381r44 4383r26
+326U14 Close_Cb 326^26 3611r50 4407b14 4433l8 4433t16 4925r47
+326p26 MDI(120|77R9) 4407b24 4410r10 4411r27 4417r26
+327U14 Focus_Cb 327^26 4439b14 4450l8 4450t16 4529r44
+327p26 Child(120|77R9) 4439b24 4440r44
+330U14 Set_Focus_Child_MDI 331^7 331>45 596b14 619l8 619t27 892r39
+331p7 MDI(120|77R9) 597b7 613r42
+331r45 Args{75|57R12} 597b45 599r53
+332U14 Set_Focus_Child_Notebook 333^7 333>46 644b14 661l8 661t32 3677r44
+333p7 Note(120|77R9) 645b7 647r28
+333r46 Args{75|57R12} 645b46 648r62
+337K12 Widget_Sources[55|354] 700r41
+338V13 After_Focus_Child_MDI_Floating{boolean} 339>7 667b13 680l8 680t38
+. 702r13
+339p7 Child{120|78P9} 668b7 670r44
+344V13 Set_Focus_Child_MDI_Floating{boolean} 345^7 686b13 706l8 706t36 3502r17
+345p7 Child(120|77R9) 687b7 689r45 702r64
+348V13 Set_Focus_Child_MDI_From_Tab{boolean} 349^7 350>7 712b13 747l8 747t36
+. 3799r14 3808r14
+349p7 Child(120|77R9) 713b7 720r42 727r24 727r60 734r52
+350p7 Event{30|229P9} 714b7 719r26 720r58 723r25 734r68
+354U14 Set_Focus_Child_Switch_Notebook_Page 355^7 355>46 625b14 638l8 638t44
+. 3680r10
+355p7 Note(120|77R9) 626b7 628r54
+355r46 Args{75|57R12} 626b46 629r43
+360V13 Toplevel_Focus_In{boolean} 361^7 753b13 779l8 779t25 791r41
+361p7 MDI(120|77R9) 754b7 756r46
+365U14 Give_Focus_To_Child 365>35 775s10 2541b14 2555l8 2555t27 2651s7 3106s13
+. 3249s7
+365p35 Child{127|74P9} 2541b35 2542r37 2544r10 2545r13 2546r18
+369U14 Give_Focus_To_Previous_Child 370^7 1530s16 2561b14 2603l8 2603t36
+. 4310s10
+370p7 Child(127|72R9) 2562b7 2571r15 2575r59 2580r27 2581r54 2596r10 2598r25
+374V13 Matching_Children{182A9} 375^7 375>45 899b13 919l8 919t25 932s20
+375p7 MDI(127|67R9) 900b7 902r55 904r39
+375a45 Str{string} 900b45 910r13 911r59
+379U14 Reset_Title_Bars_And_Colors 380^7 1340s7 1361b14 1374l8 1374t35 6625s10
+380p7 MDI(127|67R9) 1362b7 1367r22
+383U14 Update_Selection_Dialog 384^7 384>45 925b14 1008l8 1008t31 1044s10
+. 1218s10 1220s10 1631s10
+384p7 MDI(127|67R9) 926b7 929r45 932r39
+384i45 Increment{integer} 926b45 952r27
+388V13 Key_Event_In_Floating{boolean} 389^7 390>7 3341b13 3355l8 3355t29
+. 3510r44 3514r44
+389p7 Win(120|77R9) 3342b7 3350r13 3353r13
+390p7 Event{30|229P9} 3343b7 3348r26 3350r42 3353r44
+393V13 Key_Event_Selection_Dialog{boolean} 394^7 395>7 1014b13 1094l8 1094t34
+. 1207r16 1211r16
+394p7 MDI(120|77R9) 1015b7 1018r50
+395p7 Event{30|229P9} 1016b7 1029r26 1030r30 1039r24 1041r42 1047r29 1048r30
+398U14 Update_Tab_Label 399^7 2778s7 2835s10 3739b14 3816l8 3816t24 3905s7
+399p7 Child(127|72R9) 3739b32 3740r55 3750r32 3766r13 3768r16 3773r17 3781r19
+. 3781r36 3782r27 3784r14 3785r49 3791r31 3794r28 3800r13 3804r13 3809r13
+. 3814r33
+402U14 Update_Menu_Item 403^7 2718b14 2753l8 2753t24 2777s7 4521s10
+403p7 Child(127|72R9) 2718b32 2725r10 2726r24 2727r21 2727r49 2732r13 2733r37
+. 2740r26 2742r35 2746r15 2749r13 2749r30 2750r34 2751r13
+406V13 Find_Current_In_Central{108|59P9} 407^7 408^7 409>7 410>7 3856s18
+. 3860s18 3923b13 4070l8 4070t31
+407p7 Pane(130|45R9) 3924b7 3936r30 4024r23 4033r23 4042r23 4051r23 4064r22
+408p7 MDI(127|67R9) 3925b7 3930r52 3936r58 3967r17 3971r36 3992r20 3995r28
+. 4023r41 4032r41 4041r41 4050r41 4062r44
+409i7 Group{127|176I9} 3926b7 3956r28 3956r64
+410e7 Initial_Position{127|227E9} 3927b7 4018r50 4021r15
+418U14 Removed_From_Notebook 419^7 419>46 3675r35 4184b14 4226l8 4226t29
+419p7 Note(120|77R9) 4185b7 4199r48 4204r41 4205r22 4208r41
+419r46 Args{75|57R12} 4185b46 4188r56
+422U14 Update_Dnd_Window 423^7 424>7 425>7 1770b14 1824l8 1824t25 2193s16
+. 2200s22 2203s22 2206s22 2209s22 2221s22 2224s22 2227s22 2230s22 2233s22
+. 2240s16 2249s19 2258s25 2263s25 2268s25 2274s25 2279s25
+423p7 MDI(127|67R9) 1771b7 1784r10 1786r10 1787r19 1788r29 1788r71 1789r24
+. 1790r21 1790r51 1791r26 1794r15 1800r19 1801r26 1802r27 1803r20 1812r16
+. 1814r13 1815r42 1818r13 1820r15 1820r32 1822r15 1822r43
+424a7 Text{string} 1772b7 1815r24 1819r24
+425b7 In_Central{boolean} 1773b7 1806r10
+430U14 Destroy_Dnd_Window 430^34 1856b14 1862l8 1862t26 1961s13 1969s13
+430p34 MDI(127|67R9) 1856b34 1858r10 1859r19 1860r10
+434U14 Emit_By_Name_Child 435>7 435>32 435>47 436b<c,ada_g_signal_emit_by_name_ptr>22
+. 1623s7 2597s10 2653s7 2780s7 2851s13 3303s7 3521s10
+435m7 Object{143|64M9}
+435a32 Name{string}
+435m47 Child{143|64M9}
+438U14 Emit_By_Name 438>28 438>53 439b<c,ada_g_signal_emit_by_name>22 2136s25
+. 4316s10 4772s10 5919s10 5921s10
+438m28 Object{143|64M9}
+438a53 Name{string}
+441U14 Internal_Float_Child 442^7 443>7 444>7 445>7 445>10 3365s7 3373b14
+. 3542l8 3542t28 5635s25
+442p7 Child(127|72R9) 3374b7 3388r38 3389r42 3396r25 3397r37 3398r38 3400r24
+. 3405r10 3407r15 3412r25 3413r48 3413r57 3416r14 3428r24 3432r39 3438r61
+. 3460r13 3461r47 3463r47 3471r47 3478r47 3496r66 3503r13 3511r39 3515r39
+. 3517r32 3519r21 3520r29 3522r25 3523r25 3524r40 3527r13 3530r43 3531r32
+. 3532r54 3533r21 3536r27 3536r38 3538r29 3539r17 3540r40
+443b7 Float{boolean} 3375b7 3390r39 3405r43 3527r49
+444b7 Position_At_Mouse{boolean} 3366r24 3376b7 3484r13 5636r41
+445i7 X{45|56I9} 3366r51 3377b7 3487r33 5637r28
+445i10 Y{45|56I9} 3366r59 3377b10 3487r36 5637r36
+450U14 Set_Child_Title_Bar 450^35 1370s10 1664b14 1678l8 1678t27 2634s7 3910s7
+450p35 Child(127|72R9) 1664b35 1666r29 1667r16 1668r29 1669r21 1670r28 1673r16
+. 1674r29 1675r21 1676r28 1676r49
+453U14 Note_Notify 453>27 453>50 454r26 3822b14 3828l8 3828t19 3882r25 3887r28
+453m27 Data{143|64M9} 3822b27 3825r46
+453m50 Where{143|64M9} 3822b50 3823r28
+457U14 Print_Debug 457>27 540b14 545l8 545t19 612s13 634s10 657s10 691s7
+. 758s7 1403s7 1420s13 1425s13 1430s13 1496s7 1512s13 1521s13 1535s13 1550s13
+. 1570s7 1598s10 1922s7 1949s7 2014s22 2023s28 2146s13 2148s13 2583s16 2595s10
+. 3108s13 3224s7 3242s10 3326s10 3387s7 3987s16 4004s22 4017s13 4200s10 4212s13
+. 4322s10 4706s13 4819s10 5022s10 5055s13 5071s10 5076s10 5108s19 5113s19
+. 5116s19 5127s10 5181s10 5204s16 5250s22 5269s16 5276s13 5280s10 5326s13
+. 5411s13 5454s19 5497s22 5503s25 5512s25 5527s22 5543s13 5596s10 5603s16
+. 5657s16 5729s13 5751s10 5752s10 5755s10 5802s16 5811s16 5865s10 5877s10
+. 5914s13 6195s13 6349s10 6353s10 6357s13 6363s10 6380s13 6385s16 6437s13
+. 6454s19 6494s13 6518s13 6524s10 6541s10 6560s13 6601s16 6609s13 6613s16
+. 6654s13 6684s10 6697s10 7049s7 7078s10 7088s7
+457a27 Msg{string} 540b27 543r60
+458U14 Indent_Debug 458>28 551b14 554l8 554t20 1513s13 1520s13 4820s10 4861s10
+. 5061s10 5154s10 5182s10 5330s10 5418s10 5568s10 5599s10 5664s10 6439s13
+. 6493s13
+458i28 Amount{integer} 551b28 553r40
+461V13 In_Central_Area{boolean} 462^7 463^7 519b13 534l8 534t23 2242s19 2254s33
+. 3139s38 3971s19 4260s13 6452s40
+462p7 MDI(127|67R9) 520b7 525r49 526r29
+463p7 Child(120|77R9) 521b7 523r37
+466U14 Move_To_Next_Notebook 466=37 6737s13 6786b14 6818l8 6818t29 6846s16
+466r37 Iterator{127|500R9} 6786b37 6788m7 6789m7 6792r21 6793r16 6794m16
+. 6795m16 6795m46 6795r46 6796r34 6804r25 6806r19 6807r51 6808r33 6811m13
+. 6812r41 6816m16 6816r16
+470K12 Close_Button 511l8 511e20 513b17 2453r27 2511r10 3746r16 3785r13 129|36b14
+. 520l5 520t17
+475R12*Gtkada_MDI_Close_Button_Record<91|56R9> 57|83p14 89p14 117p14 130p14
+. 329p14 77|60p13 86|56p14 59p13 64p14 72p14 85p14 88p13 94p13 100p14 122p14
+. 131p14 142p14 145p14 148p13 157p14 160p13 169p14 172p13 181p14 186p14 229p14
+. 242p14 275p14 282p13 288p14 298p14 91|75p13 77p14 89p13 91p14 109|108p14
+. 134P13 172p13 175p14 179p14 184p13 248p14 120|147p14 153p14 158p14 167p14
+. 171p14 179p14 181p13 188p14 196p14 204p14 212p14 239p14 241p13 270p13 280p14
+. 287p14 296p14 303p14 307p13 314p13 326p14 331p14 334p14 364p14 372p13 379p13
+. 383p13 387p13 390p13 393p14 413p14 426p14 433p13 444p14 454p13 466p14 475p14
+. 482p13 502p14 515p14 521p14 529p13 566p14 569p13 577p14 582p14 585p13 604p14
+. 613p13 652p14 655p13 663p13 686p13 699p14 702p13 710p14 715p14 720p14 723p13
+. 736p14 743p14 753p14 768p14 777p14 788p14 790p13 805p14 818p14 825p13 829p13
+. 830p13 844p13 845p13 850p13 856p14 859p13 864p14 867p13 873p13 895p13 901p14
+. 925p13 935p14 937p13 965p14 975p13 982p13 995p14 1000p14 1003p13 1009p14
+. 1017p14 1022p14 1027p14 1033p14 1036p13 1044p14 1055p14 1064p14 1067p13
+. 1081p13 1118p13 1120p14 1129p13 1131p14 1143p14 1154p13 1162p13 1163p14
+. 1169p14 1418p14 1426p14 1434p14 1446p14 1452p14 1633p14 1644p14 1648p14
+. 1673p14 128|495e17 497r20 129|106r21
+477p10*Child{127|74P9} 129|110m14 183r51 224r20 224r51 225r26 227r70 229r26
+. 231r55 512r30
+480b10*Tab_Over{boolean} 129|113m14 187r29 419m40 435m40
+483b10*Over{boolean} 129|112m14 188r29 238r23 451m40 468m40 488r59
+486b10*Pressed{boolean} 129|111m14 235r20 469m40 489m17 511r17
+489b10*In_Titlebar{boolean} 129|114m14 186r21 226r23
+492i10*Default_Size{45|56I9} 129|123m17 125m17 128r40 128r61 199r32
+496P12*Gtkada_MDI_Close_Button(475R12) 500r28 2453r40 3746r29 129|100r25
+. 169r26 170r19 419r7 435r7 451r7 468r7 469r7 484r25 485r18 507r25 508r18
+499U17*Gtk_New 500<10 501^10 502^10 503>10 2511s23 3785s26 129|99b14 157l8
+. 157t15
+500p10 Button{496P12} 129|100b7 106m7 107r33 108r27 110r7 111r7 112r7 113r7
+. 114r7 123r10 125r10 128r25 128r33 128r54 130r10 131r22 135r10 138r10 141r10
+. 146r25 150r25 152r10 155r10
+501p10 Tab(120|77R9) 129|101b7 144r10 148r10
+502p10 Child(127|72R9) 129|102b7 110r40
+503b10 In_Titlebar{boolean} 129|103b7 114r29 122r10
+523p7 P{120|78P9} 525r13 525r32 526r13 530m10 530r27
+563e7 Old_State{127|84E9} 565r23
+599p7 Widget{120|78P9} 605r10 609m10 609r52 611r13 613r62
+628p7 N{108|59P9} 632r41
+629m7 Page{45|62M9} 632r50
+630p7 Child{127|74P9} 632m7 633r10 635r36 636r27
+648p7 Widget{120|78P9} 654r10 655r18 658r47 659r38
+670p7 C{127|74P9} 671r62 677r27
+671p7 Top{120|78P9} 673r10 674r18 675r50
+689p7 C{127|74P9} 693r10 694r27 696r13 697r21 700r10 701r13
+716b7 Tmp{boolean} 717r28 720m10 734m13
+756p7 M{127|68P9} 765r10 766r47 768r13 769r47 775r31
+817a7 Signal_Parameters{57|247A9} 861r26
+902i7 Count{natural} 903r39
+903a7 Children{182A9} 905r29 913m13 918r14 918r24
+904r7 L{51|70R12[120|125]} 908r13 909r36 913r31 916m10 916r21
+905i7 Ind{natural} 913r23 914m13 914r20 918r42
+906p7 C{127|74P9} 909m10 911r54
+928p7 D{175P9} 930r52 940r7 941r20 942r21 942r34 948r42 963r29 967r16 976r10
+. 979r10 982r20 984r10 985r20 986r29 994r39 995r23 997r32 1002r21
+930a7 Str{45|82A12} 932r54 940r19
+931a7 Children{182A9} 933r29 946r10 947r25 948r23 954r21 955r22 956r24 957r22
+. 968r54 971r31 971r51 972r17 976r29
+933i7 Index{integer} 947r16 948r33 949m13 949r22 952m10 952r19 954r13 955m13
+. 956r16 957m13 960r17 962r23 973r29 976r39
+934i7 Tmp{integer} 960m10 962r16 968r64 971m13 971r21 973r23
+935i7 Pos{45|56I9} 941m33 941r33 963m41 963r41 969m16 969r16 982m32 982r32
+989p13 C{127|74P9} 994m13 995r49 997r40 998r16 999r40
+990p13 Pixmap{21|49P12} 1000m48 1000r48 1002r29 1003r36
+991p13 Mask{21|50P12} 1000m56 1000r56 1002r37 1004r36
+992p13 Scaled{35|67P9} 999m16 1000r40 1001r23
+1018p7 M{127|68P9} 1020r42 1044r35 1085r26 1086r22 1087r13
+1019p7 D{175P9} 1035r26 1035r39 1037r26 1037r39 1041r16 1052r14 1060r17 1068r17
+. 1079r16 1081r52
+1021b7 Close{boolean} 1058m13 1066m13 1072m13 1075m13 1078r13
+1022b7 Tmp{boolean} 1024r28 1040m13
+1023m7 Key{41|146M9} 1030m10 1032r13 1033r20 1048m10 1054r15 1055r23 1056r23
+. 1061r23 1062r31 1063r31 1064r31 1069r22 1070r30 1074r16
+1106p7 D{175P9} 1159m10 1160r22 1163r27 1165r32 1166r27 1168r28 1171r15 1174r10
+. 1182r19 1183r28 1185r19 1186r28 1188r19 1189r27 1191r20 1192r10 1194r46
+. 1199r44 1200r20 1202r22 1205r13 1209r13 1213m10 1214r23 1214r36
+1107p7 Box{78|72P9} 1176m24 1176r24 1177r22 1180r22 1189r22
+1107p12 HBox{78|72P9} 1179m24 1179r24 1180r27 1183r22 1186r22
+1108p7 Frame{93|59P9} 1170m19 1170r19 1171r18 1177r15
+1109e7 Tmp{34|75E9} 1110r28 1199m10
+1122r13 List{51|70R12[120|125]} 1131m16 1133m16 1136r19 1139r46 1149m19 1149r33
+. 1151m19 1151r33
+1123p13 Current{108|59P9} 1127m16 1140r43
+1124p13 Child{127|74P9} 1139m16 1140r33 1142r36 1144r36
+1241p7 Desc{140|56P9} 1261m10 1262r50 1263m16 1263r16
+1242i7 W{45|56I9} 1266m41
+1242i10 H{45|56I9} 1266m44 1267r35
+1243p7 C{127|74P9} 1303m10 1304r20
+1244b7 Need_Redraw{boolean} 1328m13 1332m13 1336m13 1342r10
+1245r7 Iter{127|500R9} 1299m7 1303r20 1306r27 1307r35 1322m16 1322r16
+1246e7 Old_Tabs_Pos{90|275E9} 1247r41 1313r48
+1247b7 Pos_Changed{boolean} 1312r19
+1248p7 Note{108|59P9} 1306r36 1307m13 1309r16 1313r40 1315r32 1318r46
+1364r7 List{51|70R12[120|125]} 1367m7 1368r13 1369r36 1372m10 1372r36
+1365p7 C{127|74P9} 1369m10 1370r31 1371r28
+1381p7 M{127|68P9} 1384r46 1384r50 1386r10 1387r19
+1398p7 M{127|68P9} 1399r41 1408r10 1409r18 1410r10 1442r13 1443r14 1445r10
+. 1446r17 1449r10 1450r17 1453r10 1454r19 1457r13 1458r13 1459r13 1460r13
+. 1462r13
+1399r7 Tmp{51|70R12[120|125]} 1413r13 1416r36 1418r21 1439m10
+1400r7 N{51|70R12[120|125]} 1418m10 1439r17
+1401p7 C{127|74P9} 1416m10 1419r13 1421r67 1422r22 1424r16 1426r63 1427r24
+. 1428r20 1431r61 1437r24
+1474p7 C{127|74P9} 1476r10 1477r23
+1489p7 MDI{127|68P9} 1499r27 1508r43 1515r50 1529r36
+1490p7 Event{30|229P9} 1515m23 1515r23 1517r47 1518m19 1518r19
+1491b7 Prevent_Delete{boolean} 1510m13 1516m13 1522r43 1525r17
+1541r12 E{6|62R9} 1547r66 1551r51
+1561p7 C{127|74P9} 1562r52 1570r50 1572r12 1579r7 1584r10 1585r19 1588r48
+. 1592r25 1593r48 1593r53 1597r22 1599r45 1599r58 1602r7 1608r10 1613r18
+. 1619r50 1625r65 1634r13 1635r13 1636r13 1638r10 1640r17 1646r14
+1562p7 MDI{127|68P9} 1574r10 1575r18 1576r10 1608r14 1609r10 1612r30 1614r12
+. 1619r27 1624r22 1631r35
+1563b7 In_Selection_Dialog{boolean} 1612m7 1630r10
+1690p7 Child{127|74P9} 1692r52 1693r28 1701r10 1701r34 1702r19 1707r25 1709r27
+. 1710r36 1716r44 1717r45 1720r13 1721r29 1722r30 1724r36 1729r49 1736r13
+. 1737r23 1737r47 1739r23 1739r47 1742r26 1743r54 1745r27 1749r42 1750r43
+. 1753r31 1756r59 1757r60
+1691i7 Border_Thickness{45|56I9} 1747r13
+1693r7 Color{24|60R9} 1702m10 1712r32
+1694m7 Cr{18|80M9} 1710m10 1712r28 1714r13 1718r22 1724r32 1725r19 1727r16
+. 1730r20 1731r22 1743r28 1744r19 1745r23 1760r19
+1695i7 W{45|56I9} 1721m13 1733r22 1742m50
+1695i10 H{45|56I9} 1722m13 1729r68 1742m53
+1696i7 X{45|56I9} 1728r25 1733m13 1733r18 1744r32
+1775a7 In_Perspective_Txt{string} 1809r17
+1776a7 In_Central_Txt{string} 1807r17
+1778P12 Cst_String_Access(string) 1779r18
+1779p7 Loc{1778P12} 1807m10 1809m10 1821r15
+1781p7 Frame{93|59P9} 1793m19 1793r19 1794r31 1797r15
+1782p7 Box{78|72P9} 1796m24 1796r24 1797r22 1798r28 1802r22
+1783i7 Pos{integer} 1812r10 1820r57 1822r32
+1891p7 C{127|74P9} 1894r7 1900r13 1901r29 1902r30 1907r29 1923r25
+1892i7 W{45|56I9} 1901m13 1904r40
+1892i10 H{45|56I9} 1902m13 1905r48
+1937p7 C{127|74P9} 1938r53 1950r55 1955r10 1959r12 1961r33 1962r34 1965r16
+. 1966r34 1969r33 1970r33 1971r29 1971r55 1975r41 1976r44 1977r54 1978r24
+. 1980r44 1983r29 1985r22 2013r22 2015r48 2016r35 2037r41 2038r48 2044r44
+. 2067r28 2075r22 2125r25 2126r56 2129r43 2144r34 2156r7
+1938p7 MDI{127|68P9} 2010r47 2042r44 2053r47 2137r40
+1939b7 Move_Whole_Notebook{boolean} 1998r26 2059r19
+1941b7 Copy_Instead_Of_Move{boolean} 1983r40
+1943p7 C2{127|74P9} 1983m13 1984r16 1985m16 1990r29 1994r19 1995r46 2013r27
+. 2020r34 2021r48 2062r52 2075r29 2146r65 2147r26 2148r68 2149r30
+1944p7 Current{120|78P9} 1971m36 1971r36 1973r16 1975r19 1977r31 1988r16
+. 1995r24 1999r54 2037r19 2038r26 2044r22 2045m22 2051r44 2080r25 2086r38
+. 2090r25 2098r28 2102r25 2110r28 2115r25 2121r38 2126r34
+1945p7 Note{108|59P9} 2042m19 2051m22 2053m22 2067r61 2075r33 2083r39 2086r47
+. 2093r39 2098r37 2105r39 2110r37 2118r39 2121r47 2130r43
+1946e7 Position{127|227E9} 1971m45 1997r18 2050r22 2078r21
+1947p7 Pane{130|47P9} 1974m16 1976m16 1978m16 1980m16 2082r28 2086r32 2092r28
+. 2097r28 2104r28 2109r28 2117r28 2121r32
+2010r19 Item{51|70R12[120|125]} 2018r28 2019r52 2030m25 2030r51
+2011p19 It{127|74P9} 2019m25 2020r28 2021r66 2025r44 2026r41
+2061r22 Children{51|70R12[120|125]} 2063r47 2071m28 2071r28
+2063r22 L{51|70R12[120|125]} 2065r28 2067r56 2069m25 2069r36
+2168p7 C{127|74P9} 2184r12 2186r29 2193r35 2194r16 2196r41 2197r16 2197r48
+. 2201r25 2204r25 2207r25 2210r25 2216r41 2217r16 2217r48 2222r25 2225r25
+. 2228r25 2231r25 2233r41 2236r41 2239r16 2239r48 2241r19 2242r36 2242r43
+. 2249r38 2250r19 2250r51 2253r19 2254r50 2259r28 2264r28 2269r28 2275r28
+. 2280r28 2287r36 2289r16 2291r19 2300r57 2301r57 2303r35 2339r19 2340r37
+. 2343r16 2346r19 2347r28 2350r31 2352r29
+2169p7 Current{120|78P9} 2186m46 2186r46 2192r16 2196r19 2216r19 2236r19
+. 2245r38 2286r16 2291r66
+2170p7 C3{127|74P9} 2246m16 2248r19 2253r51 2254r57 2260r63 2265r63 2271r47
+. 2277r47 2281r47
+2171p7 Note{108|59P9} 2245m16 2246r48 2246r72 2303m13 2304r16 2305r39 2307r34
+2172r7 Rect2{37|36R12} 2187m64 2289r39
+2173e7 Tmp{34|75E9} 2176r28 2349m16
+2174e7 Position{127|227E9} 2187m41 2198r21 2219r21 2237r24 2256r24
+2175i7 Delta_X{45|56I9} 2300m13 2310r44 2316r25 2317r34 2326r16
+2175i16 Delta_Y{45|56I9} 2301m13 2309r25 2310r34 2317r44 2327r23
+2177b7 In_Central{boolean} 2254m19 2261r28 2266r28 2272r28 2277r61 2281r61
+2382p7 Child{127|74P9} 2385r10 2386r42 2388r16 2391r32 2393r38
+2383p7 Note{108|59P9} 2391m10 2392r13 2393r49
+2405p7 Child{127|74P9} 2408r10 2409r42 2411r16 2414r32 2416r38
+2406p7 Note{108|59P9} 2414m10 2415r13 2416r49
+2447a7 Signal_Parameters{57|247A9} 2466r26
+2452p7 Event{91|57P9} 2518m16 2518r16 2519r12 2521r26
+2453p7 Button{496P12} 2511m32 2511r32 2514r13
+2542p7 F{120|78P9} 2546m13 2553r22
+2564r7 Item{51|70R12[120|125]} 2571m7 2572r13 2573r37 2590m10 2590r36
+2565p7 It{127|74P9} 2573m10 2575r29 2575r42 2577r24 2580r16 2581r36 2584r42
+. 2585r33
+2566p7 Last{127|74P9} 2576r16 2577m16 2594r10 2601r27
+2669p7 Notebook{108|59P9} 2673r43 2675r27 2679r37 2685r37 2688r48
+2719p7 Label{71|66P9} 2740m19 2740r19 2741r25 2742r28 2743r27
+2720p7 Pixmap{98|62P9} 2734m22 2734r22 2735r30
+2721p7 Pix{21|49P12} 2733m49 2733r49 2734r30 2736r33
+2722p7 Mask{21|50P12} 2733m54 2733r54 2734r35 2737r33
+2723p7 Box{78|72P9} 2730m24 2730r24 2735r25 2743r22 2745r20 2746r32
+2805b7 Title_Changed{boolean} 2828r10 2846r10
+2807b7 Short_Title_Changed{boolean} 2834r10 2846r32
+2809p7 The_Title{127|937P9} 2814m7 2825r22
+2810p7 The_Short_Title{127|937P9} 2817m10 2819m10 2826r28
+2881r7 Tmp{51|70R12[120|125]} 2883m7 2885r13 2886r34 2887r70 2890m10 2890r23
+2903p7 W{120|78P9} 2911r13 2912r13 2913r55 2913r74 2915r16 2917r29 2917r65
+. 2922r33 2922r69 2926m10 2926r27
+2904p7 Win{122|69P9} 2932m7 2933r10 2935r39
+2905p7 C{127|74P9} 2920m13 2923r44 2923r51 2935m13 2936r44 2936r51
+2955p7 Child{127|74P9} 2960m10 2961r20 2961r41 2965r10 2966r46
+2956r7 Iter{127|500R9} 2960r24 2962m16 2962r16
+2980p7 Child{127|74P9} 2984m10 2985r20 2986r20 2987r20
+2981r7 Iter{127|500R9} 2984r24 2988m16 2988r16 2991r48
+2999p7 Note{108|59P9} 3007m10 3008r28 3008r44
+3025p7 Note{108|59P9} 3033m13 3034r34 3034r58
+3046p7 Old_Focus{127|74P9} 3106r34
+3047p7 Note{108|59P9} 3057m10 3066r52 3077r13 3078r31 3078r47
+3048p7 Current_Focus{127|74P9} 3058m10 3064r13 3065r21 3066r35 3080r35
+3049b7 Give{boolean} 3068m13 3102r17
+3148r7 Color{24|60R9} 3169m13 3177r71 3179r63 3181r44 3184r48
+3149p7 Note{108|59P9} 3167r10 3177r49 3179r41 3181r24 3182r37
+3150p7 Label{120|78P9} 3182m13 3183r16 3184r27
+3152V16 Color_Equal{boolean} 3152>29 3152>32 3159b16 3164l11 3164t22 3177s17
+. 3178s25
+3152r29 A{24|60R9} 3159b29 3161r22 3162r28 3163r27
+3152r32 B{24|60R9} 3159b32 3161r32 3162r40 3163r38
+3195p7 Old{127|74P9} 3208r14 3251r10 3252r35 3255r13 3256r41 3257r41
+3196p7 C{127|74P9} 3208r10 3208r60 3217r28 3221r13 3222r32 3224r55 3230r25
+. 3232r12 3233r15 3234r16 3235r14 3241r10 3242r68 3243r23 3260r27 3262r13
+. 3263r41 3264r42 3279r26 3283r26 3285r10 3287r13 3287r37 3290r10 3291r22
+. 3300r24 3302r37 3304r22 3305r22
+3197b7 Tmp{boolean} 3198r28
+3200p7 Previous_Focus_Child{127|74P9} 3226r10 3227r28 3272r21 3274r29 3276r29
+3380p7 Diag{87|67P9} 3447m25 3447r25 3453r33 3454r46
+3381p7 Win{122|69P9} 3453m13 3456m22 3456r22 3457r36 3461r24 3463r24 3466r28
+. 3471r31 3480r30 3485r27 3487r28 3488r27 3495r13 3498r22 3500r13 3509r13
+. 3513r13 3525r20 3530m10 3534r19
+3382p7 Cont{86|51P9} 3454m13 3457m13 3517r48
+3383r7 Requisition{120|80R9} 3400m31 3400r31 3401r15 3402r15
+3384r7 Groups{53|59R12[57|424]} 3478m10 3479r16 3480r62 3481m13 3481r29
+3385i7 W{45|56I9} 3397m10 3401m10 3466r33
+3385i10 H{45|56I9} 3398m10 3402m10 3466r36
+3418p16 Parent{122|69P9} 3436m25 3438m25 3449r35
+3419r16 Item{51|70R12[120|125]} 3428m16 3429r22 3430r46 3444m19 3444r45
+3420p16 It{127|74P9} 3430m19 3432r22 3433r25 3434r50 3436r61
+3558K12 Tab_Pos_Callback[95|1072] 3621r10 3627r10 3633r10 3639r10
+3560U14 On_Tab_Pos 3561^7 3562>7 3564b14 3569l8 3569t18 3623r13 3629r13 3635r13
+. 3641r13
+3561p7 Note(108|57R9) 3565b7 3568r20
+3562e7 Pos{90|275E9} 3566b7 3568r26
+3600p7 C{127|74P9} 3601r53 3644r13 3645r13 3645r32
+3601p7 Note{108|59P9} 3623r32 3629r32 3635r32 3641r32
+3602p7 Menu{104|75P9} 3607m19 3607r19 3612r18 3615r18 3645r35 3648r20 3649r17
+3603p7 Submenu{104|75P9} 3617m19 3617r19 3618r29 3624r18 3630r18 3636r18
+. 3642r18
+3604p7 Item{105|52P9} 3609m19 3609r19 3611r13 3612r24 3614m19 3614r19 3615r24
+. 3618r23 3620m19 3620r19 3622r13 3624r27 3626m19 3626r19 3628r13 3630r27
+. 3632m19 3632r19 3634r13 3636r27 3638m19 3638r19 3640r13 3642r27
+3664p7 Notebook{108|59P9} 3666m7 3667r32 3668r37 3669r24 3670r25 3671r23
+. 3672r21 3675r10 3677r10 3679r10 3681r14
+3693p7 Child{127|74P9} 3714m7 3715r10
+3694i7 Page_Count{45|56I9} 3702r21
+3695i7 Visible_Page_Count{natural} 3704m13 3704r35 3708r10 3727r13
+3702i11 P<133|35I9> 3703r53
+3740p7 Note{108|59P9} 3750r10 3791r25
+3741p7 Event{91|57P9} 3751m19 3751r19 3762r30 3785r42 3789r15 3791r38 3792r20
+. 3797r13 3802r13 3806r13 3814r26
+3742p7 Box{78|72P9} 3764m24 3764r24 3772r25 3778r25 3782r22 3786r23 3789r22
+3743p7 Pix{21|49P12} 3768m50 3768r50 3769r30 3770r33
+3744p7 Mask{21|50P12} 3768m55 3768r55 3769r35 3771r33
+3745p7 Pixmap{98|62P9} 3769m22 3769r22 3772r30
+3746p7 Close{496P12} 3785m35 3785r35 3786r28
+3747p7 Fixed{92|54P9} 3776m32 3776r32 3777r24 3778r30
+3824b7 Old_Note_Was_Destroyed{boolean} 3825m11 3825r11 3827m7
+3841p7 Note{108|59P9} 3850m10 3856m10 3860m10 3864r43 3900r20 3901r28 3903r37
+. 3912r26 3913r13 3914r21
+3842p7 Old_Parent{86|51P9} 3871m10 3878r21 3879r49 3882r13 3883r18 3887r16
+. 3894r22
+3843b7 Destroy_Old{boolean} 3877m10 3893r13
+3844b7 Old_Note_Was_Destroyed{boolean} 3882m45 3882r45 3885r17 3887m48 3887r48
+. 3893r38
+3930r7 List{51|70R12[120|125]} 3939r16 3940r39 3960m13 3960r27 3968r19 3969r42
+. 3977m16 3977r30
+3931p7 C{127|74P9} 3940m13 3942r16 3943r38 3949r27 3956r54 3969m16 3971r41
+. 3972r41
+3932p7 Note{108|59P9} 3943m16 3945r30 3952r30 3955r26 3957m16 3972m19 3973r30
+. 4005m22 4006r33 4015r10 4023m16 4025r38 4032m16 4034r38 4041m16 4043r38
+. 4050m16 4052r38 4060m19 4062m19 4064r41 4069r14
+3933p7 Current{108|59P9} 3944r19 3945m19 3952m19 3973m19 3985r13 4006m22
+. 4059r19 4060r27
+3934b7 Default_Current_Found{boolean} 3948r23 3951m19
+3994r19 Iter{130|212R9} 3997r37 3998r42 4000m28 4000r28 4003r34 4005r56
+4079r7 List{51|70R12[120|125]} 4091m13 4093r19 4094r42 4102m16 4102r30 4105r23
+4080p7 C{127|74P9} 4094m16 4095r20 4096r27 4098r32
+4124r7 List{51|70R12[120|125]} 4138m10 4140r16 4141r43 4154m13 4154r27 4157r20
+4125p7 Child{127|74P9} 4141m13 4142r16 4145r48 4146r40 4149r48 4150r40
+4187p7 C{120|78P9} 4191r10 4195r27
+4189p7 Child{127|74P9} 4195m7 4196r7 4197r18 4200r62 4208r16 4213r19
+4218r12 E{6|62R9} 4224r66
+4239p7 Note{108|59P9} 4255m7 4258r10 4258r46 4276r42 4280r42 4284r42 4286r45
+. 4299r35 4311r18
+4239p13 Note2{108|59P9} 4268m16 4272m16 4292m13 4295r13 4296m13 4297r23 4300r35
+. 4307r16 4312r40
+4240p7 Target{127|74P9} 4246m10 4248m10 4252m10 4255r29 4260r35 4309r15 4310r40
+. 4311r24 4312r32 4313r17 4314r27
+4241p7 Pane{130|47P9} 4261m13 4263m13 4276r36 4280r36 4284r36 4286r39 4298r20
+4242p7 W{120|78P9} 4276m16 4280m16 4284m16 4285r19 4286m19 4291r13 4291r32
+. 4292r36
+4243b7 After{boolean} 4269m16 4273m16 4277m16 4281m16 4288m16 4304r35
+4332p7 M{127|68P9} 4337r10 4338r18 4340r17
+4344r12 E{6|62R9} 4347r66
+4366r12 E{6|62R9} 4369r66
+4378p7 C{127|74P9} 4381m10 4383m10 4386r10 4387r23 4387r26 4388r27 4389r23
+4393r12 E{6|62R9} 4399r66
+4408p7 C{127|74P9} 4411m10 4417m10 4420r10 4421r23
+4425r12 E{6|62R9} 4431r66
+4440p7 C{127|74P9} 4442r22 4444r13 4445r26 4448r27
+4468r7 G{53|59R12[120|126]} 4490m16 4520r36
+4469p7 First_Child{127|74P9} 4487m13 4489r16 4490r32 4493r19 4495r36 4497r26
+. 4498r42
+4470r7 Tmp{51|70R12[120|125]} 4484m10 4486r16 4487r49 4502m13 4502r26 4511m13
+. 4512r19 4513r51 4515m16 4515r29
+4471i7 Position{45|56I9} 4507m13 4509m13 4514m16 4514r28 4523r51
+4472r7 Children{51|70R12[120|125]} 4510m13 4511r20 4517m19 4517r19
+4473p7 Item{105|52P9} 4498m19 4506r13 4513r59
+4474p7 Ref{127|937P9} 4494r28 4495r66 4497m19
+4557p7 Parent{120|78P9} 4559r13 4560r23 4562m10 4562r32 4565r10 4566r38
+4576U17 Get_XML_For_Widget 4577>10 4578>10 4579<10 4580<10 5852s19 5932b17
+. 5958l11 5958t29 6044s13
+4577p10 Child{127|74P9} 5853r22 5933b10 5942r43 5950r19 5951r13
+4578*10 User{127|634+12} 5853r34 5934b10 5942r58
+4579b10 Widget_Is_Unique{boolean} 5854r22 5935b10 5957m10
+4580p10 Data{64|52P9[65|32]} 5853r48 5936b10 5954m10
+4586U17 Parse_Child_Node 4587^10 4588>10 4589>10 4590=10 4591<10 4592<10
+. 4593<10 4594<10 4595<10 4596=10 5095s16 5161b17 5331l11 5331t27 5627s16
+4587p10 MDI(127|67R9) 5162b10 5193r31 5207r21 5225r31 5238r15 5245r58 5267r49
+4588p10 Child_Node{64|52P9[65|32]} 5163b10 5177r28 5202r48 5205r31 5218r22
+. 5219r31 5220r40 5225r37 5242r31 5251r37 5267r55 5270r31 5283r28 5286r28
+. 5288r28 5289r43 5293r15
+4589*10 User{127|634+12} 5164b10 5225r55 5245r67 5267r73
+4590p10 Focus_Child{127|74P9} 5165b10 5290m13
+4591i10 X{45|56I9} 5166b10 5187m10 5302m16
+4592i10 Y{45|56I9} 5167b10 5188m10 5305m16
+4593b10 Raised{boolean} 5168b10 5185m10 5287m10
+4594e10 State{127|84E9} 5169b10 5186m10 5285m10
+4595p10 Child{127|74P9} 5170b10 5184m10 5206m16 5207r26 5217r13 5223r19 5224m16
+. 5239r13 5244r25 5245m22 5249r22 5266r16 5267m13 5268r16 5275r13 5280r65
+. 5282r10 5284r47 5290r28 5322r31 5327r43
+4596r10 To_Hide{51|70R12[120|125]} 5097r41 5171b10 5327m22 5630r19
+4600U17 Parse_Notebook_Node 4601^10 4602>10 4603>10 4604>10 4604>24 4605>10
+. 4606=10 4607<10 4607<17 4608<10 4609=10 4610=10 4611=10 5031b17 5155l11
+. 5155t30 5469s22
+4601p10 MDI(127|67R9) 5032b10 5069r38 5075r39 5096r19 5112r36 5137r18 5138r30
+. 5149r21 5150r22 5470r25
+4602p10 Child_Node{64|52P9[65|32]} 5033b10 5044r37 5064r13 5068r28 5133r13
+. 5471r25
+4603*10 User{127|634+12} 5034b10 5096r27 5475r25
+4604i10 Parent_Width{45|56I9} 5035b10 5056r40 5064r25 5472r25
+4604i24 Parent_Height{45|56I9} 5035b24 5057r40 5064r39 5473r25
+4605e10 Parent_Orientation{90|225E9} 5036b10 5058r51 5064r54 5474r25
+4606p10 Focus_Child{127|74P9} 5037b10 5096m33 5103r29 5476r25
+4607i10 Width{45|56I9} 5038b10 5065m13 5072r57 5085m10 5085r29 5088r38 5477r25
+4607i17 Height{45|56I9} 5038b17 5065m20 5073r40 5086m10 5086r30 5088r45 5478r25
+4608p10 Notebook{108|59P9} 5039b10 5075m10 5078r37 5088r28 5089r23 5090r29
+. 5091r20 5112r48 5138r58 5479r25
+4609r10 To_Raise{51|70R12[120|125]} 5040b10 5142m22 5480r25
+4610r10 To_Hide{51|70R12[120|125]} 5041b10 5097m52 5481r25
+4611p10 Empty_Notebook_Filler{127|74P9} 5042b10 5133r46 5135m22 5136r24 5137r23
+. 5138r35 5482r25
+4625U17 Parse_Pane_Node 4626^10 4627^10 4628>10 4629=10 4630>10 4630>24 4631>10
+. 4632>10 4633>10 4634=10 4635=10 4636=10 5380b17 5549s19 5569l11 5569t26
+. 5609s16
+4626p10 Paned(130|45R9) 5381b10 5506r51 5519r32 5529r32 5550r22 5550r47
+4627p10 MDI(127|67R9) 5382b10 5470r47 5487r44 5551r22 5551r47 5611r19
+4628p10 Node{64|52P9[65|32]} 5383b10 5394r28 5397r62 5406r13 5432r18 5545r18
+. 5552r22 5612r19
+4629p10 Focus_Child{127|74P9} 5384b10 5476m41 5553r22 5553m47 5613r19
+4630i10 Parent_Width{45|56I9} 5385b10 5401r40 5406r19 5555r22 5614r19
+4630i24 Parent_Height{45|56I9} 5385b24 5402r40 5406r33 5556r22 5615r19
+4631e10 Parent_Orientation{90|225E9} 5386b10 5406r48 5557r22 5616r19
+4632*10 User{127|634+12} 5387b10 5475r41 5554r22 5554r47 5617r19
+4633p10 Initial_Ref_Child{108|59P9} 5388b10 5396r52 5462r27 5464r40 5465r36
+. 5558r22 5618r19
+4634r10 To_Raise{51|70R12[120|125]} 5389b10 5480m41 5559r22 5559m47 5619r19
+4635r10 To_Hide{51|70R12[120|125]} 5390b10 5481m41 5560r22 5560m47 5620r19
+4636p10 Empty_Notebook_Filler{127|74P9} 5391b10 5482m50 5561r22 5561m47 5621r19
+4642U17 Restore_Multi_Pane 4643^10 4644^10 4645=10 4646=10 4647=10 4648>10
+. 4649>10 4650>10 4650>22 5575b17 5665l11 5665t29 5883s13 6564s10
+4643p10 Pane(130|45R9) 5576b10 5610r19 5884r16 6565r13
+4644p10 MDI(127|67R9) 5577b10 5611r44 5628r19 5885r16 6566r13
+4645p10 Focus_Child{127|74P9} 5578b10 5613m44 5629m19 5886r16 6567r13
+4646r10 To_Raise{51|70R12[120|125]} 5579b10 5619m44 5887r16 6568r13
+4647r10 To_Hide{51|70R12[120|125]} 5580b10 5620m44 5630m30 5888r16 6569r13
+4648p10 Node{64|52P9[65|32]} 5581b10 5585r35 5890r16 6571r13
+4649*10 User{127|634+12} 5582b10 5617r44 5628r36 5889r16 6570r13
+4650i10 Full_Width{45|56I9} 5583b10 5597r37 5614r44 5891r16 6572r13
+4650i22 Full_Height{45|56I9} 5583b22 5598r37 5615r44 5892r16 6573r13
+4656U17 Internal_Load_Perspective 4657^10 4658>10 4659>10 4660=10 4661=10
+. 4662=10 4663>10 4663>17 4664>10 5901s10 6411b17 6663l11 6663t36 6698s10
+4657p10 MDI(127|67R9) 6412b10 6446r18 6451r28 6452r57 6478r39 6483r27 6503r23
+. 6513r16 6519r26 6522r10 6530r55 6536r56 6547r15 6548r25 6549r48 6549r63
+. 6552r10 6553r18 6561r19 6565r38 6566r38 6571r38 6579r17 6580r33 6582r24
+. 6582r29 6585r10 6586r24 6621r22 6625r39 6627r20 6633r17 6634r22 6635r23
+. 6636r20 6639r10 6640r16 6643r35 6655r22 6657r16 6658r59 6659r59 6660r63
+. 6661r64
+4658a10 Name{string} 6413b10 6505r58 6524r56
+4659*10 User{127|634+12} 6414b10 6570r38 6643r40
+4660p10 Focus_Child{127|74P9} 5904r19 6415b10 6567m38 6597r19 6598m19 6700r13
+4661r10 To_Raise{51|70R12[120|125]} 5905r13 6416b10 6568m38 6592r41 6607m19
+. 6701r13
+4662r10 To_Hide{51|70R12[120|125]} 5906r13 6417b10 6569m38 6610r21 6618m19
+. 6702r13
+4663i10 Width{45|56I9} 5907r13 6418b10 6529r13 6532r26
+4663i17 Height{45|56I9} 5908r13 6418b17 6535r13 6538r27
+4664b10 Do_Size_Allocate{boolean} 5909r13 6419b10 6653r13 6703r13
+4668U17 Compute_Size_From_Attributes 4669>10 4670>10 4670>24 4671>10 4672<10
+. 4672<17 4673>10 4972b17 5025l11 5025t39 5063s10 5405s10 5444s19 5488s22
+4669p10 Node{64|52P9[65|32]} 4973b10 4979r52 4980r52
+4670i10 Parent_Width{45|56I9} 4974b10 5000r21 5009r25 5446r22 5490r25
+4670i24 Parent_Height{45|56I9} 4974b24 4996r26 5013r21 5447r22 5491r25
+4671e10 Parent_Orientation{90|225E9} 4975b10 4994r15 5448r22 5492r25
+4672i10 Width{45|56I9} 4976b10 5001m19 5005m19 5009m16 5024r41 5449r22 5493r25
+4672i17 Height{45|56I9} 4976b17 4996m16 5014m19 5018m19 5024r62 5450r22 5494r25
+4673i10 Children_Count{integer} 4977b10 5000r42 5013r43 5065r28 5451r22 5495r25
+4681U17 Create_Perspective_Menu 4682^10 4683>10 4770s10 4804s10 4811b17 4862l11
+. 4862t34 4885s13 6643s10
+4682p10 MDI(127|67R9) 4812b10 4823r10 4826r23 4828r13 4829r22 4831r42 4835r42
+. 4837r28 4838r37 4839r45 4848r36 4857r16 4859r10
+4683*10 User{127|634+12} 4813b10 4833r30 4849r24
+4686U17 Recompute_Perspective_Names 4687^10 4769s10 5671b17 5698l11 5698t38
+. 5736s10
+4687p10 MDI(127|67R9) 5672b10 5677r16 5679r13 5680r18 5687r13 5689r22 5690r18
+. 5692r16
+4697p10 Persp{127|771P12} 4701r12 4701r41 4705r25 4707r43 4708r20 4709r34
+. 4709r51
+4700a10 Name{string} 4706r58 4709r45
+4721p10 Persp{127|771P12} 4730r55 4746r33 4746r60
+4723p10 Dialog{87|67P9} 4729m19 4729r19 4732r32 4733r32 4734r32 4737r32 4741r32
+. 4743r20 4745r18 4749r19
+4724p10 Label{100|96P9} 4736m19 4736r19 4737r41
+4725p10 Ent{94|65P9} 4739m19 4739r19 4740r33 4741r41 4746r54
+4726p10 Button{120|78P9} 4727r32 4732m10 4733m10
+4761p10 Perspectives{64|52P9[65|32]} 4764m35 4764r35 4766m16 4766r16
+4761p24 Central{64|52P9[65|32]} 4764m49 4764r49 4767m16 4767r16
+4785a10 Name{string} 4788r13 4795r46
+4786p10 Tmp{64|52P9[65|32]} 4792m10 4794r16 4795r31 4800m13 4800r20
+4815p10 Submenu{104|75P9} 4825m19 4825r19 4826r50 4841r24 4854r18 4856r20
+4816p10 Persp{127|771P12} 4830m16 4831r16 4832r16 4833r16 4835r28 4836r28
+. 4840r36 4841r33 4843r19 4847m10 4848r10 4849r10 4850r36 4853r13 4854r27
+4817r10 Group{53|59R12[120|126]} 4835r35 4840m16
+4829i17 N{integer} 4832r30 4835r65 4838r60
+4873p10 Item{105|52P9} 4887m22 4887r22 4888r31 4890r16 4892r29 4895m22 4895r22
+. 4896r31 4898r16 4900r29 4926r29
+4874p10 Child{127|74P9} 4935m16 4936r35
+4875r10 Tmp{51|70R12[120|125]} 4932m13 4934r19 4935r46 4937m16 4937r29
+4876p10 Sep{115|50P9} 4903m22 4903r22 4904r31 4918m22 4918r22 4919r31 4929m22
+. 4929r22 4930r31
+4979a10 WAttr{string} 4998r19 4998r26 5002r35 5002r42 5002r57 5005r40 5023r53
+4980a10 HAttr{string} 5011r19 5011r26 5015r35 5015r42 5015r57 5018r41 5023r73
+4981i10 Tmp{45|56I9} 4999m19 5003r31 5012m19 5016r31
+5044p10 N{64|52P9[65|32]} 5093r16 5094r16 5096r24 5124m13 5124r18
+5045e10 State{127|84E9} 5097m27
+5046b10 Raised{boolean} 5097m19 5101r22
+5047p10 Raised_Child{127|74P9} 5102r29 5105m22 5141r13 5142r44 5148r18 5149r44
+. 5150r45 5151r20
+5048p10 Child{127|74P9} 5097m34 5097r34 5100r19 5103r43 5105r38 5111r32 5112r41
+5049i10 X{45|56I9} 5096m46
+5049i13 Y{45|56I9} 5096m49
+5050p10 Dummy{100|96P9} 5134m22 5134r22 5135r45
+5051e10 Pos{90|275E9} 5067m10 5089r33
+5173p10 N{64|52P9[65|32]} 5238m10 5239r35 5240m13 5240r18 5241r19 5242r19
+. 5245r64 5253m28 5253r28 5258m16 5258r21 5293m10 5295r16 5301r16 5302r33
+. 5304r19 5305r33 5307r19 5308r33 5310r19 5311r33 5318m13 5318r18
+5174p10 Register{127|757P12} 5222m13 5223r41 5224r25 5226m16 5226r28 5243m19
+. 5244r47 5245r31 5246m22 5246r34 5264m10 5266r38 5267r22 5272m13 5272r25
+5175i10 W{45|101I12} 5308m16 5321r13 5322r38
+5175i13 H{45|101I12} 5311m16 5321r29 5322r41
+5176b10 Visible{boolean} 5325r17
+5178r10 Iter{127|500R9} 5193m10 5195r25 5211m19 5211r19
+5179p10 Tmp{127|74P9} 5195m13 5196r23 5200r16 5201r24 5202r24 5206r25
+5341V19 Internal_Get_XML_Content{64|52P9[65|32]} 5342>13 5348b19 5360s25
+. 5370l14 5370t38 5373s17
+5342p13 N{64|52P9[65|32]} 5349b13 5351r46
+5351p13 Node{64|52P9[65|32]} 5355r19 5356r19 5357r26 5360r51 5366m16 5366r24
+5352p13 Child{64|52P9[65|32]} 5360m16 5362r19 5363r26
+5393e10 Orientation{90|225E9} 5412r60 5437r35 5508r51 5518r53 5524r47 5557r47
+5395p10 N{64|52P9[65|32]} 5432m13 5434r19 5440r33 5538m16 5538r21 5545m13
+. 5547r19 5548r19 5552r47 5564m16 5564r21
+5396p10 Ref_Item{120|78P9} 5502r25 5516r52 5520r47 5536m16
+5397i10 Count{natural} 5407r54 5413r48 5421r37
+5398p10 Notebook_Node{64|52P9[65|32]} 5440m16 5441r22 5442r27 5445r22 5451r60
+. 5453r37 5458m19 5458r36 5468r22 5471r47 5489r25
+5399i10 Width{45|56I9} 5477m41 5493m47 5498r49 5509r51 5522r47 5531r42
+5399i17 Height{45|56I9} 5478m41 5494m47 5498r70 5510r51 5523r47 5532r42
+5401i10 Width_For_Children{45|56I9} 5407m13 5414r47 5435r35 5555r47
+5402i10 Height_For_Children{45|56I9} 5407m33 5415r36 5436r35 5556r47
+5421a13 Notebooks(108|59P9) 5425r36 5461r27 5464m19 5479m41 5479r41 5484r39
+. 5546r22 5558r47
+5422p13 W{120|78P9} 5465m19 5484m22 5487m22 5501r34 5505r52 5507r51 5514r52
+. 5521r47 5530r32 5536r28
+5423i13 Tmp_Width{45|56I9} 5435m16 5446r44 5449m44 5456r36 5472r47 5490r47
+5423i24 Tmp_Height{45|56I9} 5436m16 5447r44 5450m44 5456r67 5473r47 5491r47
+5424e13 Tmp_Orientation{90|225E9} 5437m16 5448r44 5452m19 5474r47 5492r47
+5425i13 Index{natural} 5461r19 5464r30 5479r52 5484r50 5537m16 5537r25 5546m13
+. 5558r58 5563m16 5563r25
+5585p10 Child_Node{64|52P9[65|32]} 5601r16 5605r21 5608r16 5612r44 5623r19
+. 5628r24 5648m13 5648r27
+5586b10 Raised{boolean} 5629m38
+5587i10 X{45|56I9} 5629m32 5637r33
+5587i13 Y{45|56I9} 5629m35 5637r41
+5588p10 Child{127|74P9} 5629m53 5629r53 5632r19 5636r28 5643r38
+5589e10 State{127|84E9} 5629m46 5633r24
+5591p10 Empty_Notebook_Filler{127|74P9} 5621m44 5621r44 5651r13 5655r51
+5654p16 Note{108|59P9} 5660r29
+5674p10 N{64|52P9[65|32]} 5680m13 5682r19 5684m16 5684r21 5690m13 5691r19
+. 5693r45 5695m16 5695r21
+5675i10 Count{natural} 5683m16 5683r25 5687r73 5689m13 5692r39 5694m16 5694r25
+5710r10 To_Raise{51|70R12[120|125]} 5879m10 5887m41 5887r41 5905m34 5905r34
+5711r10 To_Hide{51|70R12[120|125]} 5880m10 5888m41 5888r41 5906m34 5906r34
+5712p10 Focus_Child{127|74P9} 5886m41 5886r41 5904m34 5904r34 5913r13 5915r53
+. 5916r30
+5713b10 Initial_All_Floating_Mode{boolean} 5911r38
+5714b10 Do_Size_Allocate{boolean} 5800m16 5909r34
+5715i10 MDI_Width{45|56I9} 5790m22 5795m19 5804r33 5807m16 5813r33 5816r52
+. 5891r41 5907r34
+5715i21 MDI_Height{45|56I9} 5791m22 5796m19 5804r64 5809m16 5813r64 5816r63
+. 5892r41 5908r34
+5765m13 State{30|207M9} 5767m13 5770r17
+5782r22 Rect{37|36R12} 5789m40 5790r36 5791r36
+5828r13 Tmp{51|70R12[120|125]} 5834r19 5835r30 5839r49 5840m16 5843m13 5844r19
+. 5845r42 5858m16 5858r29
+5829r13 Tmp2{51|70R12[120|125]} 5835m16 5840r23
+5830p13 C{127|74P9} 5845m16 5851r19 5853r31
+5831p13 Widget_Node{64|52P9[65|32]} 5853m56 5853r56 5855m25 5855r25
+5832b13 Widget_Is_Unique{boolean} 5854m42
+5938p10 Register{127|757P12} 5941r44 5942r28 5943m13 5943r25
+5939p10 Widget_Node{64|52P9[65|32]} 5941r16 5942m13 5946r13 5951r48 5954r18
+5970i10 MDI_Width{45|56I9} 6337r61 6350r37
+5972i10 MDI_Height{45|56I9} 6339r62 6351r37
+5975r10 Item{51|70R12[120|125]} 6364m10 6365r16 6366r55 6374m13 6374r39
+5976p10 Child_Node{64|52P9[65|32]} 6086m16 6087r16 6088r27 6090r31 6092r31
+. 6105r27 6106r27 6111r34 6115r34 6119r34 6122r35
+5977p10 Child{127|74P9} 6366m13 6368r18 6371r41
+5979U20 Add 5979>25 5979>44 5979>50 6017b20 6024l14 6024t17 6105s22 6106s22
+5979p25 Parent{64|52P9[65|32]} 6017b25 6023r24
+5979a44 Name{string} 6017b44 6021r34
+5979a50 Value{string} 6017b50 6022r36
+5982U20 Save_Widget 5983>13 5984>13 5985>13 5986>13 6030b20 6124l14 6124t25
+. 6181s19 6371s19
+5983p13 Parent{64|52P9[65|32]} 6031b13 6122r27
+5984p13 Child{127|74P9} 6032b13 6040r16 6044r33 6091r49 6093r50 6095r19 6098r38
+. 6110r19 6118r39
+5985b13 Raised{boolean} 6033b13 6114r19 6184r22
+5986b13 In_Central{boolean} 6034b13 6072r31 6185r22 6371r55
+5991U20 Save_Size 5992>13 5993>13 6130b20 6152l14 6152t23 6263s22 6272s22
+. 6280s19
+5992r13 Iter{130|212R9} 6131b13 6137r23
+5993p13 Node{64|52P9[65|32]} 6132b13 6143r22 6148r22
+5997U20 Save_Paned 5998^13 5999>13 6000>13 6238b20 6259s22 6292l14 6292t24
+. 6354s10 6358s13
+5998p13 Paned(130|45R9) 6239b13 6246r70
+5999p13 Parent{64|52P9[65|32]} 6240b13 6243r38 6289r16 6290r29
+6000b13 In_Central{boolean} 6241b13 6259r56 6270r36 6354r52 6358r47
+6004V19 Save_Notebook{64|52P9[65|32]} 6005>13 6006>13 6007>13 6158b19 6210l14
+. 6210t27 6268s24
+6005p13 Current{64|52P9[65|32]} 6159b13 6204r27
+6006p13 Note{108|59P9} 6160b13 6163r69 6164r74 6173r54 6178r36
+6007b13 In_Central{boolean} 6161b13 6185r36 6270r22
+6010U20 Prune_Empty 6010=33 6216b20 6224s19 6232l14 6232t25 6290s16
+6010p33 N{64|52P9[65|32]} 6216b33 6219r16 6220r21 6228r19 6229m25
+6018p13 N{64|52P9[65|32]} 6020m13 6021r13 6022r13 6023r32
+6036p13 Widget_Node{64|52P9[65|32]} 6044m64 6044r64 6046r16 6068r28 6074r21
+. 6075r29 6078r47 6079r39
+6037p13 Tmp_Node{64|52P9[65|32]} 6068m16 6077m19 6078r19 6088r39
+6038b13 Widget_Is_Unique{boolean} 6044m46 6070r19
+6097p22 Win{120|78P9} 6103r49 6104r50
+6099i22 W{45|56I9} 6103m22 6106r60
+6099i25 H{45|56I9} 6104m22 6105r61
+6134i13 Parent_Width{45|56I9} 6137m44 6145r56
+6134i27 Parent_Height{45|56I9} 6137m58 6150r57
+6134i42 Width{45|56I9} 6137m29 6145r32
+6134i49 Height{45|56I9} 6137m36 6150r32
+6135e13 Orientation{90|225E9} 6138m23 6140r18
+6163i13 Length{45|56I9} 6175r16 6176r39 6197r30 6201r16
+6164i13 Current_Page{45|56I9} 6184r36
+6165p13 Parent{64|52P9[65|32]} 6169m13 6170r13 6172r16 6182r22 6199r33 6202r23
+. 6204r36 6205r23 6207m22 6207r22
+6166b13 Has_Default_Group_Child{boolean} 6179m19 6179r46
+6167p13 Child{127|74P9} 6177m19 6180r29 6183r22
+6176i20 Page_Index<133|35I9> 6178r42 6184r51
+6217p13 C{64|52P9[65|32]} 6220m16 6222r22 6223r26 6224m32 6224r32 6225m19
+6217p16 Tmp{64|52P9[65|32]} 6223m19 6225r24
+6243p13 Current{64|52P9[65|32]} 6252m19 6252r30 6259r47 6264r33 6269r22 6281r30
+. 6282m19
+6244p13 N{64|52P9[65|32]} 6261m22 6262r22 6263r39 6264r42 6268m19 6271r22
+. 6272r39 6276m19 6277r19 6279r22 6280r36 6281r39 6282r30
+6245i13 Depth{natural} 6251r49 6285m16
+6246r13 Iter{130|212R9} 6250r31 6251r36 6255r48 6257r31 6263r33 6267r34 6269r57
+. 6272r33 6280r30 6285r36 6286m22 6286r22
+6247e13 Orientation{90|225E9} 6255m16 6279r63
+6251i20 N{integer}
+6306p16 N{64|52P9[65|32]} 6309r22 6310r25 6311m25 6311r25 6312m19
+6307p16 N2{64|52P9[65|32]} 6310m19 6312r24
+6330p13 Win{122|69P9} 6333r16 6334r48
+6331m13 State{30|207M9} 6334m16 6335r20 6343r70
+6396U20 Unchecked_Free[17|20] 6402s13
+6398p10 Next{127|757P12} 6401m13 6403r26
+6421p10 Child{127|74P9} 6595m16 6598r34 6603r32 6604r29 6612m16 6614r60 6615r22
+6423U20 Remove_All_Items 6423>38 6430b20 6495l14 6495t30 6557s10
+6423b38 Remove_All_Empty{boolean} 6430b38 6438r43 6557r28
+6431r13 Children{51|70R12[120|125]} 6478m13 6479r18 6487m19 6487r19
+6432r13 L{51|70R12[120|125]} 6446m13 6447r19 6448r42 6471m16 6471r27 6479m13
+. 6480r19 6481r48 6485m16 6485r27
+6433p13 Note{108|59P9} 6481m16 6482r33 6483r32
+6434p13 C{127|74P9} 6448m16 6450r19 6452r62 6455r45 6456r24 6458r41 6461r57
+. 6461r62 6464r30 6466r22 6467r31
+6435p13 Parent{120|78P9} 6458m19 6460r22
+6497i10 MDI_Width{45|56I9} 6530m13 6532m13 6542r37 6572r38
+6497i21 MDI_Height{45|56I9} 6536m13 6538m13 6543r37 6573r38
+6498p10 Tmp_Persp{64|52P9[65|32]} 6503m10 6504r16 6505r36 6507m13 6507r26
+. 6510r13 6519m13 6522r37
+6592r13 Item{51|70R12[120|125]} 6594r19 6595r58 6605m16 6605r42 6610m13 6611r19
+. 6612r58 6616m16 6616r42
+6674r10 To_Raise{51|70R12[120|125]} 6701m33 6701r33
+6675r10 To_Hide{51|70R12[120|125]} 6702m33 6702r33
+6676p10 Focus_Child{127|74P9} 6700m33 6700r33
+6677p10 Perspectives{64|52P9[65|32]} 6693m38 6693r38 6694m19 6694r19
+6717r7 Children{51|70R12[120|125]} 6749m10 6751r13 6756m16 6762r39
+6718p7 C{127|74P9} 6752m13 6753r17
+6722r13 Iter{127|500R9} 6733m16 6734m16 6737m36 6737r36 6739r19 6741r40 6743m16
+. 6743r56 6746r20
+6773p7 C{127|74P9} 6775r10 6778r31
+6825p7 C{127|74P9} 6854m16 6855r26 6855r43
+6897p7 Note{108|59P9} 6903r13 6904r39 6904r57
+6898p7 Style{118|68P9} 6909m10 6911m10 6925r46 6936r38
+6918r13 Children{51|70R12[120|125]} 6920r45 6931m19 6931r19
+6920r13 Tmp{51|70R12[120|125]} 6923r19 6924r29 6925r40 6928m16 6928r29
+6983i7 Root_X{45|56I9} 7018m37 7021r19
+6983i15 Root_Y{45|56I9} 7018m45 7022r19
+6984b7 Success{boolean} 7018m53
+7040e7 Tmp{34|75E9} 7042r28 7065m10
+7041p7 Win{44|71P12} 7055m7 7060r10 7066r13
+7114i7 Border_Width{45|56I9} 7232m13 7251r23 7256r29 7259r41 7262r47 7264r29
+. 7270r29 7272r51
+7114i21 Border_Height{45|56I9} 7230m13 7235r20 7241r29 7243r42 7247r48 7249r29
+. 7271r29 7273r52
+7115p7 Win{21|48P12} 7119m32 7119r32 7122r20 7125r21 7127m10 7130r10 7135r48
+7116p7 Current{120|78P9} 7135m10 7137r16 7138r21 7139r21 7140r33 7142r15
+. 7143r35 7145r33 7147m13 7147r36 7152r13 7152r48 7158r13 7159m13 7171r20
+7117i7 X{45|56I9} 7119m26 7181m28 7201r16 7210r16 7228m34 7251r19 7259r19
+7117i10 Y{45|56I9} 7119m29 7181m31 7183r13 7192r16 7228m37 7235r16 7243r19
+X 129 gtkada-mdi-close_button.adb
+38R9 Cairo_Color 40e14 44r31 179r17 180r17 299r31 301r13
+39f7*R{45|66F9} 260r42 268r27 270r27 278r40 283r40 304m10 309r17 310m17
+39f10*G{45|66F9} 260r50 268r33 270r33 278r46 283r46 305m10 313r17 314m17
+39f13*B{45|66F9} 260r58 268r39 270r39 278r52 283r52 306m10 317r17 318m17
+42V13 Shade{38R9} 43>7 44>7 236s21 239s21 242s21 246s16 247s16 297b13 323l8
+. 323t13
+43r7 Color{24|60R9} 298b7 304r29 305r31 306r30
+44f7 Value{45|66F9} 299b7 304r49 305r51 306r50 308r10
+46V13 On_Draw{boolean} 47^7 47>48 136r41 163b13 291l8 291t15
+47p7 Widget(120|77R9) 164b7 170r44
+47p48 Event{30|229P9} 164b48 167r28
+51U14 Rounded_Rectangle 52>7 53>7 53>10 53>13 53>16 54>7 261s10 271s10 279s10
+. 284s10 329b14 343l8 343t25
+52m7 Cr{18|80M9} 330b7 334r22 336r10 338r10 340r10 342r10
+53f7 X{45|66F9} 331b7 334r26 336r14 338r14 340r14 342r14
+53f10 Y{45|66F9} 331b10 334r38 336r30 338r30 340r26 342r26
+53f13 W{45|66F9} 331b13 336r18 338r18
+53f16 H{45|66F9} 331b16 338r34 340r30
+54f7 Radius{45|66F9} 332b7 334r30 336r22 336r34 336r42 338r22 338r38 338r46
+. 340r18 340r34 340r42 342r18 342r30 342r38
+57U14 Cross 58>7 59>7 59>10 59>16 253s10 349b14 388l8 388t13
+58m7 Cr{18|80M9} 350b7 355r25 371r24 372r21 373r22 374r22 375r22 376r22 377r22
+. 378r22 379r22 380r22 381r22 382r22 383r22 384r22 385r25 387r25
+59f7 W{45|66F9} 351b7 371r28 371r37
+59f10 Size{45|66F9} 351b10 373r27 375r40 376r39 378r26 379r26 381r38 382r39
+. 384r27
+59f16 Thin{45|66F9} 351b16 373r40 374r27 374r40 375r27 376r26 377r26 377r39
+. 378r39 379r38 380r26 380r38 381r26 382r27 383r27 383r39 384r39
+62V13 On_Tab_Enter{boolean} 63^7 64>7 145r41 412b13 423l8 423t20
+63p7 Widget(120|77R9) 413b7 419r32 420r19
+64p7 Event{30|284P12} 414b7 417r28
+67V13 On_Tab_Leave{boolean} 68^7 69>7 149r41 429b13 438l8 438t20
+68p7 Widget(120|77R9) 430b7 435r32 437r24
+69p7 Event{30|284P12} 431b7 437r32
+72V13 On_Enter{boolean} 73^7 74>7 139r41 444b13 455l8 455t16
+73p7 Widget(120|77R9) 445b7 451r32 452r19
+74p7 Event{30|284P12} 446b7 449r28
+77V13 On_Leave{boolean} 78^7 79>7 142r41 437s14 461b13 473l8 473t16
+78p7 Widget(120|77R9) 462b7 468r32 469r32 470r19
+79p7 Event{30|284P12} 463b7 466r28
+82V13 On_Mouse_Pressed{boolean} 83^7 84>7 153r41 479b13 496l8 496t24
+83p7 Widget(120|77R9) 480b7 485r43 490r22
+84p7 Event{30|267P12} 481b7 488r32
+87V13 On_Mouse_Released{boolean} 88^7 89>7 156r41 502b13 518l8 518t25
+88p7 Widget(120|77R9) 503b7 508r43
+89p7 Event{30|267P12} 504b7 511r56
+92U14 Invalidate 92^26 394b14 406l8 406t18 420s7 452s7 470s7 490s10
+92p26 Widget(120|77R9) 394b26 396r27 398r36 399r32 400r32 401r36 402r37 404r22
+169p7 Button{128|496P12} 183r44 186r14 187r22 188r22 193r27 194r38 195r38
+. 196r42 197r43 199r25 216r36 224r13 224r44 225r19 226r16 227r63 229r19 231r48
+. 235r13 238r16
+171m7 Cr{18|80M9} 216m10 218r32 219r27 250r31 252r13 253r17 254r22 255r31
+. 260r33 261r29 262r22 271r29 272r28 274r22 278r33 279r29 280r24 283r33 284r29
+. 285r24 287r25
+172f7 Alpha{45|66F9} 237m13 240m13 243m13 260r61 268r42 278r55 283r55
+173i7 X{45|56I9} 194m10 213m10 213r15 219r40
+173i10 Y{45|56I9} 195m10 214m10 214r15 219r53
+174i7 Width{45|56I9} 196m10 202r27 203r28 213r19
+175i7 Height{45|56I9} 197m10 209r27 210r28 214r20
+176f7 dW{45|66F9} 199m10 202r13 203m13 209r13 210m13 213r33 214r35 220r21
+. 252r29 252r39 253r21 253r34 261r43 261r47 266r13 266r23 266r38 266r48 271r43
+. 271r47 279r43 279r53 284r43 284r53
+177f7 Cross_W{45|66F9} 220m10 253r25 266r58
+178r7 Bg{24|60R9} 225m13 229m13 231m13 236r28 239r28 242r28 246r23 247r23
+179r7 Base{38R9} 236m13 239m13 242m13 260r37 260r45 260r53
+180r7 Lo{38R9} 246m10 268r24 268r30 268r36 270r24 270r30 270r36 283r37 283r43
+. 283r49
+180r11 Hi{38R9} 247m10 278r37 278r43 278r49
+181m7 Ptrn{18|132M9} 265m10 268r13 270r13 272r32 273r33
+182p7 Note{108|59P9} 227r39 227r57
+301r7 Ret{38R9} 303m7 309r13 310m13 313r13 314m13 317r13 318m13 322r14
+353r7 Matrix{18|105R9} 355m29 355r29 387m29 387r29
+484p7 Button{128|496P12} 488r52 489r10
+507p7 Button{128|496P12} 511r10 512r23
+X 130 gtkada-multi_paned.ads
+44K16*Multi_Paned 127|61w13 994r42 1012r41 1117r39 128|108w13 108r42 827r14
+. 3994r33 5992r29 6131r29 6246r33 130|287e23
+45R9*Gtkada_Multi_Paned_Record<92|53R9> 127|1012r53 128|407r33 3924r33 4626r41
+. 4643r43 5381r41 5576r43 5998r33 6239r33 7139r40 7144r25 130|285e14
+47P9*Gtkada_Multi_Paned(45R9) 127|1117r51 128|1947r30 1976r24 1980r24 3936r10
+. 3936r38 4241r21 4263r21
+49N4*Handle_Width 128|5000r64 5013r65
+54P9*Pane<262P9>
+59p4*Root_Pane{54P9} 128|2083r28 2093r28 2105r28 2118r28 4026r38 4035r38
+. 4044r38 4053r38
+71U14*Gtk_New 128|872s7 5727s13 5872s10
+72U14*Initialize 128|827s26
+75U14*Set_Opaque_Resizing 128|1256s7
+80U14*Add_Child 128|874R7 879R7 2128R25 4063R19 5506R25 5728R13 6582R13
+81p7 Win(45R9) 128|2129r28 5506r36
+82p7 New_Child(120|77R9) 128|880r23 2130r28 4064r28 5507r36
+83e7 Orientation{90|225E9} 128|883r10 2131r28 5508r36
+86i7 Width{45|56I9} 128|881r10 2132r28 4064r47 5509r36
+86i14 Height{45|56I9} 128|882r10 2133r28 4064r60 5510r36
+99U14*Split 128|2086R25 2096R25 2108R25 2121R25 4298R13 5519R25
+101p7 Ref_Widget(120|77R9) 128|4299r20 5520r32
+102p7 New_Child(120|77R9) 128|4300r20 5521r32
+103e7 Orientation{90|225E9} 128|4303r20 5524r32
+105i7 Width{45|56I9} 128|4301r20 5522r32
+105i14 Height{45|56I9} 128|4302r20 5523r32
+106b7 After{boolean} 128|2099r28 2111r28 4304r20
+111U14*Set_Size 128|2678s13 2684s13 5529R22
+113p7 Widget(120|77R9) 128|2679r23 2685r23
+114i7 Width{45|56I9} 128|2680r23 2686r23 5531r32
+114i14 Height{45|56I9} 128|2680r44 2687r23 5532r32
+115b7 Fixed_Size{boolean} 128|2681r23 2690r23
+118V13*Splitted_Area{120|78P9} 128|4276R21 4280R21 4284R21 4286R24
+122b7 After{boolean} 128|4276r61 4280r61 4284r61 4286r64
+127V13*Get_Pane{54P9}
+133U14*Split 128|2081R25 2091R25 2103R25 2116R25 4024R16 4033R16 4042R16
+. 4051R16
+135p7 Ref_Pane{54P9} 128|4026r23 4035r23 4044r23 4053r23
+136p7 New_Child(120|77R9) 128|4025r23 4034r23 4043r23 4052r23
+137e7 Orientation{90|225E9} 128|4027r23 4036r23 4045r23 4054r23
+139i7 Width{45|56I9} 128|2106r28 2119r28 4028r23 4037r23 4046r23 4055r23
+139i14 Height{45|56I9} 128|2084r28 2094r28 4029r23 4038r23 4047r23 4056r23
+140b7 After{boolean} 128|2094r42 2106r41 4030r23 4039r23 4048r23 4057r23
+197U14*Freeze 128|6553R10
+204U14*Thaw 128|6640R10
+212R9*Child_Iterator 127|994r54 128|3994r45 5992r41 6131r41 6246r45 130|270e14
+214V13*Start{212R9} 128|3995R21 6246R63 6725s37 6733R35 6795R39 7164R28
+220V13*At_End{boolean} 128|3997s29 4003s26 6250s23 6792s13 6796s26 7164s20
+223U14*Next 128|4000s22 6286s16 6816s10 6845s16
+226V13*Get_Widget{120|78P9} 128|3998s30 4005s44 6257s19 6267s22 6269s45 6804s13
+. 6807s39 6808s21 6812s29
+232V13*Get_Orientation{90|225E9} 128|6255s31
+238V13*Get_Depth{natural} 128|6251s25 6285s25
+244U14*Get_Size 128|6137s13
+254U14*Dump 128|4213s13 4323s10 6561s13 6621s16
+261+9*Child_Description
+262P9 Child_Description_Access(261+9)
+X 131 gtkada-types.ads
+38K16*Types 128|109w13 2938r25 131|102e17
+42X4*Data_Error 128|2938r31
+X 132 interfac.ads
+38K9*Interfaces 128|47r6 47r35 132|179e15
+X 133 i-c.ads
+18K20*C 128|47r17 47r46 133|230e17
+35I9*int<integer>
+43M9*unsigned
+60M9*size_t
+65F9*double<long_float>
+X 134 i-cstrin.ads
+36K22*Strings 128|47w19 47r48 134|106e25
+47P9*chars_ptr
+50A9*chars_ptr_array(47P9)<133|60M9> 128|149r27 159r29
+60V13*New_String{47P9} 128|150s12 151s12 152s12 153s12 154s12 155s12 156s12
+. 157s12 160s12 161s12 162s12 163s12
+X 135 pango.ads
+35K9*Pango 127|62r6 63r6 130r28 1058r29 128|59r6 59r35 60r6 60r35 61r6 61r35
+. 135|39e10
+X 137 pango-cairo.ads
+39K15*Cairo 128|59w12 59r41 137|45e16
+41U14*Show_Layout 128|1745s10
+X 138 pango-context.ads
+38P9*Pango_Context(37R9)
+X 140 pango-font.ads
+54K15*Font 127|62w12 130r34 128|60w12 60r41 140|297e15
+56P9*Pango_Font_Description<45|155P9> 127|130r39 128|1232r35 1241r21
+72U14*Free 128|1263s10
+75V13*From_String{56P9} 128|1261s18
+X 141 pango-layout.ads
+69K15*Layout 127|63w12 1058r35 128|61w12 61r41 141|340e17
+72P9*Pango_Layout(71R9) 127|1058r42
+127U14*Set_Font_Description 128|1259R10 1262R10
+205U14*Get_Pixel_Size 128|1266R7 1742R10
+234U14*Set_Text 128|1737R13 1739R13
+X 143 system.ads
+37K9*System 128|45w6 45r35 46r6 435r16 435r55 438r37 453r34 453r58 2599r57
+. 3822r34 3822r58 5078r15 5505r30 5514r30 5516r30 143|152e11
+64M9*Address 128|435r23 435r62 438r44 453r41 453r65 3822r41 3822r65
+66m4*Null_Address{64M9} 128|2599r64
+X 144 s-addima.ads
+39V17*Address_Image{string} 128|46w13 5078s22 5505s37 5514s37 5516s37
+X 152 s-memory.ads
+53V13*Alloc{143|64M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{143|64M9} 105i<c,__gnat_realloc>22
+X 165 s-string.ads
+45P9*String_Access(string)
+54A9*String_List(45P9)<integer> 128|5687r55
+55P9*String_List_Access(54A9) 127|800r27 1116r45 128|7290r27
+58U14*Free 128|1460s7 5677s10
+

@@ -1,0 +1,122 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P ZX
+
+RN
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV SPARK_05
+
+U gdk.image%b		gdk-image.adb		6121b6bc NE OO PK
+W gdk%s			gdk.ads			gdk.ali
+
+U gdk.image%s		gdk-image.ads		dab835cb EE NE OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W gdk%s			gdk.ads			gdk.ali
+W glib%s		glib.adb		glib.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D gdk.ads		20141212124940 f909352d gdk%s
+D gdk-image.ads		20141212124940 2cf51d65 gdk.image%s
+D gdk-image.adb		20141212124939 4dd4abd9 gdk.image%b
+D glib.ads		20141212124939 0f441d83 glib%s
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D system.ads		20140406181354 90249111 system%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 8 gdk.ads
+40K9*Gdk 66e8 9|45r9 47r25 56r20 65r18 97r5 10|30r14 39r20 45r23 60r18 67r21
+. 78r5
+47P9*Gdk_Drawable<11|155P9> 9|65r22 10|60r22 67r25
+56P9*Gdk_Visual<11|155P9> 9|56r24 10|39r24 45r27
+60P9*Gdk_Image<11|155P9> 9|47r29
+X 9 gdk-image.ads
+45K13*Image 8|40k9 9|90E4 97l9 97e14 10|30b18 78l9 78t14
+47P12*Gdk_Image{8|60P9} 48r26 54r24 64r22 71r27 74r29 78r31 82r15 87r32 90r26
+. 10|37r24 47r36 59r22 71r34
+48p4*Null_Image{47P12} 90c4
+50E9*Gdk_Image_Type 50e70 51r26 55r20 10|38r20 44r23
+50n28*Image_Normal{50E9}
+50n42*Image_Shared{50E9}
+50n56*Image_Fastest{50E9}
+53U14*Gdk_New 54<7 55>7 56>7 57>7 58>7 10|36b14 52l8 52t15
+54p7 Image{47P12} 10|37b7 51m7
+55e7 Image_Type{50E9} 10|38b7 51r26
+56p7 Visual{8|56P9} 10|39b7 51r38
+57i7 Width{11|56I9} 10|40b7 51r46
+58i7 Height{11|56I9} 10|41b7 51r53
+60V13*Get_Type{11|269M9} 91b<c,gdk_image_get_type>22
+63U14*Get 64<7 65>7 66>7 67>7 68>7 69>7 10|58b14 76l8 76t11
+64p7 Image{47P12} 10|59b7 75m7
+65p7 Drawable{8|47P9} 10|60b7 75r26
+66i7 X{11|56I9} 10|61b7 75r36
+67i7 Y{11|56I9} 10|62b7 75r39
+68i7 Width{11|56I9} 10|63b7 75r42
+69i7 Height{11|56I9} 10|64b7 75r49
+71U14*Ref 71>19 93b<c,gdk_image_ref>22
+71p19 Image{47P12}
+74U14*Unref 74>21 94b<c,gdk_image_unref>22
+74p21 Image{47P12}
+78U14*Destroy 78>23 92b<c,gdk_image_unref>22
+78p23 Image{47P12}
+81U14*Put_Pixel 82>7 83>7 84>7 85>7 96b<c,gdk_image_put_pixel>22
+82p7 Image{47P12}
+83i7 X{11|56I9}
+84i7 Y{11|56I9}
+85m7 Pixel{11|75M9}
+87V13*Get_Pixel{11|75M9} 87>24 87>43 87>53 95b<c,gdk_image_get_pixel>22
+87p24 Image{47P12}
+87i43 X{11|56I9}
+87i53 Y{11|56I9}
+X 10 gdk-image.adb
+43V16*Internal{9|47P12} 44>10 45>10 46>10 47>10 48b<c,gdk_image_new>25 51s16
+44e10 Image_Type{9|50E9}
+45p10 Visual{8|56P9}
+46i10 Width{11|56I9}
+47i10 Height{11|56I9}
+66V16*Internal{9|47P12} 67>10 68>10 69>10 70>10 71>10 72b<c,gdk_image_get>25
+. 75s16
+67p10 Drawable{8|47P9}
+68i10 X{11|56I9}
+69i10 Y{11|56I9}
+70i10 Width{11|56I9}
+71i10 Height{11|56I9}
+X 11 glib.ads
+43K9*Glib 9|43w6 43r16 60r29 11|408e9
+56I9*Gint<13|35I9> 9|57r20 58r20 66r18 67r18 68r18 69r18 83r15 84r15 87r47
+. 87r57 10|40r20 41r20 46r23 47r23 61r18 62r18 63r18 64r18 68r21 69r21 70r21
+. 71r21
+75M9*Guint32 9|85r15 87r70
+78M9*Gsize<13|60M9>
+155P9*C_Proxy(152R9)
+269M9*GType<78M9> 9|60r34
+X 13 i-c.ads
+35I9*int<integer>
+60M9*size_t
+

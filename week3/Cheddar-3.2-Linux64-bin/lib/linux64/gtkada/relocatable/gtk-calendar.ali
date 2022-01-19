@@ -1,0 +1,620 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P SS ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_ALLOCATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_IMPLICIT_HEAP_ALLOCATIONS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_CONVERSION
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U gtk.calendar%b	gtk-calendar.adb	c162593a OO PK
+W ada%s			ada.ads			ada.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.unchecked_conversion%s
+W ada.unchecked_deallocation%s
+W glib%s		glib.adb		glib.ali
+W glib.type_conversion_hooks%s  glib-type_conversion_hooks.adb  glib-type_conversion_hooks.ali  AD
+W gtk%s			gtk.ads			gtk.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+W system%s		system.ads		system.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+U gtk.calendar%s	gtk-calendar.ads	4ba72d93 EE OO PF PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W glib%s		glib.adb		glib.ali
+W glib.properties%s	glib-properties.adb	glib-properties.ali
+W glib.types%s		glib-types.adb		glib-types.ali  AD
+W gtk%s			gtk.ads			gtk.ali
+W gtk.buildable%s	gtk-buildable.adb	gtk-buildable.ali
+W gtk.widget%s		gtk-widget.adb		gtk-widget.ali
+W system%s		system.ads		system.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D cairo.ads		20141212124939 8dc0603a cairo%s
+D cairo-region.ads	20141212124939 b7133728 cairo.region%s
+D gdk.ads		20141212124940 f909352d gdk%s
+D gdk-bitmap.ads	20141212124940 a30f71c4 gdk.bitmap%s
+D gdk-color.ads		20141212124939 8aa593ee gdk.color%s
+D gdk-cursor.ads	20141212124939 d92b2ac1 gdk.cursor%s
+D gdk-display.ads	20141212124940 f1fc98fd gdk.display%s
+D gdk-drawable.ads	20141212124940 15e54888 gdk.drawable%s
+D gdk-event.ads		20141212124940 8e0f7bb6 gdk.event%s
+D gdk-font.ads		20141212124940 46e43fa8 gdk.font%s
+D gdk-gc.ads		20141212124939 a96f1ba5 gdk.gc%s
+D gdk-pixbuf.ads	20141212124940 8572dcfc gdk.pixbuf%s
+D gdk-pixmap.ads	20141212124939 677b62c0 gdk.pixmap%s
+D gdk-rectangle.ads	20141212124939 7b900608 gdk.rectangle%s
+D gdk-region.ads	20141212124939 ff429b15 gdk.region%s
+D gdk-rgb.ads		20141212124939 724abbe3 gdk.rgb%s
+D gdk-types.ads		20141212124940 b1082506 gdk.types%s
+D gdk-visual.ads	20141212124939 615e934c gdk.visual%s
+D gdk-window.ads	20141212124940 a02582f1 gdk.window%s
+D glib.ads		20141212124939 0f441d83 glib%s
+D glib.adb		20141212124939 b4331f78 glib%b
+D glib-error.ads	20141212124939 e055fabe glib.error%s
+D glib-generic_properties.ads  20141212124939 a1807006 glib.generic_properties%s
+D glib-generic_properties.adb  20141212124939 b44dec2c glib.generic_properties%b
+D glib-glist.ads	20141212124940 65a6e1be glib.glist%s
+D glib-glist.adb	20141212124940 48a94e23 glib.glist%b
+D glib-gslist.ads	20141212124940 8fe7d6f1 glib.gslist%s
+D glib-gslist.adb	20141212124940 b4c9a81c glib.gslist%b
+D glib-object.ads	20141212124940 948e384a glib.object%s
+D glib-object.adb	20141212124939 425ed48d glib.object%b
+D glib-properties.ads	20141212124940 48c8d9fb glib.properties%s
+D glib-type_conversion_hooks.ads  20141212124939 df9131bc glib.type_conversion_hooks%s
+D glib-type_conversion_hooks.adb  20141212124939 e61e501b glib.type_conversion_hooks%b
+D glib-types.ads	20141212124939 497ce66f glib.types%s
+D glib-types.adb	20141212124939 4a57f799 glib.types%b
+D glib-values.ads	20141212124939 37b4897e glib.values%s
+D gnat.ads		20140406181359 fd2ad2f1 gnat%s
+D g-string.ads		20140406181356 c6abc540 gnat.strings%s
+D gtk.ads		20141212124940 81513fe2 gtk%s
+D gtk-accel_group.ads	20141212124940 db8139a9 gtk.accel_group%s
+D gtk-adjustment.ads	20141212124940 6a3f2d37 gtk.adjustment%s
+D gtk-buildable.ads	20141212124940 0156d377 gtk.buildable%s
+D gtk-builder.ads	20141212124940 f4ad2f95 gtk.builder%s
+D gtk-calendar.ads	20141212124940 83dbbfec gtk.calendar%s
+D gtk-calendar.adb	20141212124940 a1840b62 gtk.calendar%b
+D gtk-enums.ads		20141212124940 31c39095 gtk.enums%s
+D gtk-object.ads	20141212124940 2b4b2b20 gtk.object%s
+D gtk-style.ads		20141212124939 f697ed25 gtk.style%s
+D gtk-widget.ads	20141212124939 468b5cfd gtk.widget%s
+D gtkada.ads		20141212124939 57aea1c7 gtkada%s
+D gtkada-bindings.ads	20141212124940 516dc70c gtkada.bindings%s
+D gtkada-c.ads		20141212124940 0f5973e3 gtkada.c%s
+D gtkada-types.ads	20141212124940 b7bc0c77 gtkada.types%s
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D i-cstrin.ads		20140406181357 341d0ddf interfaces.c.strings%s
+D pango.ads		20141212124939 d3c8e76d pango%s
+D pango-attributes.ads	20141212124939 34135516 pango.attributes%s
+D pango-context.ads	20141212124940 a00383e5 pango.context%s
+D pango-enums.ads	20141212124940 8ef2dddf pango.enums%s
+D pango-font.ads	20141212124940 375007f3 pango.font%s
+D pango-layout.ads	20141212124939 0814381c pango.layout%s
+D pango-tabs.ads	20141212124940 1dd550ef pango.tabs%s
+D system.ads		20140406181354 90249111 system%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-memory.ads		20140406181359 597d6634 system.memory%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-secsta.ads		20140406181359 86a2856d system.secondary_stack%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20140406181358 aedef97e system.stream_attributes%s
+D s-string.ads		20140406181358 8fe54fb7 system.strings%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D s-unstyp.ads		20140406181356 510692af system.unsigned_types%s
+D unchconv.ads		20140406181355 ca2f9e18 unchecked_conversion%s
+D unchdeal.ads		20140406181359 214516a4 unchecked_deallocation%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 1 ada.ads
+16K9*Ada 19e8 52|32r6 33r6 45r28 77r39
+X 6 a-unccon.ads
+20v14*Unchecked_Conversion 52|32w10 45r32
+X 7 a-uncdea.ads
+20u15*Unchecked_Deallocation 52|33w10 77r43
+X 10 gdk.ads
+47P9*Gdk_Drawable<27|155P9>
+48P12*Gdk_Window{47P9}
+49P12*Gdk_Pixmap{47P9}
+54P9*Gdk_Colormap<27|155P9>
+56P9*Gdk_Visual<27|155P9>
+62P9*Gdk_Region<27|155P9>
+X 12 gdk-color.ads
+75P12*Gdk_Colormap{10|54P9}
+X 16 gdk-event.ads
+139M9*Gdk_Event_Mask
+X 19 gdk-pixbuf.ads
+67P9*Gdk_Pixbuf(65R9)
+X 20 gdk-pixmap.ads
+51P12*Gdk_Pixmap{10|49P12}
+X 22 gdk-region.ads
+39P12*Gdk_Region{10|62P9}
+X 25 gdk-visual.ads
+42P12*Gdk_Visual{10|56P9}
+83V13*Convert[90|20]{71|64M9} 32|63i21
+84V13*Convert[90|20]{10|56P9} 32|64i21
+X 26 gdk-window.ads
+71P12*Gdk_Window{10|48P12}
+537V13*Convert[90|20]{71|64M9} 32|63i21
+538V13*Convert[90|20]{10|47P9} 32|64i21
+X 27 glib.ads
+43K9*Glib 408e9 51|51w6 51r27 52r6 52r27 53r6 53r27 97r29 188r19 225r40 300r28
+. 301r43 302r43 303r30 304r40 305r39 306r37 307r37 308r42 309r29 339r35 340r48
+. 341r36 342r33 343r32 344r33 345r32 348r28 349r6 350r43 351r6 352r43 353r6
+. 354r30 355r6 356r40 357r6 358r39 359r6 360r37 361r6 362r37 363r6 364r42
+. 365r6 366r29 367r6 52|34r6 34r38 87r35
+56I9*Gint<62|35I9> 51|140r54 143r19 150r54 153r19 52|175r54 177r60 188r54
+. 190r60 283r19 285r61 297r19 299r62
+62M9*Guint<62|43M9> 51|82r19 83r19 84r19 130r23 131r23 132r23 161r19 168r71
+. 175r19 176r19 211r19 52|51r26 58r26 156r23 157r23 158r23 162r26 163r26
+. 164r26 217r19 221r22 231r71 232r60 244r19 245r19 249r22 250r22 338r19 342r22
+75M9*Guint32
+78M9*Gsize<62|60M9>
+82A12*UTF8_String{string}<integer>
+101I12*Allocation_Int{56I9}
+155P9*C_Proxy(152R9)
+175P9*G_Destroy_Notify_Address 51|188r24 52|42r20 261r18 267r21
+214A9*Signal_Name<string>(character)<integer> 51|339r40 340r53 341r41 342r38
+. 343r37 344r38 345r37
+238A9*Property<string>
+240V13*Build{238A9} 51|349s22 351s22 353s22 355s22 357s22 359s22 361s22 363s22
+. 365s22 367s22
+269M9*GType<78M9> 51|97r34
+X 30 glib-generic_properties.ads
+73A12*Property<27|238A9>
+X 32 glib-glist.ads
+70R12*Glist
+X 36 glib-object.ads
+46P9*GObject(45R9)
+83U14*Ref
+89U14*Unref
+117U14*Deallocate
+130U14*Ref_Sink
+146V13*Get_Object{71|64M9} 52|120s17 136s17 147s17 167s17 180s24 193s24 208s24
+. 224s37 235s17 253s37 272s17 288s17 302s17 318s17 329s17 345s37
+153U14*Set_Object 52|109s7
+158V13*Get_User_Data{46P9} 52|63s21
+329U14*Notify
+421V13*Convert{71|64M9} 32|63i21 34|55i21
+422V13*Convert{46P9} 32|64i21 34|56i21
+X 38 glib-properties.ads
+79K14*Properties 243e20 51|52w11 52r32 300r33 301r48 302r48 303r35 304r45
+. 305r44 306r42 307r42 308r47 309r34 348r33 349r11 350r48 351r11 352r48 353r11
+. 354r35 355r11 356r45 357r11 358r44 359r11 360r42 361r11 362r42 363r11 364r47
+. 365r11 366r34 367r11
+111A9*Property_Int<30|73A12[90]> 51|300r44 301r59 302r59 303r46 309r45 348r44
+. 350r59 352r59 354r46 366r45
+123A9*Property_Boolean<27|238A9> 51|304r56 305r55 306r53 307r53 308r58 356r56
+. 358r55 360r53 362r53 364r58
+X 39 glib-type_conversion_hooks.ads
+51K14*Type_Conversion_Hooks 105e31 52|34w11 34r43 87r40
+88k12*Hook_Registrator 103e24 52|87r62
+X 41 glib-types.ads
+48K14*Types 148e15 51|53w11 53r32 225r45
+95M9*GType_Interface<71|64M9>
+102k12*Implements 109e18 51|225r51
+103V16*To_Object{51|60P9} 51|234r33[225]
+104V16*To_Interface{49|52M9} 51|230r33[225]
+X 46 gtk.ads
+47K9*Gtk 83e8 51|54r6 54r27 55r6 55r27 57r9 226r7 229r11 232r16 368r5 52|37r14
+. 98r7 348r5
+67M12*Gtk_Type{27|269M9}
+X 49 gtk-buildable.ads
+50K13*Buildable 154e18 51|54w10 54r31 226r11 229r15 232r20
+52M9*Gtk_Buildable<41|95M9> 51|226r21 229r25 232r30
+X 51 gtk-calendar.ads
+57K13*Calendar 46|47k9 51|348E4 368l9 368e17 52|37b18 98r11 348l9 348t17
+59R9*Gtk_Calendar_Record<56|77R9> 36|83p14 89p14 117p14 130p14 329p14 51|59e70
+. 60r36 81r26 94r44 104p14 104r45 107p14 108r26 111p13 112r26 114p14 115r26
+. 122p14 122r40 128p14 129r26 139p13 140r26 141p14 142r26 149p13 150r26 151p14
+. 152r26 159p13 160r26 168p14 168r44 173p13 174r26 184p14 185r26 203p14 203r38
+. 209p13 210r26 226r36 228r23 52|61r14 88r24 97r23 105r44 116r45 128r26 143r40
+. 155r26 175r26 188r26 201r26 216r26 231r44 243r26 258r25 282r26 296r26 310r26
+. 325r38 337r26 54|108p14 134P13 172p13 175p14 179p14 184p13 248p14 56|147p14
+. 153p14 158p14 167p14 171p14 179p14 181p13 188p14 196p14 204p14 212p14 239p14
+. 241p13 270p13 280p14 287p14 296p14 303p14 307p13 314p13 326p14 331p14 334p14
+. 364p14 372p13 379p13 383p13 387p13 390p13 393p14 413p14 426p14 433p13 444p14
+. 454p13 466p14 475p14 482p13 502p14 515p14 521p14 529p13 566p14 569p13 577p14
+. 582p14 585p13 604p14 613p13 652p14 655p13 663p13 686p13 699p14 702p13 710p14
+. 715p14 720p14 723p13 736p14 743p14 753p14 768p14 777p14 788p14 790p13 805p14
+. 818p14 825p13 829p13 830p13 844p13 845p13 850p13 856p14 859p13 864p14 867p13
+. 873p13 895p13 901p14 925p13 935p14 937p13 965p14 975p13 982p13 995p14 1000p14
+. 1003p13 1009p14 1017p14 1022p14 1027p14 1033p14 1036p13 1044p14 1055p14
+. 1064p14 1067p13 1081p13 1118p13 1120p14 1129p13 1131p14 1143p14 1154p13
+. 1162p13 1163p14 1169p14 1418p14 1426p14 1434p14 1446p14 1452p14 1633p14
+. 1644p14 1648p14 1673p14
+60P9*Gtk_Calendar(59R9) 93r38 226r57 233r11 52|62r23 63r7 95r38
+62M9*Gtk_Calendar_Display_Options 64r28 67r30 70r31 73r33 77r33 109r19 113r15
+. 116r19 52|129r19 133r22 202r15 205r45 311r19 315r22
+64m4*Show_Heading{62M9}
+67m4*Show_Day_Names{62M9}
+70m4*No_Month_Change{62M9}
+73m4*Show_Week_Numbers{62M9}
+77m4*Week_Start_Monday{62M9}
+80P9*Gtk_Calendar_Detail_Func(string) 81^7 82>7 83>7 84>7 85>7 186r19 52|40r20
+. 259r18
+81p7 Calendar(59R9)
+82m7 Year{27|62M9}
+83m7 Month{27|62M9}
+84m7 Day{27|62M9}
+85m7 User_Data{71|64M9}
+93U14*Gtk_New 93<23 52|95b14 99l8 99t15
+93p23 Calendar{60P9} 52|95b23 97m7 98r32
+94U14*Initialize 94^26 52|98s20 105b14 110l8 110t18
+94p26 Calendar(59R9) 52|105b26 109r19
+97V13*Get_Type{27|269M9} 98b<c,gtk_calendar_get_type>22 52|88r7
+104U14*Clear_Marks 104^27 52|116b14 121l8 121t19
+104p27 Calendar(59R9) 52|116b27 120r29
+107U14*Display_Options 108^8 109>8 110r24 52|127b14 137l8 137t23
+108p8 Calendar(59R9) 52|128b8 136r29
+109m8 Flags{62M9} 52|129b8 136r40
+111V13*Get_Display_Options{62M9} 112^8 52|200b13 209l8 209t27
+112p8 Calendar(59R9) 52|201b8 208r36
+114U14*Set_Display_Options 115^8 116>8 52|309b14 319l8 319t27
+115p8 Calendar(59R9) 52|310b8 318r29
+116m8 Flags{62M9} 52|311b8 318r40
+122U14*Freeze 122^22 123r24 52|143b14 148l8 148t14
+122p22 Calendar(59R9) 52|143b22 147r29
+128U14*Get_Date 129^8 130<8 131<8 132<8 52|154b14 168l8 168t16
+129p8 Calendar(59R9) 52|155b8 167r29
+130m8 Year{27|62M9} 52|156b8 167m40
+131m8 Month{27|62M9} 52|157b8 167m46
+132m8 Day{27|62M9} 52|158b8 167m53
+139V13*Get_Detail_Height_Rows{27|56I9} 140^8 52|174b13 181l8 181t30
+140p8 Calendar(59R9) 52|175b8 180r36
+141U14*Set_Detail_Height_Rows 142^8 143>8 52|281b14 289l8 289t30
+142p8 Calendar(59R9) 52|282b8 288r29
+143i8 Rows{27|56I9} 52|283b8 288r40
+149V13*Get_Detail_Width_Chars{27|56I9} 150^8 52|187b13 194l8 194t30
+150p8 Calendar(59R9) 52|188b8 193r36
+151U14*Set_Detail_Width_Chars 152^8 153>8 52|295b14 303l8 303t30
+152p8 Calendar(59R9) 52|296b8 302r29
+153i8 Chars{27|56I9} 52|297b8 302r40
+159V13*Mark_Day{boolean} 160^8 161>8 52|215b13 225l8 225t16
+160p8 Calendar(59R9) 52|216b8 224r49
+161m8 Day{27|62M9} 52|217b8 224r60
+168U14*Select_Day 168^26 168>65 52|231b14 236l8 236t18
+168p26 Calendar(59R9) 52|231b26 235r29
+168m65 Day{27|62M9} 52|231b65 235r40
+173V13*Select_Month{boolean} 174^8 175>8 176>8 52|242b13 254l8 254t20
+174p8 Calendar(59R9) 52|243b8 253r49
+175m8 Month{27|62M9} 52|244b8 253r60
+176m8 Year{27|62M9} 52|245b8 253r67
+184U14*Set_Detail_Func 185^8 186>8 187>8 188>8 52|257b14 275l8 275t23
+185p8 Calendar(59R9) 52|258b7 272r29
+186p8 Func{80P9} 52|259b7 270r32
+187m8 Data{71|64M9} 52|260b7 270r38
+188p8 Destroy{27|175P9} 52|261b7 270r44
+203U14*Thaw 203^20 204r24 52|325b14 330l8 330t12
+203p20 Calendar(59R9) 52|325b20 329r29
+209V13*Unmark_Day{boolean} 210^8 211>8 52|336b13 346l8 346t18
+210p8 Calendar(59R9) 52|337b8 345r49
+211m8 Day{27|62M9} 52|338b8 345r60
+225K12*Implements_Buildable[41|102] 230r12 234r12
+227V14*"+"=230:33{49|52M9}
+228p7 Widget(59R9)
+231V14*"-"=234:33{60P9}
+232m7 Interf{49|52M9}
+300a4*Day_Property{38|111A9} 348c4
+301a4*Detail_Height_Rows_Property{38|111A9} 350c4
+302a4*Detail_Width_Chars_Property{38|111A9} 352c4
+303a4*Month_Property{38|111A9} 354c4
+304a4*No_Month_Change_Property{38|123A9} 356c4
+305a4*Show_Day_Names_Property{38|123A9} 358c4
+306a4*Show_Details_Property{38|123A9} 360c4
+307a4*Show_Heading_Property{38|123A9} 362c4
+308a4*Show_Week_Numbers_Property{38|123A9} 364c4
+309a4*Year_Property{38|111A9} 366c4
+339a4*Signal_Day_Selected{27|214A9}
+340a4*Signal_Day_Selected_Double_Click{27|214A9}
+341a4*Signal_Month_Changed{27|214A9}
+342a4*Signal_Next_Month{27|214A9}
+343a4*Signal_Next_Year{27|214A9}
+344a4*Signal_Prev_Month{27|214A9}
+345a4*Signal_Prev_Year{27|214A9}
+X 52 gtk-calendar.adb
+39R9 Detail_Func_Data 43e14 44r43 78r10 270r14
+40p7*Callback{51|80P9} 66r12
+41m7*User_Data{71|64M9} 66m50 81r42 82m26
+42p7*On_Destroy{27|175P9} 81r12 82r12
+44P9 Detail_Func_Data_Access(39R9) 46r23 64r23 78r28 79r11 269r20
+45V13 Convert[6|20]{44P9} 64s50 79s38
+47U14 Free_Detail_Func_Data 47>37 48r26 75b14 85l8 85t29 274r17
+47m37 Data{71|64M9} 75b37 79r47
+49V13 Detail_Callback{63|47P9} 50>7 51>7 51>13 51>20 52>7 53r26 56b13 73l8
+. 73t23 273r17
+50m7 Calendar{71|64M9} 57b7 63r36
+51m7 Year{27|62M9} 58b7 66r27
+51m13 Month{27|62M9} 58b13 66r33
+51m20 Day{27|62M9} 58b20 66r40
+52m7 User_Data{71|64M9} 59b7 64r59
+61r7 Stub{51|59R9} 63r46
+62p7 Cal{51|60P9} 66r22
+64p7 Data{44P9} 66r7 66r45
+65a7 Details{string} 68r10 71r29
+77U17 Unchecked_Free[7|20] 84s7
+79p7 D{44P9} 81r10 81r40 82r10 82r24 84m23 84r23
+87K12 Type_Conversion[39|88] 89r25
+106V16*Internal{71|64M9} 107b<c,gtk_calendar_new>25 109s29
+117U17*Internal 117>27 118b<c,gtk_calendar_clear_marks>25 120s7
+117m27 Calendar{71|64M9}
+131U17*Internal 132>11 133>11 134b<c,gtk_calendar_display_options>25 136s7
+132m11 Calendar{71|64M9}
+133m11 Flags{51|62M9}
+144U17*Internal 144>27 145b<c,gtk_calendar_freeze>25 147s7
+144m27 Calendar{71|64M9}
+160U17*Internal 161>11 162<11 163<11 164<11 165b<c,gtk_calendar_get_date>25
+. 167s7
+161m11 Calendar{71|64M9}
+162m11 Year{27|62M9}
+163m11 Month{27|62M9}
+164m11 Day{27|62M9}
+177V16*Internal{27|56I9} 177>26 178b<c,gtk_calendar_get_detail_height_rows>25
+. 180s14
+177m26 Calendar{71|64M9}
+190V16*Internal{27|56I9} 190>26 191b<c,gtk_calendar_get_detail_width_chars>25
+. 193s14
+190m26 Calendar{71|64M9}
+204V16*Internal{51|62M9} 205>11 206b<c,gtk_calendar_get_display_options>25
+. 208s14
+205m11 Calendar{71|64M9}
+219V16*Internal{integer} 220>11 221>11 222b<c,gtk_calendar_mark_day>25 224s27
+220m11 Calendar{71|64M9}
+221m11 Day{27|62M9}
+232U17*Internal 232>27 232>54 233b<c,gtk_calendar_select_day>25 235s7
+232m27 Calendar{71|64M9}
+232m54 Day{27|62M9}
+247V16*Internal{integer} 248>11 249>11 250>11 251b<c,gtk_calendar_select_month>25
+. 253s27
+248m11 Calendar{71|64M9}
+249m11 Month{27|62M9}
+250m11 Year{27|62M9}
+263U17*Internal 264>10 265>10 266>10 267>10 268b<c,gtk_calendar_set_detail_func>25
+. 272s7
+264m10 Calendar{71|64M9}
+265m10 Func{71|64M9}
+266m10 Data{71|64M9}
+267p10 Destroy{27|175P9}
+269p7 D{44P9} 273r42
+285U17*Internal 285>27 285>54 286b<c,gtk_calendar_set_detail_height_rows>25
+. 288s7
+285m27 Calendar{71|64M9}
+285i54 Rows{27|56I9}
+299U17*Internal 299>27 299>54 300b<c,gtk_calendar_set_detail_width_chars>25
+. 302s7
+299m27 Calendar{71|64M9}
+299i54 Chars{27|56I9}
+313U17*Internal 314>11 315>11 316b<c,gtk_calendar_set_display_options>25
+. 318s7
+314m11 Calendar{71|64M9}
+315m11 Flags{51|62M9}
+326U17*Internal 326>27 327b<c,gtk_calendar_thaw>25 329s7
+326m27 Calendar{71|64M9}
+340V16*Internal{integer} 341>11 342>11 343b<c,gtk_calendar_unmark_day>25
+. 345s27
+341m11 Calendar{71|64M9}
+342m11 Day{27|62M9}
+X 53 gtk-enums.ads
+448V13*Convert{71|64M9} 32|63i21 34|55i21
+449V13*Convert{string} 32|64i21 34|56i21
+X 54 gtk-object.ads
+106P9*Gtk_Object(105R9)
+108U14*Destroy
+134V13*Get_Type{46|67M12}<36|59p13>
+143V13*Convert{71|64M9} 34|55i21
+144V13*Convert{106P9} 34|56i21
+172V13*Flags{27|75M9}
+175U14*Set_Flags
+179U14*Unset_Flags
+184V13*Flag_Is_Set{boolean}
+248U14*Sink
+X 55 gtk-style.ads
+68P9*Gtk_Style(67R9)
+X 56 gtk-widget.ads
+76K13*Widget 51|55w10 55r31 56|2435e15
+77R9*Gtk_Widget_Record<54|105R9> 51|59r36 56|2310e75
+78P9*Gtk_Widget(77R9)
+121V13*Convert{71|64M9} 32|63i21 34|55i21
+122V13*Convert{78P9} 32|64i21 34|56i21
+147U14*Show
+153U14*Show_Now
+158U14*Hide
+167U14*Show_All
+171U14*Hide_All
+179U14*Set_No_Show_All
+181V13*Get_No_Show_All{boolean}
+188U14*Map
+196U14*Unmap
+204U14*Realize
+212U14*Unrealize
+239U14*Set_Child_Visible
+241V13*Get_Child_Visible{boolean}
+270V13*Has_Screen{boolean}
+280U14*Queue_Draw
+287U14*Queue_Draw_Area
+296U14*Queue_Resize
+303U14*Queue_Resize_No_Redraw
+307V13*Create_Pango_Context{66|38P9}
+314V13*Create_Pango_Layout{69|72P9}
+326U14*Size_Request
+331U14*Set_Size_Request
+334U14*Get_Size_Request
+364U14*Size_Allocate
+372V13*Get_Child_Requisition{80R9}
+379V13*Get_Allocation_Width{27|101I12}
+383V13*Get_Allocation_Height{27|101I12}
+387V13*Get_Allocation_X{27|56I9}
+390V13*Get_Allocation_Y{27|56I9}
+393U14*Set_Redraw_On_Allocate
+413U14*Add_Accelerator
+426U14*Remove_Accelerator
+433V13*Can_Activate_Accel{boolean}
+444U14*Set_Accel_Path
+454V13*List_Mnemonic_Labels{32|70R12[125]}
+466U14*Add_Mnemonic_Label
+475U14*Remove_Mnemonic_Label
+482V13*Mnemonic_Activate{boolean}
+502U14*Send_Expose
+515U14*Activate
+521U14*Grab_Focus
+529V13*Is_Focus{boolean}
+566U14*Set_Events
+569V13*Get_Events{16|139M9}
+577U14*Add_Events
+582U14*Set_Extension_Events
+585V13*Get_Extension_Events{24|89E9}
+604U14*Error_Bell
+613V13*Keynav_Failed{boolean}
+652U14*Set_Colormap
+655V13*Get_Colormap{12|75P12}
+663V13*Get_Visual{25|42P12}
+686V13*Is_Composited{boolean}
+699U14*Set_Style
+702V13*Get_Style{55|68P9}
+710U14*Ensure_Style
+715U14*Restore_Default_Style
+720U14*Reset_Rc_Styles
+723V13*Get_Pango_Context{66|38P9}
+736U14*Modify_Fg
+743U14*Modify_Bg
+753U14*Modify_Text
+768U14*Modify_Base
+777U14*Modify_Font
+788U14*Set_Direction
+790V13*Get_Direction{53|162E9}
+805U14*Modify_Cursor
+818U14*Set_Name
+825V13*Get_Name{27|82A12}
+829V13*Path{string}
+830V13*Path_Reversed{string}
+844V13*Class_Path{string}
+845V13*Class_Path_Reversed{string}
+850V13*Get_Ancestor{78P9}
+856U14*Set_Parent
+859V13*Get_Parent{78P9}
+864U14*Set_Parent_Window
+867V13*Get_Parent_Window{26|71P12}
+873V13*Get_Toplevel{78P9}
+895V13*Is_Ancestor{boolean}
+901U14*Reparent
+925V13*Get_Root_Window{26|71P12}
+935U14*Set_Composite_Name
+937V13*Get_Composite_Name{string}
+965U14*Set_Scroll_Adjustments
+975V13*Intersect{boolean}
+982V13*Region_Intersect{22|39P12}
+995U14*Grab_Default
+1000U14*Set_State
+1003V13*Get_State{53|362E9}
+1009U14*Set_Sensitive
+1017U14*Set_App_Paintable
+1022U14*Set_Double_Buffered
+1027U14*Get_Pointer
+1033U14*Set_Window
+1036V13*Get_Window{26|71P12}
+1044U14*Shape_Combine_Mask
+1055U14*Input_Shape_Combine_Mask
+1064U14*Reset_Shapes
+1067V13*Render_Icon{19|67P9}
+1081V13*Get_Snapshot{20|51P12}
+1118V13*Get_Tooltip_Text{27|82A12}
+1120U14*Set_Tooltip_Text
+1129V13*Get_Tooltip_Markup{27|82A12}
+1131U14*Set_Tooltip_Markup
+1143U14*Set_Tooltip_Window
+1154V13*Get_Tooltip_Window{78P9}
+1162V13*Get_Has_Tooltip{boolean}
+1163U14*Set_Has_Tooltip
+1169U14*Trigger_Tooltip_Query
+1418U14*Draw
+1426U14*Set_UPosition
+1434U14*Set_USize
+1446U14*Queue_Clear
+1452U14*Queue_Clear_Area
+1633U14*Child_Notify
+1644U14*Freeze_Child_Notify
+1648U14*Thaw_Child_Notify
+1673U14*Style_Get_Property
+X 61 interfac.ads
+38K9*Interfaces 52|35r6 35r38 59r42 69r17 61|179e15
+X 62 i-c.ads
+18K20*C 52|35r17 35r49 59r53 69r28 62|230e17
+35I9*int<integer>
+43M9*unsigned
+60M9*size_t
+X 63 i-cstrin.ads
+36K22*Strings 52|35w19 35r51 59r55 69r30 63|106e25
+47P9*chars_ptr 52|52r42 59r63
+52p4*Null_Ptr{47P9} 52|69r38
+60V13*New_String{47P9} 52|71s17
+X 66 pango-context.ads
+38P9*Pango_Context(37R9)
+X 69 pango-layout.ads
+72P9*Pango_Layout(71R9)
+X 71 system.ads
+37K9*System 51|85r19 187r19 52|41r20 46r7 47r44 50r18 52r19 57r18 59r19 75r44
+. 76r11 106r32 117r38 132r22 144r38 161r22 177r37 190r37 205r22 220r22 232r38
+. 248r22 260r18 264r21 265r21 266r21 285r38 299r38 314r22 326r38 341r22 71|152e11
+64M9*Address 51|85r26 187r26 52|41r27 46r14 47r51 50r25 52r26 57r25 59r26
+. 75r51 106r39 117r45 132r29 144r45 161r29 177r44 190r44 205r29 220r29 232r45
+. 248r29 260r25 264r28 265r28 266r28 285r45 299r45 314r29 326r45 341r29
+66m4*Null_Address{64M9} 52|81r55
+78V14*"="{boolean} 52|81r52
+X 75 s-memory.ads
+53V13*Alloc{71|64M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{71|64M9} 105i<c,__gnat_realloc>22
+

@@ -1,0 +1,267 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P SS ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_ALLOCATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV NO_ELABORATION_CODE
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U gtk.file_filter%b	gtk-file_filter.adb	3bef686e OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W glib%s		glib.adb		glib.ali
+W glib.type_conversion_hooks%s  glib-type_conversion_hooks.adb  glib-type_conversion_hooks.ali  AD
+W gtk%s			gtk.ads			gtk.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+W system%s		system.ads		system.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+U gtk.file_filter%s	gtk-file_filter.ads	b46f4997 EE OO PF PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W glib%s		glib.adb		glib.ali
+W gtk%s			gtk.ads			gtk.ali
+W gtk.object%s		gtk-object.adb		gtk-object.ali
+W system%s		system.ads		system.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D gdk.ads		20141212124940 f909352d gdk%s
+D glib.ads		20141212124939 0f441d83 glib%s
+D glib-generic_properties.ads  20141212124939 a1807006 glib.generic_properties%s
+D glib-generic_properties.adb  20141212124939 b44dec2c glib.generic_properties%b
+D glib-glist.ads	20141212124940 65a6e1be glib.glist%s
+D glib-glist.adb	20141212124940 48a94e23 glib.glist%b
+D glib-gslist.ads	20141212124940 8fe7d6f1 glib.gslist%s
+D glib-gslist.adb	20141212124940 b4c9a81c glib.gslist%b
+D glib-object.ads	20141212124940 948e384a glib.object%s
+D glib-object.adb	20141212124939 425ed48d glib.object%b
+D glib-properties.ads	20141212124940 48c8d9fb glib.properties%s
+D glib-type_conversion_hooks.ads  20141212124939 df9131bc glib.type_conversion_hooks%s
+D glib-type_conversion_hooks.adb  20141212124939 e61e501b glib.type_conversion_hooks%b
+D glib-values.ads	20141212124939 37b4897e glib.values%s
+D gnat.ads		20140406181359 fd2ad2f1 gnat%s
+D g-string.ads		20140406181356 c6abc540 gnat.strings%s
+D gtk.ads		20141212124940 81513fe2 gtk%s
+D gtk-file_filter.ads	20141212124940 8115d1c7 gtk.file_filter%s
+D gtk-file_filter.adb	20141212124940 517685ca gtk.file_filter%b
+D gtk-object.ads	20141212124940 2b4b2b20 gtk.object%s
+D gtkada.ads		20141212124939 57aea1c7 gtkada%s
+D gtkada-bindings.ads	20141212124940 516dc70c gtkada.bindings%s
+D gtkada-c.ads		20141212124940 0f5973e3 gtkada.c%s
+D gtkada-types.ads	20141212124940 b7bc0c77 gtkada.types%s
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D i-cstrin.ads		20140406181357 341d0ddf interfaces.c.strings%s
+D system.ads		20140406181354 90249111 system%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-memory.ads		20140406181359 597d6634 system.memory%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-secsta.ads		20140406181359 86a2856d system.secondary_stack%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20140406181358 aedef97e system.stream_attributes%s
+D s-string.ads		20140406181358 8fe54fb7 system.strings%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D s-unstyp.ads		20140406181356 510692af system.unsigned_types%s
+D unchconv.ads		20140406181355 ca2f9e18 unchecked_conversion%s
+D unchdeal.ads		20140406181359 214516a4 unchecked_deallocation%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 9 glib.ads
+43K9*Glib 408e9 25|48w6 58r33 26|31r6 35r35
+56I9*Gint<33|35I9>
+58I9*Gboolean<56I9> 25|78r39
+75M9*Guint32
+78M9*Gsize<33|60M9>
+155P9*C_Proxy(152R9) 25|58r38
+175P9*G_Destroy_Notify_Address 25|123r16 26|48r16 55r19
+269M9*GType<78M9> 25|82r29
+X 16 glib-object.ads
+46P9*GObject(45R9)
+83U14*Ref
+89U14*Unref
+117U14*Deallocate
+130U14*Ref_Sink
+146V13*Get_Object{35|64M9} 26|58s17 135s48 179s17 195s17 211s17 225s17
+153U14*Set_Object 26|165s7
+329U14*Notify
+421V13*Convert{35|64M9} 12|63i21 14|55i21
+422V13*Convert{46P9} 12|64i21 14|56i21
+X 19 glib-type_conversion_hooks.ads
+51K14*Type_Conversion_Hooks 105e31 26|31w11 35r40
+88k12*Hook_Registrator 103e24 26|35r62
+X 24 gtk.ads
+47K9*Gtk 83e8 25|49r6 52r9 55r10 133r10 136r5 26|33r14 152r7 228r5
+67M12*Gtk_Type{9|269M9}
+X 25 gtk-file_filter.ads
+52K13*File_Filter 24|47k9 25|132E9 136l9 136e20 26|33b18 152r11 228l9 228t20
+54R9*Gtk_File_Filter_Record<27|105R9> 16|83p14 89p14 117p14 130p14 329p14
+. 25|56r39 86r42 94p14 95r23 96p13 96r39 101p14 102r26 108p14 109r24 113p14
+. 114r23 118p14 119r23 132c9 133e55 26|36r24 44r23 130r23 151r21 160r23 173r23
+. 187r26 203r24 219r23 27|108p14 134P13 172p13 175p14 179p14 184p13 248p14
+56P9*Gtk_File_Filter(54R9) 85r39 26|149r36
+58P9*File_Filter_Info<9|155P9> 61r38 62r38 63r38 64r38 78r14 26|65r34 66r33
+. 81r29 82r33 97r38 98r33 113r35 114r33
+61V13*Get_Filename{string} 61>31 26|65b13 75l8 75t20
+61p31 Info{58P9} 26|65b27 68r48
+62V13*Get_Uri{string} 62>31 26|81b13 91l8 91t15
+62p31 Info{58P9} 26|81b22 84r48
+63V13*Get_Display_Name{string} 63>31 26|97b13 107l8 107t24
+63p31 Info{58P9} 26|97b31 100r48
+64V13*Get_Mime_Type{string} 64>31 26|113b13 123l8 123t21
+64p31 Info{58P9} 26|113b28 116r48
+69M9*File_Filter_Flags 70r35 71r35 72r35 73r35 120r16 26|45r16 52r19
+70m4*Filter_Filename{69M9}
+71m4*Filter_Uri{69M9}
+72m4*Filter_Display_Name{69M9}
+73m4*Filter_Mime_Type{69M9}
+77P9*File_Filter_Func(9|58I9) 78>7 79r26 121r16 26|46r16 53r19
+78p7 Info{58P9}
+82V13*Get_Type{9|269M9} 135b<c,gtk_file_filter_get_type>22 26|36r7
+85U14*Gtk_New 85<26 26|149b14 153l8 153t15
+85p26 Filter{56P9} 26|149b23 151m7 152r35
+86U14*Initialize 86^26 26|152s23 159b14 166l8 166t18
+86p26 Filter(54R9) 26|160b7 165r19
+94U14*Set_Name 95^7 95>47 26|172b14 180l8 180t16
+95p7 Filter(54R9) 26|173b7 179r29
+95a47 Name{string} 26|174b7 179r38
+96V13*Get_Name{string} 96^23 26|129b13 143l8 143t16
+96p23 Filter(54R9) 26|130b7 135r60
+101U14*Add_Mime_Type 102^7 103>7 26|186b14 196l8 196t21
+102p7 Filter(54R9) 26|187b7 195r29
+103a7 Mime_Type{string} 26|188b7 195r38
+108U14*Add_Pattern 109^7 110>7 26|202b14 212l8 212t19
+109p7 Filter(54R9) 26|203b7 211r29
+110a7 Pattern{string} 26|204b7 211r38
+113U14*Add_Pixbuf_Formats 114^7 26|218b14 226l8 226t26
+114p7 Filter(54R9) 26|219b7 225r29
+118U14*Add_Custom 119^7 120>7 121>7 122>7 123>7 26|43b14 59l8 59t18
+119p7 Filter(54R9) 26|44b7 58r29
+120m7 Needed{69M9} 26|45b7 58r38
+121p7 Func{77P9} 26|46b7 58r46
+122m7 Data{35|64M9} 26|47b7 58r52
+123p7 Notify{9|175P9} 26|48b7 58r58
+X 26 gtk-file_filter.adb
+35K12 Type_Conversion[19|88] 37r26
+50U17*Internal 51>10 52>10 53>10 54>10 55>10 56b<c,gtk_file_filter_add_custom>25
+. 58s7
+51m10 Filter{35|64M9}
+52m10 Needed{25|69M9}
+53p10 Func{25|77P9}
+54m10 Data{35|64M9}
+55p10 Notify{9|175P9}
+66V16*Internal{34|47P9} 66>26 67b<c,ada_file_filter_info_get_filename>25
+. 68s38
+66p26 Info{25|58P9}
+68p7 Result{34|47P9} 70r10 73r24
+82V16*Internal{34|47P9} 82>26 83b<c,ada_file_filter_info_get_uri>25 84s38
+82p26 Info{25|58P9}
+84p7 Result{34|47P9} 86r10 89r24
+98V16*Internal{34|47P9} 98>26 99b<c,ada_file_filter_info_get_display_name>25
+. 100s38
+98p26 Info{25|58P9}
+100p7 Result{34|47P9} 102r10 105r24
+114V16*Internal{34|47P9} 114>26 115b<c,ada_file_filter_info_get_mime_type>25
+. 116s38
+114p26 Info{25|58P9}
+116p7 Result{34|47P9} 118r10 121r24
+133V16*Internal{34|47P9} 133>26 134b<c,gtk_file_filter_get_name>25 135s38
+133m26 Filter{35|64M9}
+135p7 Result{34|47P9} 137r10 141r24
+162V16*Internal{35|64M9} 163b<c,gtk_file_filter_new>25 165s27
+176U17*Internal 176>27 176>52 177b<c,gtk_file_filter_set_name>25 179s7
+176m27 Filter{35|64M9}
+176a52 Name{string}
+190U17*Internal 191>10 192>10 193b<c,gtk_file_filter_add_mime_type>25 195s7
+191m10 Filter{35|64M9}
+192a10 Mime_Type{string}
+206U17*Internal 207>10 208>10 209b<c,gtk_file_filter_add_pattern>25 211s7
+207m10 Filter{35|64M9}
+208a10 Pattern{string}
+221U17*Internal 222>10 223b<c,gtk_file_filter_add_pixbuf_formats>25 225s7
+222m10 Filter{35|64M9}
+X 27 gtk-object.ads
+103K13*Object 25|49w10 55r14 133r14 27|303e15
+105R9*Gtk_Object_Record<16|45R9> 25|55r21 133r21 27|295e77
+106P9*Gtk_Object(105R9)
+108U14*Destroy
+134V13*Get_Type{24|67M12}<16|59p13>
+143V13*Convert{35|64M9} 14|55i21
+144V13*Convert{106P9} 14|56i21
+172V13*Flags{9|75M9}
+175U14*Set_Flags
+179U14*Unset_Flags
+184V13*Flag_Is_Set{boolean}
+248U14*Sink
+X 32 interfac.ads
+38K9*Interfaces 26|29r6 29r33 32|179e15
+X 33 i-c.ads
+18K20*C 26|29r17 29r44 33|230e17
+35I9*int<integer>
+60M9*size_t
+X 34 i-cstrin.ads
+36K22*Strings 26|29w19 29r46 34|106e25
+47P9*chars_ptr 26|66r58 68r25 82r58 84r25 98r58 100r25 114r58 116r25 133r58
+. 135r25
+52p4*Null_Ptr{47P9} 26|70r19 86r19 102r19 118r19 137r19
+74V13*Value{string} 26|73s17 89s17 105s17 121s17 141s17
+X 35 system.ads
+37K9*System 25|50w6 122r16 122r34 26|47r16 47r34 51r19 54r19 133r35 162r32
+. 176r36 191r22 207r20 222r19 35|152e11
+64M9*Address 25|122r23 26|47r23 51r26 54r26 133r42 162r39 176r43 191r29 207r27
+. 222r26
+66m4*Null_Address{64M9} 25|122r41 26|47r41
+X 39 s-memory.ads
+53V13*Alloc{35|64M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{35|64M9} 105i<c,__gnat_realloc>22
+

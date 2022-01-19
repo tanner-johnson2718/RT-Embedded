@@ -1,0 +1,204 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV SPARK_05
+
+U cairo.pattern%s	cairo-pattern.ads	6525ee80 NE OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W cairo%s		cairo.adb		cairo.ali
+W system%s		system.ads		system.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D cairo.ads		20141212124939 8dc0603a cairo%s
+D cairo-pattern.ads	20141212124939 78c11fab cairo.pattern%s
+D glib.ads		20141212124939 0f441d83 glib%s
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D i-cstrin.ads		20140406181357 341d0ddf interfaces.c.strings%s
+D system.ads		20140406181354 90249111 system%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 8 cairo.ads
+78K9*Cairo 2813e10 9|43r9 674r5
+91M9*Cairo_Surface<14|64M9> 9|190r17 523r17
+105R9*Cairo_Matrix 112e14 9|417r24 448r24
+132M9*Cairo_Pattern<14|64M9> 9|145r15 169r15 191r17 210r14 242r17 268r34
+. 268r56 280r33 287r44 297r31 307r17 322r19 342r33 353r17 384r17 416r17 447r17
+. 454r36 466r35 475r36 492r35 501r17 522r17 539r17 567r17 583r17 604r17
+148P9*Cairo_Destroy_Func 9|325r19
+155R9*Cairo_User_Data_Key 157e14 9|308r24 323r26
+176E9*Cairo_Status 274e7 9|297r53 325r46 506r17 524r17 546r17 569r17 588r17
+. 611r17
+X 9 cairo-pattern.ads
+43K15*Pattern 8|78k9 9|635E34 674l11 674e18
+69E9*Cairo_Pattern_Type 82e7 83r26 342r55
+70n7*Cairo_Pattern_Type_Solid{69E9}
+74n7*Cairo_Pattern_Type_Surface{69E9}
+77n7*Cairo_Pattern_Type_Linear{69E9}
+80n7*Cairo_Pattern_Type_Radial{69E9}
+94E9*Cairo_Extend 109e7 110r26 454r60 466r57
+95n7*Cairo_Extend_None{94E9}
+98n7*Cairo_Extend_Repeat{94E9}
+101n7*Cairo_Extend_Reflect{94E9}
+105n7*Cairo_Extend_Pad{94E9}
+116E9*Cairo_Filter 138e7 139r26 475r60 492r57
+117n7*Cairo_Filter_Fast{116E9}
+121n7*Cairo_Filter_Good{116E9}
+125n7*Cairo_Filter_Best{116E9}
+129n7*Cairo_Filter_Nearest{116E9}
+132n7*Cairo_Filter_Bilinear{116E9}
+135n7*Cairo_Filter_Gaussian{116E9}
+141V13*Create_Rgb{8|132M9} 142>7 143>7 144>7 635b<c,cairo_pattern_create_rgb>22
+142f7 Red{10|66F9}
+143f7 Green{10|66F9}
+144f7 Blue{10|66F9}
+164V13*Create_Rgba{8|132M9} 165>7 166>7 167>7 168>7 636b<c,cairo_pattern_create_rgba>22
+165f7 Red{10|66F9}
+166f7 Green{10|66F9}
+167f7 Blue{10|66F9}
+168f7 Alpha{10|66F9}
+189V13*Create_For_Surface{8|132M9} 190>7 637b<c,cairo_pattern_create_for_surface>22
+190m7 Surface{8|91M9}
+205V13*Create_Linear{8|132M9} 206>7 207>7 208>7 209>7 638b<c,cairo_pattern_create_linear>22
+206f7 X0{10|66F9}
+207f7 Y0{10|66F9}
+208f7 X1{10|66F9}
+209f7 Y1{10|66F9}
+235V13*Create_Radial{8|132M9} 236>7 237>7 238>7 239>7 240>7 241>7 639b<c,cairo_pattern_create_radial>22
+236f7 Cx0{10|66F9}
+237f7 Cy0{10|66F9}
+238f7 Radius0{10|66F9}
+239f7 Cx1{10|66F9}
+240f7 Cy1{10|66F9}
+241f7 Radius1{10|66F9}
+268V13*Reference{8|132M9} 268>24 640b<c,cairo_pattern_reference>22
+268m24 Pattern{8|132M9}
+280U14*Destroy 280>23 641b<c,cairo_pattern_destroy>22
+280m23 Pattern{8|132M9}
+287V13*Get_Reference_Count{10|62M9} 287>34 644b<c,cairo_pattern_get_reference_count>7
+287m34 Pattern{8|132M9}
+297V13*Status{8|176E9} 297>21 646b<c,cairo_pattern_status>22
+297m21 Pattern{8|132M9}
+306V13*Get_User_Data{14|64M9} 307>7 308^7 647b<c,cairo_pattern_get_user_data>22
+307m7 Pattern{8|132M9}
+308p7 Key(8|155R9)
+321V13*Set_User_Data{8|176E9} 322>7 323^7 324>7 325>7 648b<c,cairo_pattern_set_user_data>22
+322m7 Pattern{8|132M9}
+323p7 Key(8|155R9)
+324m7 User_Data{14|64M9}
+325p7 Destroy{8|148P9}
+342V13*Get_Type{69E9} 342>23 649b<c,cairo_pattern_get_type>22
+342m23 Pattern{8|132M9}
+352U14*Add_Color_Stop_Rgb 353>7 354>7 355>7 356>7 357>7 650b<c,cairo_pattern_add_color_stop_rgb>22
+353m7 Pattern{8|132M9}
+354f7 Offset{10|66F9}
+355f7 Red{10|66F9}
+356f7 Green{10|66F9}
+357f7 Blue{10|66F9}
+383U14*Add_Color_Stop_Rgba 384>7 385>7 386>7 387>7 388>7 389>7 653b<c,cairo_pattern_add_color_stop_rgba>7
+384m7 Pattern{8|132M9}
+385f7 Offset{10|66F9}
+386f7 Red{10|66F9}
+387f7 Green{10|66F9}
+388f7 Blue{10|66F9}
+389f7 Alpha{10|66F9}
+415U14*Set_Matrix 416>7 417^7 655b<c,cairo_pattern_set_matrix>22
+416m7 Pattern{8|132M9}
+417p7 Matrix(8|105R9)
+446U14*Get_Matrix 447>7 448^7 656b<c,cairo_pattern_get_matrix>22
+447m7 Pattern{8|132M9}
+448p7 Matrix(8|105R9)
+454U14*Set_Extend 454>26 454>51 657b<c,cairo_pattern_set_extend>22
+454m26 Pattern{8|132M9}
+454e51 Extend{94E9}
+466V13*Get_Extend{94E9} 466>25 658b<c,cairo_pattern_get_extend>22
+466m25 Pattern{8|132M9}
+475U14*Set_Filter 475>26 475>51 659b<c,cairo_pattern_set_filter>22
+475m26 Pattern{8|132M9}
+475e51 Filter{116E9}
+492V13*Get_Filter{116E9} 492>25 660b<c,cairo_pattern_get_filter>22
+492m25 Pattern{8|132M9}
+500V13*Get_Rgba{8|176E9} 501>7 502^7 503^7 504^7 505^7 661b<c,cairo_pattern_get_rgba>22
+501m7 Pattern{8|132M9}
+502p7 Red(10|66F9)
+503p7 Green(10|66F9)
+504p7 Blue(10|66F9)
+505p7 Alpha(10|66F9)
+521V13*Get_Surface{8|176E9} 522>7 523>7 662b<c,cairo_pattern_get_surface>22
+522m7 Pattern{8|132M9}
+523m7 Surface{8|91M9}
+538V13*Get_Color_Stop_Rgba{8|176E9} 539>7 540>7 541^7 542^7 543^7 544^7 545^7
+. 665b<c,cairo_pattern_get_color_stop_rgba>7
+539m7 Pattern{8|132M9}
+540i7 Index{10|56I9}
+541p7 Offset(10|66F9)
+542p7 Red(10|66F9)
+543p7 Green(10|66F9)
+544p7 Blue(10|66F9)
+545p7 Alpha(10|66F9)
+566V13*Get_Color_Stop_Count{8|176E9} 567>7 568^7 669b<c,cairo_pattern_get_color_stop_count>7
+567m7 Pattern{8|132M9}
+568p7 Count(10|56I9)
+582V13*Get_Linear_Points{8|176E9} 583>7 584^7 585^7 586^7 587^7 671b<c,cairo_pattern_get_linear_points>22
+583m7 Pattern{8|132M9}
+584p7 X0(10|66F9)
+585p7 Y0(10|66F9)
+586p7 X1(10|66F9)
+587p7 Y1(10|66F9)
+603V13*Get_Radial_Circles{8|176E9} 604>7 605^7 606^7 607^7 608^7 609^7 610^7
+. 672b<c,cairo_pattern_get_radial_circles>22
+604m7 Pattern{8|132M9}
+605p7 X0(10|66F9)
+606p7 Y0(10|66F9)
+607p7 R0(10|66F9)
+608p7 X1(10|66F9)
+609p7 Y1(10|66F9)
+610p7 R1(10|66F9)
+X 10 glib.ads
+56I9*Gint<12|35I9> 9|540r17 568r24
+62M9*Guint<12|43M9> 9|287r66
+66F9*Gdouble<12|65F9> 9|142r15 143r15 144r15 165r15 166r15 167r15 168r15
+. 206r14 207r14 208r14 209r14 236r17 237r17 238r17 239r17 240r17 241r17 354r17
+. 355r17 356r17 357r17 385r17 386r17 387r17 388r17 389r17 502r24 503r24 504r24
+. 505r24 541r24 542r24 543r24 544r24 545r24 584r24 585r24 586r24 587r24 605r24
+. 606r24 607r24 608r24 609r24 610r24
+X 12 i-c.ads
+35I9*int<integer>
+43M9*unsigned
+65F9*double<long_float>
+X 14 system.ads
+37K9*System 9|41w6 308r52 324r19 14|152e11
+64M9*Address 9|308r59 324r26
+

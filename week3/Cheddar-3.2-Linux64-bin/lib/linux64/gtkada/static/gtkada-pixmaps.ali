@@ -1,0 +1,73 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P ZX
+
+RN
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U gtkada.pixmaps%s	gtkada-pixmaps.ads	95e49ce1 EE OO PK
+W gtkada%s		gtkada.ads		gtkada.ali
+W gtkada.types%s	gtkada-types.adb	gtkada-types.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D gtkada.ads		20141212124939 57aea1c7 gtkada%s
+D gtkada-pixmaps.ads	20141212124940 41eb3c8e gtkada.pixmaps%s
+D gtkada-types.ads	20141212124940 b7bc0c77 gtkada.types%s
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D i-cstrin.ads		20140406181357 341d0ddf interfaces.c.strings%s
+D system.ads		20140406181354 90249111 system%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 3 gtkada.ads
+36K9*Gtkada 40e11 4|37r6 39r9 41r42 44r18 89r16 134r22 178r23 222r5
+X 4 gtkada-pixmaps.ads
+39K16*Pixmaps 3|36k9 4|222l12 222e19
+41V14*"+"=42:35{8|47P9} 46s7 48s7 49s7 50s7 51s7 52s7 53s7 54s7 56s7 57s7
+. 58s7 59s7 60s7 61s7 62s7 63s7 64s7 65s7 66s7 67s7 68s7 69s7 70s7 71s7 72s7
+. 73s7 74s7 75s7 76s7 77s7 78s7 79s7 80s7 81s7 82s7 83s7 84s7 85s7 86s7 87s7
+. 91s7 93s7 94s7 95s7 96s7 97s7 98s7 99s7 101s7 102s7 103s7 104s7 105s7 106s7
+. 107s7 108s7 109s7 110s7 111s7 112s7 113s7 114s7 115s7 116s7 117s7 118s7
+. 119s7 120s7 121s7 122s7 123s7 124s7 125s7 126s7 127s7 128s7 129s7 130s7
+. 131s7 132s7 136s7 138s7 139s7 140s7 141s7 142s7 143s7 145s7 146s7 147s7
+. 148s7 149s7 150s7 151s7 152s7 153s7 154s7 155s7 156s7 157s7 158s7 159s7
+. 160s7 161s7 162s7 163s7 164s7 165s7 166s7 167s7 168s7 169s7 170s7 171s7
+. 172s7 173s7 174s7 175s7 176s7 180s7 182s7 183s7 184s7 185s7 186s7 187s7
+. 189s7 190s7 191s7 192s7 193s7 194s7 195s7 196s7 197s7 198s7 199s7 200s7
+. 201s7 202s7 203s7 204s7 205s7 206s7 207s7 208s7 209s7 210s7 211s7 212s7
+. 213s7 214s7 215s7 216s7 217s7 218s7 219s7 220s7
+41a18 Str{string}
+44a4*Warning_Xpm{8|50A9}
+89a4*Error_Xpm{8|50A9}
+134a4*Information_Xpm{8|50A9}
+178a4*Confirmation_Xpm{8|50A9}
+X 5 gtkada-types.ads
+38K16*Types 4|37w13 41r49 44r25 89r23 134r29 178r30 5|102e17
+44P12*Chars_Ptr{8|47P9} 4|41r55
+45A12*Chars_Ptr_Array{8|50A9}<7|60M9> 4|44r31 89r29 134r35 178r36
+X 6 interfac.ads
+38K9*Interfaces 4|36r6 42r14 6|179e15
+X 7 i-c.ads
+18K20*C 4|36r17 42r25 7|230e17
+X 8 i-cstrin.ads
+36K22*Strings 4|36w19 42r27 8|106e25
+47P9*chars_ptr
+50A9*chars_ptr_array(47P9)<7|60M9>
+60V13*New_String{47P9} 4|42r35
+

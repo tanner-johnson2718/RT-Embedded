@@ -1,0 +1,222 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P SS ZX
+
+RN
+RV NO_DISPATCH
+RV NO_IMPLICIT_LOOPS
+RV NO_STANDARD_STORAGE_POOLS
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U gdk.types%s		gdk-types.ads		e6c57dae EE OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W gdk%s			gdk.ads			gdk.ali
+W glib%s		glib.adb		glib.ali
+W glib.generic_properties%s  glib-generic_properties.adb  glib-generic_properties.ali  EA
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D gdk.ads		20141212124940 f909352d gdk%s
+D gdk-types.ads		20141212124940 b1082506 gdk.types%s
+D glib.ads		20141212124939 0f441d83 glib%s
+D glib-generic_properties.ads  20141212124939 a1807006 glib.generic_properties%s
+D glib-generic_properties.adb  20141212124939 b44dec2c glib.generic_properties%b
+D glib-glist.ads	20141212124940 65a6e1be glib.glist%s
+D glib-glist.adb	20141212124940 48a94e23 glib.glist%b
+D glib-gslist.ads	20141212124940 8fe7d6f1 glib.gslist%s
+D glib-gslist.adb	20141212124940 b4c9a81c glib.gslist%b
+D glib-object.ads	20141212124940 948e384a glib.object%s
+D glib-object.adb	20141212124939 425ed48d glib.object%b
+D glib-type_conversion_hooks.ads  20141212124939 df9131bc glib.type_conversion_hooks%s
+D glib-values.ads	20141212124939 37b4897e glib.values%s
+D gnat.ads		20140406181359 fd2ad2f1 gnat%s
+D g-string.ads		20140406181356 c6abc540 gnat.strings%s
+D gtkada.ads		20141212124939 57aea1c7 gtkada%s
+D gtkada-bindings.ads	20141212124940 516dc70c gtkada.bindings%s
+D gtkada-c.ads		20141212124940 0f5973e3 gtkada.c%s
+D gtkada-types.ads	20141212124940 b7bc0c77 gtkada.types%s
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D i-cstrin.ads		20140406181357 341d0ddf interfaces.c.strings%s
+D system.ads		20140406181354 90249111 system%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-memory.ads		20140406181359 597d6634 system.memory%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-secsta.ads		20140406181359 86a2856d system.secondary_stack%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20140406181358 aedef97e system.stream_attributes%s
+D s-string.ads		20140406181358 8fe54fb7 system.strings%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D s-unstyp.ads		20140406181356 510692af system.unsigned_types%s
+D unchconv.ads		20140406181355 ca2f9e18 unchecked_conversion%s
+D unchdeal.ads		20140406181359 214516a4 unchecked_deallocation%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 8 gdk.ads
+40K9*Gdk 66e8 9|36r9 262r5
+43P12*C_Proxy{10|155P9} 9|64r25
+X 9 gdk-types.ads
+36K13*Types 8|40k9 9|190E4 262l9 262e14
+38m4*Current_Time{10|75M9}
+41R9*Gdk_Point 44e14 45r26 47r58
+42i7*X{10|56I9}
+43i7*Y{10|56I9}
+47A9*Gdk_Points_Array(41R9)<integer> 48r17
+50R9*Gdk_Segment 55e14 56r26 58r60
+51i7*X1{10|56I9}
+52i7*Y1{10|56I9}
+53i7*X2{10|56I9}
+54i7*Y2{10|56I9}
+58A9*Gdk_Segments_Array(50R9)<integer> 59r17
+64P9*Gdk_Atom<10|155P9> 71r24 74r55
+71p4*Gdk_None{64P9}
+74A9*Gdk_Atom_Array(64P9)<integer>
+76E9*Gdk_Axis_Use 83e17 84r26
+77n7*Axis_Ignore{76E9}
+78n7*Axis_X{76E9}
+79n7*Axis_Y{76E9}
+80n7*Axis_Pressure{76E9}
+81n7*Axis_X_Tilt{76E9}
+82n7*Axis_Y_Tilt{76E9}
+83n7*Axis_Last{76E9}
+86E9*Gdk_Byte_Order 86e49 87r26
+86n28*Lsb_First{86E9}
+86n39*Msb_First{86E9}
+89E9*Gdk_Extension_Mode 90e76 91r26 180r7
+90n7*Extension_Events_None{89E9}
+90n30*Extension_Events_All{89E9}
+90n52*Extension_Events_Cursor{89E9}
+93M9*Gdk_IC_Attributes_Type<10|62M9> 94r39 95r39 96r39 97r39 98r39 99r39
+. 100r39 101r39 102r39 103r39 104r39 105r39 106r39 107r39 108r39 109r39 110r39
+. 111r39 112r39 113r39 114r39 115r39 116r39 117r39 118r39 190r39 191r39 192r39
+. 193r39 194r39 195r39 196r39 197r39 198r39 199r39 200r39 201r39 202r39 203r39
+. 204r39 205r39 206r39 207r39 208r39 209r39 210r39 211r39 213r39 215r39 217r39
+94m4*Ic_Style{93M9} 190c4 212r6
+95m4*Ic_Client_Window{93M9} 191c4 212r18
+96m4*Ic_Focus_Window{93M9} 192c4
+97m4*Ic_Filter_Events{93M9} 193c4
+98m4*Ic_Spot_Location{93M9} 194c4 216r25
+99m4*Ic_Line_Spacing{93M9} 195c4
+100m4*Ic_Cursor{93M9} 196c4
+101m4*Ic_Preedit_Fontset{93M9} 197c4 214r25 216r45
+102m4*Ic_Preedit_Area{93M9} 198c4 214r6 216r6
+103m4*Ic_Preedit_Area_Needed{93M9} 199c4
+104m4*Ic_Preedit_Foreground{93M9} 200c4
+105m4*Ic_Preedit_Background{93M9} 201c4
+106m4*Ic_Preedit_Pixmap{93M9} 202c4
+107m4*Ic_Preedit_Colormap{93M9} 203c4
+108m4*Ic_Status_Fontset{93M9} 204c4 218r24
+109m4*Ic_Status_Area{93M9} 205c4 218r6
+110m4*Ic_Status_Area_Needed{93M9} 206c4
+111m4*Ic_Status_Foreground{93M9} 207c4
+112m4*Ic_Status_Background{93M9} 208c4
+113m4*Ic_Status_Pixmap{93M9} 209c4
+114m4*Ic_Status_Colormap{93M9} 210c4
+115m4*Ic_All_Req{93M9} 211c4
+116m4*Ic_Preedit_Area_Req{93M9} 213c4
+117m4*Ic_Preedit_Position_Req{93M9} 215c4
+118m4*Ic_Status_Area_Req{93M9} 217c4
+120M9*Gdk_IM_Style<10|62M9> 121r36 122r36 123r36 124r36 125r36 126r36 127r36
+. 128r36 129r36 130r36 131r36 220r36 221r36 222r36 223r36 224r36 225r36 226r36
+. 227r36 228r36 229r36 230r36
+121m4*Im_Preedit_Area{120M9} 220c4
+122m4*Im_Preedit_Callbacks{120M9} 221c4
+123m4*Im_Preedit_Position{120M9} 222c4
+124m4*Im_Preedit_Nothing{120M9} 223c4
+125m4*Im_Preedit_None{120M9} 224c4
+126m4*Im_Preedit_Mask{120M9} 225c4
+127m4*Im_Status_Area{120M9} 226c4
+128m4*Im_Status_Callbacks{120M9} 227c4
+129m4*Im_Status_Nothing{120M9} 228c4
+130m4*Im_Status_None{120M9} 229c4
+131m4*Im_Status_Mask{120M9} 230c4
+133E9*Gdk_Input_Condition 133e74 134r26 258r8
+133n33*Input_Read{133E9} 259r7
+133n45*Input_Write{133E9} 260r7
+133n58*Input_Exception{133E9} 261r7
+136E9*Gdk_Input_Mode 136e68 137r26
+136n28*Mode_Disabled{136E9}
+136n43*Mode_Screen{136E9}
+136n56*Mode_Window{136E9}
+139E9*Gdk_Input_Source 143e21 144r26
+140n7*Source_Mouse{139E9}
+141n7*Source_Pen{139E9}
+142n7*Source_Eraser{139E9}
+143n7*Source_Cursor{139E9}
+146M9*Gdk_Key_Type<10|62M9>
+149M9*Gdk_Modifier_Type<10|62M9> 150r29 151r29 152r29 153r29 154r29 155r29
+. 156r29 157r29 158r29 159r29 160r29 161r29 162r29 163r29 164r29 166r37 232r28
+. 233r28 234r28 235r28 236r28 237r28 238r28 239r28 240r28 241r28 242r28 243r28
+. 244r28 245r29 246r29 248r50 251r37
+150m4*Shift_Mask{149M9} 232c4
+151m4*Lock_Mask{149M9} 233c4
+152m4*Control_Mask{149M9} 234c4
+153m4*Mod1_Mask{149M9} 235c4
+154m4*Mod2_Mask{149M9} 236c4
+155m4*Mod3_Mask{149M9} 237c4
+156m4*Mod4_Mask{149M9} 238c4
+157m4*Mod5_Mask{149M9} 239c4
+158m4*Button1_Mask{149M9} 240c4
+159m4*Button2_Mask{149M9} 241c4
+160m4*Button3_Mask{149M9} 242c4
+161m4*Button4_Mask{149M9} 243c4
+162m4*Button5_Mask{149M9} 244c4
+163m4*Release_Mask{149M9} 245c4
+164m4*Modifier_Mask{149M9} 246c4
+166m4*Default_Modifier_Mask{149M9} 251c4
+168E12*Gdk_WChar{wide_character}
+169A12*Gdk_WString{wide_string}<integer>
+179K12*Extension_Mode_Properties[11|71] 182r44
+182A9*Property_Gdk_Extension_Mode<11|73A12[179]>
+248V13 Internal_Defaut_Modifier_Mask{149M9} 250b<c,ada_gdk_get_default_modifier>10
+. 252s30
+X 10 glib.ads
+43K9*Glib 9|32w6 32r16 33r6 33r35 10|408e9
+56I9*Gint<28|35I9> 9|42r11 43r11 51r12 52r12 53r12 54r12
+62M9*Guint<28|43M9> 9|93r39 120r29 146r29 149r34
+75M9*Guint32 9|38r28
+155P9*C_Proxy(152R9)
+238A9*Property<string>
+X 11 glib-generic_properties.ads
+56K14*Generic_Properties 9|33w11 33r40 11|220e28
+71k12*Generic_Internal_Discrete_Property 9|179r45 11|91e42
+73A12*Property<10|238A9> 9|182r70[179]
+X 17 glib-object.ads
+46P9*GObject(45R9)
+421V13*Convert{30|64M9} 13|63i21 15|55i21
+422V13*Convert{46P9} 13|64i21 15|56i21
+X 28 i-c.ads
+35I9*int<integer>
+43M9*unsigned
+X 30 system.ads
+64M9*Address
+X 34 s-memory.ads
+53V13*Alloc{30|64M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{30|64M9} 105i<c,__gnat_realloc>22
+

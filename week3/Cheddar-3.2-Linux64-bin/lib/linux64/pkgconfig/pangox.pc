@@ -1,0 +1,11 @@
+prefix=/caen.a/gnatmail/gcc-45/install-caen/gtk
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Pango X
+Description: X Window System font support for Pango
+Version: 1.28.4
+Requires: pango
+Libs: -L${libdir} -lpangox-1.0  -L/usr/X11R6/lib -lX11
+Cflags: -I${includedir}/pango-1.0  -I/usr/X11R6/include

@@ -1,0 +1,148 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P SS ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_UNCHECKED_CONVERSION
+RV NO_UNCHECKED_DEALLOCATION
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U glib.messages%b	glib-messages.adb	fa96e9ec NE OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W glib%s		glib.adb		glib.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U glib.messages%s	glib-messages.ads	4b2aa7bf NE OO PR PK
+W glib%s		glib.adb		glib.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D glib.ads		20141212124939 0f441d83 glib%s
+D glib-messages.ads	20141212124939 446eba3c glib.messages%s
+D glib-messages.adb	20141212124939 8ae55e0f glib.messages%b
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D i-cstrin.ads		20140406181357 341d0ddf interfaces.c.strings%s
+D system.ads		20140406181354 90249111 system%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-secsta.ads		20140406181359 86a2856d system.secondary_stack%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 8 glib.ads
+43K9*Glib 408e9 9|35r9 114r5 10|31r14 152r5
+62M9*Guint<12|43M9> 9|73r31
+82A12*UTF8_String{string}<integer> 9|71r20 91r20 98r20 10|104r20 109r23 123r20
+. 128r23
+X 9 glib-messages.ads
+35K14*Messages 8|43k9 9|112E44 114l10 114e18 10|31b19 152l10 152t18
+38M9*Log_Level_Flags 45r34 46r34 52r34 55r34 56r34 57r34 58r34 59r34 61r34
+. 64r34 70r20 79r20 90r20 97r20 103r20 103r44 107r20 107r44 10|35r20 47r20
+. 64r20 69r23 103r20 108r23 122r20 127r23 141r20 141r44 145r23 145r47
+45m4*Log_Flag_Recursion{38M9} 62r11 65r6
+46m4*Log_Flag_Fatal{38M9} 62r33
+52m4*Log_Level_Error{38M9} 65r28
+55m4*Log_Level_Critical{38M9}
+56m4*Log_Level_Warning{38M9}
+57m4*Log_Level_Message{38M9}
+58m4*Log_Level_Info{38M9}
+59m4*Log_Level_Debug{38M9}
+61m4*Log_Level_Mask{38M9}
+64m4*Log_Fatal_Mask{38M9}
+68P9*Log_Function 69>7 70>7 71>7 80r20 10|37r20 49r20 65r20
+69a7 Log_Domain{string}
+70m7 Log_Level{38M9}
+71a7 Message{8|82A12}
+73M9*Log_Handler_Id<8|62M9> 80r41 85r20 10|65r41 71r46 86r20 90r23
+77V13*Log_Set_Handler{73M9} 78>7 79>7 80>7 10|62b13 78l8 78t23
+78a7 Log_Domain{string} 10|63b7 76r10
+79m7 Log_Levels{38M9} 10|64b7 76r34
+80p7 Log_Func{68P9} 10|65b7 77r10
+83U14*Log_Remove_Handler 84>7 85>7 10|84b14 95l8 95t26
+84a7 Log_Domain{string} 10|85b7 94r17
+85m7 Handler_Id{73M9} 10|86b7 94r41
+88U14*Log_Default_Handler 89>7 90>7 91>7 10|101b14 114l8 114t27
+89a7 Log_Domain{string} 10|102b7 113r17
+90m7 Log_Levels{38M9} 10|103b7 113r41
+91a7 Message{8|82A12} 10|104b7 113r53
+95U14*Log 96>7 97>7 98>7 10|120b14 133l8 133t11
+96a7 Log_Domain{string} 10|121b7 132r17
+97m7 Log_Levels{38M9} 10|122b7 132r41
+98a7 Message{8|82A12} 10|123b7 132r53
+101V13*Log_Set_Fatal_Mask{38M9} 102>7 103>7 10|139b13 150l8 150t26
+102a7 Log_Domain{string} 10|140b7 149r24
+103m7 Fatal_Mask{38M9} 10|141b7 149r48
+106V13*Log_Set_Always_Fatal{38M9} 107>7 112b<c,g_log_set_always_fatal>22
+107m7 Fatal_Mask{38M9}
+X 10 glib-messages.adb
+33U14 C_Log_Func 34>7 35>7 36>7 37>7 39r26 45b14 56l8 56t18 76r46
+34p7 Log_Domain{13|47P9} 46b7 51r10 54r27
+35m7 Log_Level{9|38M9} 47b7 52r24 54r40
+36p7 Message{13|47P9} 48b7 52r42 54r58
+37p7 Ada_Func{9|68P9} 49b7 52r10 54r10
+67V16*Internal{9|73M9} 68>10 69>10 70>10 71>10 72b<c,g_log_set_handler>25
+. 75s14
+68a10 Log_Domain{string}
+69m10 Log_Levels{9|38M9}
+70m10 Log_Func{14|64M9}
+71m10 User_Data{14|64M9}
+88U17*Internal 89>10 90>10 91b<c,g_log_remove_handler>25 94s7
+89a10 Log_Domain{string}
+90m10 Handler_Id{9|73M9}
+106U17*Internal 107>10 108>10 109>10 110b<c,g_log_default_handler>25 113s7
+107a10 Log_Domain{string}
+108m10 Log_Levels{9|38M9}
+109a10 Message{8|82A12}
+125U17*Internal 126>10 127>10 128>10 129b<c,ada_g_log>25 132s7
+126a10 Log_Domain{string}
+127m10 Log_Levels{9|38M9}
+128a10 Format{8|82A12}
+143V16*Internal{9|38M9} 144>10 145>10 146b<c,g_log_set_fatal_mask>25 149s14
+144a10 Log_Domain{string}
+145m10 Fatal_Mask{9|38M9}
+X 11 interfac.ads
+38K9*Interfaces 10|29r6 29r32 11|179e15
+X 12 i-c.ads
+18K20*C 10|29r17 29r43 12|230e17
+43M9*unsigned
+X 13 i-cstrin.ads
+36K22*Strings 10|29w19 29r45 13|106e25
+47P9*chars_ptr 10|34r20 36r20 46r20 48r20
+52p4*Null_Ptr{47P9} 10|51r23
+74V13*Value{string} 10|52s35 54s20 54s51
+X 14 system.ads
+37K9*System 10|70r23 71r23 14|152e11
+64M9*Address 10|70r30 71r30
+

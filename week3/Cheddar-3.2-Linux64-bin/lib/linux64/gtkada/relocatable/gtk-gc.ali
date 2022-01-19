@@ -1,0 +1,111 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P SS ZX
+
+RN
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV SPARK_05
+
+U gtk.gc%s		gtk-gc.ads		4531c7c8 NE OO PK
+W gdk%s			gdk.ads			gdk.ali
+W gdk.gc%s		gdk-gc.adb		gdk-gc.ali
+W gtk%s			gtk.ads			gtk.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D cairo.ads		20141212124939 8dc0603a cairo%s
+D cairo-region.ads	20141212124939 b7133728 cairo.region%s
+D gdk.ads		20141212124940 f909352d gdk%s
+D gdk-color.ads		20141212124939 8aa593ee gdk.color%s
+D gdk-font.ads		20141212124940 46e43fa8 gdk.font%s
+D gdk-gc.ads		20141212124939 a96f1ba5 gdk.gc%s
+D gdk-rectangle.ads	20141212124939 7b900608 gdk.rectangle%s
+D gdk-region.ads	20141212124939 ff429b15 gdk.region%s
+D gdk-types.ads		20141212124940 b1082506 gdk.types%s
+D gdk-visual.ads	20141212124939 615e934c gdk.visual%s
+D glib.ads		20141212124939 0f441d83 glib%s
+D glib-generic_properties.ads  20141212124939 a1807006 glib.generic_properties%s
+D glib-generic_properties.adb  20141212124939 b44dec2c glib.generic_properties%b
+D glib-glist.ads	20141212124940 65a6e1be glib.glist%s
+D glib-glist.adb	20141212124940 48a94e23 glib.glist%b
+D glib-gslist.ads	20141212124940 8fe7d6f1 glib.gslist%s
+D glib-gslist.adb	20141212124940 b4c9a81c glib.gslist%b
+D glib-object.ads	20141212124940 948e384a glib.object%s
+D glib-values.ads	20141212124939 37b4897e glib.values%s
+D gtk.ads		20141212124940 81513fe2 gtk%s
+D gtk-gc.ads		20141212124939 6d0fe38f gtk.gc%s
+D gtkada.ads		20141212124939 57aea1c7 gtkada%s
+D gtkada-types.ads	20141212124940 b7bc0c77 gtkada.types%s
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D i-cstrin.ads		20140406181357 341d0ddf interfaces.c.strings%s
+D pango.ads		20141212124939 d3c8e76d pango%s
+D pango-enums.ads	20141212124940 8ef2dddf pango.enums%s
+D pango-font.ads	20141212124940 375007f3 pango.font%s
+D system.ads		20140406181354 90249111 system%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-secsta.ads		20140406181359 86a2856d system.secondary_stack%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20140406181358 aedef97e system.stream_attributes%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D s-unstyp.ads		20140406181356 510692af system.unsigned_types%s
+D unchconv.ads		20140406181355 ca2f9e18 unchecked_conversion%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 10 gdk.ads
+40K9*Gdk 66e8 28|39r6 45r21 46r21 47r21
+45P9*Gdk_GC<18|155P9> 28|48r14 56r28
+54P9*Gdk_Colormap<18|155P9> 28|45r25
+56P9*Gdk_Visual<18|155P9>
+X 13 gdk-gc.ads
+61K13*GC 382e11 28|39w10 46r25 47r25
+70P9*Gdk_GC_Values<18|155P9> 28|46r28
+109M9*Gdk_GC_Values_Mask 28|47r28
+X 17 gdk-visual.ads
+83V13*Convert[54|20]{37|64M9} 21|63i21
+84V13*Convert[54|20]{10|56P9} 21|64i21
+X 18 glib.ads
+56I9*Gint<32|35I9> 28|44r21
+155P9*C_Proxy(152R9)
+X 25 glib-object.ads
+46P9*GObject(45R9)
+421V13*Convert{37|64M9} 21|63i21 23|55i21
+422V13*Convert{46P9} 21|64i21 23|56i21
+X 27 gtk.ads
+47K9*Gtk 83e8 28|41r9 64r5
+X 28 gtk-gc.ads
+41K13*GC 27|47k9 28|62E27 64l9 64e11
+43V13*Get{10|45P9} 44>7 45>7 46>7 47>7 62b<c,gtk_gc_get>22
+44i7 Depth{18|56I9}
+45p7 Colormap{10|54P9}
+46p7 Values{13|70P9}
+47m7 Values_Mask{13|109M9}
+56U14*Release 56>23 63b<c,gtk_gc_release>22
+56p23 Gc{10|45P9}
+X 32 i-c.ads
+35I9*int<integer>
+X 37 system.ads
+64M9*Address
+

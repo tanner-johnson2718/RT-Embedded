@@ -1,0 +1,157 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P ZX
+
+RN
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV SPARK_05
+
+U cairo.region%b	cairo-region.adb	50ae1241 NE OO PK
+W cairo%s		cairo.adb		cairo.ali
+
+U cairo.region%s	cairo-region.ads	3ad35712 BN EE NE OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W cairo%s		cairo.adb		cairo.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D cairo.ads		20141212124939 8dc0603a cairo%s
+D cairo-region.ads	20141212124939 b7133728 cairo.region%s
+D cairo-region.adb	20141212124939 e7bd2569 cairo.region%b
+D glib.ads		20141212124939 0f441d83 glib%s
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D i-cstrin.ads		20140406181357 341d0ddf interfaces.c.strings%s
+D system.ads		20140406181354 90249111 system%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 8 cairo.ads
+78K9*Cairo 2813e10 9|40r9 232r5 10|29r14 68r5
+176E9*Cairo_Status 274e7 9|104r51 146r36 153r54 160r36 167r54 175r36 182r54
+. 189r36 197r54
+X 9 cairo-region.ads
+40K15*Region 8|78k9 9|207E9 232l11 232e17 10|29b20 68l11 68t17
+42M9*Cairo_Region<15|64M9> 53r27 67r27 76r54 84r30 84r51 92r33 92r54 96r32
+. 100r25 104r30 110r17 114r38 118r19 123r32 127r19 133r16 139r16 145r15 146r15
+. 152r19 159r15 160r15 166r19 174r15 175r15 181r19 188r15 189r15 196r19 207c9
+. 208r27 208r43 10|35r25 36r33 46r32 47r35 58r16 62r30
+53m4*Null_Region{42M9} 208c4
+55R9*Cairo_Rectangle_Int 57e14 76r26 111r21 120r23 128r26 153r26 167r26 182r26
+. 197r26 205r26
+56i7*X{11|56I9}
+56i10*Y{11|56I9}
+56i13*Width{11|56I9}
+56i20*Height{11|56I9}
+59E9*Cairo_Region_Overlap 63e7 65r26 128r54
+60n7*Cairo_Region_Overlap_In{59E9}
+61n7*Cairo_Region_Overlap_Out{59E9}
+62n7*Cairo_Region_Overlap_Part{59E9}
+67V13*Create{42M9} 210b<c,cairo_region_create>22
+75V13*Create_Rectangle{42M9} 76^7 211b<c,cairo_region_create_rectangle>22
+76p7 Rectangle(55R9)
+84V13*Copy{42M9} 84>19 212b<c,cairo_region_copy>22
+84m19 Original{42M9}
+92V13*Reference{42M9} 92>24 213b<c,cairo_region_reference>22
+92m24 Region{42M9}
+96U14*Destroy 96>23 214b<c,cairo_region_destroy>22
+96m23 Region{42M9}
+100V14*"="{boolean}<15|78p13> 100>18 100>21 10|35b14 40l9 40t11
+100m18 A{42M9} 10|35b18 39r24
+100m21 B{42M9} 10|35b21 39r27
+104V13*Status{8|176E9} 104>21 215b<c,cairo_region_status>22
+104m21 Region{42M9}
+109U14*Get_Extents 110>7 111<7 216b<c,cairo_region_get_extents>22
+110m7 Region{42M9}
+111r7 Extents{55R9}
+114V13*Num_Rectangles{11|56I9} 114>29 217b<c,cairo_region_num_rectangles>22
+114m29 Region{42M9}
+117U14*Get_Rectangle 118>7 119>7 120<7 218b<c,cairo_region_get_rectangle>22
+118m7 Region{42M9}
+119i7 Nth{11|56I9}
+120r7 Rectangle{55R9}
+123V13*Is_Empty{boolean} 123>23 230r19 10|46b13 51l8 51t16
+123m23 Region{42M9} 10|46b23 50r24
+126V13*Contains_Rectangle{59E9} 127>7 128^7 219b<c,cairo_region_contains_rectangle>22
+127m7 Region{42M9}
+128p7 Rectangle(55R9)
+132V13*Contains_Point{boolean} 133>7 134>7 135>7 10|57b13 66l8 66t22
+133m7 Region{42M9} 10|58b7 65r24
+134i7 X{11|56I9} 10|59b7 65r32
+135i7 Y{11|56I9} 10|60b7 65r35
+138U14*Translate 139>7 140>7 141>7 220b<c,cairo_region_translate>22
+139m7 Region{42M9}
+140i7 dX{11|56I9}
+141i7 dY{11|56I9}
+144V13*Subtract{8|176E9} 145>7 146>7 221b<c,cairo_region_subtract>22
+145m7 Dst{42M9}
+146m7 Other{42M9}
+151V13*Subtract_Rectangle{8|176E9} 152>7 153^7 222b<c,cairo_region_subtract_rectangle>22
+152m7 Dst{42M9}
+153p7 Rectangle(55R9)
+158V13*Intersect{8|176E9} 159>7 160>7 223b<c,cairo_region_intersect>22
+159m7 Dst{42M9}
+160m7 Other{42M9}
+165V13*Intersect_Rectangle{8|176E9} 166>7 167^7 224b<c,cairo_region_intersect_rectangle>22
+166m7 Dst{42M9}
+167p7 Rectangle(55R9)
+173V13*Union{8|176E9} 174>7 175>7 225b<c,cairo_region_union>22
+174m7 Dst{42M9}
+175m7 Other{42M9}
+180V13*Union_Rectangle{8|176E9} 181>7 182^7 226b<c,cairo_region_union_rectangle>22
+181m7 Dst{42M9}
+182p7 Rectangle(55R9)
+187V13*Do_Xor{8|176E9} 188>7 189>7 227b<c,cairo_region_xor>22
+188m7 Dst{42M9}
+189m7 Other{42M9}
+195V13*Xor_Rectangle{8|176E9} 196>7 197^7 228b<c,cairo_region_xor_rectangle>22
+196m7 Dst{42M9}
+197p7 Rectangle(55R9)
+X 10 cairo-region.adb
+36V16*Internal{11|58I9} 36>26 36>29 37b<c,cairo_region_equal>25 39s14
+36m26 A{9|42M9}
+36m29 B{9|42M9}
+47V16*Internal{11|58I9} 47>26 48b<c,cairo_region_is_empty>25 50s14
+47m26 Region{9|42M9}
+62V16*Internal{11|58I9} 62>26 62>44 62>47 63b<c,cairo_region_contains_point>25
+. 65s14
+62m26 R{9|42M9}
+62i44 X{11|56I9}
+62i47 Y{11|56I9}
+X 11 glib.ads
+56I9*Gint<13|35I9> 9|56r37 114r59 119r19 134r16 135r16 140r16 141r16 10|59r16
+. 60r16 62r51
+58I9*Gboolean<56I9> 10|36r54 47r56 62r64
+X 13 i-c.ads
+35I9*int<integer>
+X 15 system.ads
+37K9*System 9|207r29 208r57 15|152e11
+64M9*Address 9|207r36
+66m4*Null_Address{64M9} 9|208r64
+

@@ -1,0 +1,481 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P SS ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_ALLOCATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_ENUMERATION_MAPS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV NO_ELABORATION_CODE
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U gtkada.builder%b	gtkada-builder.adb	a3e76663 OO PF PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.unchecked_deallocation%s
+W glib%s		glib.adb		glib.ali
+W gtk%s			gtk.ads			gtk.ali
+W gtk.handlers%s	gtk-handlers.adb	gtk-handlers.ali  AD
+W gtkada%s		gtkada.ads		gtkada.ali
+W gtkada.handlers%s	gtkada-handlers.ads	gtkada-handlers.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+W system%s		system.ads		system.ali
+W system.assertions%s	s-assert.adb		s-assert.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+U gtkada.builder%s	gtkada-builder.ads	687fbe05 EE OO PF PK
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+Z ada.containers.hash_tables%s  a-cohata.ads	a-cohata.ali
+Z ada.containers.hash_tables.generic_keys%s
+Z ada.containers.hash_tables.generic_operations%s
+W ada.containers.hashed_maps%s
+Z ada.containers.prime_numbers%s  a-coprnu.adb	a-coprnu.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.finalization%s	a-finali.adb		a-finali.ali
+Z ada.iterator_interfaces%s
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.strings.unbounded.hash%s  a-stunha.adb	a-stunha.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+Z ada.unchecked_deallocation%s
+W glib%s		glib.adb		glib.ali
+W glib.object%s		glib-object.adb		glib-object.ali
+W gtk%s			gtk.ads			gtk.ali
+W gtk.builder%s		gtk-builder.adb		gtk-builder.ali
+W gtkada%s		gtkada.ads		gtkada.ali
+W system%s		system.ads		system.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+W system.strings.stream_ops%s  s-ststop.adb	s-ststop.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-charac.ads		20140406181359 2d3ec45b ada.characters%s
+D a-chlat1.ads		20140406181359 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20140406181357 61e5e089 ada.containers%s
+D a-cohata.ads		20140406181358 04abccc5 ada.containers.hash_tables%s
+D a-chtgke.ads		20140406181359 a7b0f3a2 ada.containers.hash_tables.generic_keys%s
+D a-chtgke.adb		20140406181359 ee7af212 ada.containers.hash_tables.generic_keys%b
+D a-chtgop.ads		20140406181359 b47ea0e7 ada.containers.hash_tables.generic_operations%s
+D a-chtgop.adb		20140406181359 c00683b2 ada.containers.hash_tables.generic_operations%b
+D a-cohama.ads		20140406181357 9f97b812 ada.containers.hashed_maps%s
+D a-cohama.adb		20140406181359 55a9a6dc ada.containers.hashed_maps%b
+D a-coprnu.ads		20140406181357 0cdf1864 ada.containers.prime_numbers%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-ioexce.ads		20140406181358 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20140406181354 7c7305e9 ada.iterator_interfaces%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-string.ads		20140406181359 90ac6797 ada.strings%s
+D a-strmap.ads		20140406181359 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20140406181359 3f91d4c5 ada.strings.unbounded%s
+D a-stunha.ads		20140406181355 115e053b ada.strings.unbounded.hash%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-textio.ads		20140406181359 386df5d4 ada.text_io%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D cairo.ads		20141212124939 8dc0603a cairo%s
+D cairo-region.ads	20141212124939 b7133728 cairo.region%s
+D gdk.ads		20141212124940 f909352d gdk%s
+D gdk-bitmap.ads	20141212124940 a30f71c4 gdk.bitmap%s
+D gdk-color.ads		20141212124939 8aa593ee gdk.color%s
+D gdk-cursor.ads	20141212124939 d92b2ac1 gdk.cursor%s
+D gdk-display.ads	20141212124940 f1fc98fd gdk.display%s
+D gdk-drawable.ads	20141212124940 15e54888 gdk.drawable%s
+D gdk-event.ads		20141212124940 8e0f7bb6 gdk.event%s
+D gdk-font.ads		20141212124940 46e43fa8 gdk.font%s
+D gdk-gc.ads		20141212124939 a96f1ba5 gdk.gc%s
+D gdk-pixbuf.ads	20141212124940 8572dcfc gdk.pixbuf%s
+D gdk-pixmap.ads	20141212124939 677b62c0 gdk.pixmap%s
+D gdk-rectangle.ads	20141212124939 7b900608 gdk.rectangle%s
+D gdk-region.ads	20141212124939 ff429b15 gdk.region%s
+D gdk-rgb.ads		20141212124939 724abbe3 gdk.rgb%s
+D gdk-types.ads		20141212124940 b1082506 gdk.types%s
+D gdk-visual.ads	20141212124939 615e934c gdk.visual%s
+D gdk-window.ads	20141212124940 a02582f1 gdk.window%s
+D glib.ads		20141212124939 0f441d83 glib%s
+D glib-error.ads	20141212124939 e055fabe glib.error%s
+D glib-generic_properties.ads  20141212124939 a1807006 glib.generic_properties%s
+D glib-generic_properties.adb  20141212124939 b44dec2c glib.generic_properties%b
+D glib-glist.ads	20141212124940 65a6e1be glib.glist%s
+D glib-glist.adb	20141212124940 48a94e23 glib.glist%b
+D glib-gslist.ads	20141212124940 8fe7d6f1 glib.gslist%s
+D glib-gslist.adb	20141212124940 b4c9a81c glib.gslist%b
+D glib-object.ads	20141212124940 948e384a glib.object%s
+D glib-object.adb	20141212124939 425ed48d glib.object%b
+D glib-properties.ads	20141212124940 48c8d9fb glib.properties%s
+D glib-type_conversion_hooks.ads  20141212124939 df9131bc glib.type_conversion_hooks%s
+D glib-values.ads	20141212124939 37b4897e glib.values%s
+D glib-values.adb	20141212124939 0d82009f glib.values%b
+D gnat.ads		20140406181359 fd2ad2f1 gnat%s
+D g-string.ads		20140406181356 c6abc540 gnat.strings%s
+D gtk.ads		20141212124940 81513fe2 gtk%s
+D gtk-accel_group.ads	20141212124940 db8139a9 gtk.accel_group%s
+D gtk-adjustment.ads	20141212124940 6a3f2d37 gtk.adjustment%s
+D gtk-builder.ads	20141212124940 f4ad2f95 gtk.builder%s
+D gtk-container.ads	20141212124939 93cfa083 gtk.container%s
+D gtk-enums.ads		20141212124940 31c39095 gtk.enums%s
+D gtk-handlers.ads	20141212124939 f87aa660 gtk.handlers%s
+D gtk-handlers.adb	20141212124939 ab37ef08 gtk.handlers%b
+D gtk-marshallers.ads	20141212124940 6c3cad4d gtk.marshallers%s
+D gtk-marshallers.adb	20141212124940 3763b331 gtk.marshallers%b
+D gtk-notebook.ads	20141212124939 a995c3f3 gtk.notebook%s
+D gtk-object.ads	20141212124940 2b4b2b20 gtk.object%s
+D gtk-style.ads		20141212124939 f697ed25 gtk.style%s
+D gtk-tree_model.ads	20141212124939 c173923c gtk.tree_model%s
+D gtk-widget.ads	20141212124939 468b5cfd gtk.widget%s
+D gtkada.ads		20141212124939 57aea1c7 gtkada%s
+D gtkada-bindings.ads	20141212124940 516dc70c gtkada.bindings%s
+D gtkada-builder.ads	20141212124939 eeaa61f1 gtkada.builder%s
+D gtkada-builder.adb	20141212124939 5f9c18f0 gtkada.builder%b
+D gtkada-c.ads		20141212124940 0f5973e3 gtkada.c%s
+D gtkada-handlers.ads	20141212124939 06b9c052 gtkada.handlers%s
+D gtkada-types.ads	20141212124940 b7bc0c77 gtkada.types%s
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D i-cstrin.ads		20140406181357 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20140406181357 febc86ed interfaces.c_streams%s
+D pango.ads		20141212124939 d3c8e76d pango%s
+D pango-attributes.ads	20141212124939 34135516 pango.attributes%s
+D pango-context.ads	20141212124940 a00383e5 pango.context%s
+D pango-enums.ads	20141212124940 8ef2dddf pango.enums%s
+D pango-font.ads	20141212124940 375007f3 pango.font%s
+D pango-layout.ads	20141212124939 0814381c pango.layout%s
+D pango-tabs.ads	20141212124940 1dd550ef pango.tabs%s
+D system.ads		20140406181354 90249111 system%s
+D s-assert.ads		20140406181355 cd8d2c94 system.assertions%s
+D s-atocou.ads		20140406181359 cd7c94ca system.atomic_counters%s
+D s-atocou.adb		20140406181355 62bad392 system.atomic_counters%b
+D s-crtl.ads		20140406181356 2c012597 system.crtl%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-ficobl.ads		20140406181355 078245e4 system.file_control_block%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-imenne.ads		20140406181354 614c06c0 system.img_enum_new%s
+D s-memory.ads		20140406181359 597d6634 system.memory%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-secsta.ads		20140406181359 86a2856d system.secondary_stack%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20140406181358 aedef97e system.stream_attributes%s
+D s-stratt.adb		20140406181359 56ef263e system.stream_attributes%b
+D s-string.ads		20140406181358 8fe54fb7 system.strings%s
+D s-ststop.ads		20140406181356 e6693757 system.strings.stream_ops%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D s-unstyp.ads		20140406181356 510692af system.unsigned_types%s
+D s-wchcon.ads		20140406181358 1b7d22d2 system.wch_con%s
+D unchconv.ads		20140406181355 ca2f9e18 unchecked_conversion%s
+D unchdeal.ads		20140406181359 214516a4 unchecked_deallocation%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 1 ada.ads
+16K9*Ada 19e8 78|80r6 81r6 81r33 82r6 167r32 170r26 79|33r6 34r6 35r6 303r39
+. 319r10 319r32
+X 4 a-contai.ads
+16K13*Containers 24e19 78|80r10 167r36
+19M9*Hash_Type
+X 10 a-cohama.ads
+41+9 Key_Type 78|168r7
+42+9 Element_Type 78|169r7
+44V18 Hash{4|19M9} 78|170r7
+45V18 Equivalent_Keys{boolean} 78|171r7
+46V19 "="{boolean} 78|172r8
+48k24*Hashed_Maps 441e31 78|80w21 167r47
+52R9*Map<14|43R9> 78|177r31[167]
+61R9*Cursor 79|180r11[78|167] 300r11[78|167]
+68r4*No_Element{61R9[78|167]} 79|186r14[78|167]
+72V13*Has_Element{boolean} 79|311s13[78|167]
+115V13*Element{78|165P9} 79|193s25[78|167] 312s15[78|167]
+203U14*Insert 79|220s7[78|167] 239s7[78|167] 258s7[78|167] 277s7[78|167]
+205r7 Key{20|79R9} 79|222r10[78|167] 241r10[78|167] 260r10[78|167] 279r10[78|167]
+206p7 New_Item{78|165P9} 79|223r10[78|167] 242r10[78|167] 261r10[78|167]
+. 280r10[78|167]
+258V13*First{61R9[78|167]} 79|309s12[78|167]
+270U14*Next 79|314s10[78|167]
+273V13*Find{61R9[78|167]} 79|184s12[78|167]
+X 13 a-except.ads
+53K13*Exceptions 360e19 79|33w10 319r36
+103V13*Exception_Information{string} 79|319s47
+X 16 a-iteint.ads
+24h9 Forward_Iterator
+X 18 a-string.ads
+16K13*Strings 35e16 78|81r10 81r37 82r10 170r30
+X 20 a-strunb.ads
+76K21*Unbounded 489e26 78|81w18 81r45 82r18 170r38
+79R9*Unbounded_String<14|43R9> 473e14 78|168r26
+94V13*To_Unbounded_String{79R9} 79|184s36 222s22 241s22 260s22 279s22
+166V14*"="{boolean} 78|171r27
+X 21 a-stunha.ads
+18V32*Hash{4|19M9} 78|82w28 170r48
+X 23 a-textio.ads
+49K13*Text_IO 471e16 79|34w10 319r14
+263U14*Put_Line 79|319s22
+X 25 a-uncdea.ads
+20u15*Unchecked_Deallocation 79|35w10 303r43
+X 28 gdk.ads
+47P9*Gdk_Drawable<45|155P9>
+56P9*Gdk_Visual<45|155P9>
+X 43 gdk-visual.ads
+83V13*Convert[122|20]{94|64M9} 49|63i21
+84V13*Convert[122|20]{28|56P9} 49|64i21
+X 44 gdk-window.ads
+537V13*Convert[122|20]{94|64M9} 49|63i21
+538V13*Convert[122|20]{28|47P9} 49|64i21
+X 45 glib.ads
+43K9*Glib 408e9 78|84r6 84r23 79|37w6 37r23 57r26 66r22 88r22 165r26 200r34
+. 292r23
+78M9*Gsize<84|60M9>
+155P9*C_Proxy(152R9)
+214A9*Signal_Name<string>(character)<integer> 79|66r27 88r27 200r39
+221M9*G_Connect_Flags 79|57r31 165r31
+222m4*G_Connect_After{221M9} 79|171r52
+269M9*GType<78M9>
+X 46 glib-error.ads
+41P9*GError<45|155P9>
+X 53 glib-object.ads
+43K14*Object 470e16 78|84w11 84r28 79|292r28
+45R9*GObject_Record 431e14 78|134r26 137r26
+46P9*GObject(45R9) 79|65r22 69r22 87r22 91r22 169r30
+59V13*Get_Type{45|269M9}
+83U14*Ref
+89U14*Unref
+102U14*Weak_Ref 79|357s7
+117U14*Deallocate
+130U14*Ref_Sink
+146V13*Get_Object{94|64M9} 79|292s35
+158V13*Get_User_Data{46P9} 79|344s10
+329U14*Notify
+421V13*Convert{94|64M9} 49|63i21 51|55i21
+422V13*Convert{46P9} 49|64i21 51|56i21 79|169s41 173s25 203s34
+X 61 gtk.ads
+47K9*Gtk 83e8 78|85r6 90r6 175r6 79|39r6 39r27 46r36 48r43 356r7
+72P9*Gtk_Notebook_Page<45|155P9>
+X 64 gtk-builder.ads
+76K13*Builder 183e16 78|85w10 90r10 175r10 79|356r11
+78R9*Gtk_Builder_Record<53|45R9> 175e78 78|90r18 175r18
+84U14*Initialize 79|356s19
+89V13*Add_From_File{46|41P9}
+97V13*Add_From_String{46|41P9}
+106V13*Get_Object{53|46P9}
+115V13*Get_Widget{75|78P9}
+152U14*Connect_Signals_Full 79|289R7
+155m7 User_Data{94|64M9} 79|292r10
+X 66 gtk-enums.ads
+448V13*Convert{94|64M9} 49|63i21 51|55i21
+449V13*Convert{string} 49|64i21 51|56i21
+X 67 gtk-handlers.ads
+184K13*Handlers 1526e17 79|39w10 39r31 46r40 48r47
+209k12*Return_Callback 436e23 79|48r56
+218K15*Marshallers[69|132] 79|127r42[81|57] 147r43[48]
+238U17*Object_Connect 79|123s36[81|57] 143s37[48]
+239p10 Widget(53|45R9) 79|124r16[81|57] 144r16[48]
+240a10 Name{45|214A9} 79|125r16[81|57] 145r16[48]
+241r10 Marsh{69|139R12[218[81|57]]} 79|126r16[81|57] 146r16[48]
+242p10 Slot_Object(53|45R9) 79|129r16[81|57] 149r16[48]
+243b10 After{boolean} 79|130r16[81|57] 150r16[48]
+348V16*To_Marshaller=351:46{69|139R12[218[81|57]]} 79|126s54[81|57] 146s55[48]
+834k12*Callback 1061e16 79|46r49
+842K15*Marshallers[69|342] 79|117r35[81|54] 137r36[46]
+852U17*Object_Connect 79|113s29[81|54] 133s30[46]
+853p10 Widget(53|45R9) 79|114r16[81|54] 134r16[46]
+854a10 Name{45|214A9} 79|115r16[81|54] 135r16[46]
+855r10 Marsh{69|349R12[842[81|54]]} 79|116r16[81|54] 136r16[46]
+856p10 Slot_Object(53|45R9) 79|119r16[81|54] 139r16[46]
+857b10 After{boolean} 79|120r16[81|54] 140r16[46]
+951V16*To_Marshaller=954:46{69|349R12[842[81|54]]} 79|116s47[81|54] 136s48[46]
+X 69 gtk-marshallers.ads
+139R12*Marshaller
+207K15*Void_Marshaller 79|127r54[67|218[81|57]] 147r55[67|218[79|48]]
+208P15*Handler(boolean) 79|127r70[67|218[81|57]] 147r71[67|218[79|48]]
+349R12*Marshaller
+462K15*Void_Marshaller 79|117r47[67|842[81|54]] 137r48[67|842[79|46]]
+463P15*Handler 79|117r63[67|842[81|54]] 137r64[67|842[79|46]]
+X 71 gtk-notebook.ads
+476V13*Convert[122|20]{94|64M9} 49|63i21
+478V13*Convert[122|20]{61|72P9} 49|64i21
+X 72 gtk-object.ads
+106P9*Gtk_Object(105R9)
+143V13*Convert{94|64M9} 51|55i21
+144V13*Convert{106P9} 51|56i21
+X 74 gtk-tree_model.ads
+69P9*Gtk_Tree_Path<45|155P9>
+188V13*Convert[24|20]{94|64M9} 49|63i21
+190V13*Convert[24|20]{69P9} 49|64i21
+X 75 gtk-widget.ads
+78P9*Gtk_Widget(77R9)
+121V13*Convert{94|64M9} 49|63i21 51|55i21
+122V13*Convert{78P9} 49|64i21 51|56i21
+X 76 gtkada.ads
+36K9*Gtkada 40e11 78|87r9 180r5 79|40r6 40r27 42r14 256r41 329r7 360r5
+X 78 gtkada-builder.ads
+87K16*Builder 76|36k9 78|151E9 180l12 180e19 79|42b21 256r48 329r14 360l12
+. 360t19
+89R9*Gtkada_Builder_Record<64|78R9> 53|59p13 83p14 89p14 117p14 130p14 329p14
+. 64|89p13 97p13 106p13 115p13 152p14 78|91r38 94r43 97r43 109r24 112r26
+. 115r29 120r29 140r29 145r29 174c9 178e14 79|47r7 49r7 72r37 212r29 231r29
+. 250r29 269r29 287r43 299r37 328r22 342r14 354r43
+91P9*Gtkada_Builder(89R9) 93r37 79|68r22 90r22 172r30 173r9 326r37 343r26
+. 343r44
+93U14*Gtk_New 93<23 79|326b14 330l8 330t15
+93p23 Builder{91P9} 79|326b23 328m7 329r34
+94U14*Initialize 94^26 79|329s22 354b14 358l8 358t18
+94p26 Builder(89R9) 79|354b26 356r31 357r17
+97U14*Do_Connect 97^26 79|287b14 293l8 293t18
+97p26 Builder(89R9) 79|287b26 290r10 292r47
+108P9*Builder_Handler 109^7 117r22 159r35 79|252r22
+109p7 Builder(89R9)
+111P9*Builder_Return_Handler(boolean) 112^7 122r22 161r42 79|271r22
+112p7 User_Data(89R9)
+114U14*Register_Handler 115^7 116>7 117>7 79|249b14 262l8 262t24
+115p7 Builder(89R9) 79|250b7 259r10
+116a7 Handler_Name{string} 79|251b7 260r43
+117p7 Handler{108P9} 79|252b7 257r35
+119U14*Register_Handler 120^7 121>7 122>7 79|268b14 281l8 281t24
+120p7 Builder(89R9) 79|269b7 278r10
+121a7 Handler_Name{string} 79|270b7 279r43
+122p7 Handler{111P9} 79|271b7 276r42
+133P9*Object_Handler 134^7 142r22 155r34 79|214r22
+134p7 User_Data(53|45R9)
+136P9*Object_Return_Handler(boolean) 137^7 147r22 157r41 79|233r22
+137p7 User_Data(53|45R9)
+139U14*Register_Handler 140^7 141>7 142>7 79|211b14 224l8 224t24
+140p7 Builder(89R9) 79|212b7 221r10
+141a7 Handler_Name{string} 79|213b7 222r43
+142p7 Handler{133P9} 79|214b7 219r34
+144U14*Register_Handler 145^7 146>7 147>7 79|230b14 243l8 243t24
+145p7 Builder(89R9) 79|231b7 240r10
+146a7 Handler_Name{string} 79|232b7 241r43
+147p7 Handler{136P9} 79|233b7 238r41
+151E9 Handler_Type 151e73 152r35 79|102r19
+151n26 Object{151E9} 154r15 79|96r15 112r15 218r41
+151n34 Object_Return{151E9} 156r15 79|96r24 122r15 237r41
+151n49 Builder{151E9} 158r15 79|106r15 132r15 256r56
+151n58 Builder_Return{151E9} 160r15 79|106r25 142r15 275r41
+152R9 Universal_Marshaller 152d31 163e14 165r47 79|64r22 86r22 218r19 237r19
+. 256r19 275r19 304r10
+152e31*T{151E9} 153r12 79|95r20 102r47 111r20
+155p13*The_Object_Handler{133P9} 79|118r30 219m12
+157p13*The_Object_Return_Handler{136P9} 79|128r30 238m12
+159p13*The_Builder_Handler{108P9} 79|138r30 257m12
+161p13*The_Builder_Return_Handler{111P9} 79|148r30 276m12
+165P9 Universal_Marshaller_Access(152R9) 169r26 79|175r24 216r14 235r14 254r14
+. 273r14 301r11 304r32
+167K12 Handlers_Map[10|48] 177r18 79|44r8
+177r7 Handlers{10|52R9[167]} 79|184r26 221m18 240m18 259m18 278m18 309r27
+X 79 gtkada-builder.adb
+46K12 Builder_Callback[67|834] 133r13 136r31 137r19
+48K12 Builder_Return_Callback[67|209] 143r13 146r31 147r19
+51U14 Wrapper_Callback 52>7 53>7 54>7 55>7 56>7 57>7 58>7 59r26 159b14 205l8
+. 205t24 291r10
+52m7 C_Builder{94|64M9} 160b7 173r34
+53m7 C_Object{94|64M9} 161b7 169r50
+54p7 C_Signal_Name{85|47P9} 162b7 170r47
+55p7 C_Handler_Name{85|47P9} 163b7 178r49
+56m7 C_Connect_Object{94|64M9} 164b7 203r43
+57m7 Flags{45|221M9} 165b7 171r42
+58m7 User_Data{94|64M9} 166b7 168r28
+62U14 Connect 63>7 64>7 65>7 66>7 67>7 68>7 69>7 84b14 153l8 153t15 197s10
+63a7 Handler_Name{string} 85b7 99r56 197r19
+64r7 Handler{78|152R9} 86b7 95r12 102r39 111r12 118r22 128r22 138r22 148r22
+. 198r19
+65p7 Base_Object{53|46P9} 87b7 114r31 124r31 134r31 144r31 199r19
+66a7 Signal{45|214A9} 88b7 115r31 125r31 135r31 145r31 200r19
+67b7 After{boolean} 89b7 120r31 130r31 140r31 150r31 201r19
+68p7 The_Builder{78|91P9} 90b7 139r31 149r31 202r19
+69p7 Slot_Object{53|46P9} 91b7 97r16 119r31 129r31 203r19
+72U14 Free 72^20 299b14 320l8 320t12 347s7
+72p20 Builder(78|89R9) 299b20 309r19
+75U14 On_Destroy 76>7 77>7 78r26 336b14 348l8 348t18 357r26
+76m7 Data{94|64M9} 337b7 340r28
+77m7 Builder_Addr{94|64M9} 338b7 344r25
+169p7 Object{53|46P9} 199r34
+170a7 Signal_Name{string} 200r52
+171b7 After{boolean} 201r34
+172p7 Builder{78|91P9} 184r18 202r34
+175p7 The_Marshaller{78|165P9} 193m7 198r34
+178a7 Handler_Name{string} 184r57 189r15 197r35
+180r7 C{10|61R9[78|167]} 184m7 186r10 193r34
+216p7 Item{78|165P9} 218m7 219r7 223r22
+235p7 Item{78|165P9} 237m7 238r7 242r22
+254p7 Item{78|165P9} 256m7 257r7 261r22
+273p7 Item{78|165P9} 275m7 276r7 280r22
+300r7 C{10|61R9[78|167]} 309m7 311r26 312r24 314m16 314r16
+301p7 E{78|165P9} 312m10 313m26 313r26
+303U17 Unchecked_Free[25|20] 313s10
+318r12 E{13|62R9} 319r70
+342r7 Stub{78|89R9} 344r39
+343p7 Builder{78|91P9} 347r13
+X 81 gtkada-handlers.ads
+45K16*Handlers 79|40w13 40r34 81|60e20
+54K12*Object_Callback[67|834] 79|113r13 116r31 117r19
+57K12*Object_Return_Callback[67|209] 79|123r13 126r31 127r19
+X 83 interfac.ads
+38K9*Interfaces 79|29r6 29r32 54r26 55r26 162r26 163r26 83|179e15
+X 84 i-c.ads
+18K20*C 79|29r17 29r43 54r37 55r37 162r37 163r37 84|230e17
+60M9*size_t
+X 85 i-cstrin.ads
+36K22*Strings 79|29w19 29r45 54r39 55r39 162r39 163r39 85|106e25
+47P9*chars_ptr 79|54r47 55r47 162r47 163r47
+74V13*Value{string} 79|170s40 178s42
+X 94 system.ads
+37K9*System 79|30w6 30r32 31r6 31r32 52r26 53r26 56r26 58r26 76r22 77r22
+. 160r26 161r26 164r26 166r26 337r22 338r22 94|152e11
+64M9*Address 79|52r33 53r33 56r33 58r33 76r29 77r29 160r33 161r33 164r33
+. 166r33 337r29 338r29
+X 95 s-assert.ads
+41K16*Assertions 79|31w13 31r39 95|50e22
+46U14*Raise_Assert_Failure 79|98s16 187s10
+X 104 s-memory.ads
+53V13*Alloc{94|64M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{94|64M9} 105i<c,__gnat_realloc>22
+

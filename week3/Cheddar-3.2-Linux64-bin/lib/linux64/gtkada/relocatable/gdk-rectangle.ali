@@ -1,0 +1,98 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P ZX
+
+RN
+RV NO_STANDARD_STORAGE_POOLS
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV SPARK_05
+
+U gdk.rectangle%b	gdk-rectangle.adb	9c4079a8 NE OO PK
+W gdk%s			gdk.ads			gdk.ali
+W system%s		system.ads		system.ali
+
+U gdk.rectangle%s	gdk-rectangle.ads	3ace198e EE NE OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W cairo%s		cairo.adb		cairo.ali
+W cairo.region%s	cairo-region.adb	cairo-region.ali
+W gdk%s			gdk.ads			gdk.ali
+W glib%s		glib.adb		glib.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D cairo.ads		20141212124939 8dc0603a cairo%s
+D cairo-region.ads	20141212124939 b7133728 cairo.region%s
+D gdk.ads		20141212124940 f909352d gdk%s
+D gdk-rectangle.ads	20141212124939 7b900608 gdk.rectangle%s
+D gdk-rectangle.adb	20141212124939 77f4eeb1 gdk.rectangle%b
+D glib.ads		20141212124939 0f441d83 glib%s
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D i-cstrin.ads		20140406181357 341d0ddf interfaces.c.strings%s
+D system.ads		20140406181354 90249111 system%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 8 cairo.ads
+78K9*Cairo 2813e10 11|32r6 32r24
+X 9 cairo-region.ads
+40K15*Region 232e17 11|32w12 32r30
+55R9*Cairo_Rectangle_Int 57e14 11|36r29
+X 10 gdk.ads
+40K9*Gdk 66e8 11|34r9 66r5 12|32r14 56r5
+X 11 gdk-rectangle.ads
+34K13*Rectangle 10|40k9 11|61E4 66l9 66e18 12|32b18 56l9 56t18
+36R12*Gdk_Rectangle{9|55R9} 38r44 41r60 44r25 49r19 50r19 51r23 55r14 56r14
+. 57r18 61r25 12|39r19 40r19 41r23 45r23 49r26
+38P9*Gdk_Rectangle_Access(36R12) 39r26
+41A9*Gdk_Rectangle_Array(36R12)<integer>
+44r4*Full_Area{36R12} 61c4
+48U14*Intersect 49>7 50>7 51<7 52<7 12|38b14 54l8 54t17
+49r7 Src1{36R12} 12|39b7 52r30
+50r7 Src2{36R12} 12|40b7 52r36
+51r7 Dest{36R12} 12|41b7 53m7
+52b7 Intersect{boolean} 12|42b7 52m7
+54U14*Union 55>7 56>7 57<7 64b<c,gdk_rectangle_union>22
+55r7 Src1{36R12}
+56r7 Src2{36R12}
+57r7 Dest{36R12}
+X 12 gdk-rectangle.adb
+44V16*Internal{13|56I9} 45>10 45>16 46>10 47b<c,gdk_rectangle_intersect>25
+. 52s20
+45r10 Src1{11|36R12}
+45r16 Src2{11|36R12}
+46m10 Dest{17|64M9}
+49r7 Dest_Rec{11|36R12} 52m42 52r42 53r15
+X 13 glib.ads
+43K9*Glib 11|31w6 31r16 13|408e9
+56I9*Gint<15|35I9> 11|62r7 62r19 62r31 62r42 12|46r46
+X 15 i-c.ads
+35I9*int<integer>
+X 17 system.ads
+37K9*System 12|30w6 46r23 17|152e11
+64M9*Address 12|46r30
+

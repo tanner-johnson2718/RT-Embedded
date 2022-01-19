@@ -1,0 +1,628 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_IMPLICIT_HEAP_ALLOCATIONS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U gtk.box%b		gtk-box.adb		ac830e6e OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W glib%s		glib.adb		glib.ali
+W glib.type_conversion_hooks%s  glib-type_conversion_hooks.adb  glib-type_conversion_hooks.ali  AD
+W gtk%s			gtk.ads			gtk.ali
+W system%s		system.ads		system.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+U gtk.box%s		gtk-box.ads		3eadf058 EE OO PF PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W glib%s		glib.adb		glib.ali
+W glib.properties%s	glib-properties.adb	glib-properties.ali
+W glib.types%s		glib-types.adb		glib-types.ali  AD
+W gtk%s			gtk.ads			gtk.ali
+W gtk.buildable%s	gtk-buildable.adb	gtk-buildable.ali
+W gtk.container%s	gtk-container.adb	gtk-container.ali
+W gtk.enums%s		gtk-enums.adb		gtk-enums.ali
+W gtk.orientable%s	gtk-orientable.adb	gtk-orientable.ali
+W gtk.widget%s		gtk-widget.adb		gtk-widget.ali
+W system%s		system.ads		system.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D cairo.ads		20141212124939 8dc0603a cairo%s
+D cairo-region.ads	20141212124939 b7133728 cairo.region%s
+D gdk.ads		20141212124940 f909352d gdk%s
+D gdk-bitmap.ads	20141212124940 a30f71c4 gdk.bitmap%s
+D gdk-color.ads		20141212124939 8aa593ee gdk.color%s
+D gdk-cursor.ads	20141212124939 d92b2ac1 gdk.cursor%s
+D gdk-display.ads	20141212124940 f1fc98fd gdk.display%s
+D gdk-drawable.ads	20141212124940 15e54888 gdk.drawable%s
+D gdk-event.ads		20141212124940 8e0f7bb6 gdk.event%s
+D gdk-font.ads		20141212124940 46e43fa8 gdk.font%s
+D gdk-gc.ads		20141212124939 a96f1ba5 gdk.gc%s
+D gdk-pixbuf.ads	20141212124940 8572dcfc gdk.pixbuf%s
+D gdk-pixmap.ads	20141212124939 677b62c0 gdk.pixmap%s
+D gdk-rectangle.ads	20141212124939 7b900608 gdk.rectangle%s
+D gdk-region.ads	20141212124939 ff429b15 gdk.region%s
+D gdk-rgb.ads		20141212124939 724abbe3 gdk.rgb%s
+D gdk-types.ads		20141212124940 b1082506 gdk.types%s
+D gdk-visual.ads	20141212124939 615e934c gdk.visual%s
+D gdk-window.ads	20141212124940 a02582f1 gdk.window%s
+D glib.ads		20141212124939 0f441d83 glib%s
+D glib.adb		20141212124939 b4331f78 glib%b
+D glib-error.ads	20141212124939 e055fabe glib.error%s
+D glib-generic_properties.ads  20141212124939 a1807006 glib.generic_properties%s
+D glib-generic_properties.adb  20141212124939 b44dec2c glib.generic_properties%b
+D glib-glist.ads	20141212124940 65a6e1be glib.glist%s
+D glib-glist.adb	20141212124940 48a94e23 glib.glist%b
+D glib-gslist.ads	20141212124940 8fe7d6f1 glib.gslist%s
+D glib-gslist.adb	20141212124940 b4c9a81c glib.gslist%b
+D glib-object.ads	20141212124940 948e384a glib.object%s
+D glib-object.adb	20141212124939 425ed48d glib.object%b
+D glib-properties.ads	20141212124940 48c8d9fb glib.properties%s
+D glib-type_conversion_hooks.ads  20141212124939 df9131bc glib.type_conversion_hooks%s
+D glib-type_conversion_hooks.adb  20141212124939 e61e501b glib.type_conversion_hooks%b
+D glib-types.ads	20141212124939 497ce66f glib.types%s
+D glib-types.adb	20141212124939 4a57f799 glib.types%b
+D glib-values.ads	20141212124939 37b4897e glib.values%s
+D gnat.ads		20140406181359 fd2ad2f1 gnat%s
+D g-string.ads		20140406181356 c6abc540 gnat.strings%s
+D gtk.ads		20141212124940 81513fe2 gtk%s
+D gtk-accel_group.ads	20141212124940 db8139a9 gtk.accel_group%s
+D gtk-adjustment.ads	20141212124940 6a3f2d37 gtk.adjustment%s
+D gtk-box.ads		20141212124940 8af5c57e gtk.box%s
+D gtk-box.adb		20141212124940 f9e7faac gtk.box%b
+D gtk-buildable.ads	20141212124940 0156d377 gtk.buildable%s
+D gtk-builder.ads	20141212124940 f4ad2f95 gtk.builder%s
+D gtk-container.ads	20141212124939 93cfa083 gtk.container%s
+D gtk-enums.ads		20141212124940 31c39095 gtk.enums%s
+D gtk-object.ads	20141212124940 2b4b2b20 gtk.object%s
+D gtk-orientable.ads	20141212124940 de28974f gtk.orientable%s
+D gtk-style.ads		20141212124939 f697ed25 gtk.style%s
+D gtk-widget.ads	20141212124939 468b5cfd gtk.widget%s
+D gtkada.ads		20141212124939 57aea1c7 gtkada%s
+D gtkada-bindings.ads	20141212124940 516dc70c gtkada.bindings%s
+D gtkada-c.ads		20141212124940 0f5973e3 gtkada.c%s
+D gtkada-types.ads	20141212124940 b7bc0c77 gtkada.types%s
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D i-cstrin.ads		20140406181357 341d0ddf interfaces.c.strings%s
+D pango.ads		20141212124939 d3c8e76d pango%s
+D pango-attributes.ads	20141212124939 34135516 pango.attributes%s
+D pango-context.ads	20141212124940 a00383e5 pango.context%s
+D pango-enums.ads	20141212124940 8ef2dddf pango.enums%s
+D pango-font.ads	20141212124940 375007f3 pango.font%s
+D pango-layout.ads	20141212124939 0814381c pango.layout%s
+D pango-tabs.ads	20141212124940 1dd550ef pango.tabs%s
+D system.ads		20140406181354 90249111 system%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-memory.ads		20140406181359 597d6634 system.memory%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-secsta.ads		20140406181359 86a2856d system.secondary_stack%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20140406181358 aedef97e system.stream_attributes%s
+D s-string.ads		20140406181358 8fe54fb7 system.strings%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D s-unstyp.ads		20140406181356 510692af system.unsigned_types%s
+D unchconv.ads		20140406181355 ca2f9e18 unchecked_conversion%s
+D unchdeal.ads		20140406181359 214516a4 unchecked_deallocation%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 10 gdk.ads
+47P9*Gdk_Drawable<27|155P9>
+48P12*Gdk_Window{47P9}
+49P12*Gdk_Pixmap{47P9}
+54P9*Gdk_Colormap<27|155P9>
+56P9*Gdk_Visual<27|155P9>
+62P9*Gdk_Region<27|155P9>
+X 12 gdk-color.ads
+75P12*Gdk_Colormap{10|54P9}
+X 16 gdk-event.ads
+139M9*Gdk_Event_Mask
+X 19 gdk-pixbuf.ads
+67P9*Gdk_Pixbuf(65R9)
+X 20 gdk-pixmap.ads
+51P12*Gdk_Pixmap{10|49P12}
+X 22 gdk-region.ads
+39P12*Gdk_Region{10|62P9}
+X 25 gdk-visual.ads
+42P12*Gdk_Visual{10|56P9}
+83V13*Convert[92|20]{73|64M9} 32|63i21
+84V13*Convert[92|20]{10|56P9} 32|64i21
+X 26 gdk-window.ads
+71P12*Gdk_Window{10|48P12}
+537V13*Convert[92|20]{73|64M9} 32|63i21
+538V13*Convert[92|20]{10|47P9} 32|64i21
+X 27 glib.ads
+43K9*Glib 408e9 49|60w6 60r27 61r6 61r27 62r6 62r27 84r29 100r34 116r34 271r40
+. 282r41 311r36 312r32 315r36 316r6 317r32 318r6 50|32r6 32r38 36r35
+56I9*Gint<64|35I9> 49|90r22 94r22 106r22 110r22 132r62 133r66 233r19 248r14
+. 50|47r22 61r22 75r22 79r25 92r22 96r25 108r14 112r17 134r62 135r55 250r19
+. 255r22 303r66 304r59
+62M9*Guint<64|43M9> 49|143r18 179r18 213r24 220r20 50|150r18 157r21 186r18
+. 193r21 222r24 230r27 270r20 278r23
+75M9*Guint32
+78M9*Gsize<64|60M9>
+82A12*UTF8_String{string}<integer>
+101I12*Allocation_Int{56I9}
+155P9*C_Proxy(152R9)
+238A9*Property<string>
+240V13*Build{238A9} 49|316s22 318s22
+269M9*GType<78M9> 49|84r34 100r39 116r39
+X 30 glib-generic_properties.ads
+73A12*Property<27|238A9>
+X 32 glib-glist.ads
+70R12*Glist
+X 36 glib-object.ads
+46P9*GObject(45R9) 50|160r58 174r55 196r58 210r55 237r55 258r55 282r55
+83U14*Ref
+89U14*Unref
+117U14*Deallocate
+130U14*Ref_Sink
+146V13*Get_Object{73|64M9} 50|116s62 127s37 138s24 160s17 174s17 196s17 210s17
+. 237s17 258s17 282s17 296s17 307s17 320s55 334s17
+150V13*Get_Object_Or_Null{73|64M9} 50|160s38 174s35 196s38 210s35 237s35
+. 258s35 282s35
+153U14*Set_Object 50|82s7 99s7
+158V13*Get_User_Data{46P9} 50|116s37
+329U14*Notify
+421V13*Convert{73|64M9} 32|63i21 34|55i21
+422V13*Convert{46P9} 32|64i21 34|56i21
+X 38 glib-properties.ads
+79K14*Properties 243e20 49|61w11 61r32 311r41 312r37 315r41 316r11 317r37
+. 318r11
+111A9*Property_Int<30|73A12[90]> 49|312r48 317r48
+123A9*Property_Boolean<27|238A9> 49|311r52 315r52
+X 39 glib-type_conversion_hooks.ads
+51K14*Type_Conversion_Hooks 105e31 50|32w11 32r43 36r40
+88k12*Hook_Registrator 103e24 50|36r62
+X 41 glib-types.ads
+48K14*Types 148e15 49|62w11 62r32 271r45 282r46
+95M9*GType_Interface<73|64M9>
+102k12*Implements 109e18 49|271r51 282r52
+103V16*To_Object{49|72P9} 49|280r33[271] 291r34[282]
+104V16*To_Interface{51|52M9} 49|276r33[271] 287r34[282]
+X 46 gtk.ads
+47K9*Gtk 83e8 49|63r6 63r27 64r6 64r27 65r6 65r27 66r6 66r27 67r6 67r27 69r9
+. 140r25 163r24 176r25 197r24 210r27 214r24 217r27 221r20 232r26 248r27 257r45
+. 260r22 272r7 275r11 278r16 283r7 286r11 289r16 319r5 50|34r14 51r7 65r7
+. 108r27 114r14 116r14 147r25 169r24 183r25 205r24 219r27 223r24 240r20 249r26
+. 267r27 271r20 282r124 315r45 320r14 329r22 334r36 337r5
+67M12*Gtk_Type{27|269M9}
+X 48 gtk-adjustment.ads
+57P9*Gtk_Adjustment(56R9)
+X 49 gtk-box.ads
+69K13*Box 46|47k9 49|315E4 319l9 319e12 50|34b18 51r11 65r11 337l9 337t12
+71R9*Gtk_Box_Record<53|50R9> 36|83p14 89p14 117p14 130p14 329p14 49|71e68
+. 72r31 74r31 77r31 123p13 123r43 124p14 125r29 132p13 132r39 133p14 133r40
+. 138p14 139r25 161p14 162r24 174p14 175r25 195p14 196r24 208p14 209r27 215p14
+. 216r27 230p14 231r26 246p13 247r21 256p13 257r22 258p14 259r29 272r36 274r23
+. 283r38 285r23 50|37r24 107r21 123r43 134r39 146r25 168r24 182r25 204r24
+. 218r27 248r26 266r27 290r29 303r40 315r22 328r29 53|56p14 59p13 64p14 72p14
+. 85p14 88p13 94p13 100p14 122p14 131p14 142p14 145p14 148p13 157p14 160p13
+. 169p14 172p13 181p14 186p14 229p14 242p14 275p14 282p13 288p14 298p14 55|108p14
+. 134P13 172p13 175p14 179p14 184p13 248p14 58|147p14 153p14 158p14 167p14
+. 171p14 179p14 181p13 188p14 196p14 204p14 212p14 239p14 241p13 270p13 280p14
+. 287p14 296p14 303p14 307p13 314p13 326p14 331p14 334p14 364p14 372p13 379p13
+. 383p13 387p13 390p13 393p14 413p14 426p14 433p13 444p14 454p13 466p14 475p14
+. 482p13 502p14 515p14 521p14 529p13 566p14 569p13 577p14 582p14 585p13 604p14
+. 613p13 652p14 655p13 663p13 686p13 699p14 702p13 710p14 715p14 720p14 723p13
+. 736p14 743p14 753p14 768p14 777p14 788p14 790p13 805p14 818p14 825p13 829p13
+. 830p13 844p13 845p13 850p13 856p14 859p13 864p14 867p13 873p13 895p13 901p14
+. 925p13 935p14 937p13 965p14 975p13 982p13 995p14 1000p14 1003p13 1009p14
+. 1017p14 1022p14 1027p14 1033p14 1036p13 1044p14 1055p14 1064p14 1067p13
+. 1081p13 1118p13 1120p14 1129p13 1131p14 1143p14 1154p13 1162p13 1163p14
+. 1169p14 1418p14 1426p14 1434p14 1446p14 1452p14 1633p14 1644p14 1648p14
+. 1673p14
+72P9*Gtk_Box(71R9) 75r24 78r24 272r52 279r11 283r54 290r11
+74R12*Gtk_Hbox_Record{71R9} 92r29 50|50r18 73r29
+75P12*Gtk_Hbox{72P9} 88r26 50|45r26
+77R12*Gtk_Vbox_Record{71R9} 108r29 50|64r18 90r29
+78P12*Gtk_Vbox{72P9} 104r26 50|59r26
+84V13*Get_Type{27|269M9} 85b<c,gtk_box_get_type>22 50|37r7
+87U14*Gtk_New_Hbox 88<8 89>8 90>8 50|44b14 52l8 52t20
+88p8 Box{75P12} 50|45b8 50m7 51r32
+89b8 Homogeneous{boolean} 50|46b8 51r37
+90i8 Spacing{27|56I9} 50|47b8 51r50
+91U14*Initialize_Hbox 92^8 93>8 94>8 50|51s15 72b14 83l8 83t23
+92p8 Box(71R9) 50|73b8 82r19
+93b8 Homogeneous{boolean} 50|74b8 82r47
+94i8 Spacing{27|56I9} 50|75b8 82r61
+100V13*Get_Hbox_Type{27|269M9} 101b<c,gtk_hbox_get_type>22
+103U14*Gtk_New_Vbox 104<8 105>8 106>8 50|58b14 66l8 66t20
+104p8 Box{78P12} 50|59b8 64m7 65r32
+105b8 Homogeneous{boolean} 50|60b8 65r37
+106i8 Spacing{27|56I9} 50|61b8 65r50
+107U14*Initialize_Vbox 108^8 109>8 110>8 50|65s15 89b14 100l8 100t23
+108p8 Box(71R9) 50|90b8 99r19
+109b8 Homogeneous{boolean} 50|91b8 99r47
+110i8 Spacing{27|56I9} 50|92b8 99r61
+116V13*Get_Vbox_Type{27|269M9} 117b<c,gtk_vbox_get_type>22
+123V13*Get_Homogeneous{boolean} 123^30 50|123b13 128l8 128t23
+123p30 Box(71R9) 50|123b30 127r49
+124U14*Set_Homogeneous 125^8 126>8 50|289b14 297l8 297t23
+125p8 Box(71R9) 50|290b8 296r29
+126b8 Homogeneous{boolean} 50|291b8 296r48
+132V13*Get_Spacing{27|56I9} 132^26 50|134b13 139l8 139t19
+132p26 Box(71R9) 50|134b26 138r36
+133U14*Set_Spacing 133^27 133>56 50|303b14 308l8 308t19
+133p27 Box(71R9) 50|303b27 307r29
+133i56 Spacing{27|56I9} 50|303b56 307r35
+138U14*Pack_End 139^8 140^8 141>8 142>8 143>8 50|145b14 161l8 161t16
+139p8 In_Box(71R9) 50|146b8 160r29
+140p8 Child(58|77R9) 50|147b8 160r67
+141b8 Expand{boolean} 50|148b8 160r89
+142b8 Fill{boolean} 50|149b8 160r111
+143m8 Padding{27|62M9} 50|150b8 160r118
+161U14*Pack_End_Defaults 162^8 163^8 164r24 50|167b14 175l8 175t25
+162p8 Box(71R9) 50|168b8 174r29
+163p8 Widget(58|77R9) 50|169b8 174r64
+174U14*Pack_Start 175^8 176^8 177>8 178>8 179>8 50|181b14 197l8 197t18
+175p8 In_Box(71R9) 50|182b8 196r29
+176p8 Child(58|77R9) 50|183b8 196r67
+177b8 Expand{boolean} 50|184b8 196r89
+178b8 Fill{boolean} 50|185b8 196r111
+179m8 Padding{27|62M9} 50|186b8 196r118
+195U14*Pack_Start_Defaults 196^8 197^8 198r24 50|203b14 211l8 211t27
+196p8 Box(71R9) 50|204b8 210r29
+197p8 Widget(58|77R9) 50|205b8 210r64
+208U14*Query_Child_Packing 209^8 210^8 211<8 212<8 213<8 214<8 50|217b14
+. 241l8 241t27
+209p8 Box(71R9) 50|218b8 237r29
+210p8 Child(58|77R9) 50|219b8 237r64
+211b8 Expand{boolean} 50|220b8 238m7
+212b8 Fill{boolean} 50|221b8 239m7
+213m8 Padding{27|62M9} 50|222b8 237m95
+214e8 Pack_Type{54|254E9} 50|223b8 240m7
+215U14*Set_Child_Packing 216^8 217^8 218>8 219>8 220>8 221>8 50|265b14 283l8
+. 283t25
+216p8 Box(71R9) 50|266b8 282r29
+217p8 Child(58|77R9) 50|267b8 282r64
+218b8 Expand{boolean} 50|268b8 282r86
+219b8 Fill{boolean} 50|269b8 282r108
+220m8 Padding{27|62M9} 50|270b8 282r115
+221e8 Pack_Type{54|254E9} 50|271b8 282r153
+230U14*Reorder_Child 231^8 232^8 233>8 50|247b14 259l8 259t21
+231p8 Box(71R9) 50|248b8 258r29
+232p8 Child(58|77R9) 50|249b8 258r64
+233i8 Position{27|56I9} 50|250b8 258r73
+246V13*Get_Child{58|78P9} 247^8 248>8 50|106b13 117l8 117t17
+247p8 Box(71R9) 50|107b8 116r74
+248i8 Num{27|56I9} 50|108b8 116r80
+256V13*Get_Orientation{54|225E9} 257^8 50|314b13 321l8 321t23
+257p8 Self(71R9) 50|315b8 320r67
+258U14*Set_Orientation 259^8 260>8 50|327b14 335l8 335t23
+259p8 Self(71R9) 50|328b8 334r29
+260e8 Orientation{54|225E9} 50|329b8 334r67
+271K12*Implements_Buildable[41|102] 276r12 280r12
+273V14*"+"=276:33{51|52M9}
+274p7 Widget(71R9)
+277V14*"-"=280:33{72P9}
+278m7 Interf{51|52M9}
+282K12*Implements_Orientable[41|102] 287r12 291r12
+284V14*"+"=287:34{56|47M9}
+285p7 Widget(71R9)
+288V14*"-"=291:34{72P9}
+289m7 Interf{56|47M9}
+311a4*Homogeneous_Property{38|123A9} 315c4
+312a4*Spacing_Property{38|111A9} 317c4
+X 50 gtk-box.adb
+36K12 Type_Conversion[39|88] 38r25
+77V16*Internal{73|64M9} 78>11 79>11 80b<c,gtk_hbox_new>25 82s24
+78i11 Homogeneous{integer}
+79i11 Spacing{27|56I9}
+94V16*Internal{73|64M9} 95>11 96>11 97b<c,gtk_vbox_new>25 99s24
+95i11 Homogeneous{integer}
+96i11 Spacing{27|56I9}
+110V16*Internal{73|64M9} 111>11 112>11 113b<c,ada_box_get_child>25 116s52
+111m11 Box{73|64M9}
+112i11 Num{27|56I9}
+114r7 Stub{58|77R9} 116r86
+124V16*Internal{integer} 124>26 125b<c,gtk_box_get_homogeneous>25 127s27
+124m26 Box{73|64M9}
+135V16*Internal{27|56I9} 135>26 136b<c,gtk_box_get_spacing>25 138s14
+135m26 Box{73|64M9}
+152U17*Internal 153>11 154>11 155>11 156>11 157>11 158b<c,gtk_box_pack_end>25
+. 160s7
+153m11 In_Box{73|64M9}
+154m11 Child{73|64M9}
+155i11 Expand{integer}
+156i11 Fill{integer}
+157m11 Padding{27|62M9}
+171U17*Internal 171>27 171>49 172b<c,gtk_box_pack_end_defaults>25 174s7
+171m27 Box{73|64M9}
+171m49 Widget{73|64M9}
+188U17*Internal 189>11 190>11 191>11 192>11 193>11 194b<c,gtk_box_pack_start>25
+. 196s7
+189m11 In_Box{73|64M9}
+190m11 Child{73|64M9}
+191i11 Expand{integer}
+192i11 Fill{integer}
+193m11 Padding{27|62M9}
+207U17*Internal 207>27 207>49 208b<c,gtk_box_pack_start_defaults>25 210s7
+207m27 Box{73|64M9}
+207m49 Widget{73|64M9}
+225U17*Internal 226>11 227>11 228<11 229<11 230<11 231<11 232b<c,gtk_box_query_child_packing>25
+. 237s7
+226m11 Box{73|64M9}
+227m11 Child{73|64M9}
+228i11 Expand{integer}
+229i11 Fill{integer}
+230m11 Padding{27|62M9}
+231i11 Pack_Type{integer}
+233i7 Tmp_Expand{integer} 237m73 238r30
+234i7 Tmp_Fill{integer} 237m85 239r28
+235i7 Tmp_Pack_Type{integer} 237m104 240r49
+252U17*Internal 253>11 254>11 255>11 256b<c,gtk_box_reorder_child>25 258s7
+253m11 Box{73|64M9}
+254m11 Child{73|64M9}
+255i11 Position{27|56I9}
+273U17*Internal 274>11 275>11 276>11 277>11 278>11 279>11 280b<c,gtk_box_set_child_packing>25
+. 282s7
+274m11 Box{73|64M9}
+275m11 Child{73|64M9}
+276i11 Expand{integer}
+277i11 Fill{integer}
+278m11 Padding{27|62M9}
+279i11 Pack_Type{integer}
+293U17*Internal 293>27 293>49 294b<c,gtk_box_set_homogeneous>25 296s7
+293m27 Box{73|64M9}
+293i49 Homogeneous{integer}
+304U17*Internal 304>27 304>49 305b<c,gtk_box_set_spacing>25 307s7
+304m27 Box{73|64M9}
+304i49 Spacing{27|56I9}
+317V16*Internal{integer} 317>26 318b<c,gtk_orientable_get_orientation>25
+. 320s45
+317m26 Self{73|64M9}
+331U17*Internal 331>27 331>50 332b<c,gtk_orientable_set_orientation>25 334s7
+331m27 Self{73|64M9}
+331i50 Orientation{integer}
+X 51 gtk-buildable.ads
+50K13*Buildable 49|63w10 63r31 272r11 275r15 278r20 51|154e18
+52M9*Gtk_Buildable<41|95M9> 49|272r21 275r25 278r30
+X 53 gtk-container.ads
+48K13*Container 49|64w10 64r31 53|415e18
+50R9*Gtk_Container_Record<58|77R9> 49|71r31 53|403e22
+56U14*Set_Border_Width
+59V13*Get_Border_Width{27|62M9}
+64U14*Add
+72U14*Remove
+85U14*Set_Resize_Mode
+88V13*Get_Resize_Mode{54|310E9}
+94V13*Get_Children{32|70R12[58|125]}
+100U14*Propagate_Expose
+122U14*Set_Focus_Chain
+131U14*Get_Focus_Chain
+142U14*Unset_Focus_Chain
+145U14*Set_Focus_Vadjustment
+148V13*Get_Focus_Vadjustment{48|57P9}
+157U14*Set_Focus_Hadjustment
+160V13*Get_Focus_Hadjustment{48|57P9}
+169U14*Set_Focus_Child
+172V13*Get_Focus_Child{58|78P9}
+181U14*Child_Set_Property
+186U14*Child_Get_Property
+229U14*Forall
+242U14*Foreach
+275U14*Set_Reallocate_Redraws
+282V13*Child_Type{46|67M12}
+288U14*Resize_Children
+298U14*Check_Resize
+310V13*Children=313:15{32|70R12[58|125]}
+X 54 gtk-enums.ads
+45K13*Enums 49|65w10 65r31 214r28 221r24 257r49 260r26 50|223r28 240r24 271r24
+. 282r128 315r49 320r18 329r26 334r40 54|649e14
+225E9*Gtk_Orientation 49|257r55 260r32 50|315r55 320r24 329r32 334r46 54|225e74
+254E9*Gtk_Pack_Type 49|214r34 221r30 50|223r34 240r30 271r30 282r134 54|254e48
+448V13*Convert{73|64M9} 32|63i21 34|55i21
+449V13*Convert{string} 32|64i21 34|56i21
+X 55 gtk-object.ads
+106P9*Gtk_Object(105R9)
+108U14*Destroy
+134V13*Get_Type{46|67M12}<36|59p13>
+143V13*Convert{73|64M9} 34|55i21
+144V13*Convert{106P9} 34|56i21
+172V13*Flags{27|75M9}
+175U14*Set_Flags
+179U14*Unset_Flags
+184V13*Flag_Is_Set{boolean}
+248U14*Sink
+X 56 gtk-orientable.ads
+45K13*Orientable 49|66w10 66r31 283r11 286r15 289r20 56|85e19
+47M9*Gtk_Orientable<41|95M9> 49|283r22 286r26 289r31
+X 57 gtk-style.ads
+68P9*Gtk_Style(67R9)
+X 58 gtk-widget.ads
+76K13*Widget 49|67w10 67r31 140r29 163r28 176r29 197r28 210r31 217r31 232r30
+. 248r31 50|108r31 114r18 116r18 147r29 169r28 183r29 205r28 219r31 249r30
+. 267r31 58|2435e15
+77R9*Gtk_Widget_Record<55|105R9> 49|140r36 163r35 176r36 197r35 210r38 217r38
+. 232r37 50|114r25 147r36 169r35 183r36 205r35 219r38 249r37 267r38 58|2310e75
+78P9*Gtk_Widget(77R9) 49|248r38 50|108r38 116r25
+121V13*Convert{73|64M9} 32|63i21 34|55i21
+122V13*Convert{78P9} 32|64i21 34|56i21
+147U14*Show
+153U14*Show_Now
+158U14*Hide
+167U14*Show_All
+171U14*Hide_All
+179U14*Set_No_Show_All
+181V13*Get_No_Show_All{boolean}
+188U14*Map
+196U14*Unmap
+204U14*Realize
+212U14*Unrealize
+239U14*Set_Child_Visible
+241V13*Get_Child_Visible{boolean}
+270V13*Has_Screen{boolean}
+280U14*Queue_Draw
+287U14*Queue_Draw_Area
+296U14*Queue_Resize
+303U14*Queue_Resize_No_Redraw
+307V13*Create_Pango_Context{68|38P9}
+314V13*Create_Pango_Layout{71|72P9}
+326U14*Size_Request
+331U14*Set_Size_Request
+334U14*Get_Size_Request
+364U14*Size_Allocate
+372V13*Get_Child_Requisition{80R9}
+379V13*Get_Allocation_Width{27|101I12}
+383V13*Get_Allocation_Height{27|101I12}
+387V13*Get_Allocation_X{27|56I9}
+390V13*Get_Allocation_Y{27|56I9}
+393U14*Set_Redraw_On_Allocate
+413U14*Add_Accelerator
+426U14*Remove_Accelerator
+433V13*Can_Activate_Accel{boolean}
+444U14*Set_Accel_Path
+454V13*List_Mnemonic_Labels{32|70R12[125]}
+466U14*Add_Mnemonic_Label
+475U14*Remove_Mnemonic_Label
+482V13*Mnemonic_Activate{boolean}
+502U14*Send_Expose
+515U14*Activate
+521U14*Grab_Focus
+529V13*Is_Focus{boolean}
+566U14*Set_Events
+569V13*Get_Events{16|139M9}
+577U14*Add_Events
+582U14*Set_Extension_Events
+585V13*Get_Extension_Events{24|89E9}
+604U14*Error_Bell
+613V13*Keynav_Failed{boolean}
+652U14*Set_Colormap
+655V13*Get_Colormap{12|75P12}
+663V13*Get_Visual{25|42P12}
+686V13*Is_Composited{boolean}
+699U14*Set_Style
+702V13*Get_Style{57|68P9}
+710U14*Ensure_Style
+715U14*Restore_Default_Style
+720U14*Reset_Rc_Styles
+723V13*Get_Pango_Context{68|38P9}
+736U14*Modify_Fg
+743U14*Modify_Bg
+753U14*Modify_Text
+768U14*Modify_Base
+777U14*Modify_Font
+788U14*Set_Direction
+790V13*Get_Direction{54|162E9}
+805U14*Modify_Cursor
+818U14*Set_Name
+825V13*Get_Name{27|82A12}
+829V13*Path{string}
+830V13*Path_Reversed{string}
+844V13*Class_Path{string}
+845V13*Class_Path_Reversed{string}
+850V13*Get_Ancestor{78P9}
+856U14*Set_Parent
+859V13*Get_Parent{78P9}
+864U14*Set_Parent_Window
+867V13*Get_Parent_Window{26|71P12}
+873V13*Get_Toplevel{78P9}
+895V13*Is_Ancestor{boolean}
+901U14*Reparent
+925V13*Get_Root_Window{26|71P12}
+935U14*Set_Composite_Name
+937V13*Get_Composite_Name{string}
+965U14*Set_Scroll_Adjustments
+975V13*Intersect{boolean}
+982V13*Region_Intersect{22|39P12}
+995U14*Grab_Default
+1000U14*Set_State
+1003V13*Get_State{54|362E9}
+1009U14*Set_Sensitive
+1017U14*Set_App_Paintable
+1022U14*Set_Double_Buffered
+1027U14*Get_Pointer
+1033U14*Set_Window
+1036V13*Get_Window{26|71P12}
+1044U14*Shape_Combine_Mask
+1055U14*Input_Shape_Combine_Mask
+1064U14*Reset_Shapes
+1067V13*Render_Icon{19|67P9}
+1081V13*Get_Snapshot{20|51P12}
+1118V13*Get_Tooltip_Text{27|82A12}
+1120U14*Set_Tooltip_Text
+1129V13*Get_Tooltip_Markup{27|82A12}
+1131U14*Set_Tooltip_Markup
+1143U14*Set_Tooltip_Window
+1154V13*Get_Tooltip_Window{78P9}
+1162V13*Get_Has_Tooltip{boolean}
+1163U14*Set_Has_Tooltip
+1169U14*Trigger_Tooltip_Query
+1418U14*Draw
+1426U14*Set_UPosition
+1434U14*Set_USize
+1446U14*Queue_Clear
+1452U14*Queue_Clear_Area
+1633U14*Child_Notify
+1644U14*Freeze_Child_Notify
+1648U14*Thaw_Child_Notify
+1673U14*Style_Get_Property
+X 64 i-c.ads
+35I9*int<integer>
+43M9*unsigned
+60M9*size_t
+X 68 pango-context.ads
+38P9*Pango_Context(37R9)
+X 71 pango-layout.ads
+72P9*Pango_Layout(71R9)
+X 73 system.ads
+37K9*System 50|79r38 96r38 111r17 112r30 124r32 135r32 153r21 154r21 171r33
+. 171r58 189r21 190r21 207r33 207r58 226r23 227r23 253r22 254r22 274r23 275r23
+. 293r33 304r33 317r33 331r34 73|152e11
+64M9*Address 50|79r45 96r45 111r24 112r37 124r39 135r39 153r28 154r28 171r40
+. 171r65 189r28 190r28 207r40 207r65 226r30 227r30 253r29 254r29 274r30 275r30
+. 293r40 304r40 317r40 331r41
+X 77 s-memory.ads
+53V13*Alloc{73|64M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{73|64M9} 105i<c,__gnat_realloc>22
+

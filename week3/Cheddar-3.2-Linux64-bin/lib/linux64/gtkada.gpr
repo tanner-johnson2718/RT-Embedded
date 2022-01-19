@@ -1,0 +1,76 @@
+project GtkAda is
+
+   type Gtkada_Kind_Type is ("static", "relocatable");
+   Gtkada_Kind : Gtkada_Kind_Type := external ("LIBRARY_TYPE", "static");
+
+   for Source_Dirs use ("../../required_packages/GtkAda/include/gtkada/");
+   for Library_Kind use Gtkada_Kind;
+
+   case Gtkada_Kind is
+      when "static" =>
+         for Library_Name use "gtkada";
+      when "relocatable" =>
+         for Library_Name use "gtkada";
+   end case;
+
+   for Library_Dir use "../linux64/gtkada/" & Project'Library_Kind;
+
+   case Gtkada_Kind is
+      when "static" =>
+         for Library_Options use (
+        "-L.",
+        "-pthread",
+        "-lgtk-x11-2.0",
+        "-lgdk-x11-2.0",
+        "-latk-1.0",
+        "-lgio-2.0",
+        "-lpangoft2-1.0",
+        "-lpangocairo-1.0",
+        "-lgdk_pixbuf-2.0",
+        "-ljpeg",
+        "-lm",
+        "-lcairo",
+        "-lpng12",
+        "-lpango-1.0",
+        "-lfreetype",
+        "-lfontconfig",
+        "-lgobject-2.0",
+        "-lgmodule-2.0",
+        "-lgthread-2.0",
+        "-lrt",
+        "-lglib-2.0",
+	"-lX11"
+          );
+      when "relocatable" =>
+          for Library_Options use (
+        "-L.",
+        "-pthread",
+        "-lgtk-x11-2.0",
+        "-lgdk-x11-2.0",
+        "-latk-1.0",
+        "-lgio-2.0",
+        "-lpangoft2-1.0",
+        "-lpangocairo-1.0",
+        "-lgdk_pixbuf-2.0",
+        "-ljpeg",
+        "-lm",
+        "-lcairo",
+        "-lpng12",
+        "-lpango-1.0",
+        "-lfreetype",
+        "-lfontconfig",
+        "-lgobject-2.0",
+        "-lgmodule-2.0",
+        "-lgthread-2.0",
+        "-lrt",
+        "-lglib-2.0",
+	"-lX11"
+          );
+   end case;
+
+   for Externally_Built use "true";
+
+   package Linker is
+     for Linker_Options use Project'Library_Options;
+   end Linker;
+end GtkAda;

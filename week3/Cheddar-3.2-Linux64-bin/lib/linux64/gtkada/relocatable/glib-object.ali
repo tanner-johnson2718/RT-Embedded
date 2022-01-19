@@ -1,0 +1,521 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P SS ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_ALLOCATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_IMPLICIT_LOOPS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_CONVERSION
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV NO_ELABORATION_CODE
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U glib.object%b		glib-object.adb		3fbee080 OO PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W glib%s		glib.adb		glib.ali
+W glib.type_conversion_hooks%s  glib-type_conversion_hooks.adb  glib-type_conversion_hooks.ali
+W gtkada%s		gtkada.ads		gtkada.ali
+W gtkada.bindings%s	gtkada-bindings.adb	gtkada-bindings.ali
+W gtkada.c%s		gtkada-c.adb		gtkada-c.ali  AD
+W gtkada.types%s	gtkada-types.adb	gtkada-types.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+W system%s		system.ads		system.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+W unchecked_conversion%s
+W unchecked_deallocation%s
+
+U glib.object%s		glib-object.ads		c6371ef1 BN EE OO PF PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W glib%s		glib.adb		glib.ali
+W glib.glist%s		glib-glist.adb		glib-glist.ali  EA
+W glib.gslist%s		glib-gslist.adb		glib-gslist.ali  EA
+W gtkada%s		gtkada.ads		gtkada.ali
+W gtkada.types%s	gtkada-types.adb	gtkada-types.ali
+W system%s		system.ads		system.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-ioexce.ads		20140406181358 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D glib.ads		20141212124939 0f441d83 glib%s
+D glib-glist.ads	20141212124940 65a6e1be glib.glist%s
+D glib-glist.adb	20141212124940 48a94e23 glib.glist%b
+D glib-gslist.ads	20141212124940 8fe7d6f1 glib.gslist%s
+D glib-gslist.adb	20141212124940 b4c9a81c glib.gslist%b
+D glib-object.ads	20141212124940 948e384a glib.object%s
+D glib-object.adb	20141212124939 425ed48d glib.object%b
+D glib-type_conversion_hooks.ads  20141212124939 df9131bc glib.type_conversion_hooks%s
+D gnat.ads		20140406181359 fd2ad2f1 gnat%s
+D g-string.ads		20140406181356 c6abc540 gnat.strings%s
+D gtkada.ads		20141212124939 57aea1c7 gtkada%s
+D gtkada-bindings.ads	20141212124940 516dc70c gtkada.bindings%s
+D gtkada-c.ads		20141212124940 0f5973e3 gtkada.c%s
+D gtkada-c.adb		20141212124940 1f538db0 gtkada.c%b
+D gtkada-types.ads	20141212124940 b7bc0c77 gtkada.types%s
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D i-cstrin.ads		20140406181357 341d0ddf interfaces.c.strings%s
+D system.ads		20140406181354 90249111 system%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-memory.ads		20140406181359 597d6634 system.memory%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-secsta.ads		20140406181359 86a2856d system.secondary_stack%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20140406181358 aedef97e system.stream_attributes%s
+D s-stratt.adb		20140406181359 56ef263e system.stream_attributes%b
+D s-string.ads		20140406181358 8fe54fb7 system.strings%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D s-unstyp.ads		20140406181356 510692af system.unsigned_types%s
+D unchconv.ads		20140406181355 ca2f9e18 unchecked_conversion%s
+D unchdeal.ads		20140406181359 214516a4 unchecked_deallocation%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 1 ada.ads
+16K9*Ada 19e8 15|53r30
+X 7 a-unccon.ads
+20v14*Unchecked_Conversion 15|53r34
+X 9 glib.ads
+43K9*Glib 408e9 14|38r6 39r6 43r9 190r54 195r16 195r52 201r29 208r26 213r42
+. 218r51 221r51 305r41 311r37 386r19 389r20 397r19 403r53 424r31 425r38 433r33
+. 457r26 457r41 470r5 15|33r6 38r14 40r7 40r23 40r44 41r7 48r17 150r19 162r32
+. 163r33 169r15 192r19 204r32 205r33 245r32 246r33 274r20 337r29 356r51 362r14
+. 391r61 472r20 484r19 551r19 569r20 613r19 656r19 658r60 733r41 756r37 773r5
+56I9*Gint<25|35I9> 14|442r22 15|300r27 303r27 306r27 313r13
+62M9*Guint<25|43M9> 14|190r35 439r22 444r22 15|40r49 340r38 343r24 374r25
+. 377r24 738r27 741r25 761r27 764r24
+75M9*Guint32
+78M9*Gsize<25|60M9>
+155P9*C_Proxy(152R9) 14|433r38
+188M9*GQuark<75M9> 14|386r24 389r25 397r24 403r58 457r31 15|48r22 150r24
+. 192r24 274r25 472r25 484r24 551r24 569r25 613r24 656r24 658r65
+196m4*Unknown_Quark{188M9} 14|457r46 15|162r37 204r37 245r37
+198V13*Quark_From_String{188M9} 15|163s38 205s38 246s38
+211M9*Signal_Id<62M9> 14|190r59 195r57 208r31 213r47 15|40r12 391r66 392r66
+214A9*Signal_Name<string>(character)<integer> 14|218r56 15|356r56 362r19
+219m4*Null_Signal_Id{211M9} 15|40r28
+251P9*Param_Spec<155P9>
+252A9*Param_Spec_Array(251P9)<integer> 14|305r46 311r42 15|733r46 743r26
+. 756r42 766r25
+269M9*GType<78M9> 14|59r62 195r21 201r34 221r56 248r52 293r67 441r22 443r22
+. 15|99r32 132r62 133r58 337r34 340r16 391r30 392r52
+282M9*GType_Class<27|64M9> 14|240r30
+287A9*GType_Array(269M9)<62M9> 14|224r46 15|370r46 379r25
+330m4*GType_None{269M9} 14|264r28 15|311r31
+353m4*GType_Object{269M9} 15|102r37
+X 10 glib-glist.ads
+57K14*Glist 230e15 14|39w11 425r43
+68k12*Generic_List 228e20 14|425r49
+X 12 glib-gslist.ads
+49K14*GSlist 125e16 14|38w11 424r36
+57k12*Generic_SList 121e21 14|424r43
+X 14 glib-object.ads
+43K14*Object 9|43k9 14|429E9 470l10 470e16 15|38b19 41r12 773l10 773t16
+45R9*GObject_Record 46r31 52r34 59p13 59r39 79r42 83p14 83r35 89p14 89r37
+. 103r23 112r23 117p14 117r42 130p14 130r40 147r23 154r23 160r14 168r14 173r21
+. 174r14 268r29 329p14 330r30 358r26 364r27 372r26 381r26 385r26 388r27 395r26
+. 403r26 429c9 431e14 15|60r42 62r10 90r21 98r42 110r23 132r39 146r14 186r14
+. 211r19 222r34 233r23 267r21 268r14 270r40 292r29 404r30 418r35 429r40 440r37
+. 513r26 531r27 550r26 568r27 587r26 611r26 634r26 655r26 689r14 699r23 716r23
+46P9*GObject(45R9) 72r34 150r42 160r43 168r43 174r43 421r26 422r49 424r58
+. 425r63 15|54r23 62r32 64r13 64r24 77r69 88r34 119r42 146r43 155r11 186r43
+. 197r11 268r43 270r25 675r26 688r49
+52V13*Is_Created{boolean} 52>25 15|222b13 226l8 226t18
+52c25 Object<45R9> 15|222b25 225r14
+59V13*Get_Type{9|269M9} 59^23 15|132b13 138l8 138t16
+59p23 Object(45R9) 15|132b23 137r36
+72U14*G_New 72<21 15|88b14 92l8 92t13
+72p21 Object{46P9} 15|88b21 90m7 91r19
+79U14*Initialize 79^26 15|91s7 98b14 103l8 103t18
+79p26 Object(45R9) 15|98b26 102r19
+83U14*Ref 83^19 15|418b14 423l8 423t11
+83p19 Object(45R9) 15|418b19 422r29
+89U14*Unref 89^21 15|440b14 445l8 445t13
+89p21 Object(45R9) 15|440b21 444r29
+94P9*Weak_Notify 95>7 96>7 97r26 104r16 113r16 15|700r16 704r36 717r16 721r36
+95m7 Data{27|64M9}
+96m7 Where_The_Object_Was{27|64M9}
+102U14*Weak_Ref 103^7 104>7 105>7 15|698b14 709l8 709t16
+103p7 Object(45R9) 15|699b7 708r29
+104p7 Notify{94P9} 15|700b7 708r38
+105m7 Data{27|64M9} 15|701b7 708r46
+111U14*Weak_Unref 112^7 113>7 114>7 15|715b14 726l8 726t18
+112p7 Object(45R9) 15|716b7 725r29
+113p7 Notify{94P9} 15|717b7 725r38
+114m7 Data{27|64M9} 15|718b7 725r46
+117U14*Deallocate 117^26 15|60b14 68l8 68t18 81R7 283R7
+117p26 Object(45R9) 15|60b26 64r33
+130U14*Ref_Sink 130^24 15|429b14 434l8 434t16
+130p24 Object(45R9) 15|429b24 433r29
+146V13*Get_Object{27|64M9} 147^7 464r19 15|109b13 113l8 113t18 137s24 323s10
+. 411s17 422s17 433s17 444s17 517s40 536s40 554s43 573s43 600s13 623s13 645s13
+. 647s20 666s13 667s20 680s17 708s17 725s17
+147p7 Object(45R9) 15|110b7 112r14
+150V13*Get_Object_Or_Null{27|64M9} 150>33 15|119b13 126l8 126t26
+150p33 Object{46P9} 15|119b33 121r10 124r17
+153U14*Set_Object 154^7 155>7 465r19 15|102s7 174s10 212s10 232b14 260l8
+. 260t18
+154p7 Object(45R9) 15|233b7 239r7 258r25
+155m7 Value{27|64M9} 15|234b7 239r21 256r10 257r25
+158V13*Get_User_Data{46P9} 159>7 160>7 15|144b13 178l8 178t21 691s14
+159m7 Obj{27|64M9} 15|145b7 158r10 166r33 169r63 174r25
+160c7 Stub<45R9> 15|146b7 169r68
+166V13*Get_User_Data_Fast{46P9} 167>7 168>7 15|184b13 216l8 216t26
+167m7 Obj{27|64M9} 15|185b7 200r10 208r33 212r25
+168c7 Stub<45R9> 15|186b7 211r41
+172V13*Unchecked_Cast{46P9} 173^7 174>7 15|266b13 285l8 285t22
+173p7 Obj(45R9) 15|267b7 280r21 282r10 283r19
+174c7 Stub<45R9> 15|268b7 270r62
+190A9*Signal_Id_Array(9|211M9)<9|62M9> 201r48 15|41r19 337r48 345r25
+192R9*Signal_Query 208r55 213r21 218r30 221r30 224r25 438c9 446e14 447r26
+. 15|356r30 358r14 370r25 373r18
+194V13*Lookup{9|211M9} 195>7 195>28 15|391b13 397l8 397t14
+195m7 Object{9|269M9} 15|391b21 396r44
+195a28 Signal{string} 15|391b37 396r24
+201V13*List_Ids{190A9} 201>23 15|337b13 350l8 350t16
+201m23 Typ{9|269M9} 15|337b23 344r61
+208U14*Query 208>21 208<42 467b<c,g_signal_query>22
+208m21 Id{9|211M9}
+208r42 Result{192R9}
+213V13*Id{9|211M9} 213>17 468b<c,ada_gsignal_query_id>22
+213r17 Q{192R9}
+218V13*Signal_Name{9|214A9} 218>26 15|356b13 364l8 364t19
+218r26 Q{192R9} 15|356b26 363r56
+221V13*Return_Type{9|269M9} 221>26 469b<c,ada_gsignal_query_return_type>22
+221r26 Q{192R9}
+224V13*Params{9|287A9} 224>21 15|370b13 385l8 385t14
+224r21 Q{192R9} 15|370b21 378r61
+236P9*Interface_Vtable<9|155P9> 305r16 433c9 15|733r16 737r20
+240M9*GObject_Class<9|282M9> 241r35 270r29 293r45 311r15
+241m4*Uninitialized_Class{240M9} 435c4
+247A9*Signal_Parameter_Types(9|269M9)<integer><integer> 263r36 272r22 15|296r22
+. 310r24
+263a4*Null_Parameter_Types{247A9} 272r48 15|296r48 316r24
+267U14*Initialize_Class_Record 268^7 269>7 270=7 271>7 272>7 15|291b14 331l8
+. 331t31
+268p7 Object(45R9) 15|292b7 323r22
+269a7 Signals{23|45A12} 15|293b7 310r53 317r49 324r10 325r10
+270m7 Class_Record{240M9} 15|294b7 322m7 328r10
+271a7 Type_Name{string} 15|295b7 329r10
+272a7 Parameters{247A9} 15|296b7 316r10 317r25 318r16 319r17
+293V13*Type_From_Class{9|269M9} 293>30 466b<c,ada_type_from_class>22
+293m30 Class_Record{240M9}
+304V13*Interface_List_Properties{9|252A9} 305>7 15|732b13 749l8 749t33
+305p7 Vtable{236P9} 15|733b7 742r62
+310V13*Class_List_Properties{9|252A9} 311>7 15|755b13 771l8 771t29
+311m7 Class{240M9} 15|756b7 765r61
+329U14*Notify 330^7 331>7 15|403b14 412l8 412t14
+330p7 Object(45R9) 15|404b7 411r29
+331a7 Property_Name{string} 15|405b7 411r38
+350+12 Data_Type 352r62 359r49 366r20 366r38 373r19 386r39 390r20 390r38
+. 396r19 15|452r38 496r36 514r49 533r20 533r38 551r39 570r20 570r38 588r19
+. 595r38 612r19 619r38
+351k12*User_Data 350z12 409E17 413l8 413e17 15|451b17 669l8 669t17
+352P12*On_Destroyed_Callback 352>55 375r25 398r25 15|456r25 590r25 614r25
+352*55 Data{350+12}
+357V16*Get{350+12} 358^10 359>10 15|512b16 524l11 524t14
+358p10 Object(45R9) 15|513b10 517r52
+359a10 Id{string} 15|514b10 517r61
+363V16*Get{350+12} 364^10 365>10 366>10 15|530b16 543l11 543t14
+364p10 Object(45R9) 15|531b10 536r52
+365a10 Id{string} 15|532b10 536r61
+366*10 Default{350+12} 15|533b10 539r20
+371U17*Set 372^10 373>10 374>10 375>10 15|586b17 604l11 604t14
+372p10 Object(45R9) 15|587b10 600r25
+373*10 Data{350+12} 15|588b10 595r49
+374a10 Id{string} 15|589b10 601r13
+375p10 On_Destroyed{352P12} 15|590b10 596r43
+380U17*Remove 381^10 381>48 15|633b17 648l11 648t17
+381p10 Object(45R9) 15|634b10 645r25 647r32
+381a48 Id{string} 15|635b10 646r13 647r41
+384V16*Get{350+12} 385^10 386>10 15|549b16 561l11 561t14
+385p10 Object(45R9) 15|550b10 554r55
+386m10 Id{9|188M9} 15|551b10 554r64
+387V16*Get{350+12} 388^10 389>10 390>10 15|567b16 580l11 580t14
+388p10 Object(45R9) 15|568b10 573r55
+389m10 Id{9|188M9} 15|569b10 573r64
+390*10 Default{350+12} 15|570b10 576r20
+394U17*Set 395^10 396>10 397>10 398>10 15|610b17 627l11 627t14
+395p10 Object(45R9) 15|611b10 623r25
+396*10 Data{350+12} 15|612b10 619r49
+397m10 Id{9|188M9} 15|613b10 624r13
+398p10 On_Destroyed{352P12} 15|614b10 620r43
+402U17*Remove 403^10 403>48 15|654b17 668l11 668t17
+403p10 Object(45R9) 15|655b10 666r25 667r32
+403m48 Id{9|188M9} 15|656b10 666r34 667r41
+409U17 Free_Data 409>28 411r29 15|491b17 506l11 506t20 603r13 626r13
+409m28 Data{27|64M9} 15|491b28 498r43
+421V13*Convert{27|64M9} 10|63i21 12|55i21 14|421>22 15|675b13 682l8 682t15
+421p22 W{46P9} 15|675b22 677r10 680r29
+422V13*Convert{46P9} 10|64i21 12|56i21 14|422>22 15|688b13 692l8 692t15
+422m22 W{27|64M9} 15|688b22 691r29
+424K12*Object_List[12|57]
+425K12*Object_Simple_List[10|68]
+430m7*Ptr{27|64M9} 15|112r21 124r24 225r21 239m14 280m14 280r25 282r14
+439m7*Signal_Id{9|62M9}
+440m7*Signal_Name{27|64M9}
+441m7*IType{9|269M9}
+442i7*Signal_Flags{9|56I9}
+443m7*Return_Type{9|269M9}
+444m7*N_Params{9|62M9}
+445m7*Param_Types{27|64M9}
+456a4 GtkAda_String{string} 15|163r57 205r57 246r57
+457m4 GtkAda_String_Quark{9|188M9} 15|162r10 163m10 166r38 204r10 205m10
+. 208r38 245r10 246m10 257r32 282r19
+X 15 glib-object.adb
+39K12 Signal_Id_Arrays[21|76] 338r11
+43U14 Free_User_Data 43>30 74b14 82l8 82t22 258r45 282r56
+43m30 Data{27|64M9} 74b30 81r28
+46U14 Set_User_Data 47>7 48>7 49>7 50>7 51b<c,g_object_set_qdata_full>22
+. 257s10
+47m7 Obj{27|64M9}
+48m7 Quark{9|188M9}
+49m7 Data{27|64M9}
+50m7 Destroy{27|64M9}
+53V13 To_Object[7|20]{14|46P9} 166s12 208s12
+61U17 Free[48|20] 67s7
+64p7 Obj{14|46P9} 67m13 67r13
+77V16 Convert[47|20]{14|46P9} 81s19
+99V16*Internal{27|64M9} 99>26 100b<c,ada_g_object_new>25 102s27
+99m26 Typ{9|269M9}
+133V16*Internal{9|269M9} 133>26 134b<c,ada_gobject_get_type>25 137s14
+133m26 Object{27|64M9}
+148V16*Internal{27|64M9} 149>10 150>10 151b<c,g_object_get_qdata>25 166s23
+149m10 Object{27|64M9}
+150m10 Quark{9|188M9}
+155p7 R{14|46P9} 166m7 168r10 169m10 174r22 177r14
+190V16*Internal{27|64M9} 191>10 192>10 193b<c,g_object_get_qdata>25 208s23
+191m10 Object{27|64M9}
+192m10 Quark{9|188M9}
+197p7 R{14|46P9} 208m7 210r10 211m10 212r22 215r14
+270p7 Result{14|46P9} 280r7 282r40 284r14
+272U17*Set_User_Data 273>10 274>10 275>10 276>10 277b<c,g_object_set_qdata_full>25
+. 281s7
+273m10 Obj{27|64M9}
+274m10 Quark{9|188M9}
+275m10 Data{27|64M9}
+276m10 Destroy{27|64M9}
+298V16*Internal{14|240M9} 299>10 300>10 301>10 302>10 303>10 304>10 305>10
+. 306>10 307>10 308b<c,ada_initialize_class_record>25 322s23
+299m10 Object{27|64M9}
+300i10 NSignals{9|56I9}
+301m10 Signals{27|64M9}
+302m10 Parameters{27|64M9}
+303i10 Max_Parameters{9|56I9}
+304m10 Class_Record{14|240M9}
+305a10 Type_Name{string}
+306i10 Num_Virtual{9|56I9}
+307m10 Virtual{27|64M9}
+310a7 Default_Params{14|247A9} 312m31 312r31
+312m7 Pa{27|64M9} 318m10 326r10
+313i7 Num{9|56I9} 319m10 327r10
+339V16*Internal{21|80P12[39]} 340>10 340^23 341b<c,g_signal_list_ids>25 344s51
+340m10 Typ{9|269M9}
+340p23 N_Ids(9|62M9)
+343m7 N{9|62M9} 344m66 344r66 345r62
+344p7 Output{21|80P12[39]} 345r54 348r15
+345a7 Result{14|190A9} 349r14
+357V16*Internal{26|47P9} 358>10 359b<c,ada_gsignal_query_signal_name>25 363s46
+358r10 Q{14|192R9}
+372V16*Internal{21|80P12[20|105]} 373>10 374^10 375b<c,ada_gsignal_query_params>25
+. 378s51
+373r10 Q{14|192R9}
+374p10 N_Ids(9|62M9)
+377m7 N{9|62M9} 378m64 378r64 379r58
+378p7 Output{21|80P12[20|105]} 379r50
+379a7 Result{9|287A9} 384r14
+392V16*Internal{9|211M9} 392>26 392>43 393b<c,g_signal_lookup>25 396s14
+392a26 Signal{string}
+392m43 Object{9|269M9}
+407U17*Internal 407>27 407>52 408b<c,g_object_notify>25 411s7
+407m27 Object{27|64M9}
+407a52 Name{string}
+419U17*Internal 419>27 420b<c,g_object_ref>25 422s7
+419m27 Object{27|64M9}
+430U17*Internal 430>27 431b<c,g_object_ref_sink>25 433s7
+430m27 Object{27|64M9}
+441U17*Internal 441>27 442b<c,g_object_unref>25 444s7
+441m27 Object{27|64M9}
+452P12 Data_Access(14|350+12) 455r25 496r47
+454R12 Cb_Record 457e17 458r43 493r36 595r16 619r16
+455p10 Ptr{452P12} 502r31 504m23 519r32 522r22 538r32 541r22 556r32 559r22
+. 575r32 578r22 595m27 619m27
+456p10 On_Destroyed{14|352P12} 501r15 502r15 596m27 620m27
+458P12 Cb_Record_Access(454R12) 461r47 493r47 498r14 516r23 535r23 553r23
+. 572r23 593r34 594r23 617r34 618r23
+460V16 Convert[47|20]{458P12} 498s34 517s12 536s12 554s12 573s12
+463U17 Set_Data_Internal 464>10 465>10 466>10 467>10 468b<c,g_object_set_data_full>25
+. 599s10 644s10
+464m10 Object{27|64M9}
+465a10 Key{string}
+466m10 Data{27|64M9}
+467m10 Destroy{27|64M9}
+470U17 Set_Data_Internal_Id 471>10 472>10 473>10 474>10 475b<c,g_object_set_qdata_full>25
+. 622s10 665s10
+471m10 Object{27|64M9}
+472m10 Key{9|188M9}
+473m10 Data{27|64M9}
+474m10 Destroy{27|64M9}
+477V16 Get_Data_Internal{27|64M9} 478>10 479>10 480b<c,g_object_get_data>25
+. 517s21 536s21
+478m10 Object{27|64M9}
+479a10 Key{string}
+482V16 Get_Data_Internal_Id{27|64M9} 483>10 484>10 485b<c,g_object_get_qdata>25
+. 554s21 573s21
+483m10 Object{27|64M9}
+484m10 Key{9|188M9}
+492U20 Internal[48|20] 505s10
+495U20 Internal2[48|20] 504s10
+498p10 D{458P12} 501r13 502r13 502r29 504r21 505m20 505r20
+516p10 D{458P12} 519r13 519r30 522r20
+535p10 D{458P12} 538r13 538r30 541r20
+553p10 D{458P12} 556r13 556r30 559r20
+572p10 D{458P12} 575r13 575r30 578r20
+592V19 Convert[47|20]{27|64M9} 602s13
+594p10 D{458P12} 602r22
+616V19 Convert[47|20]{27|64M9} 625s13
+618p10 D{458P12} 625r22
+637U20*Internal 637>30 637>55 638b<c,g_object_steal_data>28 647s10
+637m30 Object{27|64M9}
+637a55 Id{string}
+658U20*Internal 658>30 658>55 659b<c,g_object_steal_qdata>28 667s10
+658m30 Object{27|64M9}
+658m55 Id{9|188M9}
+689r7 Stub{14|45R9} 691r32
+703U17*Internal 703>27 704>27 705>27 706b<c,g_object_weak_ref>25 708s7
+703m27 Object{27|64M9}
+704p27 Notify{14|94P9}
+705m27 Data{27|64M9}
+720U17*Internal 720>27 721>27 722>27 723b<c,g_object_weak_unref>25 725s7
+720m27 Object{27|64M9}
+721p27 Notify{14|94P9}
+722m27 Data{27|64M9}
+736V16*Internal{21|80P12[20|100]} 737>10 738^10 739b<c,g_object_interface_list_properties>25
+. 742s52
+737p10 Vtable{14|236P9}
+738p10 N_Props(9|62M9)
+741m7 N{9|62M9} 742m70 742r70 743r73
+742p7 Output{21|80P12[20|100]} 743r56
+743a7 Result{9|252A9} 748r14
+759V16*Internal{21|80P12[20|100]} 760>10 761^10 762b<c,g_object_class_list_properties>25
+. 765s51
+760m10 Class{14|240M9}
+761p10 N_Props(9|62M9)
+764m7 N{9|62M9} 765m68 765r68 766r72
+765p7 Output{21|80P12[20|100]} 766r55
+766a7 Result{9|252A9} 770r14
+X 16 glib-type_conversion_hooks.ads
+51K14*Type_Conversion_Hooks 15|33w11 169r20 16|105e31
+55V13*Conversion_Function{14|46P9} 15|169s42
+X 19 gtkada.ads
+36K9*Gtkada 14|37r6 269r22 15|34r6 34r28 35r6 35r28 36r6 36r28 39r36 293r22
+. 520r19 557r19 19|40e11
+X 20 gtkada-bindings.ads
+43K16*Bindings 15|34w13 34r35 20|176e20
+100K12*Pspec_Arrays[21|76] 15|735r11 758r11
+105K12*GType_Arrays[21|76] 15|371r11
+X 21 gtkada-c.ads
+35K16*C 15|35w13 35r35 39r43 21|94e13
+76k12*Unbounded_Arrays 15|39r45 21|92e24
+77A12*Unbounded_Array(9|211M9)<9|62M9>
+80P12*Unbounded_Array_Access(77A12[15|39]) 15|340r52[39] 344r25[39] 374r39[20|105]
+. 378r25[20|105] 738r41[20|100] 742r26[20|100] 761r41[20|100] 765r25[20|100]
+82U17*G_Free 15|348s7[39]
+84V16*To_Array{14|190A9} 15|345s44[39] 379s40[20|105] 743s46[20|100] 766s45[20|100]
+X 23 gtkada-types.ads
+38K16*Types 14|37w13 269r29 15|36w13 36r35 293r29 520r26 557r26 23|102e17
+42X4*Data_Error 15|520r32 557r32
+45A12*Chars_Ptr_Array{26|50A9}<25|60M9> 14|269r35 15|293r35
+X 24 interfac.ads
+38K9*Interfaces 15|29r6 358r35 363r18 24|179e15
+X 25 i-c.ads
+18K20*C 15|29r17 358r46 363r29 25|230e17
+35I9*int<integer>
+43M9*unsigned
+60M9*size_t
+X 26 i-cstrin.ads
+36K22*Strings 15|29w19 358r48 363r31 26|106e25
+47P9*chars_ptr 15|358r56
+50A9*chars_ptr_array(47P9)<25|60M9>
+74V13*Value{string} 15|363s39
+X 27 system.ads
+37K9*System 14|95r30 96r30 105r16 105r34 114r16 114r34 147r52 150r58 155r16
+. 159r14 167r14 409r35 421r42 422r26 430r13 430r31 436r21 440r22 445r22 15|43r37
+. 47r17 49r17 50r17 54r7 74r37 77r53 99r46 110r52 119r58 122r17 133r35 145r14
+. 149r19 150r39 153r16 158r16 185r14 191r19 192r39 195r16 200r16 223r16 225r28
+. 234r16 236r16 256r19 273r20 275r20 276r20 299r27 301r27 302r27 307r27 312r13
+. 330r13 407r36 419r36 430r36 441r36 461r31 464r20 466r20 467r20 471r20 473r20
+. 474r20 478r19 479r34 483r19 484r39 491r35 593r52 617r52 637r39 646r29 646r50
+. 658r39 666r38 666r59 675r42 678r17 688r26 701r16 701r34 703r36 705r36 718r16
+. 718r34 720r36 722r36 27|152e11
+64M9*Address 14|95r37 96r37 105r23 114r23 147r59 150r65 155r23 159r21 167r21
+. 409r42 421r49 422r33 430r20 440r29 445r29 15|43r44 47r24 49r24 50r24 54r14
+. 74r44 77r60 99r53 110r59 119r65 133r42 145r21 149r26 150r46 153r23 185r21
+. 191r26 192r46 195r23 223r23 234r23 236r23 273r27 275r27 276r27 299r34 301r34
+. 302r34 307r34 312r20 407r43 419r43 430r43 441r43 461r38 464r27 466r27 467r27
+. 471r27 473r27 474r27 478r26 479r41 483r26 484r46 491r42 593r59 617r59 637r46
+. 658r46 675r49 688r33 701r23 703r43 705r43 718r23 720r43 722r43
+66m4*Null_Address{64M9} 14|105r41 114r41 430r38 436r28 15|122r24 158r23 200r23
+. 225r35 256r26 330r20 646r36 646r57 666r45 666r66 678r24 701r41 718r41
+78V14*"="{boolean} 15|158r14 200r14 225r25 256r16
+X 31 s-memory.ads
+53V13*Alloc{27|64M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{27|64M9} 105i<c,__gnat_realloc>22
+X 47 unchconv.ads
+20v10*Unchecked_Conversion 15|30w6 77r31 461r9 593r12 617r12
+X 48 unchdeal.ads
+20u11*Unchecked_Deallocation 15|31w6 61r29 493r12 496r12
+

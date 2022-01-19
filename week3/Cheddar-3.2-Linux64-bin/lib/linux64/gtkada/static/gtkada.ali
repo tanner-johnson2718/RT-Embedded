@@ -1,0 +1,23 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P ZX
+
+RN
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+
+U gtkada%s		gtkada.ads		57aea1c7 NE OO PU PK
+
+D gtkada.ads		20141212124939 57aea1c7 gtkada%s
+D system.ads		20140406181354 90249111 system%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 1 gtkada.ads
+36K9*Gtkada 38r17 40l5 40e11
+

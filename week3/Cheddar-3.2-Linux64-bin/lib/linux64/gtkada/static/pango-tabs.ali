@@ -1,0 +1,113 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P ZX
+
+RN
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV SPARK_05
+
+U pango.tabs%b		pango-tabs.adb		f1493a4a NE OO PK
+W glib%s		glib.adb		glib.ali
+W pango%s		pango.ads		pango.ali
+
+U pango.tabs%s		pango-tabs.ads		c159aa01 EE NE OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W glib%s		glib.adb		glib.ali
+W pango%s		pango.ads		pango.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D glib.ads		20141212124939 0f441d83 glib%s
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D pango.ads		20141212124939 d3c8e76d pango%s
+D pango-tabs.ads	20141212124940 1dd550ef pango.tabs%s
+D pango-tabs.adb	20141212124940 e3d87726 pango.tabs%b
+D system.ads		20140406181354 90249111 system%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 8 glib.ads
+43K9*Glib 408e9 12|40w6 57r29 65r29 76r59 81r19 87r19 89r19 97r19 99r23 108r32
+. 13|29w6 29r16 39r29 43r17 43r37 56r56
+56I9*Gint<10|35I9> 12|57r34 76r64 81r24 87r24 89r24 97r24 99r28 13|39r34
+. 43r22
+58I9*Gboolean<56I9> 13|43r42 56r61
+78M9*Gsize<10|60M9>
+155P9*C_Proxy(152R9) 12|108r37
+269M9*GType<78M9> 12|65r34
+X 10 i-c.ads
+35I9*int<integer>
+60M9*size_t
+X 11 pango.ads
+35K9*Pango 39e10 12|42r9 118r5 13|31r14 76r5
+X 12 pango-tabs.ads
+42K15*Tabs 11|35k9 12|108E9 118l11 118e15 13|31b20 76l11 76t15
+44P9*Pango_Tab_Array<8|155P9> 45r30 56r33 69r16 70r20 73r32 76r35 80r19 86r19
+. 96r19 104r19 108c9 110r30 13|38r33 43r59 54r19 56r32 67r16 68r20 70r32
+. 70r56
+45p4*Null_Tab_Array{44P9} 110c4
+51E9*Pango_Tab_Align 51e44 52r26 88r19 98r23
+51n29*Pango_Tab_Left{51E9} 88r38
+55U14*Pango_New 56<7 57>7 58>7 13|37b14 47l8 47t17
+56p7 Tab_Array{44P9} 13|38b7 46m7
+57i7 Initial_Size{8|56I9} 13|39b7 46r30
+58b7 Positions_In_Pixels{boolean} 13|40b7 46r57
+65V13*Get_Type{8|269M9} 112b<c,pango_tab_array_get_type>22
+68U14*Copy 69>7 70<7 13|66b14 74l8 74t12
+69p7 Src{44P9} 13|67b7 73r27
+70p7 Target{44P9} 13|68b7 73m7
+73U14*Free 73>20 113b<c,pango_tab_array_free>22
+73p20 Tab_Array{44P9}
+76V13*Get_Size{8|56I9} 76>23 114b<c,pango_tab_array_get_size>22
+76p23 Tab_Array{44P9}
+79U14*Resize 80>7 81>7 115b<c,pango_tab_array_resize>22
+80p7 Tab_Array{44P9}
+81i7 New_Size{8|56I9}
+85U14*Set_Tab 86>7 87>7 88>7 89>7 116b<c,pango_tab_array_set_tab>22
+86p7 Tab_Array{44P9}
+87i7 Tab_Index{8|56I9}
+88e7 Alignment{51E9}
+89i7 Location{8|56I9}
+95U14*Get_Tab 96>7 97>7 98<7 99<7 117b<c,pango_tab_array_get_tab>22
+96p7 Tab_Array{44P9}
+97i7 Tab_Index{8|56I9}
+98e7 Alignment{51E9}
+99i7 Location{8|56I9}
+103V13*Get_Positions_In_Pixels{boolean} 104>7 13|53b13 60l8 60t31
+104p7 Tab_Array{44P9} 13|54b7 59r37
+X 13 pango-tabs.adb
+42V16*Internal{12|44P9} 43>10 43>28 44b<c,pango_tab_array_new>25 46s20
+43i10 Size{8|56I9}
+43i28 Pixels{8|58I9}
+56V16*Internal{8|58I9} 56>26 57b<c,pango_tab_array_get_positions_in_pixels>25
+. 59s27
+56p26 Tab{12|44P9}
+70V16*Internal{12|44P9} 70>26 71b<c,pango_tab_array_copy>25 73s17
+70p26 Src{12|44P9}
+

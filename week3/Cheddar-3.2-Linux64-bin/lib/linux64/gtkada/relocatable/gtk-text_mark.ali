@@ -1,0 +1,199 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U gtk.text_mark%b	gtk-text_mark.adb	3ce609a6 OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W glib%s		glib.adb		glib.ali
+W glib.type_conversion_hooks%s  glib-type_conversion_hooks.adb  glib-type_conversion_hooks.ali  AD
+W gtk%s			gtk.ads			gtk.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+W system%s		system.ads		system.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+U gtk.text_mark%s	gtk-text_mark.ads	02797ae3 EE OO PF PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W glib%s		glib.adb		glib.ali
+W glib.values%s		glib-values.adb		glib-values.ali
+W gtk%s			gtk.ads			gtk.ali
+W system%s		system.ads		system.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D gdk.ads		20141212124940 f909352d gdk%s
+D glib.ads		20141212124939 0f441d83 glib%s
+D glib-glist.ads	20141212124940 65a6e1be glib.glist%s
+D glib-glist.adb	20141212124940 48a94e23 glib.glist%b
+D glib-gslist.ads	20141212124940 8fe7d6f1 glib.gslist%s
+D glib-gslist.adb	20141212124940 b4c9a81c glib.gslist%b
+D glib-object.ads	20141212124940 948e384a glib.object%s
+D glib-object.adb	20141212124939 425ed48d glib.object%b
+D glib-type_conversion_hooks.ads  20141212124939 df9131bc glib.type_conversion_hooks%s
+D glib-type_conversion_hooks.adb  20141212124939 e61e501b glib.type_conversion_hooks%b
+D glib-values.ads	20141212124939 37b4897e glib.values%s
+D gnat.ads		20140406181359 fd2ad2f1 gnat%s
+D g-string.ads		20140406181356 c6abc540 gnat.strings%s
+D gtk.ads		20141212124940 81513fe2 gtk%s
+D gtk-text_mark.ads	20141212124940 b49ccc7f gtk.text_mark%s
+D gtk-text_mark.adb	20141212124940 f3d268ab gtk.text_mark%b
+D gtkada.ads		20141212124939 57aea1c7 gtkada%s
+D gtkada-bindings.ads	20141212124940 516dc70c gtkada.bindings%s
+D gtkada-c.ads		20141212124940 0f5973e3 gtkada.c%s
+D gtkada-types.ads	20141212124940 b7bc0c77 gtkada.types%s
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D i-cstrin.ads		20140406181357 341d0ddf interfaces.c.strings%s
+D system.ads		20140406181354 90249111 system%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-memory.ads		20140406181359 597d6634 system.memory%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-secsta.ads		20140406181359 86a2856d system.secondary_stack%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20140406181358 aedef97e system.stream_attributes%s
+D s-string.ads		20140406181358 8fe54fb7 system.strings%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D s-unstyp.ads		20140406181356 510692af system.unsigned_types%s
+D unchconv.ads		20140406181355 ca2f9e18 unchecked_conversion%s
+D unchdeal.ads		20140406181359 214516a4 unchecked_deallocation%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 9 glib.ads
+43K9*Glib 408e9 22|41r6 48r29 79r21 81r34 23|32r6 36r35 121r21 124r7 131r35
+. 135r30
+56I9*Gint<29|35I9>
+58I9*Gboolean<56I9> 23|47r56 61r56 94r56 109r60
+78M9*Gsize<29|60M9>
+269M9*GType<78M9> 22|48r34
+X 14 glib-object.ads
+45R9*GObject_Record 431e14 22|45r37 96r37
+46P9*GObject(45R9)
+59V13*Get_Type{9|269M9}
+83U14*Ref
+89U14*Unref
+117U14*Deallocate
+130U14*Ref_Sink
+146V13*Get_Object{31|64M9} 23|51s24 65s24 77s49 98s24 113s17 124s37
+166V13*Get_User_Data_Fast{46P9} 23|135s10
+329U14*Notify
+421V13*Convert{31|64M9} 10|63i21 12|55i21
+422V13*Convert{46P9} 10|64i21 12|56i21
+X 16 glib-type_conversion_hooks.ads
+51K14*Type_Conversion_Hooks 105e31 23|32w11 36r40
+88k12*Hook_Registrator 103e24 23|36r62
+X 18 glib-values.ads
+45K14*Values 225e16 22|41w11 79r26 81r39 23|121r26 124r12 131r40 135r35
+49R9*GValue 177e14 22|79r33 81r46 23|121r33 131r47
+129U14*Set_Address 23|124s19
+130V14*Get_Address{31|64M9} 23|135s42
+X 21 gtk.ads
+47K9*Gtk 83e8 22|43r9 99r5 23|34r14 138r5
+X 22 gtk-text_mark.ads
+43K13*Text_Mark 21|47k9 22|96E9 99l9 99e18 23|34b18 138l9 138t18
+45R9*Gtk_Text_Mark_Record<14|45R9> 14|59p13 83p14 89p14 117p14 130p14 329p14
+. 22|46r37 51p14 52r24 54p13 55r21 63p13 63r37 66p13 66r40 70p13 71r21 78p14
+. 80r21 96c9 96e68 23|37r24 46r40 59r21 72r37 93r40 106r24 122r21 132r14
+46P9*Gtk_Text_Mark(45R9) 81r61 23|131r62 134r14
+48V13*Get_Type{9|269M9} 98b<c,gtk_text_mark_get_type>22 23|37r7
+51U14*Set_Visible 52^7 53>7 23|105b14 114l8 114t19
+52p7 Mark(45R9) 23|106b7 113r29
+53b7 Setting{boolean} 23|107b7 113r49
+54V13*Get_Visible{boolean} 55^7 23|93b13 99l8 99t19
+55p7 Mark(45R9) 23|93b26 98r36
+63V13*Get_Name{string} 63^23 23|72b13 87l8 87t16
+63p23 Mark(45R9) 23|72b23 77r61
+66V13*Get_Deleted{boolean} 66^26 23|46b13 52l8 52t19
+66p26 Mark(45R9) 23|46b26 51r36
+70V13*Get_Left_Gravity{boolean} 71^7 23|58b13 66l8 66t24
+71p7 Mark(45R9) 23|59b7 65r36
+78U14*Set_Text_Mark 79=7 80^7 23|120b14 125l8 125t21
+79r7 Val{18|49R9} 23|121b7 124m32
+80p7 Mark(45R9) 23|122b7 124r49
+81V13*Get_Text_Mark{46P9} 81>28 23|131b13 136l8 136t21
+81r28 Val{18|49R9} 23|131b28 135r55
+X 23 gtk-text_mark.adb
+36K12 Type_Conversion[16|88] 38r26
+40K12 ICS=40:37 73r56 77r22 79r16 82r16 85r17
+47V16*Internal{9|58I9} 47>26 48b<c,gtk_text_mark_get_deleted>25 51s14
+47m26 Mark{31|64M9}
+61V16*Internal{9|58I9} 61>26 62b<c,gtk_text_mark_get_left_gravity>25 65s14
+61m26 Mark{31|64M9}
+73V16*Internal{30|47P9} 73>26 74b<c,gtk_text_mark_get_name>25 77s39
+73m26 Mark{31|64M9}
+77p7 Str{30|47P9} 82r10 85r28
+94V16*Internal{9|58I9} 94>26 95b<c,gtk_text_mark_get_visible>25 98s14
+94m26 Mark{31|64M9}
+109U17*Internal 109>27 109>50 110b<c,gtk_text_mark_set_visible>25 113s7
+109m27 Mark{31|64M9}
+109i50 Setting{9|58I9}
+132r7 Stub{22|45R9} 135r61
+X 28 interfac.ads
+38K9*Interfaces 23|29r6 40r24 28|179e15
+X 29 i-c.ads
+18K20*C 23|29r17 40r35 29|230e17
+35I9*int<integer>
+60M9*size_t
+X 30 i-cstrin.ads
+36K22*Strings 23|29w19 40r37 30|106e25
+47P9*chars_ptr 23|73r60 77r26 79r20
+52p4*Null_Ptr{47P9} 23|82r20
+74V13*Value{string} 23|85s21
+X 31 system.ads
+37K9*System 23|30w6 47r33 61r33 73r33 94r33 109r34 31|152e11
+64M9*Address 23|47r40 61r40 73r40 94r40 109r41
+X 35 s-memory.ads
+53V13*Alloc{31|64M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{31|64M9} 105i<c,__gnat_realloc>22
+

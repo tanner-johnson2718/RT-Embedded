@@ -1,0 +1,124 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P ZX
+
+RN
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U gtkada.intl%b		gtkada-intl.adb		449f4eeb NE OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W glib%s		glib.adb		glib.ali
+W gtkada%s		gtkada.ads		gtkada.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+W system%s		system.ads		system.ali
+
+U gtkada.intl%s		gtkada-intl.ads		d1bbb778 NE OO PR PK
+W glib%s		glib.adb		glib.ali
+W gtkada%s		gtkada.ads		gtkada.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D glib.ads		20141212124939 0f441d83 glib%s
+D gtkada.ads		20141212124939 57aea1c7 gtkada%s
+D gtkada-intl.ads	20141212124940 89510b3c gtkada.intl%s
+D gtkada-intl.adb	20161109141435 66b3c49a gtkada.intl%b
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D i-cstrin.ads		20140406181357 341d0ddf interfaces.c.strings%s
+D system.ads		20140406181354 90249111 system%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 8 glib.ads
+43K9*Glib 408e9 10|145w6 150r28 150r53 156r30 156r55 159r24 159r49 163r30
+. 164r14 11|32w6 32r16
+82A12*UTF8_String{string}<integer> 10|150r33 150r58 156r35 156r60 159r29
+. 159r54 163r35 164r19 11|42r28 42r48 43r32 53r46 53r66 56r19 66r24 66r44
+. 76r30 80r19
+X 9 gtkada.ads
+36K9*Gtkada 40e11 10|147r9 184r5 11|34r14 133r5
+X 10 gtkada-intl.ads
+147K16*Intl 9|36k9 10|184l12 184e16 11|34b21 133l12 133t16
+150V13*Gettext{8|82A12} 150>22 11|42b13 47l8 47t15 68s14
+150a22 Msg{8|82A12} 11|42b22 46r31
+155V13*Dgettext{8|82A12} 156>7 156>24 11|53b13 60l8 60t16
+156a7 Domain{string} 11|53b23 59r31
+156a24 Msg{8|82A12} 11|53b40 59r51
+159V14*"-"{8|82A12} 159>18 11|66b14 69l9 69t11
+159a18 Msg{8|82A12} 11|66b18 68r23
+162V13*Dcgettext{8|82A12} 163>7 163>24 163>48 11|75b13 85l8 85t17
+163a7 Domain{string} 11|76b7 84r31
+163a24 Msg{8|82A12} 11|76b24 84r51
+163i48 Category{integer} 11|76b43 84r68
+167V13*Default_Text_Domain{string} 11|91b13 96l8 96t27
+170U14*Text_Domain 170>27 11|102b14 107l8 107t19
+170a27 Domain{string} 11|102b27 106r17
+174U14*Bind_Text_Domain 174>32 174>49 11|113b14 118l8 118t24
+174a32 Domain{string} 11|113b32 117r17
+174a49 Dirname{string} 11|113b49 117r37
+179U14*Setlocale 11|124b14 131l8 131t17
+X 11 gtkada-intl.adb
+43V16*Internal{14|47P9} 43>26 44b<c,gettext>25 46s21
+43a26 Msg{8|82A12}
+54V16*Internal{14|47P9} 55>10 56>10 57b<c,dgettext>25 59s21
+55a10 Domain{string}
+56a10 Msg{8|82A12}
+78V16*Internal{14|47P9} 79>10 80>10 81>10 82b<c,dcgettext>25 84s21
+79a10 Domain{string}
+80a10 Msg{8|82A12}
+81i10 Category{integer}
+92V16*Internal{14|47P9} 92>26 93b<c,textdomain>25 95s21
+92m26 Domain{15|64M9}
+103U17*Internal 103>27 104b<c,textdomain>25 106s7
+103a27 Domain{string}
+114U17*Internal 114>27 114>35 115b<c,bindtextdomain>25 117s7
+114a27 Domain{string}
+114a35 Dirname{string}
+125i7 LC_ALL{integer} 130r18
+126a7 Empty_String{string} 130r26
+127U17*Setlocale 127>28 127>48 128b<c,setlocale>25 130s7
+127i28 Category{integer}
+127a48 Locale{string}
+X 12 interfac.ads
+38K9*Interfaces 11|31r6 31r32 12|179e15
+X 13 i-c.ads
+18K20*C 11|31r17 31r43 13|230e17
+X 14 i-cstrin.ads
+36K22*Strings 11|31w19 31r45 14|106e25
+47P9*chars_ptr 11|43r52 56r39 81r37 92r58
+74V13*Value{string} 11|46s14 59s14 84s14 95s14
+X 15 system.ads
+37K9*System 11|30w6 92r35 95r31 15|152e11
+64M9*Address 11|92r42
+66m4*Null_Address{64M9} 11|95r38
+

@@ -1,0 +1,107 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P ZX
+
+RN
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV SPARK_05
+
+U cairo.font_face%s	cairo-font_face.ads	f5ad2155 NE OO PK
+W cairo%s		cairo.adb		cairo.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+W system%s		system.ads		system.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D cairo.ads		20141212124939 8dc0603a cairo%s
+D cairo-font_face.ads	20141212124940 dc54dda1 cairo.font_face%s
+D glib.ads		20141212124939 0f441d83 glib%s
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D i-cstrin.ads		20140406181357 341d0ddf interfaces.c.strings%s
+D system.ads		20140406181354 90249111 system%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 8 cairo.ads
+78K9*Cairo 2813e10 9|40r9 211r5
+148P9*Cairo_Destroy_Func 9|108r19
+155R9*Cairo_User_Data_Key 157e14 9|93r26 106r26
+176E9*Cairo_Status 274e7 9|72r57 108r46
+1693M9*Cairo_Font_Face<14|64M9> 9|42r36 42r60 55r35 62r46 72r33 81r35 92r19
+. 105r19 127r16 149r19 161r19 172r19
+1853E9*Cairo_Font_Slant 1856e55 9|125r16 162r19
+1860E9*Cairo_Font_Weight 1862e54 9|126r16 173r19
+2224E9*Cairo_Font_Type 2239e7 9|81r59
+X 9 cairo-font_face.ads
+40K15*Font_Face 8|78k9 9|184E33 211l11 211e20
+42V13*Reference{8|1693M9} 42>24 184b<c,cairo_font_face_reference>22
+42m24 Font_Face{8|1693M9}
+55U14*Destroy 55>23 185b<c,cairo_font_face_destroy>22
+55m23 Font_Face{8|1693M9}
+62V13*Get_Reference_Count{10|62M9} 62>34 188b<c,cairo_font_face_get_reference_count>7
+62m34 Font_Face{8|1693M9}
+72V13*Status{8|176E9} 72>21 190b<c,cairo_font_face_status>22
+72m21 Font_Face{8|1693M9}
+81V13*Get_Type{8|2224E9} 81>23 191b<c,cairo_font_face_get_type>22
+81m23 Font_Face{8|1693M9}
+91V13*Get_User_Data{14|64M9} 92>7 93^7 192b<c,cairo_font_face_get_user_data>22
+92m7 Font_Face{8|1693M9}
+93p7 Key(8|155R9)
+104V13*Set_User_Data{8|176E9} 105>7 106^7 107>7 108>7 193b<c,cairo_font_face_set_user_data>22
+105m7 Font_Face{8|1693M9}
+106p7 Key(8|155R9)
+107m7 User_Data{14|64M9}
+108p7 Destroy{8|148P9}
+123V13*Toy_Font_Face_Create{8|1693M9} 124>7 125>7 126>7 196b<c,cairo_toy_font_face_create>7
+124p7 Family{13|47P9}
+125e7 Slant{8|1853E9}
+126e7 Weight{8|1860E9}
+148V13*Toy_Font_Face_Get_Family{13|47P9} 149>7 200b<c,cairo_toy_font_face_get_family>7
+149m7 Font_Face{8|1693M9}
+160V13*Toy_Font_Face_Get_Slant{8|1853E9} 161>7 204b<c,cairo_toy_font_face_get_slant>7
+161m7 Font_Face{8|1693M9}
+171V13*Toy_Font_Face_Get_Weight{8|1860E9} 172>7 208b<c,cairo_toy_font_face_get_weight>7
+172m7 Font_Face{8|1693M9}
+X 10 glib.ads
+62M9*Guint<12|43M9> 9|62r70
+X 11 interfac.ads
+38K9*Interfaces 9|38r6 124r16 150r19 11|179e15
+X 12 i-c.ads
+18K20*C 9|38r17 124r27 150r30 12|230e17
+43M9*unsigned
+X 13 i-cstrin.ads
+36K22*Strings 9|38w19 124r29 150r32 13|106e25
+47P9*chars_ptr 9|124r37 150r40
+X 14 system.ads
+37K9*System 9|37w6 93r54 107r19 14|152e11
+64M9*Address 9|93r61 107r26
+

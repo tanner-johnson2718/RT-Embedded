@@ -1,0 +1,302 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P SS ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_CONVERSION
+RV NO_DEFAULT_INITIALIZATION
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV NO_ELABORATION_CODE
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U gtk.paper_size%b	gtk-paper_size.adb	98a40fff NE OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W gtk%s			gtk.ads			gtk.ali
+W gtkada%s		gtkada.ads		gtkada.ali
+W gtkada.bindings%s	gtkada-bindings.adb	gtkada-bindings.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U gtk.paper_size%s	gtk-paper_size.ads	52945420 EE OO PF PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.unchecked_conversion%s
+W glib%s		glib.adb		glib.ali
+W glib.glist%s		glib-glist.adb		glib-glist.ali  AD
+W glib.key_file%s	glib-key_file.adb	glib-key_file.ali
+W gtk%s			gtk.ads			gtk.ali
+W gtk.enums%s		gtk-enums.adb		gtk-enums.ali
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D gdk.ads		20141212124940 f909352d gdk%s
+D glib.ads		20141212124939 0f441d83 glib%s
+D glib-error.ads	20141212124939 e055fabe glib.error%s
+D glib-generic_properties.ads  20141212124939 a1807006 glib.generic_properties%s
+D glib-generic_properties.adb  20141212124939 b44dec2c glib.generic_properties%b
+D glib-glist.ads	20141212124940 65a6e1be glib.glist%s
+D glib-glist.adb	20141212124940 48a94e23 glib.glist%b
+D glib-gslist.ads	20141212124940 8fe7d6f1 glib.gslist%s
+D glib-gslist.adb	20141212124940 b4c9a81c glib.gslist%b
+D glib-key_file.ads	20141212124940 5820d214 glib.key_file%s
+D glib-object.ads	20141212124940 948e384a glib.object%s
+D glib-values.ads	20141212124939 37b4897e glib.values%s
+D gnat.ads		20140406181359 fd2ad2f1 gnat%s
+D g-string.ads		20140406181356 c6abc540 gnat.strings%s
+D gtk.ads		20141212124940 81513fe2 gtk%s
+D gtk-enums.ads		20141212124940 31c39095 gtk.enums%s
+D gtk-paper_size.ads	20141212124940 266b47fb gtk.paper_size%s
+D gtk-paper_size.adb	20141212124940 dbbf82d7 gtk.paper_size%b
+D gtkada.ads		20141212124939 57aea1c7 gtkada%s
+D gtkada-bindings.ads	20141212124940 516dc70c gtkada.bindings%s
+D gtkada-c.ads		20141212124940 0f5973e3 gtkada.c%s
+D gtkada-types.ads	20141212124940 b7bc0c77 gtkada.types%s
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D i-cstrin.ads		20140406181357 341d0ddf interfaces.c.strings%s
+D system.ads		20140406181354 90249111 system%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-secsta.ads		20140406181359 86a2856d system.secondary_stack%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20140406181358 aedef97e system.stream_attributes%s
+D s-string.ads		20140406181358 8fe54fb7 system.strings%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D s-unstyp.ads		20140406181356 510692af system.unsigned_types%s
+D unchconv.ads		20140406181355 ca2f9e18 unchecked_conversion%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 1 ada.ads
+16K9*Ada 19e8 24|41r6 52r10 54r10
+X 6 a-unccon.ads
+20v14*Unchecked_Conversion 24|41w10 52r14 54r14
+X 9 glib.ads
+43K9*Glib 408e9 24|43r6 44r6 49r31 56r10 85r20 109r20 203r10 25|175r20 179r23
+. 220r20 225r23
+56I9*Gint<31|35I9>
+58I9*Gboolean<56I9> 25|74r43 105r56 116r64
+66F9*Gdouble<31|65F9> 24|72r22 73r22 94r26 95r26 144r14 148r14 153r16 154r16
+. 174r14 178r14 182r14 186r14 25|146r22 147r22 153r25 154r25 198r26 199r26
+. 204r29 205r29
+78M9*Gsize<31|60M9>
+155P9*C_Proxy(152R9) 24|49r36
+269M9*GType<78M9> 24|58r29
+X 13 glib-glist.ads
+57K14*Glist 230e15 24|43w11 56r15
+68k12*Generic_List 228e20 24|56r21
+70R12*Glist 24|160r35[55] 25|72r61[24|55] 76r32[24|55]
+215U17*Set_Object 25|78s28[24|55]
+X 17 glib-key_file.ads
+100K14*Key_File 529e18 24|44w11 85r25 109r25 25|175r25 179r28 220r25 225r28
+102P9*G_Key_File<9|155P9> 24|85r34 109r34 25|175r34 179r37 220r34 225r37
+X 18 glib-object.ads
+43K14*Object 470e16 24|203r15
+45R9*GObject_Record 431e14 24|203r22
+46P9*GObject(45R9)
+59V13*Get_Type{9|269M9} 24|205b22
+83U14*Ref
+89U14*Unref
+117U14*Deallocate
+130U14*Ref_Sink
+329U14*Notify
+421V13*Convert{33|64M9} 13|63i21 15|55i21
+422V13*Convert{46P9} 13|64i21 15|56i21
+X 22 gtk.ads
+47K9*Gtk 83e8 24|45r6 47r9 74r22 143r14 147r14 155r16 173r14 177r14 181r14
+. 185r14 220r5 25|32r14 148r22 155r25 234r5
+X 23 gtk-enums.ads
+45K13*Enums 649e14 24|45w10 74r26 143r18 147r18 155r20 173r18 177r18 181r18
+. 185r18 25|148r26 155r29
+380E9*Gtk_Unit 380e46 24|74r32 143r24 147r24 155r26 173r24 177r24 181r24
+. 185r24 25|148r32 155r35
+448V13*Convert{33|64M9} 13|63i21 15|55i21
+449V13*Convert{string} 13|64i21 15|56i21
+X 24 gtk-paper_size.ads
+47K13*Paper_Size 22|47k9 24|202E9 220l9 220e19 25|32b18 234l9 234t19
+49P9*Gtk_Paper_Size<9|155P9> 52r36 54r52 56r35 61r20 69r26 84r24 91r30 108r20
+. 114r27 114r50 117r27 124r30 128r14 131r34 134r31 142r14 146r14 152r16 164r33
+. 172r14 176r14 180r14 184r14 25|49r38 50r33 60r30 61r33 87r34 88r33 104r31
+. 105r33 115r33 116r41 127r20 130r51 143r26 156r17 174r24 181r17 195r30 206r17
+. 219r20 224r23
+51V13*Convert[6|20]{33|64M9} 13|63i21
+53V13*Convert[6|20]{49P9} 13|64i21
+55K12*Gtk_Paper_Size_Glist[13|68] 160r14 25|72r40 76r11 78r7
+58V13*Get_Type{9|269M9} 205b<c,gtk_paper_size_get_type>22
+60U14*Gtk_New 61<7 62>7 25|126b14 136l8 136t15
+61p7 Widget{49P9} 25|127b7 134m7
+62a7 Name{string} 25|128b7 132r40
+68U14*Gtk_New_Custom 69<7 70>7 71>7 72>7 73>7 74>7 25|142b14 167l8 167t22
+69p7 Widget{49P9} 25|143b7 160m7
+70a7 Name{string} 25|144b7 161r10
+71a7 Display_Name{string} 25|145b7 158r40
+72f7 Width{9|66F9} 25|146b7 163r10
+73f7 Height{9|66F9} 25|147b7 164r10
+74e7 Unit{23|380E9} 25|148b7 165r10
+83U14*Gtk_New_From_Key_File 84<7 85>7 86>7 25|173b14 188l8 188t29
+84p7 Widget{49P9} 25|174b7 186m7
+85p7 Key_File{17|102P9} 25|175b7 186r27
+86a7 Group_Name{string} 25|176b7 184r40
+90U14*Gtk_New_From_Ppd 91<7 92>7 93>7 94>7 95>7 25|194b14 212l8 212t24
+91p7 Widget{49P9} 25|195b7 210m7
+92a7 Ppd_Name{string} 25|196b7 210r27
+93a7 Ppd_Display_Name{string} 25|197b7 208r40
+94f7 Width{9|66F9} 25|198b7 210r52
+95f7 Height{9|66F9} 25|199b7 210r59
+107U14*To_Key_File 108>7 109>7 110>7 25|218b14 232l8 232t19
+108p7 Size{49P9} 25|219b7 230r17
+109p7 Key_File{17|102P9} 25|220b7 230r23
+110a7 Group_Name{string} 25|221b7 228r40
+114V13*Copy{49P9} 114>19 206b<c,gtk_paper_size_copy>22
+114p19 Other{49P9}
+117U14*Free 117>20 207b<c,gtk_paper_size_free>22
+117p20 Size{49P9}
+120V13*Get_Default{string} 25|38b13 43l8 43t19
+124V13*Get_Name{string} 124>23 25|60b13 65l8 65t16
+124p23 Size{49P9} 25|60b23 64r31
+127V13*Get_Display_Name{string} 128>7 25|49b13 54l8 54t24
+128p7 Size{49P9} 25|49b31 53r31
+131V13*Get_Ppd_Name{string} 131>27 25|87b13 98l8 98t20
+131p27 Size{49P9} 25|87b27 92r22
+134V13*Is_Custom{boolean} 134>24 25|104b13 109l8 109t17
+134p24 Size{49P9} 25|104b24 108r37
+141V13*Get_Width{9|66F9} 142>7 143>7 217b<c,gtk_paper_size_get_width>22
+142p7 Size{49P9}
+143e7 Unit{23|380E9}
+145V13*Get_Height{9|66F9} 146>7 147>7 216b<c,gtk_paper_size_get_height>22
+146p7 Size{49P9}
+147e7 Unit{23|380E9}
+151U14*Set_Size 152>7 153>7 154>7 155>7 218b<c,gtk_paper_size_set_size>22
+152p7 Size{49P9}
+153f7 Width{9|66F9}
+154f7 Height{9|66F9}
+155e7 Unit{23|380E9}
+158V13*Get_Paper_Sizes{13|70R12[55]} 159>7 25|71b13 81l8 81t23
+159b7 Include_Custom{boolean} 25|72b7 79r36
+164V14*"="{boolean} 164>18 164>25 25|115b14 120l9 120t11
+164p18 Size1{49P9} 25|115b18 119r37
+164p25 Size2{49P9} 25|115b25 119r44
+171V13*Get_Default_Bottom_Margin{9|66F9} 172>7 173>7 208b<c,gtk_paper_size_get_default_bottom_margin>22
+172p7 Size{49P9}
+173e7 Unit{23|380E9}
+175V13*Get_Default_Left_Margin{9|66F9} 176>7 177>7 210b<c,gtk_paper_size_get_default_left_margin>22
+176p7 Size{49P9}
+177e7 Unit{23|380E9}
+179V13*Get_Default_Right_Margin{9|66F9} 180>7 181>7 212b<c,gtk_paper_size_get_default_right_margin>22
+180p7 Size{49P9}
+181e7 Unit{23|380E9}
+183V13*Get_Default_Top_Margin{9|66F9} 184>7 185>7 214b<c,gtk_paper_size_get_default_top_margin>22
+184p7 Size{49P9}
+185e7 Unit{23|380E9}
+192a4*Gtk_Paper_Name_A3{string}
+193a4*Gtk_Paper_Name_A4{string}
+194a4*Gtk_Paper_Name_A5{string}
+195a4*Gtk_Paper_Name_B5{string}
+196a4*Gtk_Paper_Name_Letter{string}
+197a4*Gtk_Paper_Name_Executive{string}
+198a4*Gtk_Paper_Name_Legal{string}
+202R9 Gtk_Paper_Size_Record<18|45R9> 18|59p13 83p14 89p14 117p14 130p14 329p14
+. 24|203e53
+X 25 gtk-paper_size.adb
+39V16*Internal{32|47P9} 40b<c,gtk_paper_size_get_default>25 42s21
+50V16*Internal{32|47P9} 50>26 51b<c,gtk_paper_size_get_display_name>25 53s21
+50p26 Size{24|49P9}
+61V16*Internal{32|47P9} 61>26 62b<c,gtk_paper_size_get_name>25 64s21
+61p26 Size{24|49P9}
+74V16*Internal{33|64M9} 74>26 75b<c,gtk_paper_size_get_paper_sizes>25 79s13
+74i26 Include_Custom{9|58I9}
+76r7 G{13|70R12[24|55]} 79m10 79r10 80r14
+88V16*Internal{32|47P9} 88>26 89b<c,gtk_paper_size_get_ppd_name>25 92s12
+88p26 Size{24|49P9}
+90p7 C{32|47P9} 92m7 93r10 96r24
+105V16*Internal{9|58I9} 105>26 106b<c,gtk_paper_size_is_custom>25 108s27
+105p26 Size{24|49P9}
+116V16*Internal{9|58I9} 116>26 116>33 117b<c,gtk_paper_size_is_equal>25 119s27
+116p26 Size1{24|49P9}
+116p33 Size2{24|49P9}
+130V16*Internal{24|49P9} 130>26 131b<c,gtk_paper_size_new>25 134s17
+130p26 Name{32|47P9}
+132p7 N{32|47P9} 134r27 135m13 135r13
+150V16*Internal{24|49P9} 151>10 152>10 153>10 154>10 155>10 157b<c,gtk_paper_size_new_custom>25
+. 160s17
+151a10 Name{string}
+152p10 Display_Name{32|47P9}
+153f10 Width{9|66F9}
+154f10 Height{9|66F9}
+155e10 Unit{23|380E9}
+158p7 D{32|47P9} 162r10 166m13 166r13
+178V16*Internal{24|49P9} 179>10 180>10 182b<c,gtk_paper_size_new_from_key_file>25
+. 186s17
+179p10 Key_File{17|102P9}
+180p10 Group_Name{32|47P9}
+184p7 G{32|47P9} 186r37 187m13 187r13
+201V16*Internal{24|49P9} 202>10 203>10 204>10 205>10 207b<c,gtk_paper_size_new_from_ppd>25
+. 210s17
+202a10 Ppd_Name{string}
+203p10 Ppd_Display_Name{32|47P9}
+204f10 Width{9|66F9}
+205f10 Height{9|66F9}
+208p7 D{32|47P9} 210r49 211m13 211r13
+223U17*Internal 224>10 225>10 226>10 227b<c,gtk_paper_size_to_key_file>25
+. 230s7
+224p10 Size{24|49P9}
+225p10 Key_File{17|102P9}
+226p10 Group_Name{32|47P9}
+228p7 G{32|47P9} 230r33 231m13 231r13
+X 26 gtkada.ads
+36K9*Gtkada 25|30r6 30r32 26|40e11
+X 27 gtkada-bindings.ads
+43K16*Bindings 25|30w13 30r39 27|176e20
+50V13*String_Or_Null{32|47P9} 25|132s24 158s24 184s24 208s24 228s24
+X 30 interfac.ads
+38K9*Interfaces 25|29r6 29r32 30|179e15
+X 31 i-c.ads
+18K20*C 25|29r17 29r43 31|230e17
+35I9*int<integer>
+60M9*size_t
+65F9*double<long_float>
+X 32 i-cstrin.ads
+36K22*Strings 25|29w19 29r45 32|106e25
+47P9*chars_ptr 25|39r32 50r56 61r56 88r56 90r11 130r33 132r11 152r25 158r11
+. 180r23 184r11 203r29 208r11 226r23 228r11
+52p4*Null_Ptr{47P9} 25|93r14
+62U14*Free 25|135s7 166s7 187s7 211s7 231s7
+74V13*Value{string} 25|42s14 53s14 64s14 96s17
+X 33 system.ads
+37K9*System 24|52r52 54r36 25|74r60 33|152e11
+64M9*Address 24|52r59 54r43 25|74r67
+

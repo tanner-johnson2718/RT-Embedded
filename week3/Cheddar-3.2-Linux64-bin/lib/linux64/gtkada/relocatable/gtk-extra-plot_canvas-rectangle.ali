@@ -1,0 +1,290 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U gtk.extra.plot_canvas.rectangle%b  gtk-extra-plot_canvas-rectangle.adb  335cb8de OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W gdk%s			gdk.ads			gdk.ali
+W gdk.color%s		gdk-color.adb		gdk-color.ali
+W glib%s		glib.adb		glib.ali
+W glib.type_conversion_hooks%s  glib-type_conversion_hooks.adb  glib-type_conversion_hooks.ali  AD
+W gtk%s			gtk.ads			gtk.ali
+W gtk.extra%s		gtk-extra.ads		gtk-extra.ali
+W gtk.extra.plot%s	gtk-extra-plot.adb	gtk-extra-plot.ali
+W gtk.extra.plot_canvas%s  gtk-extra-plot_canvas.adb  gtk-extra-plot_canvas.ali
+W gtk.extra.plot_data%s	gtk-extra-plot_data.adb	gtk-extra-plot_data.ali
+W system%s		system.ads		system.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+U gtk.extra.plot_canvas.rectangle%s  gtk-extra-plot_canvas-rectangle.ads  9cc30b2e EE OO PF PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W gdk%s			gdk.ads			gdk.ali
+W gdk.color%s		gdk-color.adb		gdk-color.ali
+W gtk%s			gtk.ads			gtk.ali
+W gtk.extra%s		gtk-extra.ads		gtk-extra.ali
+W gtk.extra.plot%s	gtk-extra-plot.adb	gtk-extra-plot.ali
+W gtk.extra.plot_canvas%s  gtk-extra-plot_canvas.adb  gtk-extra-plot_canvas.ali
+W system%s		system.ads		system.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D cairo.ads		20141212124939 8dc0603a cairo%s
+D cairo-region.ads	20141212124939 b7133728 cairo.region%s
+D gdk.ads		20141212124940 f909352d gdk%s
+D gdk-bitmap.ads	20141212124940 a30f71c4 gdk.bitmap%s
+D gdk-color.ads		20141212124939 8aa593ee gdk.color%s
+D gdk-cursor.ads	20141212124939 d92b2ac1 gdk.cursor%s
+D gdk-display.ads	20141212124940 f1fc98fd gdk.display%s
+D gdk-drawable.ads	20141212124940 15e54888 gdk.drawable%s
+D gdk-event.ads		20141212124940 8e0f7bb6 gdk.event%s
+D gdk-font.ads		20141212124940 46e43fa8 gdk.font%s
+D gdk-gc.ads		20141212124939 a96f1ba5 gdk.gc%s
+D gdk-pixbuf.ads	20141212124940 8572dcfc gdk.pixbuf%s
+D gdk-pixmap.ads	20141212124939 677b62c0 gdk.pixmap%s
+D gdk-rectangle.ads	20141212124939 7b900608 gdk.rectangle%s
+D gdk-region.ads	20141212124939 ff429b15 gdk.region%s
+D gdk-rgb.ads		20141212124939 724abbe3 gdk.rgb%s
+D gdk-types.ads		20141212124940 b1082506 gdk.types%s
+D gdk-visual.ads	20141212124939 615e934c gdk.visual%s
+D gdk-window.ads	20141212124940 a02582f1 gdk.window%s
+D glib.ads		20141212124939 0f441d83 glib%s
+D glib-error.ads	20141212124939 e055fabe glib.error%s
+D glib-generic_properties.ads  20141212124939 a1807006 glib.generic_properties%s
+D glib-generic_properties.adb  20141212124939 b44dec2c glib.generic_properties%b
+D glib-glist.ads	20141212124940 65a6e1be glib.glist%s
+D glib-glist.adb	20141212124940 48a94e23 glib.glist%b
+D glib-gslist.ads	20141212124940 8fe7d6f1 glib.gslist%s
+D glib-gslist.adb	20141212124940 b4c9a81c glib.gslist%b
+D glib-object.ads	20141212124940 948e384a glib.object%s
+D glib-object.adb	20141212124939 425ed48d glib.object%b
+D glib-properties.ads	20141212124940 48c8d9fb glib.properties%s
+D glib-type_conversion_hooks.ads  20141212124939 df9131bc glib.type_conversion_hooks%s
+D glib-type_conversion_hooks.adb  20141212124939 e61e501b glib.type_conversion_hooks%b
+D glib-types.ads	20141212124939 497ce66f glib.types%s
+D glib-values.ads	20141212124939 37b4897e glib.values%s
+D gnat.ads		20140406181359 fd2ad2f1 gnat%s
+D g-string.ads		20140406181356 c6abc540 gnat.strings%s
+D gtk.ads		20141212124940 81513fe2 gtk%s
+D gtk-accel_group.ads	20141212124940 db8139a9 gtk.accel_group%s
+D gtk-adjustment.ads	20141212124940 6a3f2d37 gtk.adjustment%s
+D gtk-buildable.ads	20141212124940 0156d377 gtk.buildable%s
+D gtk-builder.ads	20141212124940 f4ad2f95 gtk.builder%s
+D gtk-container.ads	20141212124939 93cfa083 gtk.container%s
+D gtk-enums.ads		20141212124940 31c39095 gtk.enums%s
+D gtk-extra.ads		20141212124940 da2d3fb1 gtk.extra%s
+D gtk-extra-plot.ads	20141212124940 cb2ea105 gtk.extra.plot%s
+D gtk-extra-plot_canvas.ads  20141212124940 9448fff7 gtk.extra.plot_canvas%s
+D gtk-extra-plot_canvas-rectangle.ads  20141212124940 4900c632 gtk.extra.plot_canvas.rectangle%s
+D gtk-extra-plot_canvas-rectangle.adb  20141212124940 b1dba08d gtk.extra.plot_canvas.rectangle%b
+D gtk-extra-plot_data.ads  20141212124940 559ddd36 gtk.extra.plot_data%s
+D gtk-fixed.ads		20141212124940 37d0d73d gtk.fixed%s
+D gtk-object.ads	20141212124940 2b4b2b20 gtk.object%s
+D gtk-style.ads		20141212124939 f697ed25 gtk.style%s
+D gtk-widget.ads	20141212124939 468b5cfd gtk.widget%s
+D gtkada.ads		20141212124939 57aea1c7 gtkada%s
+D gtkada-bindings.ads	20141212124940 516dc70c gtkada.bindings%s
+D gtkada-c.ads		20141212124940 0f5973e3 gtkada.c%s
+D gtkada-types.ads	20141212124940 b7bc0c77 gtkada.types%s
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D i-cstrin.ads		20140406181357 341d0ddf interfaces.c.strings%s
+D pango.ads		20141212124939 d3c8e76d pango%s
+D pango-attributes.ads	20141212124939 34135516 pango.attributes%s
+D pango-context.ads	20141212124940 a00383e5 pango.context%s
+D pango-enums.ads	20141212124940 8ef2dddf pango.enums%s
+D pango-font.ads	20141212124940 375007f3 pango.font%s
+D pango-layout.ads	20141212124939 0814381c pango.layout%s
+D pango-tabs.ads	20141212124940 1dd550ef pango.tabs%s
+D system.ads		20140406181354 90249111 system%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-memory.ads		20140406181359 597d6634 system.memory%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-secsta.ads		20140406181359 86a2856d system.secondary_stack%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20140406181358 aedef97e system.stream_attributes%s
+D s-string.ads		20140406181358 8fe54fb7 system.strings%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D s-unstyp.ads		20140406181356 510692af system.unsigned_types%s
+D unchconv.ads		20140406181355 ca2f9e18 unchecked_conversion%s
+D unchdeal.ads		20140406181359 214516a4 unchecked_deallocation%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 10 gdk.ads
+40K9*Gdk 66e8 54|35r6 49r21 50r21 62r19 63r19 55|29r6 29r31 49r21 50r21 77r19
+. 78r19
+47P9*Gdk_Drawable<27|155P9>
+56P9*Gdk_Visual<27|155P9>
+X 12 gdk-color.ads
+58K13*Color 323e14 54|35w10 49r25 50r25 62r23 63r23 55|29w10 29r35 49r25
+. 50r25 77r23 78r23
+60R9*Gdk_Color 300e14 54|49r31 50r31 62r29 63r29 55|49r31 50r31 57r19 58r19
+. 77r29 78r29 86r22 87r22
+X 25 gdk-visual.ads
+83V13*Convert[94|20]{75|64M9} 31|63i21
+84V13*Convert[94|20]{10|56P9} 31|64i21
+X 26 gdk-window.ads
+537V13*Convert[94|20]{75|64M9} 31|63i21
+538V13*Convert[94|20]{10|47P9} 31|64i21
+X 27 glib.ads
+43K9*Glib 408e9 54|55r29 55|33r6 37r35
+56I9*Gint<66|35I9>
+58I9*Gboolean<56I9> 55|60r19 89r22
+65F9*Gfloat<66|64F9> 54|48r21 61r19 55|48r21 56r19 76r19 85r22
+75M9*Guint32
+78M9*Gsize<66|60M9>
+155P9*C_Proxy(152R9)
+269M9*GType<78M9> 54|55r34
+X 35 glib-object.ads
+46P9*GObject(45R9)
+83U14*Ref
+89U14*Unref
+117U14*Deallocate
+130U14*Ref_Sink
+146V13*Get_Object{75|64M9} 55|92s17
+153U14*Set_Object 55|65s7
+329U14*Notify
+421V13*Convert{75|64M9} 31|63i21 33|55i21
+422V13*Convert{46P9} 31|64i21 33|56i21
+X 38 glib-type_conversion_hooks.ads
+51K14*Type_Conversion_Hooks 105e31 55|33w11 37r40
+88k12*Hook_Registrator 103e24 55|37r62
+X 44 gtk.ads
+47K9*Gtk 83e8 54|36r6 38r9 47r21 51r21 60r19 64r19 70r5 55|30r6 30r31 31r6
+. 31r31 35r14 47r21 51r21 75r19 79r19 96r5
+67M12*Gtk_Type{27|269M9}
+X 50 gtk-enums.ads
+448V13*Convert{75|64M9} 31|63i21 33|55i21
+449V13*Convert{string} 31|64i21 33|56i21
+X 51 gtk-extra.ads
+37K13*Extra 44|47k9 51|38e14 54|36r10 38r13 47r25 51r25 60r23 64r23 70r9
+. 55|30r10 30r35 31r10 31r35 35r18 47r25 51r25 75r23 79r23 96r9
+X 52 gtk-extra-plot.ads
+111K19*Plot 1114e19 54|36w16 51r31 64r29 55|30w16 30r41 51r31 79r29
+140E9*Plot_Border_Style 150e7 54|51r36 64r34 55|51r36 59r19 79r34 88r22
+X 53 gtk-extra-plot_canvas.ads
+50K19*Plot_Canvas 51|37k13 53|394e26 54|38r19 70r15 55|35r24 96r15
+55R9*Gtk_Plot_Canvas_Child_Record<58|105R9> 386e55 54|40r49
+252U14*Set_Selection
+256U14*Set_Selection_Mode
+X 54 gtk-extra-plot_canvas-rectangle.ads
+38K31*Rectangle 53|50k19 54|69E32 70l27 70e36 55|35b36 96l27 96t36
+40R9*Gtk_Plot_Canvas_Rectangle_Record<53|55R9> 35|83p14 89p14 117p14 130p14
+. 329p14 53|252p14 256p14 54|41e22 43r10 58p14 59r26 55|38r24 64r20 74r26
+. 58|108p14 134P13 172p13 175p14 179p14 184p13 248p14
+42P9*Gtk_Plot_Canvas_Rectangle(40R9) 46r25 55|46r25
+45U14*Gtk_New 46<7 47>7 48>7 49>7 50>7 51>7 52>7 55|45b14 67l8 67t15
+46p7 Child{42P9} 55|46b7 64m7 65r19
+47e7 Style{56|159E9} 55|47b7 65r36
+48f7 Line_Width{27|65F9} 55|48b7 65r43
+49r7 Fg{12|60R9} 55|49b7 65r55
+50r7 Bg{12|60R9} 55|50b7 65r59
+51e7 Border{52|140E9} 55|51b7 65r63
+52b7 Fill{boolean} 55|52b7 66r49
+55V13*Get_Type{27|269M9} 69b<c,gtk_plot_canvas_rectangle_get_type>22 55|38r7
+58U14*Set_Attributes 59^7 60>7 61>7 62>7 63>7 64>7 65>7 55|73b14 94l8 94t22
+59p7 Rectangle(40R9) 55|74b7 92r29
+60e7 Style{56|159E9} 55|75b7 92r41
+61f7 Width{27|65F9} 55|76b7 92r48
+62r7 Fg{12|60R9} 55|77b7 92r55
+63r7 Bg{12|60R9} 55|78b7 92r59
+64e7 Border{52|140E9} 55|79b7 92r63
+65b7 Fill{boolean} 55|80b7 93r30
+X 55 gtk-extra-plot_canvas-rectangle.adb
+37K12 Type_Conversion[38|88] 39r26
+54V16*Internal{75|64M9} 55>10 56>10 57>10 58>10 59>10 60>10 62b<c,gtk_plot_canvas_rectangle_new>25
+. 65s26
+55e10 Style{56|159E9}
+56f10 Width{27|65F9}
+57r10 Fg{12|60R9}
+58r10 Bg{12|60R9}
+59e10 Border{52|140E9}
+60i10 Fill{27|58I9}
+82U17*Internal 83>10 84>10 85>10 86>10 87>10 88>10 89>10 90b<c,gtk_plot_canvas_rectangle_set_attributes>25
+. 92s7
+83m10 Rectangle{75|64M9}
+84e10 Style{56|159E9}
+85f10 Width{27|65F9}
+86r10 Fg{12|60R9}
+87r10 Bg{12|60R9}
+88e10 Border{52|140E9}
+89i10 Fill{27|58I9}
+X 56 gtk-extra-plot_data.ads
+51K19*Plot_Data 54|47r31 60r29 55|31w16 31r41 47r31 75r29 56|703e24
+159E9*Plot_Line_Style 54|47r41 60r39 55|47r41 55r19 75r39 84r22 56|166e26
+X 58 gtk-object.ads
+106P9*Gtk_Object(105R9)
+108U14*Destroy
+134V13*Get_Type{44|67M12}<35|59p13>
+143V13*Convert{75|64M9} 33|55i21
+144V13*Convert{106P9} 33|56i21
+172V13*Flags{27|75M9}
+175U14*Set_Flags
+179U14*Unset_Flags
+184V13*Flag_Is_Set{boolean}
+248U14*Sink
+X 60 gtk-widget.ads
+78P9*Gtk_Widget(77R9)
+121V13*Convert{75|64M9} 31|63i21 33|55i21
+122V13*Convert{78P9} 31|64i21 33|56i21
+X 66 i-c.ads
+35I9*int<integer>
+60M9*size_t
+64F9*C_float<float>
+X 75 system.ads
+37K9*System 55|61r17 83r22 75|152e11
+64M9*Address 55|61r24 83r29
+X 79 s-memory.ads
+53V13*Alloc{75|64M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{75|64M9} 105i<c,__gnat_realloc>22
+

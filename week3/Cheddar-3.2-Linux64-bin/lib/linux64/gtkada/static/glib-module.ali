@@ -1,0 +1,123 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P ZX
+
+RN
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_CONVERSION
+RV NO_UNCHECKED_DEALLOCATION
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U glib.module%b		glib-module.adb		60d0638f NE OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W glib%s		glib.adb		glib.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+W system%s		system.ads		system.ali
+
+U glib.module%s		glib-module.ads		468e95d8 BN NE OO PR PK
+W glib%s		glib.adb		glib.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D glib.ads		20141212124939 0f441d83 glib%s
+D glib-module.ads	20141212124939 49ca885b glib.module%s
+D glib-module.adb	20141212124939 1d07e60b glib.module%b
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D i-cstrin.ads		20140406181357 341d0ddf interfaces.c.strings%s
+D system.ads		20140406181354 90249111 system%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 8 glib.ads
+43K9*Glib 408e9 9|35r9 92r5 10|32r14 138r5
+56I9*Gint<12|35I9> 10|39r32 68r52 100r47
+155P9*C_Proxy(152R9) 9|42r25
+X 9 glib-module.ads
+35K14*Module 8|43k9 9|91E44 92l10 92e16 10|32b19 138l10 138t16
+38M9*Module_Flags 39r32 40r32 49r19 10|52r19 56r22
+39m4*Module_Bind_Lazy{38M9} 49r35 10|52r35
+40m4*Module_Bind_Mask{38M9}
+42P9*G_Module<8|155P9> 49r60 52r36 55r45 66r21 73r35 10|52r60 56r43 67r36
+. 68r35 92r21 98r24 114r35 115r35
+44V13*Module_Supported{boolean} 10|38b13 44l8 44t24
+47V13*Module_Open{42P9} 48>7 49>7 10|50b13 61l8 61t19
+48a7 File_Name{string} 10|51b7 60r24
+49m7 Flags{38M9} 10|52b7 60r47
+52V13*Module_Close{boolean} 52>27 10|67b13 73l8 73t20
+52p27 Module{42P9} 10|67b27 72r24
+55U14*Module_Make_Resident 55>36 91b<c,g_module_make_resident>22
+55p36 Module{42P9}
+58V13*Module_Error{string} 10|79b13 85l8 85t20
+62+12 Pointer 68r25 10|94r25 103r21
+65u14*Generic_Module_Symbol 66>7 67>7 68<7 69<7 10|91b14 108l8 108t29
+66p7 Module{42P9} 10|92b7 106r28
+67a7 Symbol_Name{string} 10|93b7 106r36
+68*7 Symbol{62+12} 10|94b7 107m7
+69b7 Success{boolean} 10|95b7 106m7
+73V13*Module_Name{string} 73>26 10|114b13 120l8 120t19
+73p26 Module{42P9} 10|114b26 119r31
+76V13*Module_Build_Path{string} 77>7 78>7 10|126b13 136l8 136t25
+77a7 Directory{string} 10|127b7 135r31
+78a7 Module_Name{string} 10|128b7 135r54
+X 10 glib-module.adb
+39V16*Internal{8|56I9} 40b<c,g_module_supported>25 43s14
+54V16*Internal{9|42P9} 55>10 56>10 57b<c,g_module_open>25 60s14
+55a10 File_Name{string}
+56m10 Flags{9|38M9}
+68V16*Internal{8|56I9} 68>26 69b<c,g_module_close>25 72s14
+68p26 Module{9|42P9}
+80V16*Internal{13|47P9} 81b<c,g_module_error>25 84s21
+97V16*Internal{8|56I9} 98>10 99>10 100>10 101b<c,g_module_symbol>25 106s18
+98p10 Module{9|42P9}
+99a10 Symbol_Name{string}
+100m10 Symbol{14|64M9}
+103*7 Tmp{9|62+12} 106m61 106r61 107r18
+115V16*Internal{13|47P9} 115>26 116b<c,g_module_name>25 119s21
+115p26 Module{9|42P9}
+130V16*Internal{13|47P9} 131>10 131>30 132b<c,g_module_build_path>25 135s21
+131a10 Directory{string}
+131a30 Module_Name{string}
+X 11 interfac.ads
+38K9*Interfaces 10|30r6 30r32 11|179e15
+X 12 i-c.ads
+18K20*C 10|30r17 30r43 12|230e17
+35I9*int<integer>
+X 13 i-cstrin.ads
+36K22*Strings 10|30w19 30r45 13|106e25
+47P9*chars_ptr 10|80r32 115r52 131r59
+74V13*Value{string} 10|84s14 119s14 135s14
+X 14 system.ads
+37K9*System 10|100r24 14|152e11
+64M9*Address 10|100r31
+

@@ -1,0 +1,121 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P ZX
+
+RN
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_CONVERSION
+RV NO_UNCHECKED_DEALLOCATION
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U glib.error%b		glib-error.adb		e823a664 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.unchecked_conversion%s
+W glib%s		glib.adb		glib.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+
+U glib.error%s		glib-error.ads		ef11e73d NE OO PR PK
+W glib%s		glib.adb		glib.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D glib.ads		20141212124939 0f441d83 glib%s
+D glib-error.ads	20141212124939 e055fabe glib.error%s
+D glib-error.adb	20141212124939 c580de03 glib.error%b
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D i-cstrin.ads		20140406181357 341d0ddf interfaces.c.strings%s
+D system.ads		20140406181354 90249111 system%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 1 ada.ads
+16K9*Ada 19e8 10|30r6 48r30
+X 6 a-unccon.ads
+20v14*Unchecked_Conversion 10|30w10 48r34
+X 8 glib.ads
+43K9*Glib 408e9 9|38r9 73r5 10|32r14 108r5
+56I9*Gint<12|35I9> 9|46r31 56r47 62r46 10|36r17 56r31 59r34 71r47 74r50 94r46
+58I9*Gboolean<56I9> 10|74r63
+75M9*Guint32
+155P9*C_Proxy(152R9) 9|41r23
+188M9*GQuark<75M9> 9|46r16 56r32 59r48 10|35r17 56r16 59r19 71r32 74r35 85r48
+X 9 glib-error.ads
+38K14*Error 8|43k9 9|70E34 73l10 73e15 10|32b19 108l10 108t15
+41P9*GError<8|155P9> 43r37 46r62 49r34 52r33 52r48 56r15 59r33 62r31 65r34
+. 10|49r7 56r62 59r65 71r15 74r18 85r33 94r31 103r34
+43P9*GError_Access(41P9)
+45V13*Error_New{41P9} 46>7 46>24 46>37 10|55b13 64l8 64t17
+46m7 Domain{8|188M9} 10|56b7 63r24
+46i24 Code{8|56I9} 10|56b24 63r32
+46a37 Message{string} 10|56b37 63r38
+49U14*Error_Free 49>26 70b<c,g_error_free>22
+49p26 Error{41P9}
+52V13*Error_Copy{41P9} 52>25 71b<c,g_error_copy>22
+52p25 Error{41P9}
+55V13*Error_Matches{boolean} 56>7 56>23 56>40 10|70b13 79l8 79t21
+56p7 Error{41P9} 10|71b7 78r24
+56m23 Domain{8|188M9} 10|71b23 78r31
+56i40 Code{8|56I9} 10|71b40 78r39
+59V13*Get_Domain{8|188M9} 59>25 10|85b13 88l8 88t18
+59p25 Error{41P9} 10|85b25 87r25
+62V13*Get_Code{8|56I9} 62>23 10|94b13 97l8 97t16
+62p23 Error{41P9} 10|94b23 96r25
+65V13*Get_Message{string} 65>26 10|103b13 106l8 106t19
+65p26 Error{41P9} 10|103b26 105r32
+X 10 glib-error.adb
+34R9 GError_Struct 38e14 39r26 42r44
+35m7*Domain{8|188M9} 87r32
+36i7*Code{8|56I9} 96r32
+37p7*Message{13|47P9} 105r39
+42P9 GError_Struct_Access(34R9) 43r26 49r15
+48V13 To_Gerror[6|20]{42P9} 87s14 96s14 105s21
+58V16*Internal{9|41P9} 59>10 59>27 59>40 60b<c,g_error_new_literal>25 63s14
+59m10 Domain{8|188M9}
+59i27 Code{8|56I9}
+59a40 Message{string}
+73V16*Internal{8|58I9} 74>10 74>26 74>43 75b<c,g_error_matches>25 78s14
+74p10 Error{9|41P9}
+74m26 Domain{8|188M9}
+74i43 Code{8|56I9}
+X 11 interfac.ads
+38K9*Interfaces 10|29r6 29r32 37r17 11|179e15
+X 12 i-c.ads
+18K20*C 10|29r17 29r43 37r28 12|230e17
+35I9*int<integer>
+X 13 i-cstrin.ads
+36K22*Strings 10|29w19 29r45 37r30 13|106e25
+47P9*chars_ptr 10|37r38
+74V13*Value{string} 10|105s14
+

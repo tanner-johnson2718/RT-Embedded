@@ -1,0 +1,201 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P SS ZX
+
+RN
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV SPARK_05
+
+U gdk.region%b		gdk-region.adb		727cd812 NE OO PK
+W gdk%s			gdk.ads			gdk.ali
+W system%s		system.ads		system.ali
+
+U gdk.region%s		gdk-region.ads		c39790b5 EE NE OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W gdk%s			gdk.ads			gdk.ali
+W gdk.rectangle%s	gdk-rectangle.adb	gdk-rectangle.ali
+W gdk.types%s		gdk-types.ads		gdk-types.ali
+W glib%s		glib.adb		glib.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D cairo.ads		20141212124939 8dc0603a cairo%s
+D cairo-region.ads	20141212124939 b7133728 cairo.region%s
+D gdk.ads		20141212124940 f909352d gdk%s
+D gdk-rectangle.ads	20141212124939 7b900608 gdk.rectangle%s
+D gdk-region.ads	20141212124939 ff429b15 gdk.region%s
+D gdk-region.adb	20141212124939 1d1ad216 gdk.region%b
+D gdk-types.ads		20141212124940 b1082506 gdk.types%s
+D glib.ads		20141212124939 0f441d83 glib%s
+D glib-generic_properties.ads  20141212124939 a1807006 glib.generic_properties%s
+D glib-generic_properties.adb  20141212124939 b44dec2c glib.generic_properties%b
+D glib-glist.ads	20141212124940 65a6e1be glib.glist%s
+D glib-glist.adb	20141212124940 48a94e23 glib.glist%b
+D glib-gslist.ads	20141212124940 8fe7d6f1 glib.gslist%s
+D glib-gslist.adb	20141212124940 b4c9a81c glib.gslist%b
+D glib-object.ads	20141212124940 948e384a glib.object%s
+D glib-values.ads	20141212124939 37b4897e glib.values%s
+D gtkada.ads		20141212124939 57aea1c7 gtkada%s
+D gtkada-types.ads	20141212124940 b7bc0c77 gtkada.types%s
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D i-cstrin.ads		20140406181357 341d0ddf interfaces.c.strings%s
+D system.ads		20140406181354 90249111 system%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-secsta.ads		20140406181359 86a2856d system.secondary_stack%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20140406181358 aedef97e system.stream_attributes%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D s-unstyp.ads		20140406181356 510692af system.unsigned_types%s
+D unchconv.ads		20140406181355 ca2f9e18 unchecked_conversion%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 10 gdk.ads
+40K9*Gdk 66e8 12|34r6 35r6 37r9 39r26 64r19 70r19 76r23 80r26 91r16 105r16
+. 110r16 143r5 13|32r14 89r26 122r19 126r22 141r16 145r19 155r16 161r5
+62P9*Gdk_Region<15|155P9> 12|39r30
+X 11 gdk-rectangle.ads
+34K13*Rectangle 66e18 12|34w10 70r23 76r27 80r30 91r20 105r20 110r20 13|89r30
+. 141r20 145r23 155r20
+36R12*Gdk_Rectangle{9|55R9} 12|70r33 76r37 91r30 105r30 110r30 13|141r30
+. 145r33 155r30
+41A9*Gdk_Rectangle_Array(36R12)<integer> 12|80r40 13|89r40
+X 12 gdk-region.ads
+37K13*Region 10|40k9 12|131E4 143l9 143e15 13|32b18 161l9 161t15
+39P12*Gdk_Region{10|62P9} 40r27 59r36 63r23 67r28 67r47 70r55 72r39 75r19
+. 79r22 83r29 85r32 87r32 90r16 94r16 99r16 104r23 108r23 109r16 115r24 116r17
+. 119r24 120r17 123r24 124r17 127r24 128r17 131r27 13|38r32 39r45 50r39 51r36
+. 63r29 64r35 75r36 76r32 88r22 93r25 107r16 109r35 121r23 128r44 140r23
+. 144r19 153r23 154r16
+40p4*Null_Region{39P12} 131c4 13|56r17
+42E9*Gdk_Fill_Rule 42e55 44r26 65r19 13|123r19 128r22
+42n27*Even_Odd_Rule{42E9}
+42n42*Winding_Rule{42E9}
+46E9*Gdk_Overlap_Type 55e7 57r26 91r52
+47n7*Overlap_Rectangle_In{46E9}
+50n7*Overlap_Rectangle_Out{46E9}
+53n7*Overlap_Rectangle_Part{46E9}
+59U14*Gdk_New 59<23 13|75b14 81l8 81t15
+59p23 Region{39P12} 13|75b23 80m7
+62U14*Polygon 63<7 64>7 65>7 13|120b14 133l8 133t15
+63p7 Region{39P12} 13|121b7 132m7
+64a7 Points{14|47A9} 13|122b7 132r27 132r35
+65e7 Fill_Rule{42E9} 13|123b7 132r50
+67V13*Copy{39P12} 67>19 133b<c,gdk_region_copy>22
+67p19 Region{39P12}
+69V13*Rectangle{39P12} 70>7 134b<c,gdk_region_rectangle>22
+70r7 Rectangle{11|36R12}
+72U14*Destroy 72=23 13|50b14 57l8 57t15
+72p23 Region{39P12} 13|50b23 55r17 56m7
+74U14*Get_Clipbox 75>7 76<7 135b<c,gdk_region_get_clipbox>22
+75p7 Region{39P12}
+76r7 Rectangle{11|36R12}
+78U14*Get_Rectangles 79>7 80<7 81<7 13|87b14 100l8 100t22
+79p7 Region{39P12} 13|88b7 99r17
+80a7 Rectangle{11|41A9} 13|89b7 99m25 99r25
+81i7 N_Rectangles{natural} 13|90b7 99m44
+83V13*Empty{boolean} 83>20 13|63b13 69l8 69t13
+83p20 Region{39P12} 13|63b20 68r37
+85V14*"="{boolean} 85>18 85>24 13|38b14 44l9 44t11 157s29
+85p18 Left{39P12} 13|38b18 43r37
+85p24 Right{39P12} 13|38b24 43r43
+87V13*Point_In{boolean} 87>23 87>44 87>47 13|106b13 114l8 114t16
+87p23 Region{39P12} 13|107b7 113r37
+87i44 X{integer} 13|107b28 113r45
+87i47 Y{integer} 13|107b31 113r48
+89V13*Rect_In{46E9} 90>7 91>7 136b<c,gdk_region_rect_in>22
+90p7 Region{39P12}
+91r7 Rect{11|36R12}
+93U14*Offset 94>7 95>7 96>7 137b<c,gdk_region_offset>22
+94p7 Region{39P12}
+95i7 Dx{15|56I9}
+96i7 Dy{15|56I9}
+98U14*Shrink 99>7 100>7 101>7 138b<c,gdk_region_shrink>22
+99p7 Region{39P12}
+100i7 Dx{15|56I9}
+101i7 Dy{15|56I9}
+103U14*Union_With_Rect 104=7 105>7 13|139b14 150l8 150t23 158s7
+104p7 Region{39P12} 13|140b7 147r26 149r17
+105r7 Rect{11|36R12} 13|141b7 149r25
+107U14*Union_With_Rect 108=7 109>7 110>7 13|152b14 159l8 159t23
+108p7 Result{39P12} 13|153b7 157r31 158m24
+109p7 Region{39P12} 13|154b7 157r22
+110r7 Rect{11|36R12} 13|155b7 158r32
+114U14*Intersect 115=7 116>7 139b<c,gdk_region_intersect>22
+115p7 Source1{39P12}
+116p7 Source2{39P12}
+118U14*Union 119=7 120>7 140b<c,gdk_region_union>22
+119p7 Source1{39P12}
+120p7 Source2{39P12}
+122U14*Substract 123=7 124>7 141b<c,gdk_region_subtract>22
+123p7 Source1{39P12}
+124p7 Source2{39P12}
+126U14*Gdk_Xor 127=7 128>7 142b<c,gdk_region_xor>22
+127p7 Source1{39P12}
+128p7 Source2{39P12}
+X 13 gdk-region.adb
+39V16*Internal{15|58I9} 39>26 39>35 40b<c,gdk_region_equal>25 43s27
+39p26 Region1{12|39P12}
+39p35 Region2{12|39P12}
+51U17*Internal 51>27 52b<c,gdk_region_destroy>25 55s7
+51p27 Region{12|39P12}
+64V16*Internal{15|58I9} 64>26 65b<c,gdk_region_empty>25 68s27
+64p26 Region{12|39P12}
+76V16*Internal{12|39P12} 77b<c,gdk_region_new>25 80s17
+92U17*Internal 93>10 94>10 95<10 96b<c,gdk_region_get_rectangles>25 99s7
+93p10 Region{12|39P12}
+94m10 Rectangle{29|64M9}
+95i10 N_Rectangles{natural}
+109V16*Internal{15|58I9} 109>26 109>47 109>50 110b<c,gdk_region_point_in>25
+. 113s27
+109p26 Region{12|39P12}
+109i47 X{integer}
+109i50 Y{integer}
+125V16*Internal{12|39P12} 126>10 127>10 128>10 129b<c,gdk_region_polygon>25
+. 132s17
+126a10 Points{14|47A9}
+127i10 Npoints{15|56I9}
+128e10 Fill_Rule{12|42E9}
+143U17*Internal 144>10 145>10 146b<c,gdk_region_union_with_rect>25 149s7
+144p10 Region{12|39P12}
+145r10 Rect{11|36R12}
+X 14 gdk-types.ads
+36K13*Types 12|35w10 64r23 13|122r23 126r26 14|262e14
+47A9*Gdk_Points_Array(41R9)<integer> 12|64r29 13|122r29 126r32
+X 15 glib.ads
+43K9*Glib 12|33w6 33r16 15|408e9
+56I9*Gint<27|35I9> 12|95r16 96r16 100r16 101r16 13|127r22
+58I9*Gboolean<56I9> 13|39r64 64r54 109r70
+155P9*C_Proxy(152R9)
+X 22 glib-object.ads
+46P9*GObject(45R9)
+421V13*Convert{29|64M9} 18|63i21 20|55i21
+422V13*Convert{46P9} 18|64i21 20|56i21
+X 27 i-c.ads
+35I9*int<integer>
+X 29 system.ads
+37K9*System 13|30w6 94r25 29|152e11
+64M9*Address 13|94r32
+

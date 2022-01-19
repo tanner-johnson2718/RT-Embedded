@@ -1,0 +1,114 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P ZX
+
+RN
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_CONVERSION
+RV NO_UNCHECKED_DEALLOCATION
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U glib.g_icon%b		glib-g_icon.adb		3059eb8c NE OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W glib%s		glib.adb		glib.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+W system%s		system.ads		system.ali
+
+U glib.g_icon%s		glib-g_icon.ads		418638ee EE NE OO PK
+W glib%s		glib.adb		glib.ali
+W system%s		system.ads		system.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D glib.ads		20141212124939 0f441d83 glib%s
+D glib-g_icon.ads	20141212124940 dee6b47c glib.g_icon%s
+D glib-g_icon.adb	20141212124940 daa2522f glib.g_icon%b
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D i-cstrin.ads		20140406181357 341d0ddf interfaces.c.strings%s
+D system.ads		20140406181354 90249111 system%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 8 glib.ads
+43K9*Glib 408e9 9|31r9 79r5 10|31r14 96r5
+56I9*Gint<12|35I9>
+58I9*Gboolean<56I9> 10|49r56
+62M9*Guint<12|43M9> 9|41r41 10|59r41 60r48
+78M9*Gsize<12|60M9>
+82A12*UTF8_String{string}<integer> 9|45r46 10|70r46
+269M9*GType<78M9> 9|36r36 10|37r36 38r32
+X 9 glib-g_icon.ads
+31K14*G_Icon 8|43k9 9|76E9 79l10 79e16 10|31b19 96l10 96t16
+33M9*G_Icon<14|64M9> 34r27 38r33 41r26 45r31 64r20 76c9 77r27 77r37 10|48r33
+. 49r41 59r26 60r33 70r31 73r33 84r20 87r62
+34m4*Null_G_Icon{33M9} 77c4
+36V13*G_Icon_Get_Type{8|269M9} 10|37b13 42l8 42t23
+38V14*"="{boolean}<14|78p13> 38>18 38>25 10|48b14 53l9 53t11
+38m18 Icon1{33M9} 10|48b18 52r37
+38m25 Icon2{33M9} 10|48b25 52r44
+41V13*Hash{8|62M9} 41>19 10|59b13 64l8 64t12
+41m19 Icon{33M9} 10|59b19 63r24
+45V13*To_String{8|82A12} 45>24 10|70b13 77l8 77t17
+45m24 Icon{33M9} 10|70b24 76r31
+63U14*New_For_String 64<7 65>7 10|83b14 94l8 94t22
+64m7 Widget{33M9} 10|84b7 93m7
+65a7 Str{string} 10|85b7 90r32
+X 10 glib-g_icon.adb
+38V16*Internal{8|269M9} 39b<c,g_icon_get_type>25 41s14
+49V16*Internal{8|58I9} 49>26 49>33 50b<c,g_icon_equal>25 52s27
+49m26 Icon1{9|33M9}
+49m33 Icon2{9|33M9}
+60V16*Internal{8|62M9} 60>26 61b<c,g_icon_hash>25 63s14
+60m26 Icon{9|33M9}
+73V16*Internal{13|47P9} 73>26 74b<c,g_icon_to_string>25 76s21
+73m26 Icon{9|33M9}
+87V16*Internal{9|33M9} 87>26 87>31 88b<c,g_icon_new_for_string>25 93s17
+87m26 Str{14|64M9}
+87m31 Error{14|64M9}
+90a7 Tmp=90:36{string} 93r27
+X 11 interfac.ads
+38K9*Interfaces 10|29r6 71r11 11|179e15
+X 12 i-c.ads
+18K20*C 10|29r17 71r22 12|230e17
+35I9*int<integer>
+43M9*unsigned
+60M9*size_t
+X 13 i-cstrin.ads
+36K22*Strings 10|29w19 71r24 13|106e25
+47P9*chars_ptr 10|73r48
+74V13*Value{string} 10|76s14
+X 14 system.ads
+37K9*System 9|29w6 76r23 77r45 10|87r39 93r40 14|152e11
+64M9*Address 9|76r30 10|87r46
+66m4*Null_Address{64M9} 9|77r52 10|93r47
+

@@ -1,0 +1,11 @@
+prefix=/caen.a/gnatmail/gcc-45/install-caen/gtk
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Fontconfig
+Description: Font configuration and customization library
+Version: 2.8.0
+Libs: -L${libdir} -lfontconfig
+Libs.private:  -lexpat -L/caen.a/gnatmail/gcc-45/install-caen/gtk/lib -lfreetype -lz 
+Cflags: -I${includedir}

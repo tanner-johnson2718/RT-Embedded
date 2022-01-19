@@ -1,0 +1,103 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P ZX
+
+RN
+RV NO_UNCHECKED_DEALLOCATION
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV SPARK_05
+
+U cairo.font_options%s	cairo-font_options.ads	23057e8a NE OO PK
+W cairo%s		cairo.adb		cairo.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D cairo.ads		20141212124939 8dc0603a cairo%s
+D cairo-font_options.ads  20141212124940 aec51eb0 cairo.font_options%s
+D glib.ads		20141212124939 0f441d83 glib%s
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D i-cstrin.ads		20140406181357 341d0ddf interfaces.c.strings%s
+D system.ads		20140406181354 90249111 system%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 8 cairo.ads
+78K9*Cairo 2813e10 9|36r9 217r5
+176E9*Cairo_Status 274e7 9|66r58
+686E9*Cairo_Antialias 701e7 9|113r19 122r17
+1425B9*Cairo_Bool<boolean> 9|88r17
+1866E9*Cairo_Subpixel_Order 1881e7 9|131r24 143r17
+1887E9*Cairo_Hint_Style 1904e7 9|153r20 164r17
+1915E9*Cairo_Hint_Metrics 1925e7 9|174r22 185r17
+1933M9*Cairo_Font_Options<14|64M9> 9|38r27 48r18 49r18 60r33 66r31 75r17
+. 76r17 86r17 87r17 99r17 112r19 121r17 130r24 142r17 152r20 163r17 173r22
+. 184r17
+X 9 cairo-font_options.ads
+36K15*Font_Options 8|78k9 9|195E30 217l11 217e23
+38V13*Create{8|1933M9} 195b<c,cairo_font_options_create>22
+47V13*Copy{8|1933M9} 48>7 196b<c,cairo_font_options_copy>22
+48m7 Original{8|1933M9}
+60U14*Destroy 60>23 197b<c,cairo_font_options_destroy>22
+60m23 Options{8|1933M9}
+66V13*Status{8|176E9} 66>21 198b<c,cairo_font_options_status>22
+66m21 Options{8|1933M9}
+74U14*Merge 75>7 76>7 199b<c,cairo_font_options_merge>22
+75m7 Options{8|1933M9}
+76m7 Other{8|1933M9}
+85V13*Equal{8|1425E9} 86>7 87>7 200b<c,cairo_font_options_equal>22
+86m7 Options{8|1933M9}
+87m7 Other{8|1933M9}
+98V13*Hash{10|61M9} 99>7 201b<c,cairo_font_options_hash>22
+99m7 Options{8|1933M9}
+111U14*Set_Antialias 112>7 113>7 202b<c,cairo_font_options_set_antialias>22
+112m7 Options{8|1933M9}
+113e7 Antialias{8|686E9}
+120V13*Get_Antialias{8|686E9} 121>7 203b<c,cairo_font_options_get_antialias>22
+121m7 Options{8|1933M9}
+129U14*Set_Subpixel_Order 130>7 131>7 206b<c,cairo_font_options_set_subpixel_order>7
+130m7 Options{8|1933M9}
+131e7 Subpixel_Order{8|1866E9}
+141V13*Get_Subpixel_Order{8|1866E9} 142>7 210b<c,cairo_font_options_get_subpixel_order>7
+142m7 Options{8|1933M9}
+151U14*Set_Hint_Style 152>7 153>7 212b<c,cairo_font_options_set_hint_style>22
+152m7 Options{8|1933M9}
+153e7 Hint_Style{8|1887E9}
+162V13*Get_Hint_Style{8|1887E9} 163>7 213b<c,cairo_font_options_get_hint_style>22
+163m7 Options{8|1933M9}
+172U14*Set_Hint_Metrics 173>7 174>7 214b<c,cairo_font_options_set_hint_metrics>22
+173m7 Options{8|1933M9}
+174e7 Hint_Metrics{8|1915E9}
+183V13*Get_Hint_Metrics{8|1915E9} 184>7 215b<c,cairo_font_options_get_hint_metrics>22
+184m7 Options{8|1933M9}
+X 10 glib.ads
+61M9*Gulong<12|45M9> 9|100r17
+X 12 i-c.ads
+45M9*unsigned_long
+X 14 system.ads
+64M9*Address
+

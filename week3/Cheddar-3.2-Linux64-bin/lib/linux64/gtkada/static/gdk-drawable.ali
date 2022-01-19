@@ -1,0 +1,371 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P SS ZX
+
+RN
+RV NO_SECONDARY_STACK
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV SPARK_05
+
+U gdk.drawable%b	gdk-drawable.adb	ab60eae7 NE OO PK
+W gdk%s			gdk.ads			gdk.ali
+W glib%s		glib.adb		glib.ali
+W glib.object%s		glib-object.adb		glib-object.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U gdk.drawable%s	gdk-drawable.ads	5ab47d3c EE NE OO PK
+W gdk%s			gdk.ads			gdk.ali
+W gdk.types%s		gdk-types.ads		gdk-types.ali
+W glib%s		glib.adb		glib.ali
+W pango%s		pango.ads		pango.ali
+W pango.layout%s	pango-layout.adb	pango-layout.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D cairo.ads		20141212124939 8dc0603a cairo%s
+D cairo-region.ads	20141212124939 b7133728 cairo.region%s
+D gdk.ads		20141212124940 f909352d gdk%s
+D gdk-drawable.ads	20141212124940 15e54888 gdk.drawable%s
+D gdk-drawable.adb	20141212124940 ee0e1aaf gdk.drawable%b
+D gdk-rectangle.ads	20141212124939 7b900608 gdk.rectangle%s
+D gdk-types.ads		20141212124940 b1082506 gdk.types%s
+D glib.ads		20141212124939 0f441d83 glib%s
+D glib-generic_properties.ads  20141212124939 a1807006 glib.generic_properties%s
+D glib-generic_properties.adb  20141212124939 b44dec2c glib.generic_properties%b
+D glib-glist.ads	20141212124940 65a6e1be glib.glist%s
+D glib-glist.adb	20141212124940 48a94e23 glib.glist%b
+D glib-gslist.ads	20141212124940 8fe7d6f1 glib.gslist%s
+D glib-gslist.adb	20141212124940 b4c9a81c glib.gslist%b
+D glib-object.ads	20141212124940 948e384a glib.object%s
+D glib-object.adb	20141212124939 425ed48d glib.object%b
+D glib-type_conversion_hooks.ads  20141212124939 df9131bc glib.type_conversion_hooks%s
+D glib-values.ads	20141212124939 37b4897e glib.values%s
+D gnat.ads		20140406181359 fd2ad2f1 gnat%s
+D g-string.ads		20140406181356 c6abc540 gnat.strings%s
+D gtkada.ads		20141212124939 57aea1c7 gtkada%s
+D gtkada-bindings.ads	20141212124940 516dc70c gtkada.bindings%s
+D gtkada-c.ads		20141212124940 0f5973e3 gtkada.c%s
+D gtkada-types.ads	20141212124940 b7bc0c77 gtkada.types%s
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D i-cstrin.ads		20140406181357 341d0ddf interfaces.c.strings%s
+D pango.ads		20141212124939 d3c8e76d pango%s
+D pango-attributes.ads	20141212124939 34135516 pango.attributes%s
+D pango-context.ads	20141212124940 a00383e5 pango.context%s
+D pango-enums.ads	20141212124940 8ef2dddf pango.enums%s
+D pango-font.ads	20141212124940 375007f3 pango.font%s
+D pango-layout.ads	20141212124939 0814381c pango.layout%s
+D pango-tabs.ads	20141212124940 1dd550ef pango.tabs%s
+D system.ads		20140406181354 90249111 system%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-memory.ads		20140406181359 597d6634 system.memory%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-secsta.ads		20140406181359 86a2856d system.secondary_stack%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20140406181358 aedef97e system.stream_attributes%s
+D s-string.ads		20140406181358 8fe54fb7 system.strings%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D s-unstyp.ads		20140406181356 510692af system.unsigned_types%s
+D unchconv.ads		20140406181355 ca2f9e18 unchecked_conversion%s
+D unchdeal.ads		20140406181359 214516a4 unchecked_deallocation%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 10 gdk.ads
+40K9*Gdk 66e8 11|47r6 50r9 52r28 67r43 70r39 72r57 82r18 89r18 100r18 119r18
+. 140r18 142r18 152r21 153r21 166r21 167r21 170r21 177r18 198r18 207r18 219r18
+. 220r18 241r18 242r18 248r21 249r21 254r18 255r18 268r62 270r65 289r5 12|34r14
+. 44r18 55r21 75r18 76r18 80r21 81r21 95r18 96r18 100r21 101r21 115r18 117r18
+. 121r21 123r21 137r18 145r21 161r18 162r18 163r18 166r21 167r21 168r21 182r18
+. 183r18 190r24 191r24 204r19 205r19 208r19 212r24 213r24 233r18 240r21 248r5
+45P9*Gdk_GC<15|155P9> 11|82r22 89r22 100r22 119r22 140r22 153r25 167r25 177r22
+. 198r22 207r22 219r22 241r22 248r25 254r22 12|44r22 55r25 75r22 80r25 95r22
+. 100r25 115r22 121r25 137r22 145r25 162r22 167r25 183r22 191r28 205r23 213r28
+. 233r22 240r25
+47P9*Gdk_Drawable<15|155P9> 11|52r32
+54P9*Gdk_Colormap<15|155P9> 11|67r47 70r43
+56P9*Gdk_Visual<15|155P9> 11|72r61
+58P9*Gdk_Font<15|155P9> 11|152r25 166r25 12|182r22 190r28 204r23 212r28
+60P9*Gdk_Image<15|155P9> 11|220r22 266r31
+62P9*Gdk_Region<15|155P9> 11|268r66 270r69
+X 11 gdk-drawable.ads
+50K13*Drawable 10|40k9 11|273E4 289l9 289e17 12|34b18 161r22 166r25 248l9
+. 248t17
+52P12*Gdk_Drawable{10|47P9} 55r29 61r18 67r18 70r18 72r36 74r35 76r30 78r32
+. 81r18 88r18 99r18 118r18 139r18 151r21 165r21 176r18 178r18 197r18 206r18
+. 208r18 218r18 240r18 247r21 253r18 262r18 268r41 270r44 273r29 12|43r18
+. 54r21 74r18 79r21 94r18 99r21 114r18 120r21 136r18 144r21 161r31 166r34
+. 181r18 189r24 203r19 211r24 232r18 239r21
+55p4*Null_Drawable{52P12} 273c4
+57V13*Get_Type{15|269M9} 274b<c,gdk_drawable_get_type>22
+60U14*Get_Size 61>7 62<7 63<7 278b<c,gdk_drawable_get_size>22
+61p7 Drawable{52P12}
+62i7 Width{15|56I9}
+63i7 Height{15|56I9}
+66U14*Set_Colormap 67>7 67>32 281b<c,gdk_drawable_set_colormap>22
+67p7 Drawable{52P12}
+67p32 Colormap{10|54P9}
+69V13*Get_Colormap{10|54P9} 70>7 279b<c,gdk_drawable_get_colormap>22
+70p7 Drawable{52P12}
+72V13*Get_Visual{10|56P9} 72>25 280b<c,gdk_drawable_get_visual>22
+72p25 Drawable{52P12}
+74V13*Get_Depth{15|56I9} 74>24 275b<c,gdk_drawable_get_depth>22
+74p24 Drawable{52P12}
+76U14*Ref 76>19 276b<c,gdk_drawable_ref>22
+76p19 Drawable{52P12}
+78U14*Unref 78>21 277b<c,gdk_drawable_unref>22
+78p21 Drawable{52P12}
+80U14*Draw_Point 81>7 82>7 83>7 84>7 284b<c,gdk_draw_point>22
+81p7 Drawable{52P12}
+82p7 GC{10|45P9}
+83i7 X{15|56I9}
+84i7 Y{15|56I9}
+87U14*Draw_Line 88>7 89>7 90>7 91>7 92>7 93>7 283b<c,gdk_draw_line>22
+88p7 Drawable{52P12}
+89p7 GC{10|45P9}
+90i7 X1{15|56I9}
+91i7 Y1{15|56I9}
+92i7 X2{15|56I9}
+93i7 Y2{15|56I9}
+98U14*Draw_Rectangle 99>7 100>7 101>7 102>7 103>7 104>7 105>7 12|135b14 154l8
+. 154t22
+99p7 Drawable{52P12} 12|136b7 153r17
+100p7 GC{10|45P9} 12|137b7 153r27
+101b7 Filled{boolean} 12|138b7 153r44
+102i7 X{15|56I9} 12|139b7 153r53
+103i7 Y{15|56I9} 12|139b10 153r56
+104i7 Width{15|56I9} 12|140b7 153r59
+105i7 Height{15|56I9} 12|141b7 153r66
+117U14*Draw_Arc 118>7 119>7 120>7 121>7 122>7 123>7 124>7 125>7 126>7 12|42b14
+. 67l8 67t16
+118p7 Drawable{52P12} 12|43b7 65r17
+119p7 GC{10|45P9} 12|44b7 65r27
+120b7 Filled{boolean} 12|45b7 65r44
+121i7 X{15|56I9} 12|46b7 66r17
+122i7 Y{15|56I9} 12|47b7 66r20
+123i7 Width{15|56I9} 12|48b7 66r23
+124i7 Height{15|56I9} 12|49b7 66r30
+125i7 Angle1{15|56I9} 12|50b7 66r38
+126i7 Angle2{15|56I9} 12|51b7 66r46
+138U14*Draw_Polygon 139>7 140>7 141>7 142>7 12|113b14 129l8 129t20
+139p7 Drawable{52P12} 12|114b7 128r17
+140p7 GC{10|45P9} 12|115b7 128r27
+141b7 Filled{boolean} 12|116b7 128r44
+142a7 Points{14|47A9} 12|117b7 128r53 128r61
+150U14*Draw_Text 151>7 152>7 153>7 154>7 155>7 156>7 12|180b14 200l8 200t17
+151p7 Drawable{52P12} 12|181b7 199r17
+152p7 Font{10|58P9} 12|182b7 199r27
+153p7 GC{10|45P9} 12|183b7 199r33
+154i7 X{15|56I9} 12|184b7 199r37
+155i7 Y{15|56I9} 12|185b7 199r40
+156a7 Text{15|82A12} 12|186b7 199r43 199r49
+164U14*Draw_Text 165>7 166>7 167>7 168>7 169>7 170>7 12|202b14 225l8 225t17
+165p7 Drawable{52P12} 12|203b7 222r10
+166p7 Font{10|58P9} 12|204b7 222r20
+167p7 GC{10|45P9} 12|205b7 222r26
+168i7 X{15|56I9} 12|206b7 222r30
+169i7 Y{15|56I9} 12|207b7 222r33
+170a7 Wide_Text{14|169A12} 12|208b7 223r26 224r10
+175U14*Draw_Drawable 176>7 177>7 178>7 179>7 180>7 181>7 182>7 183>7 184>7
+. 214r38 282b<c,gdk_draw_drawable>22
+176p7 Drawable{52P12}
+177p7 GC{10|45P9}
+178p7 Src{52P12}
+179i7 Xsrc{15|56I9}
+180i7 Ysrc{15|56I9}
+181i7 Xdest{15|56I9}
+182i7 Ydest{15|56I9}
+183i7 Width{15|56I9}
+184i7 Height{15|56I9}
+196U14*Draw_Layout 197>7 198>7 199>7 200>7 201>7 12|231b14 246l8 246t19
+197p7 Drawable{52P12} 12|232b7 245r17
+198p7 GC{10|45P9} 12|233b7 245r27
+199i7 X{15|56I9} 12|234b7 245r31
+200i7 Y{15|56I9} 12|235b7 245r34
+201p7 Layout{40|72P9} 12|236b7 245r49
+205U14*Draw_Pixmap=214:38
+206p7 Drawable{52P12}
+207p7 GC{10|45P9}
+208p7 Src{52P12}
+209i7 Xsrc{15|56I9}
+210i7 Ysrc{15|56I9}
+211i7 Xdest{15|56I9}
+212i7 Ydest{15|56I9}
+213i7 Width{15|56I9}
+214i7 Height{15|56I9}
+217U14*Draw_Image 218>7 219>7 220>7 221>7 222>7 223>7 224>7 225>7 226>7 285b<c,gdk_draw_image>22
+218p7 Drawable{52P12}
+219p7 GC{10|45P9}
+220p7 Image{10|60P9}
+221i7 Xsrc{15|56I9}
+222i7 Ysrc{15|56I9}
+223i7 Xdest{15|56I9}
+224i7 Ydest{15|56I9}
+225i7 Width{15|56I9}
+226i7 Height{15|56I9}
+239U14*Draw_Points 240>7 241>7 242>7 12|93b14 107l8 107t19
+240p7 Drawable{52P12} 12|94b7 106r17
+241p7 GC{10|45P9} 12|95b7 106r27
+242a7 Points{14|47A9} 12|96b7 106r31 106r39
+246U14*Draw_Segments 247>7 248>7 249>7 12|160b14 174l8 174t21
+247p7 Drawable{52P12} 12|161b7 173r17
+248p7 GC{10|45P9} 12|162b7 173r27
+249a7 Segs{14|58A9} 12|163b7 173r31 173r37
+252U14*Draw_Lines 253>7 254>7 255>7 12|73b14 87l8 87t18
+253p7 Drawable{52P12} 12|74b7 86r17
+254p7 GC{10|45P9} 12|75b7 86r27
+255a7 Points{14|47A9} 12|76b7 86r31 86r39
+261V13*Get_Image{10|60P9} 262>7 263>7 264>7 265>7 266>7 286b<c,gdk_drawable_get_image>22
+262p7 Drawable{52P12}
+263i7 X{15|56I9}
+264i7 Y{15|56I9}
+265i7 Width{15|56I9}
+266i7 Height{15|56I9}
+268V13*Get_Clip_Region{10|62P9} 268>30 287b<c,gdk_drawable_get_clip_region>22
+268p30 Drawable{52P12}
+270V13*Get_Visible_Region{10|62P9} 270>33 288b<c,gdk_drawable_get_visible_region>22
+270p33 Drawable{52P12}
+X 12 gdk-drawable.adb
+36K12 C=36:33 216r24 223r10
+53U17*Internal 54>10 55>10 56>10 57>10 57>13 58>10 59>10 60>10 61>10 62b<c,gdk_draw_arc>25
+. 65s7
+54p10 Drawable{11|52P12}
+55p10 GC{10|45P9}
+56i10 Filled{15|58I9}
+57i10 X{15|56I9}
+57i13 Y{15|56I9}
+58i10 Width{15|56I9}
+59i10 Height{15|56I9}
+60i10 Angle1{15|56I9}
+61i10 Angle2{15|56I9}
+78U17*Internal 79>10 80>10 81>10 82>10 83b<c,gdk_draw_lines>25 86s7
+79p10 Drawable{11|52P12}
+80p10 GC{10|45P9}
+81a10 Points{14|47A9}
+82i10 Npoints{15|56I9}
+98U17*Internal 99>10 100>10 101>10 102>10 103b<c,gdk_draw_points>25 106s7
+99p10 Drawable{11|52P12}
+100p10 GC{10|45P9}
+101a10 Points{14|47A9}
+102i10 Npoints{15|56I9}
+119U17*Internal 120>10 121>10 122>10 123>10 124>10 125b<c,gdk_draw_polygon>25
+. 128s7
+120p10 Drawable{11|52P12}
+121p10 GC{10|45P9}
+122i10 Filled{15|58I9}
+123a10 Points{14|47A9}
+124i10 Npoints{15|56I9}
+143U17*Internal 144>10 145>10 146>10 147>10 147>13 148>10 149>10 150b<c,gdk_draw_rectangle>25
+. 153s7
+144p10 Drawable{11|52P12}
+145p10 GC{10|45P9}
+146i10 Filled{15|58I9}
+147i10 X{15|56I9}
+147i13 Y{15|56I9}
+148i10 Width{15|56I9}
+149i10 Height{15|56I9}
+165U17*Internal 166>10 167>10 168>10 169>10 170b<c,gdk_draw_segments>25 173s7
+166p10 Drawable{11|52P12}
+167p10 GC{10|45P9}
+168a10 Segs{14|58A9}
+169i10 Nsegs{15|56I9}
+188U17*Internal 189>10 190>10 191>10 192>10 193>10 194>10 195>10 196b<c,gdk_draw_text>25
+. 199s7
+189p10 Drawable{11|52P12}
+190p10 Font{10|58P9}
+191p10 GC{10|45P9}
+192i10 X{15|56I9}
+193i10 Y{15|56I9}
+194a10 Text{15|82A12}
+195i10 Text_Length{15|56I9}
+210U17*Internal 211>10 212>10 213>10 214>10 215>10 216>10 217>10 218b<c,gdk_draw_text_wc>25
+. 221s7
+211p10 Drawable{11|52P12}
+212p10 Font{10|58P9}
+213p10 GC{10|45P9}
+214i10 X{15|56I9}
+215i10 Y{15|56I9}
+216a10 Text{33|116A9}
+217i10 Text_Length{15|56I9}
+238U17*Internal 239>10 240>10 241>10 241>13 242>10 243b<c,gdk_draw_layout>25
+. 245s7
+239p10 Drawable{11|52P12}
+240p10 GC{10|45P9}
+241i10 X{15|56I9}
+241i13 Y{15|56I9}
+242m10 Layout{42|64M9}
+X 14 gdk-types.ads
+36K13*Types 11|47w10 142r22 170r25 242r22 249r25 255r22 12|76r22 81r25 96r22
+. 101r25 117r22 123r25 163r22 168r25 208r23 14|262e14
+47A9*Gdk_Points_Array(41R9)<integer> 11|142r28 242r28 255r28 12|76r28 81r31
+. 96r28 101r31 117r28 123r31
+58A9*Gdk_Segments_Array(50R9)<integer> 11|249r31 12|163r28 168r31
+169A12*Gdk_WString{wide_string}<integer> 11|170r31 12|208r29
+X 15 glib.ads
+43K9*Glib 11|46w6 46r16 57r29 12|32r6 32r23 15|408e9
+56I9*Gint<33|35I9> 11|62r22 63r22 74r56 83r18 84r18 90r18 91r18 92r18 93r18
+. 102r18 103r18 104r18 105r18 121r18 122r18 123r18 124r18 125r18 126r18 154r21
+. 155r21 168r21 169r21 179r18 180r18 181r18 182r18 183r18 184r18 199r18 200r18
+. 209r18 210r18 211r18 212r18 213r18 214r18 221r18 222r18 223r18 224r18 225r18
+. 226r18 263r18 264r18 265r18 266r18 12|46r18 47r18 48r18 49r18 50r18 51r18
+. 57r21 58r21 59r21 60r21 61r21 82r21 102r21 124r21 139r18 140r18 141r18
+. 147r21 148r21 149r21 169r21 184r18 185r18 192r24 193r24 195r24 206r19 207r19
+. 214r24 215r24 217r24 234r18 235r18 241r21
+58I9*Gboolean<56I9> 12|56r21 122r21 146r21
+78M9*Gsize<33|60M9>
+82A12*UTF8_String{string}<integer> 11|156r21 12|186r18 194r24
+155P9*C_Proxy(152R9)
+269M9*GType<78M9> 11|57r34
+X 22 glib-object.ads
+43K14*Object 12|32w11 32r28 22|470e16
+46P9*GObject(45R9)
+146V13*Get_Object{42|64M9} 12|245s37
+421V13*Convert{42|64M9} 18|63i21 20|55i21
+422V13*Convert{46P9} 18|64i21 20|56i21
+X 32 interfac.ads
+38K9*Interfaces 12|30r6 36r22 32|179e15
+X 33 i-c.ads
+18K20*C 12|30w17 36r33 33|230e17
+35I9*int<integer>
+60M9*size_t
+108E9*wchar_t<wide_character>
+116A9*wchar_array(108E9)<60M9> 12|216r26
+120V13*To_C{116A9} 12|223s12
+121a7 Item{wide_string} 12|223r18
+122b7 Append_Nul{boolean} 12|223r37
+X 35 pango.ads
+35K9*Pango 11|48r6 201r18 12|236r18 35|39e10
+X 40 pango-layout.ads
+69K15*Layout 11|48w12 201r24 12|236r24 40|340e17
+72P9*Pango_Layout(71R9) 11|201r31 12|236r31
+X 42 system.ads
+37K9*System 12|31w6 242r21 42|152e11
+64M9*Address 12|242r28
+X 46 s-memory.ads
+53V13*Alloc{42|64M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{42|64M9} 105i<c,__gnat_realloc>22
+

@@ -1,0 +1,80 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_UNCHECKED_DEALLOCATION
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U cairo.svg%b		cairo-svg.adb		dc08b786 NE OO PK
+W cairo%s		cairo.adb		cairo.ali
+W system%s		system.ads		system.ali
+
+U cairo.svg%s		cairo-svg.ads		5e59f8f9 EE NE OO PK
+W cairo%s		cairo.adb		cairo.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D cairo.ads		20141212124939 8dc0603a cairo%s
+D cairo-svg.ads		20141212124940 d39998c3 cairo.svg%s
+D cairo-svg.adb		20141212124940 0f912f45 cairo.svg%b
+D glib.ads		20141212124939 0f441d83 glib%s
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D i-cstrin.ads		20140406181357 341d0ddf interfaces.c.strings%s
+D system.ads		20140406181354 90249111 system%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 8 cairo.ads
+78K9*Cairo 2813e10 9|29r9 70r5 10|29r14 51r5
+91M9*Cairo_Surface<15|64M9> 9|34r41 10|39r14 43r37
+X 9 cairo-svg.ads
+29K15*SVG 8|78k9 9|70l11 70e14 10|29b20 51l11 51t14
+31V13*Create{8|91M9} 32>7 33>7 34>7 10|35b13 49l8 49t14
+32a7 Filename{string} 10|36b7 46r30
+33f7 Width_In_Point{11|66F9} 10|37b7 48r47
+34f7 Height_In_Point{11|66F9} 10|38b7 48r63
+X 10 cairo-svg.adb
+41V16*C_Internal{8|91M9} 42>10 43>10 43>13 44b<c,cairo_svg_surface_create>25
+. 48s14
+42m10 Filename{15|64M9}
+43f10 W{11|66F9}
+43f13 H{11|66F9}
+46a7 S=46:39{string} 48r26 48r29
+X 11 glib.ads
+66F9*Gdouble<13|65F9> 9|33r25 34r25 10|37r25 38r25 43r21
+X 13 i-c.ads
+65F9*double<long_float>
+X 15 system.ads
+37K9*System 10|42r21 15|152e11
+64M9*Address 10|42r28
+

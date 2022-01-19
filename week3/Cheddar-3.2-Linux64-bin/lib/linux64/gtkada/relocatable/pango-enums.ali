@@ -1,0 +1,188 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P SS ZX
+
+RN
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U pango.enums%b		pango-enums.adb		853ec0b7 NE OO PK
+W pango%s		pango.ads		pango.ali
+
+U pango.enums%s		pango-enums.ads		f3fe5737 EE OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W glib%s		glib.adb		glib.ali
+W glib.generic_properties%s  glib-generic_properties.adb  glib-generic_properties.ali  EA
+W pango%s		pango.ads		pango.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D glib.ads		20141212124939 0f441d83 glib%s
+D glib-generic_properties.ads  20141212124939 a1807006 glib.generic_properties%s
+D glib-generic_properties.adb  20141212124939 b44dec2c glib.generic_properties%b
+D glib-glist.ads	20141212124940 65a6e1be glib.glist%s
+D glib-glist.adb	20141212124940 48a94e23 glib.glist%b
+D glib-gslist.ads	20141212124940 8fe7d6f1 glib.gslist%s
+D glib-gslist.adb	20141212124940 b4c9a81c glib.gslist%b
+D glib-object.ads	20141212124940 948e384a glib.object%s
+D glib-object.adb	20141212124939 425ed48d glib.object%b
+D glib-type_conversion_hooks.ads  20141212124939 df9131bc glib.type_conversion_hooks%s
+D glib-values.ads	20141212124939 37b4897e glib.values%s
+D gnat.ads		20140406181359 fd2ad2f1 gnat%s
+D g-string.ads		20140406181356 c6abc540 gnat.strings%s
+D gtkada.ads		20141212124939 57aea1c7 gtkada%s
+D gtkada-bindings.ads	20141212124940 516dc70c gtkada.bindings%s
+D gtkada-c.ads		20141212124940 0f5973e3 gtkada.c%s
+D gtkada-types.ads	20141212124940 b7bc0c77 gtkada.types%s
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D i-cstrin.ads		20140406181357 341d0ddf interfaces.c.strings%s
+D pango.ads		20141212124939 d3c8e76d pango%s
+D pango-enums.ads	20141212124940 8ef2dddf pango.enums%s
+D pango-enums.adb	20141212124940 0bcc1d68 pango.enums%b
+D system.ads		20140406181354 90249111 system%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-memory.ads		20140406181359 597d6634 system.memory%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-secsta.ads		20140406181359 86a2856d system.secondary_stack%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20140406181358 aedef97e system.stream_attributes%s
+D s-string.ads		20140406181358 8fe54fb7 system.strings%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D s-unstyp.ads		20140406181356 510692af system.unsigned_types%s
+D unchconv.ads		20140406181355 ca2f9e18 unchecked_conversion%s
+D unchdeal.ads		20140406181359 214516a4 unchecked_deallocation%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 8 glib.ads
+43K9*Glib 408e9 29|31w6 31r16 32r6 32r35
+56I9*Gint<26|35I9> 29|42r38 42r51 30|35r38 35r51
+238A9*Property<string>
+X 9 glib-generic_properties.ads
+56K14*Generic_Properties 220e28 29|32w11 32r40
+71k12*Generic_Internal_Discrete_Property 91e42 29|160r10 162r10 164r10 166r10
+. 168r10 170r10
+73A12*Property<8|238A9> 29|172r48[159] 173r50[161] 174r52[163] 175r52[165]
+. 176r56[167] 177r56[169]
+X 15 glib-object.ads
+46P9*GObject(45R9)
+421V13*Convert{31|64M9} 11|63i21 13|55i21
+422V13*Convert{46P9} 11|64i21 13|56i21
+X 26 i-c.ads
+35I9*int<integer>
+X 28 pango.ads
+35K9*Pango 39e10 29|35r9 179r5 30|29r14 44r5
+X 29 pango-enums.ads
+35K15*Enums 28|35k9 29|179l11 179e16 30|29b20 44l11 44t16
+37N4*Pango_Scale 30|38r32 38r51 40r32 40r51
+42V13*To_Pixels{8|56I9} 42>24 30|35b13 42l8 42t17
+42i24 Pango_Units{8|56I9} 30|35b24 37r10 38r18 40r18
+53E9*Alignment 56e29 57r26
+54n7*Pango_Alignment_Left{53E9}
+55n7*Pango_Alignment_Center{53E9}
+56n7*Pango_Alignment_Right{53E9}
+59E9*Attr_Type 75e24 76r26
+60n7*Pango_Attr_Invalid{59E9}
+61n7*Pango_Attr_Lang{59E9}
+62n7*Pango_Attr_Family{59E9}
+63n7*Pango_Attr_Style{59E9}
+64n7*Pango_Attr_Weight{59E9}
+65n7*Pango_Attr_Variant{59E9}
+66n7*Pango_Attr_Stretch{59E9}
+67n7*Pango_Attr_Size{59E9}
+68n7*Pango_Attr_Font_Desc{59E9}
+69n7*Pango_Attr_Foreground{59E9}
+70n7*Pango_Attr_Background{59E9}
+71n7*Pango_Attr_Underline{59E9}
+72n7*Pango_Attr_Strikethrough{59E9}
+73n7*Pango_Attr_Rise{59E9}
+74n7*Pango_Attr_Shape{59E9}
+75n7*Pango_Attr_Scale{59E9}
+78E9*Coverage_Level 82e29 83r26
+79n7*Pango_Underline_None{78E9}
+80n7*Pango_Underline_Fallback{78E9}
+81n7*Pango_Underline_Approximate{78E9}
+82n7*Pango_Underline_Exact{78E9}
+85E9*Direction 89e31 90r26
+86n7*Pango_Direction_Ltr{85E9}
+87n7*Pango_Direction_Rtl{85E9}
+88n7*Pango_Direction_Ttb_Ltr{85E9}
+89n7*Pango_Direction_Ttb_Rtl{85E9}
+95E9*Stretch 104e36 105r26 166r46
+96n7*Pango_Stretch_Ultra_Condensed{95E9}
+97n7*Pango_Stretch_Extra_Condensed{95E9}
+98n7*Pango_Stretch_Condensed{95E9}
+99n7*Pango_Stretch_Semi_Condensed{95E9}
+100n7*Pango_Stretch_Normal{95E9}
+101n7*Pango_Stretch_Semi_Expanded{95E9}
+102n7*Pango_Stretch_Expanded{95E9}
+103n7*Pango_Stretch_Extra_Expanded{95E9}
+104n7*Pango_Stretch_Ultra_Expanded{95E9}
+107E9*Style 110e26 111r26 160r46
+108n7*Pango_Style_Normal{107E9}
+109n7*Pango_Style_Oblique{107E9}
+110n7*Pango_Style_Italic{107E9}
+113E9*Underline 118e29 119r26 168r46
+114n7*Pango_Underline_None{113E9}
+115n7*Pango_Underline_Single{113E9}
+116n7*Pango_Underline_Double{113E9}
+117n7*Pango_Underline_Low{113E9}
+118n7*Pango_Underline_Error{113E9}
+121E9*Variant 123e32 124r26 164r46
+122n7*Pango_Variant_Normal{121E9}
+123n7*Pango_Variant_Small_Caps{121E9}
+126E9*Weight 134e26 135r26 137r8 162r46
+127n7*Pango_Weight_Ultralight{126E9} 138r7
+128n7*Pango_Weight_Light{126E9} 139r7
+129n7*Pango_Weight_Normal{126E9} 140r7
+130n7*Pango_Weight_Medium{126E9} 141r7
+131n7*Pango_Weight_Semi_Bold{126E9} 142r7
+132n7*Pango_Weight_Bold{126E9} 143r7
+133n7*Pango_Weight_Ultrabold{126E9} 144r7
+134n7*Pango_Weight_Heavy{126E9} 145r7
+147E9*Wrap_Mode 150e28 151r26 170r46
+148n7*Pango_Wrap_Word{147E9}
+149n7*Pango_Wrap_Char{147E9}
+150n7*Pango_Wrap_Word_Char{147E9}
+159K12*Style_Properties[9|71] 172r31
+161K12*Weight_Properties[9|71] 173r32
+163K12*Variant_Properties[9|71] 174r33
+165K12*Stretch_Properties[9|71] 175r33
+167K12*Underline_Properties[9|71] 176r35
+169K12*Wrap_Mode_Properties[9|71] 177r35
+172A9*Property_Style<9|73A12[159]>
+173A9*Property_Weight<9|73A12[161]>
+174A9*Property_Variant<9|73A12[163]>
+175A9*Property_Stretch<9|73A12[165]>
+176A9*Property_Underline<9|73A12[167]>
+177A9*Property_Wrap_Mode<9|73A12[169]>
+X 31 system.ads
+64M9*Address
+X 35 s-memory.ads
+53V13*Alloc{31|64M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{31|64M9} 105i<c,__gnat_realloc>22
+

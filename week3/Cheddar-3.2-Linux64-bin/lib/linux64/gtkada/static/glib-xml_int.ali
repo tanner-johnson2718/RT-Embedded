@@ -1,0 +1,111 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P SS ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_IMPLICIT_LOOPS
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_ACCESS
+RV NO_UNCHECKED_CONVERSION
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV SPARK_05
+
+U glib.xml_int%b	glib-xml_int.ads	72188e9d NE OO PK
+Z ada%s			ada.ads			ada.ali
+Z ada.strings%s		a-string.ads		a-string.ali
+Z ada.strings.fixed%s	a-strfix.adb		a-strfix.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W glib%s		glib.adb		glib.ali
+Z glib.convert%s	glib-convert.adb	glib-convert.ali
+Z glib.error%s		glib-error.adb		glib-error.ali
+Z glib.messages%s	glib-messages.adb	glib-messages.ali
+Z glib.unicode%s	glib-unicode.adb	glib-unicode.ali
+W glib.xml%s		glib-xml.adb		glib-xml.ali  EA
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.img_uns%s	s-imguns.adb		s-imguns.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+Z unchecked_deallocation%s
+
+U glib.xml_int%s	glib-xml_int.ads	acd3a332 EB NE OO PK
+W glib%s		glib.adb		glib.ali
+W glib.xml%s		glib-xml.adb		glib-xml.ali  EA
+Z unchecked_deallocation%s
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-charac.ads		20140406181359 2d3ec45b ada.characters%s
+D a-chlat1.ads		20140406181359 66457d31 ada.characters.latin_1%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-string.ads		20140406181359 90ac6797 ada.strings%s
+D a-strfix.ads		20140406181356 d07c346e ada.strings.fixed%s
+D a-strmap.ads		20140406181359 e8bb714a ada.strings.maps%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D glib.ads		20141212124939 0f441d83 glib%s
+D glib-convert.ads	20141212124939 27738f90 glib.convert%s
+D glib-error.ads	20141212124939 e055fabe glib.error%s
+D glib-messages.ads	20141212124939 446eba3c glib.messages%s
+D glib-unicode.ads	20141212124940 a36669dd glib.unicode%s
+D glib-unicode.adb	20141212124940 223e83a6 glib.unicode%b
+D glib-xml.ads		20141212124939 d18f302c glib.xml%s
+D glib-xml.adb		20141212124939 3731ab69 glib.xml%b
+D glib-xml_int.ads	20141212124939 72188e9d glib.xml_int%s
+D glib-xml_int.ads	20141212124939 72188e9d glib.xml_int%b
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D i-cstrin.ads		20140406181357 341d0ddf interfaces.c.strings%s
+D system.ads		20140406181354 90249111 system%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-imgint.ads		20140406181359 02dbe0c2 system.img_int%s
+D s-imguns.ads		20140406181355 9ff43cf7 system.img_uns%s
+D s-imguns.adb		20140406181355 ec59adfa system.img_uns%b
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-secsta.ads		20140406181359 86a2856d system.secondary_stack%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D s-unstyp.ads		20140406181356 510692af system.unsigned_types%s
+D unchdeal.ads		20140406181359 214516a4 unchecked_deallocation%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 13 glib.ads
+43K9*Glib 408e9 22|29r6 32r9 32r29 32r39
+56I9*Gint<24|35I9> 22|32r44
+X 19 glib-xml.ads
+45k14*XML 163e13 22|29w11 32r34
+X 22 glib-xml_int.ads
+32K14*Xml_Int[19|45] 13|43k9
+X 24 i-c.ads
+35I9*int<integer>
+

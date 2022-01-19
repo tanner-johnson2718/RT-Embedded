@@ -1,0 +1,218 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P SS ZX
+
+RN
+RV NO_IMPLICIT_CONDITIONALS
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U gdk.cursor%b		gdk-cursor.adb		3101be21 NE OO PK
+W gdk%s			gdk.ads			gdk.ali
+W system%s		system.ads		system.ali
+
+U gdk.cursor%s		gdk-cursor.ads		a5c39181 EE NE OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W gdk%s			gdk.ads			gdk.ali
+W gdk.color%s		gdk-color.adb		gdk-color.ali
+W glib%s		glib.adb		glib.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D gdk.ads		20141212124940 f909352d gdk%s
+D gdk-color.ads		20141212124939 8aa593ee gdk.color%s
+D gdk-cursor.ads	20141212124939 d92b2ac1 gdk.cursor%s
+D gdk-cursor.adb	20141212124939 780e05f1 gdk.cursor%b
+D gdk-visual.ads	20141212124939 615e934c gdk.visual%s
+D glib.ads		20141212124939 0f441d83 glib%s
+D glib-glist.ads	20141212124940 65a6e1be glib.glist%s
+D glib-glist.adb	20141212124940 48a94e23 glib.glist%b
+D glib-gslist.ads	20141212124940 8fe7d6f1 glib.gslist%s
+D glib-gslist.adb	20141212124940 b4c9a81c glib.gslist%b
+D glib-object.ads	20141212124940 948e384a glib.object%s
+D glib-values.ads	20141212124939 37b4897e glib.values%s
+D gtkada.ads		20141212124939 57aea1c7 gtkada%s
+D gtkada-types.ads	20141212124940 b7bc0c77 gtkada.types%s
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D i-cstrin.ads		20140406181357 341d0ddf interfaces.c.strings%s
+D system.ads		20140406181354 90249111 system%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-secsta.ads		20140406181359 86a2856d system.secondary_stack%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20140406181358 aedef97e system.stream_attributes%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D s-unstyp.ads		20140406181356 510692af system.unsigned_types%s
+D unchconv.ads		20140406181355 ca2f9e18 unchecked_conversion%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 8 gdk.ads
+40K9*Gdk 66e8 10|39r6 41r9 43r27 132r16 133r16 134r16 135r16 259r5 11|32r14
+. 51r16 52r16 53r16 54r16 59r19 60r19 67r24 68r24 86r5
+43P12*C_Proxy{13|155P9} 10|43r31
+47P9*Gdk_Drawable<13|155P9>
+49P12*Gdk_Pixmap{47P9} 10|132r20 133r20 11|51r20 52r20 59r23 60r23
+56P9*Gdk_Visual<13|155P9>
+X 9 gdk-color.ads
+58K13*Color 323e14 10|39w10 134r20 135r20 11|53r20 54r20 67r28 68r28
+60R9*Gdk_Color 300e14 10|134r26 135r26 11|53r26 54r26 67r34 68r34
+X 10 gdk-cursor.ads
+41K13*Cursor 8|40k9 10|174E4 259l9 259e15 11|32b18 86l9 86t15
+43P9*Gdk_Cursor<13|155P9> 44r27 126r25 131r20 157r21 161r32 166r28 169r30
+. 174r27 11|39r25 42r64 50r20 64r37 78r21 81r48
+44p4*Null_Cursor{43P9} 174c4
+46E9*Gdk_Cursor_Type 123e13 127r21 179r8 180r8 11|40r21 42r40
+47n7*X_Cursor{46E9} 181r7
+48n7*Arrow{46E9} 182r7
+49n7*Based_Arrow_Down{46E9} 183r7
+50n7*Based_Arrow_Up{46E9} 184r7
+51n7*Boat{46E9} 185r7
+52n7*Bogosity{46E9} 186r7
+53n7*Bottom_Left_Corner{46E9} 187r7
+54n7*Bottom_Right_Corner{46E9} 188r7
+55n7*Bottom_Side{46E9} 189r7
+56n7*Bottom_Tee{46E9} 190r7
+57n7*Box_Spiral{46E9} 191r7
+58n7*Center_Ptr{46E9} 192r7
+59n7*Circle{46E9} 193r7
+60n7*Clock{46E9} 194r7
+61n7*Coffee_Mug{46E9} 195r7
+62n7*Cross{46E9} 196r7
+63n7*Cross_Reverse{46E9} 197r7
+64n7*Crosshair{46E9} 198r7
+65n7*Diamond_Cross{46E9} 199r7
+66n7*Dot{46E9} 200r7
+67n7*Dotbox{46E9} 201r7
+68n7*Double_Arrow{46E9} 202r7
+69n7*Draft_Large{46E9} 203r7
+70n7*Draft_Small{46E9} 204r7
+71n7*Draped_Box{46E9} 205r7
+72n7*Exchange{46E9} 206r7
+73n7*Fleur{46E9} 207r7
+74n7*Gobbler{46E9} 208r7
+75n7*Gumby{46E9} 209r7
+76n7*Hand1{46E9} 210r7
+77n7*Hand2{46E9} 211r7
+78n7*Heart{46E9} 212r7
+79n7*Icon{46E9} 213r7
+80n7*Iron_Cross{46E9} 214r7
+81n7*Left_Ptr{46E9} 215r7
+82n7*Left_Side{46E9} 216r7
+83n7*Left_Tee{46E9} 217r7
+84n7*Leftbutton{46E9} 218r7
+85n7*Ll_Angle{46E9} 219r7
+86n7*Lr_Angle{46E9} 220r7
+87n7*Man{46E9} 221r7
+88n7*Middlebutton{46E9} 222r7
+89n7*Mouse{46E9} 223r7
+90n7*Pencil{46E9} 224r7
+91n7*Pirate{46E9} 225r7
+92n7*Plus{46E9} 226r7
+93n7*Question_Arrow{46E9} 227r7
+94n7*Right_Ptr{46E9} 228r7
+95n7*Right_Side{46E9} 229r7
+96n7*Right_Tee{46E9} 230r7
+97n7*Rightbutton{46E9} 231r7
+98n7*Rtl_Logo{46E9} 232r7
+99n7*Sailboat{46E9} 233r7
+100n7*Sb_Down_Arrow{46E9} 234r7
+101n7*Sb_H_Double_Arrow{46E9} 235r7
+102n7*Sb_Left_Arrow{46E9} 236r7
+103n7*Sb_Right_Arrow{46E9} 237r7
+104n7*Sb_Up_Arrow{46E9} 238r7
+105n7*Sb_V_Double_Arrow{46E9} 239r7
+106n7*Shuttle{46E9} 240r7
+107n7*Sizing{46E9} 241r7
+108n7*Spider{46E9} 242r7
+109n7*Spraycan{46E9} 243r7
+110n7*Star{46E9} 244r7
+111n7*Target{46E9} 245r7
+112n7*Tcross{46E9} 246r7
+113n7*Top_Left_Arrow{46E9} 247r7
+114n7*Top_Left_Corner{46E9} 248r7
+115n7*Top_Right_Corner{46E9} 249r7
+116n7*Top_Side{46E9} 250r7
+117n7*Top_Tee{46E9} 251r7
+118n7*Trek{46E9} 252r7
+119n7*Ul_Angle{46E9} 253r7
+120n7*Umbrella{46E9} 254r7
+121n7*Ur_Angle{46E9} 255r7
+122n7*Watch{46E9} 256r7
+123n7*Xterm{46E9} 257r7
+125U14*Gdk_New 126<7 127>7 11|38b14 47l8 47t15
+126p7 Widget{43P9} 11|39b7 46m7
+127e7 Cursor_Type{46E9} 11|40b7 46r27
+130U14*Gdk_New 131<7 132>7 133>7 134>7 135>7 136>7 137>7 11|49b14 75l8 75t15
+131p7 Widget{43P9} 11|50b7 73m7
+132p7 Source{8|49P12} 11|51b7 74r10
+133p7 Mask{8|49P12} 11|52b7 74r18
+134r7 Fg{9|60R9} 11|53b7 67r47
+135r7 Bg{9|60R9} 11|54b7 68r47
+136i7 X{13|56I9} 11|55b7 74r57
+137i7 Y{13|56I9} 11|56b7 74r60
+156U14*Gdk_New 157<7 158>7 11|77b14 85l8 85t15
+157p7 Cursor{43P9} 11|78b7 84m7
+158a7 Name{string} 11|79b7 84r27
+161U14*Destroy 161>23 175b<c,gdk_cursor_unref>22
+161p23 Cursor{43P9}
+166U14*Ref 166>19 176b<c,gdk_cursor_ref>22
+166p19 Cursor{43P9}
+169U14*Unref 169>21 177b<c,gdk_cursor_unref>22
+169p21 Cursor{43P9}
+X 11 gdk-cursor.adb
+42V16*Internal{10|43P9} 42>26 43b<c,ada_gdk_cursor_new>25 46s17
+42e26 Cursor_Type{10|46E9}
+58V16*Internal{10|43P9} 59>10 60>10 61>10 62>10 63>10 64>10 65b<c,gdk_cursor_new_from_pixmap>25
+. 73s17
+59p10 Source{8|49P12}
+60p10 Mask{8|49P12}
+61m10 Fg{25|64M9}
+62m10 Bg{25|64M9}
+63i10 X{13|56I9}
+64i10 Y{13|56I9}
+67r7 Col_Fg{9|60R9} 74m24 74r24
+68r7 Col_Bg{9|60R9} 74m41 74r41
+81V16*Internal{10|43P9} 81>26 82b<c,gdk_cursor_new_from_name>25 84s17
+81a26 Name{string}
+X 12 gdk-visual.ads
+83V13*Convert[42|20]{25|64M9} 14|63i21
+84V13*Convert[42|20]{8|56P9} 14|64i21
+X 13 glib.ads
+43K9*Glib 10|38w6 136r16 137r16 179r33 11|55r16 56r19 63r19 64r19 13|408e9
+56I9*Gint<23|35I9> 10|136r21 137r21 179r38 11|55r21 56r24 63r24 64r24
+155P9*C_Proxy(152R9)
+X 18 glib-object.ads
+46P9*GObject(45R9)
+421V13*Convert{25|64M9} 14|63i21 16|55i21
+422V13*Convert{46P9} 14|64i21 16|56i21
+X 23 i-c.ads
+35I9*int<integer>
+X 25 system.ads
+37K9*System 11|30w6 61r19 62r19 25|152e11
+64M9*Address 11|61r26 62r26
+

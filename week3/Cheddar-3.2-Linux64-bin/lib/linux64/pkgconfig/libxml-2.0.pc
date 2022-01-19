@@ -1,0 +1,12 @@
+prefix=/caen.a/gnatmail/gcc-45/install-caen/gtk
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+
+Name: libXML
+Version: 2.5.7
+Description: libXML library version2.
+Requires:
+Libs: -L${libdir} -lxml2 -lpthread -lz  -lm 
+Cflags: -I${includedir}/libxml2 -I${includedir}/libxml2 

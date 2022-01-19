@@ -1,0 +1,109 @@
+V "GNAT Lib v2014"
+A -O2
+A -fPIC
+A -gnatQ
+A -gnatn
+A -gnatws
+A -gnatA
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RR NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV SPARK_05
+
+U cairo.matrix%s	cairo-matrix.ads	fcde3d59 NE OO PK
+W cairo%s		cairo.adb		cairo.ali
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D cairo.ads		20141212124939 8dc0603a cairo%s
+D cairo-matrix.ads	20141212124940 711e5d63 cairo.matrix%s
+D glib.ads		20141212124939 0f441d83 glib%s
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D i-c.ads		20140406181358 5421119b interfaces.c%s
+D i-cstrin.ads		20140406181357 341d0ddf interfaces.c.strings%s
+D system.ads		20140406181354 90249111 system%s
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+D /opt/CHEDDAR/trunk/required_packages/GtkAda/src/gnat.adc  20141212124940 00000000
+X 8 cairo.ads
+78K9*Cairo 2813e10 9|36r9 209r5
+105R9*Cairo_Matrix 112e14 9|39r23 61r45 67r23 78r23 88r43 99r23 112r23 123r38
+. 135r37 148r23 149r23 150r23 164r23 185r23
+176E9*Cairo_Status 274e7 9|135r58
+X 9 cairo-matrix.ads
+36K15*Matrix 8|78k9 9|196E28 209l11 209e17
+38U14*Init 39^7 40>7 41>7 42>7 43>7 44>7 45>7 196b<c,cairo_matrix_init>22
+39p7 Matrix(8|105R9)
+40f7 Xx{10|66F9}
+41f7 Yx{10|66F9}
+42f7 Xy{10|66F9}
+43f7 Yy{10|66F9}
+44f7 X0{10|66F9}
+45f7 Y0{10|66F9}
+61U14*Init_Identity 61^29 197b<c,cairo_matrix_init_identity>22
+61p29 Matrix(8|105R9)
+66U14*Init_Translate 67^7 68>7 69>7 198b<c,cairo_matrix_init_translate>22
+67p7 Matrix(8|105R9)
+68f7 Tx{10|66F9}
+69f7 Ty{10|66F9}
+77U14*Init_Scale 78^7 79>7 80>7 199b<c,cairo_matrix_init_scale>22
+78p7 Matrix(8|105R9)
+79f7 Sx{10|66F9}
+80f7 Sy{10|66F9}
+88U14*Init_Rotate 88^27 88>57 200b<c,cairo_matrix_init_rotate>22
+88p27 Matrix(8|105R9)
+88f57 Radians{10|66F9}
+98U14*Translate 99^7 100>7 101>7 201b<c,cairo_matrix_translate>22
+99p7 Matrix(8|105R9)
+100f7 Tx{10|66F9}
+101f7 Ty{10|66F9}
+111U14*Scale 112^7 113>7 114>7 202b<c,cairo_matrix_scale>22
+112p7 Matrix(8|105R9)
+113f7 Sx{10|66F9}
+114f7 Sy{10|66F9}
+123U14*Rotate 123^22 123>52 203b<c,cairo_matrix_rotate>22
+123p22 Matrix(8|105R9)
+123f52 Radians{10|66F9}
+135V13*Invert{8|176E9} 135^21 204b<c,cairo_matrix_invert>22
+135p21 Matrix(8|105R9)
+147U14*Multiply 148^7 149^7 150^7 205b<c,cairo_matrix_multiply>22
+148p7 Result(8|105R9)
+149p7 A(8|105R9)
+150p7 B(8|105R9)
+163U14*Transform_Distance 164^7 165^7 166^7 206b<c,cairo_matrix_transform_distance>22
+164p7 Matrix(8|105R9)
+165p7 Dx(10|66F9)
+166p7 Dy(10|66F9)
+184U14*Transform_Point 185^7 186^7 187^7 207b<c,cairo_matrix_transform_point>22
+185p7 Matrix(8|105R9)
+186p7 X(10|66F9)
+187p7 Y(10|66F9)
+X 10 glib.ads
+66F9*Gdouble<12|65F9> 9|40r16 41r16 42r16 43r16 44r16 45r16 68r16 69r16 79r16
+. 80r16 88r67 100r16 101r16 113r16 114r16 123r62 165r23 166r23 186r23 187r23
+X 12 i-c.ads
+65F9*double<long_float>
+
