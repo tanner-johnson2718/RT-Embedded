@@ -21,3 +21,4 @@ Theory
     - nanosleep
     - actual timer_t
     - signals
+What is a cyclic executive?

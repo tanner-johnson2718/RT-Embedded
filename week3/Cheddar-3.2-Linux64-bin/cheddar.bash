@@ -1,6 +1,6 @@
 
 
-export CHEDDAR_INSTALL_PATH=/home/tj/Desktop/RT-Embedded/week2/hw3/Cheddar-3.2-Linux64-bin/
+export CHEDDAR_INSTALL_PATH=/home/tj/Desktop/RT-Embedded/week3/Cheddar-3.2-Linux64-bin/
 
 export PATH=$CHEDDAR_INSTALL_PATH:$PATH
 

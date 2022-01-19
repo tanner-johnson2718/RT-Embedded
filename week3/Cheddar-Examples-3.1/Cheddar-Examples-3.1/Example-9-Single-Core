@@ -15,7 +15,7 @@
      <start_time>0</start_time>
     </scheduling_parameters>
    </scheduling>
-   <speed>0.00000</speed>
+   <speed>1</speed>
   </core_unit>
   <core_unit id="id_7">
    <object_type>CORE_OBJECT_TYPE</object_type>
@@ -31,7 +31,7 @@
      <start_time>0</start_time>
     </scheduling_parameters>
    </scheduling>
-   <speed>0.00000</speed>
+   <speed>1</speed>
   </core_unit>
   <core_unit id="id_8">
    <object_type>CORE_OBJECT_TYPE</object_type>
@@ -47,7 +47,7 @@
      <start_time>0</start_time>
     </scheduling_parameters>
    </scheduling>
-   <speed>0.00000</speed>
+   <speed>1</speed>
   </core_unit>
   <core_unit id="id_9">
    <object_type>CORE_OBJECT_TYPE</object_type>
@@ -63,7 +63,7 @@
      <start_time>0</start_time>
     </scheduling_parameters>
    </scheduling>
-   <speed>0.00000</speed>
+   <speed>1</speed>
   </core_unit>
  </core_units>
  <processors>
