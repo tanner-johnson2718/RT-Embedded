@@ -1,0 +1,31 @@
+ hw3> python3 test.py 1
+###############################################################################
+# Case 1) single threaded 120k image vs 12M image
+###############################################################################
+Using 120K image
+Running Iteration: 0
+Running Iteration: 1
+Running Iteration: 2
+Running Iteration: 3
+Running Iteration: 4
+Running Iteration: 5
+Running Iteration: 6
+Running Iteration: 7
+Running Iteration: 8
+Running Iteration: 9
+[0.522191, 0.5276209999999999, 0.520324, 0.517641, 0.5199419999999999, 0.51878, 0.5189280000000001, 0.5170199999999999, 0.516935, 0.5165679999999999]
+[0.231066, 0.228049, 0.229023, 0.226807, 0.227061, 0.225939, 0.225054, 0.226859, 0.227287, 0.225377]
+
+Using 12M image
+Running Iteration: 0
+Running Iteration: 1
+Running Iteration: 2
+Running Iteration: 3
+Running Iteration: 4
+Running Iteration: 5
+Running Iteration: 6
+Running Iteration: 7
+Running Iteration: 8
+Running Iteration: 9
+[52.927279999999996, 52.528851, 52.153510999999995, 53.416005, 52.915896999999994, 53.218975, 52.490611, 51.640383, 52.364314, 52.29642700000001]
+[22.910071, 22.680572, 22.669155, 22.714742, 22.624659, 24.025722, 23.183695, 22.411607, 23.137678, 22.85122]

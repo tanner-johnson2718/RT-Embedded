@@ -177,7 +177,7 @@ int main(int argc, char *argv[])
             read(fdin, (void *)&B[i][j], 1); convB[i][j]=B[i][j];
         }
     }
-    printf("source file %s read\n", argv[1]);
+    // printf("source file %s read\n", argv[1]);
     close(fdin);
 
 

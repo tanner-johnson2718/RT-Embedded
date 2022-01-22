@@ -112,6 +112,7 @@ def case2():
     for i in range(0,10):
         print("Running Iteration: " + str(i))
         nums = run(exe, infile_small)
+        print(nums)
         read_times.append(nums[0])
         exe_times.append(nums[1] - nums[0])
     print(exe_times)
