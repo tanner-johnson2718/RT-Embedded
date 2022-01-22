@@ -21,4 +21,5 @@ Theory
     - nanosleep
     - actual timer_t
     - signals
-What is a cyclic executive?
+
+- Double check that procotor U works
