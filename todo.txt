@@ -1,19 +1,9 @@
-Semaphore Q's)
+Linux Q's)
 -------------------------------------------------------------------------------
 - How is atomicity garentted / imlemented in linux semaphores?
 - What is this unlink business, is it named? named vs unnamed
 - How does a semaphore interact with a fork operation
 - Look at mutex implementation
-
-Theory
--------------------------------------------------------------------------------
-- RM LUB understand better
-- dead line monotonic
-- LuLu paper
-- POSIX Linux Threading paper
-- Sched Dead line paper
-- Leh0zky paper
-
 - Can every core get all irq's. How to mask a core form ints
 - Signal vs int
 - linux run levels
@@ -21,5 +11,14 @@ Theory
     - nanosleep
     - actual timer_t
     - signals
+
+Theory
+-------------------------------------------------------------------------------
+- dead line monotonic
+- POSIX Linux Threading paper
+- Sched Dead line paper
+- Leh0zky paper
+- Priority inversion?
+- Go back over Lu and Layland paper
 
 - Double check that procotor U works
